@@ -641,10 +641,10 @@ DRE Mensal: Email dia 5 do mês
 ## 🎯 Próximos Passos
 
 ### **📚 Após a Configuração**
-1. **[[primeiros-passos]]** - Operação básica do sistema
-2. **[[treinamento-equipe]]** - Capacitar a equipe
-3. **[[casos-uso-praticos]]** - Aplicar na prática
-4. **[[otimizacao-sistema]]** - Melhorar performance
+1. **[Primeiros Passos](primeiros-passos.md)** - Operação básica do sistema
+2. **[Treinamento Equipe](treinamento-equipe.md)** - Capacitar a equipe
+3. **[Casos Uso Praticos](casos-uso-praticos.md)** - Aplicar na prática
+4. **[Otimizacao Sistema](otimizacao-sistema.md)** - Melhorar performance
 
 ### **🚀 Expansão Futura**
 1. **Integrações avançadas** - E-commerce, marketplaces

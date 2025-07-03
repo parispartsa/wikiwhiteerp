@@ -241,10 +241,10 @@ Tempo limite: 24 horas
 ## 🔗 Integrações Relacionadas
 
 ### **Módulos Conectados**
-- **[[../vendas/pdv]]** - Vendas que geram NFe
-- **[[../estoque/movimentacao-estoque]]** - Baixa automática de estoque
-- **[[../financeiro/contas-a-receber]]** - Geração de títulos
-- **[[../relatorios/fiscal]]** - Relatórios fiscais
+- **[Pdv](../vendas/pdv.md)** - Vendas que geram NFe
+- **[Movimentacao Estoque](../estoque/movimentacao-estoque.md)** - Baixa automática de estoque
+- **[Contas A Receber](../financeiro/contas-a-receber.md)** - Geração de títulos
+- **[Fiscal](../relatorios/fiscal.md)** - Relatórios fiscais
 
 ### **Sistemas Externos**
 - **SEFAZ** - Autorização de NFe

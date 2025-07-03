@@ -21,7 +21,7 @@ O **Módulo de Vendas** é o **coração comercial** do ERP GerenciaTec. Aqui vo
 
 ## 📋 Funcionalidades Principais
 
-### 💻 **[[pdv]]** - Ponto de Venda
+### 💻 **[Pdv](pdv.md)** - Ponto de Venda
 **Vendas rápidas no balcão** - A forma mais ágil de vender
 
 **O que é**: Interface otimizada para vendas presenciais rápidas, com suporte a código de barras, múltiplas formas de pagamento e emissão automática de cupom fiscal.
@@ -38,7 +38,7 @@ O **Módulo de Vendas** é o **coração comercial** do ERP GerenciaTec. Aqui vo
 
 ---
 
-### 📋 **[[orcamentos]]** - Orçamentos e Propostas
+### 📋 **[Orcamentos](orcamentos.md)** - Orçamentos e Propostas
 **Vendas elaboradas** - Para negociações mais complexas
 
 **O que é**: Ferramenta para criar propostas comerciais detalhadas, com possibilidade de personalização, condições especiais e acompanhamento de aprovação.
@@ -55,7 +55,7 @@ O **Módulo de Vendas** é o **coração comercial** do ERP GerenciaTec. Aqui vo
 
 ---
 
-### 📦 **[[pedidos]]** - Pedidos de Venda
+### 📦 **[Pedidos](pedidos.md)** - Pedidos de Venda
 **Vendas confirmadas** - Gestão completa do pedido até a entrega
 
 **O que é**: Controle de vendas confirmadas com gestão de status, separação, entrega e faturamento. Ideal para vendas que precisam de processo mais estruturado.
@@ -72,7 +72,7 @@ O **Módulo de Vendas** é o **coração comercial** do ERP GerenciaTec. Aqui vo
 
 ---
 
-### 🔧 **[[ordens-servico]]** - Ordens de Serviço
+### 🔧 **[Ordens Servico](ordens-servico.md)** - Ordens de Serviço
 **Prestação de serviços** - Controle completo de serviços prestados
 
 **O que é**: Gestão de serviços prestados com controle de tempo, materiais utilizados, etapas do processo e histórico de atendimento.
@@ -89,7 +89,7 @@ O **Módulo de Vendas** é o **coração comercial** do ERP GerenciaTec. Aqui vo
 
 ---
 
-### 📊 **[[analise-vendas]]** - Análise de Vendas
+### 📊 **[Analise Vendas](analise-vendas.md)** - Análise de Vendas
 **Inteligência comercial** - Relatórios e métricas de performance
 
 **O que é**: Dashboard e relatórios especializados em vendas, com métricas de performance, análise de produtos, vendedores e períodos.
@@ -134,16 +134,16 @@ Solicitação → Orçamento → OS → Execução → Finalização → Faturam
 ## 🎯 Configurações Iniciais
 
 ### ✅ **Antes de Começar**
-1. **[[../cadastros/cadastro-de-produtos]]** - Cadastre seus produtos/serviços
-2. **[[../cadastros/cadastro-de-clientes]]** - Tenha clientes cadastrados
-3. **[[../configuracoes/parametros-fiscais]]** - Configure impostos
-4. **[[../financeiro/formas-pagamento]]** - Configure formas de pagamento
+1. **[Cadastro De Produtos](../cadastros/cadastro-de-produtos.md)** - Cadastre seus produtos/serviços
+2. **[Cadastro De Clientes](../cadastros/cadastro-de-clientes.md)** - Tenha clientes cadastrados
+3. **[Parametros Fiscais](../configuracoes/parametros-fiscais.md)** - Configure impostos
+4. **[Formas Pagamento](../financeiro/formas-pagamento.md)** - Configure formas de pagamento
 
 ### ⚙️ **Configurações do Módulo**
-- **[[configuracoes-vendas]]** - Parâmetros gerais de vendas
-- **[[tabelas-precos]]** - Preços diferenciados por cliente/grupo
-- **[[condicoes-comerciais]]** - Prazos, descontos e condições
-- **[[numeracao-documentos]]** - Sequência de orçamentos/pedidos
+- **[Configuracoes Vendas](configuracoes-vendas.md)** - Parâmetros gerais de vendas
+- **[Tabelas Precos](tabelas-precos.md)** - Preços diferenciados por cliente/grupo
+- **[Condicoes Comerciais](condicoes-comerciais.md)** - Prazos, descontos e condições
+- **[Numeracao Documentos](numeracao-documentos.md)** - Sequência de orçamentos/pedidos
 
 ---
 
@@ -273,34 +273,34 @@ Solicitação → Orçamento → OS → Execução → Finalização → Faturam
 ## 🚀 Próximos Passos
 
 ### 🎯 **Para Iniciantes**
-1. **[[pdv]]** - Comece com vendas simples
-2. **[[configuracoes-vendas]]** - Configure parâmetros básicos
-3. **[[analise-vendas]]** - Acompanhe performance
+1. **[Pdv](pdv.md)** - Comece com vendas simples
+2. **[Configuracoes Vendas](configuracoes-vendas.md)** - Configure parâmetros básicos
+3. **[Analise Vendas](analise-vendas.md)** - Acompanhe performance
 
 ### 🎯 **Para Usuários Avançados**
-1. **[[tabelas-precos]]** - Configure preços diferenciados
-2. **[[integracao-ecommerce]]** - Conecte vendas online
-3. **[[automacao-vendas]]** - Automatize processos
+1. **[Tabelas Precos](tabelas-precos.md)** - Configure preços diferenciados
+2. **[Integracao Ecommerce](integracao-ecommerce.md)** - Conecte vendas online
+3. **[Automacao Vendas](automacao-vendas.md)** - Automatize processos
 
 ---
 
 ## 📚 Documentação Relacionada
 
 ### 🔗 **Módulos Relacionados**
-- **[[../cadastros/index]]** - Base para vendas
-- **[[../financeiro/index]]** - Recebimentos
-- **[[../estoque/index]]** - Controle de produtos
-- **[[../integracoes/index]]** - Canais de venda
+- **[](../cadastros/index.md)** - Base para vendas
+- **[](../financeiro/index.md)** - Recebimentos
+- **[](../estoque/index.md)** - Controle de produtos
+- **[](../integracoes/index.md)** - Canais de venda
 
 ### 📋 **Fluxos Relacionados**
-- **[[../../fluxos/fluxo-vendas-completo]]** - Processo completo
-- **[[../../fluxos/fluxo-atendimento]]** - Atendimento ao cliente
-- **[[../../fluxos/fluxo-entrega]]** - Logística de entrega
+- **[Fluxo Vendas Completo](../../fluxos/fluxo-vendas-completo.md)** - Processo completo
+- **[Fluxo Atendimento](../../fluxos/fluxo-atendimento.md)** - Atendimento ao cliente
+- **[Fluxo Entrega](../../fluxos/fluxo-entrega.md)** - Logística de entrega
 
 ### 💡 **Casos de Uso**
-- **[[../../casos-uso/comercio-geral/venda-balcao]]** - Venda no balcão
-- **[[../../casos-uso/servicos/agendamento-servico]]** - Serviços especializados
-- **[[../../casos-uso/servicos/ordem-servico]]** - Prestação de serviços
+- **[Venda Balcao](../../casos-uso/comercio-geral/venda-balcao.md)** - Venda no balcão
+- **[Agendamento Servico](../../casos-uso/servicos/agendamento-servico.md)** - Serviços especializados
+- **[Ordem Servico](../../casos-uso/servicos/ordem-servico.md)** - Prestação de serviços
 
 ---
 

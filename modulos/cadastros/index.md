@@ -21,7 +21,7 @@ O **Módulo de Cadastros** é a **base fundamental** do ERP GerenciaTec. Aqui vo
 
 ## 📋 Cadastros Principais
 
-### 👤 **[[cadastro-de-clientes]]** - Gestão de Clientes
+### 👤 **[Cadastro De Clientes](cadastro-de-clientes.md)** - Gestão de Clientes
 **Essencial para vendas** - Cadastre e gerencie seus clientes
 
 **Principais funcionalidades:**
@@ -42,7 +42,7 @@ O **Módulo de Cadastros** é a **base fundamental** do ERP GerenciaTec. Aqui vo
 
 ---
 
-### 🏭 **[[cadastro-de-fornecedores]]** - Gestão de Fornecedores
+### 🏭 **[Cadastro De Fornecedores](cadastro-de-fornecedores.md)** - Gestão de Fornecedores
 **Essencial para compras** - Organize sua cadeia de suprimentos
 
 **Principais funcionalidades:**
@@ -63,7 +63,7 @@ O **Módulo de Cadastros** é a **base fundamental** do ERP GerenciaTec. Aqui vo
 
 ---
 
-### 📦 **[[cadastro-de-produtos]]** - Produtos e Serviços
+### 📦 **[Cadastro De Produtos](cadastro-de-produtos.md)** - Produtos e Serviços
 **Coração do sistema** - Seu catálogo completo
 
 **Principais funcionalidades:**
@@ -85,7 +85,7 @@ O **Módulo de Cadastros** é a **base fundamental** do ERP GerenciaTec. Aqui vo
 
 ---
 
-### 🏷️ **[[categorias-e-grupos]]** - Organização do Catálogo
+### 🏷️ **[Categorias E Grupos](categorias-e-grupos.md)** - Organização do Catálogo
 **Organização inteligente** - Estruture seu catálogo
 
 **Principais funcionalidades:**
@@ -107,7 +107,7 @@ O **Módulo de Cadastros** é a **base fundamental** do ERP GerenciaTec. Aqui vo
 
 ## 🎯 Cadastros Especializados
 
-### 🔧 **[[cadastro-de-ordens-servico]]** - Para Prestadores de Serviços
+### 🔧 **[Cadastro De Ordens Servico](cadastro-de-ordens-servico.md)** - Para Prestadores de Serviços
 **Especializado para serviços** - Gestão completa de ordens de serviço
 
 **Principais funcionalidades:**
@@ -123,7 +123,7 @@ O **Módulo de Cadastros** é a **base fundamental** do ERP GerenciaTec. Aqui vo
 
 ---
 
-### 🔧 **[[cadastro-de-servicos]]** - Prestação de Serviços
+### 🔧 **[Cadastro De Servicos](cadastro-de-servicos.md)** - Prestação de Serviços
 **Para empresas de serviços** - Catálogo de serviços
 
 **Principais funcionalidades:**
@@ -138,7 +138,7 @@ O **Módulo de Cadastros** é a **base fundamental** do ERP GerenciaTec. Aqui vo
 
 ---
 
-### 👥 **[[cadastro-de-usuarios]]** - Gestão de Equipe
+### 👥 **[Cadastro De Usuarios](cadastro-de-usuarios.md)** - Gestão de Equipe
 **Controle de acesso** - Gerencie sua equipe
 
 **Principais funcionalidades:**
@@ -165,18 +165,18 @@ O **Módulo de Cadastros** é a **base fundamental** do ERP GerenciaTec. Aqui vo
 ### 📋 **Sequência Recomendada de Implementação**
 
 #### **1️⃣ Configuração Inicial (Dia 1)**
-1. **[[cadastro-de-usuarios]]** - Configure sua equipe
-2. **[[categorias-e-grupos]]** - Organize a estrutura
+1. **[Cadastro De Usuarios](cadastro-de-usuarios.md)** - Configure sua equipe
+2. **[Categorias E Grupos](categorias-e-grupos.md)** - Organize a estrutura
 3. **Dados da empresa** - Configure informações básicas
 
 #### **2️⃣ Cadastros Base (Dias 2-3)**
-1. **[[cadastro-de-fornecedores]]** - Principais fornecedores
-2. **[[cadastro-de-produtos]]** - Produtos principais
-3. **[[cadastro-de-clientes]]** - Clientes VIP
+1. **[Cadastro De Fornecedores](cadastro-de-fornecedores.md)** - Principais fornecedores
+2. **[Cadastro De Produtos](cadastro-de-produtos.md)** - Produtos principais
+3. **[Cadastro De Clientes](cadastro-de-clientes.md)** - Clientes VIP
 
 #### **3️⃣ Cadastros Especializados (Dias 4-5)**
-1. **[[cadastro-de-ordens-servico]]** - Se prestar serviços
-2. **[[cadastro-de-servicos]]** - Se prestar serviços
+1. **[Cadastro De Ordens Servico](cadastro-de-ordens-servico.md)** - Se prestar serviços
+2. **[Cadastro De Servicos](cadastro-de-servicos.md)** - Se prestar serviços
 3. **Refinamento** dos cadastros existentes
 
 ---
@@ -291,10 +291,10 @@ graph TD
 ## 🎯 Próximos Passos
 
 ### 📚 **Para Iniciantes**
-1. **Comece** com **[[cadastro-de-produtos]]**
-2. **Cadastre** alguns **[[cadastro-de-clientes]]**
-3. **Organize** com **[[categorias-e-grupos]]**
-4. **Configure** **[[cadastro-de-usuarios]]**
+1. **Comece** com **[Cadastro De Produtos](cadastro-de-produtos.md)**
+2. **Cadastre** alguns **[Cadastro De Clientes](cadastro-de-clientes.md)**
+3. **Organize** com **[Categorias E Grupos](categorias-e-grupos.md)**
+4. **Configure** **[Cadastro De Usuarios](cadastro-de-usuarios.md)**
 
 ### 🚀 **Para Usuários Avançados**
 1. **Otimize** estrutura de categorias
@@ -313,20 +313,20 @@ graph TD
 ## 📚 Documentação Relacionada
 
 ### 🔗 **Módulos que Dependem de Cadastros**
-- **[[../vendas/index]]** - Usa clientes e produtos
-- **[[../estoque/index]]** - Usa produtos e fornecedores
-- **[[../financeiro/index]]** - Usa clientes e fornecedores
-- **[[../relatorios/index]]** - Analisa todos os cadastros
+- **[](../vendas/index.md)** - Usa clientes e produtos
+- **[](../estoque/index.md)** - Usa produtos e fornecedores
+- **[](../financeiro/index.md)** - Usa clientes e fornecedores
+- **[](../relatorios/index.md)** - Analisa todos os cadastros
 
 ### 📋 **Fluxos Relacionados**
-- **[[../../fluxos/fluxo-vendas-completo]]** - Depende de cadastros
-- **[[../../fluxos/fluxo-compras]]** - Usa fornecedores e produtos
-- **[[../../fluxos/fluxo-onboarding]]** - Setup inicial
+- **[Fluxo Vendas Completo](../../fluxos/fluxo-vendas-completo.md)** - Depende de cadastros
+- **[Fluxo Compras](../../fluxos/fluxo-compras.md)** - Usa fornecedores e produtos
+- **[Fluxo Onboarding](../../fluxos/fluxo-onboarding.md)** - Setup inicial
 
 ### 💡 **Casos de Uso**
-- **[[../../casos-uso/comercio-geral/setup-inicial]]** - Primeiros cadastros
-- **[[../../casos-uso/petshop/cadastro-animal]]** - Cadastro especializado
-- **[[../../casos-uso/servicos/cadastro-cliente-servico]]** - B2B
+- **[Setup Inicial](../../casos-uso/comercio-geral/setup-inicial.md)** - Primeiros cadastros
+- **[Cadastro Animal](../../casos-uso/petshop/cadastro-animal.md)** - Cadastro especializado
+- **[Cadastro Cliente Servico](../../casos-uso/servicos/cadastro-cliente-servico.md)** - B2B
 
 ---
 

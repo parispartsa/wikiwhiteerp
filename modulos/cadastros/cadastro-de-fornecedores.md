@@ -228,16 +228,16 @@ Acompanhe o relacionamento comercial:
 ## 🔗 Fluxos Relacionados
 
 ### 📦 **Fluxo de Compras**
-1. **[[cadastro-de-fornecedores]]** - Cadastre o fornecedor
-2. **[[../estoque/pedido-de-compra]]** - Crie pedido de compra
-3. **[[../estoque/recebimento-mercadorias]]** - Receba produtos
-4. **[[../financeiro/contas-a-pagar]]** - Programe pagamento
+1. **[Cadastro De Fornecedores](cadastro-de-fornecedores.md)** - Cadastre o fornecedor
+2. **[Pedido De Compra](../estoque/pedido-de-compra.md)** - Crie pedido de compra
+3. **[Recebimento Mercadorias](../estoque/recebimento-mercadorias.md)** - Receba produtos
+4. **[Contas A Pagar](../financeiro/contas-a-pagar.md)** - Programe pagamento
 
 ### 💰 **Fluxo Financeiro**
-1. **[[cadastro-de-fornecedores]]** - Dados bancários
-2. **[[../financeiro/contas-a-pagar]]** - Títulos a pagar
-3. **[[../financeiro/pagamentos]]** - Processar pagamentos
-4. **[[../financeiro/conciliacao]]** - Conciliar extratos
+1. **[Cadastro De Fornecedores](cadastro-de-fornecedores.md)** - Dados bancários
+2. **[Contas A Pagar](../financeiro/contas-a-pagar.md)** - Títulos a pagar
+3. **[Pagamentos](../financeiro/pagamentos.md)** - Processar pagamentos
+4. **[Conciliacao](../financeiro/conciliacao.md)** - Conciliar extratos
 
 ## 📊 Relatórios Relacionados
 
@@ -255,17 +255,17 @@ Acompanhe o relacionamento comercial:
 
 ## 🆘 Veja Também
 
-- **[[cadastro-de-clientes]]** - Cadastro de clientes
-- **[[cadastro-de-produtos]]** - Produtos fornecidos
-- **[[../estoque/gestao-de-compras]]** - Processo de compras
-- **[[../financeiro/contas-a-pagar]]** - Pagamentos a fornecedores
-- **[[../configuracoes/usuarios-e-permissoes]]** - Controle de acesso
+- **[Cadastro De Clientes](cadastro-de-clientes.md)** - Cadastro de clientes
+- **[Cadastro De Produtos](cadastro-de-produtos.md)** - Produtos fornecidos
+- **[Gestao De Compras](../estoque/gestao-de-compras.md)** - Processo de compras
+- **[Contas A Pagar](../financeiro/contas-a-pagar.md)** - Pagamentos a fornecedores
+- **[Usuarios E Permissoes](../configuracoes/usuarios-e-permissoes.md)** - Controle de acesso
 
 ---
 
 **Tags relacionadas**: #cadastros #fornecedores #passo-a-passo #compras #gestao
 
-**Próximos passos**: Após cadastrar fornecedores, configure **[[../estoque/gestao-de-compras]]** para começar a fazer pedidos.
+**Próximos passos**: Após cadastrar fornecedores, configure **[Gestao De Compras](../estoque/gestao-de-compras.md)** para começar a fazer pedidos.
 
 ---
 

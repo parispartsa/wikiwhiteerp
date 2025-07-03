@@ -229,16 +229,16 @@ A tela principal mostra:
 ## 🔗 Fluxos Relacionados
 
 ### 💰 **Fluxo de Pagamento**
-1. **[[../estoque/pedido-de-compra]]** - Pedido gera título automaticamente
-2. **[[contas-a-pagar]]** - Controle de pagamentos
-3. **[[fluxo-de-caixa]]** - Impacto no fluxo de caixa
-4. **[[../relatorios/financeiro]]** - Relatórios de pagamento
+1. **[Pedido De Compra](../estoque/pedido-de-compra.md)** - Pedido gera título automaticamente
+2. **[Contas A Pagar](contas-a-pagar.md)** - Controle de pagamentos
+3. **[Fluxo De Caixa](fluxo-de-caixa.md)** - Impacto no fluxo de caixa
+4. **[Financeiro](../relatorios/financeiro.md)** - Relatórios de pagamento
 
 ### 🏦 **Fluxo de Aprovação**
-1. **[[contas-a-pagar]]** - Cadastro do título
-2. **[[aprovacao-pagamentos]]** - Processo de aprovação
-3. **[[execucao-pagamentos]]** - Processamento
-4. **[[conciliacao-bancaria]]** - Conciliação
+1. **[Contas A Pagar](contas-a-pagar.md)** - Cadastro do título
+2. **[Aprovacao Pagamentos](aprovacao-pagamentos.md)** - Processo de aprovação
+3. **[Execucao Pagamentos](execucao-pagamentos.md)** - Processamento
+4. **[Conciliacao Bancaria](conciliacao-bancaria.md)** - Conciliação
 
 ## 📊 Relatórios Relacionados
 
@@ -257,17 +257,17 @@ A tela principal mostra:
 
 ## 🆘 Veja Também
 
-- **[[contas-a-receber]]** - Gestão de recebimentos
-- **[[fluxo-de-caixa]]** - Controle de fluxo de caixa
-- **[[../cadastros/cadastro-de-fornecedores]]** - Cadastro de fornecedores
-- **[[../estoque/gestao-de-compras]]** - Processo de compras
-- **[[../relatorios/financeiro]]** - Relatórios financeiros
+- **[Contas A Receber](contas-a-receber.md)** - Gestão de recebimentos
+- **[Fluxo De Caixa](fluxo-de-caixa.md)** - Controle de fluxo de caixa
+- **[Cadastro De Fornecedores](../cadastros/cadastro-de-fornecedores.md)** - Cadastro de fornecedores
+- **[Gestao De Compras](../estoque/gestao-de-compras.md)** - Processo de compras
+- **[Financeiro](../relatorios/financeiro.md)** - Relatórios financeiros
 
 ---
 
 **Tags relacionadas**: #financeiro #pagar #fornecedores #obrigacoes #passo-a-passo #importante
 
-**Próximos passos**: Configure **[[aprovacao-pagamentos]]** para implementar controle de aprovações.
+**Próximos passos**: Configure **[Aprovacao Pagamentos](aprovacao-pagamentos.md)** para implementar controle de aprovações.
 
 ---
 

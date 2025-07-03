@@ -59,8 +59,8 @@ graph TD
 4. **Registrar** o contato no sistema
 
 #### **Documentação Relacionada**
-- **[[../modulos/cadastros/cadastro-de-clientes]]** - Como cadastrar clientes
-- **[[../modulos/crm/gestao-leads]]** - Gestão de leads
+- **[Cadastro de Clientes](../modulos/cadastros/cadastro-de-clientes.md)** - Como cadastrar clientes
+- **[Gestão de Leads](../modulos/crm/gestao-leads.md)** - Gestão de leads
 
 ---
 
@@ -81,8 +81,8 @@ graph TD
 4. **Classificar** o lead (quente/morno/frio)
 
 #### **Ferramentas do Sistema**
-- **[[../modulos/cadastros/cadastro-de-clientes]]** - Cadastro completo
-- **[[../modulos/crm/historico-interacoes]]** - Histórico de contatos
+- **[Cadastro de Clientes](../modulos/cadastros/cadastro-de-clientes.md)** - Cadastro completo
+- **[Histórico de Interações](../modulos/crm/historico-interacoes.md)** - Histórico de contatos
 
 ---
 
@@ -90,7 +90,7 @@ graph TD
 **Objetivo**: Criar proposta comercial adequada
 
 #### **Preparação do Orçamento**
-1. **Acessar** **[[../modulos/vendas/orcamentos]]**
+1. **Acessar** **[Orçamentos](../modulos/vendas/orcamentos.md)**
 2. **Selecionar** cliente qualificado
 3. **Adicionar** produtos/serviços
 4. **Configurar** condições comerciais
@@ -171,7 +171,7 @@ graph TD
 - 👥 **Responsável**: Vendedor ou atendente
 
 #### **Documentação**
-- **[[../modulos/vendas/pedidos]]** - Gestão de pedidos
+- **[Pedidos](../modulos/vendas/pedidos.md)** - Gestão de pedidos
 
 ---
 
@@ -179,7 +179,7 @@ graph TD
 **Objetivo**: Confirmar disponibilidade e preparar o pedido
 
 #### **Verificação de Estoque**
-1. **Consultar** **[[../modulos/estoque/consulta-estoque]]**
+1. **Consultar** **[Consulta de Estoque](../modulos/estoque/consulta-estoque.md)**
 2. **Confirmar** disponibilidade de todos os itens
 3. **Verificar** localização dos produtos
 4. **Reservar** produtos para o pedido
@@ -248,9 +248,9 @@ graph TD
 **Objetivo**: Emitir documentos fiscais e financeiros
 
 #### **Documentos Fiscais**
-- **[[../modulos/integracoes/emissao-nfe]]** - Nota Fiscal Eletrônica
-- **[[../modulos/integracoes/emissao-nfce]]** - Nota Fiscal de Consumidor
-- **[[../modulos/integracoes/emissao-nfse]]** - Nota Fiscal de Serviços
+- **[Emissão de NFe](../modulos/integracoes/emissao-nfe.md)** - Nota Fiscal Eletrônica
+- **[Emissão de NFCe](../modulos/integracoes/emissao-nfce.md)** - Nota Fiscal de Consumidor
+- **[Emissão de NFSe](../modulos/integracoes/emissao-nfse.md)** - Nota Fiscal de Serviços
 
 #### **Processo de Faturamento**
 1. **Confirmar** entrega realizada
@@ -283,8 +283,8 @@ graph TD
 5. **Registrar** acordos
 
 #### **Documentação**
-- **[[../modulos/financeiro/contas-a-receber]]** - Gestão de recebimentos
-- **[[../modulos/financeiro/cobranca]]** - Processo de cobrança
+- **[Contas a Receber](../modulos/financeiro/contas-a-receber.md)** - Gestão de recebimentos
+- **[Cobrança](../modulos/financeiro/cobranca.md)** - Processo de cobrança
 
 ---
 
@@ -444,20 +444,20 @@ Solicitação → Orçamento → OS → Execução → Entrega → Faturamento
 ## 📚 Documentação Relacionada
 
 ### 🔗 **Módulos Envolvidos**
-- **[[../modulos/vendas/index]]** - Gestão de vendas
-- **[[../modulos/cadastros/index]]** - Cadastros base
-- **[[../modulos/estoque/index]]** - Controle de estoque
-- **[[../modulos/financeiro/index]]** - Gestão financeira
+- **[Gestão de Vendas](../modulos/vendas/index.md)** - Gestão de vendas
+- **[Gestão de Cadastros](../modulos/cadastros/index.md)** - Cadastros base
+- **[Controle de Estoque](../modulos/estoque/index.md)** - Controle de estoque
+- **[Gestão Financeira](../modulos/financeiro/index.md)** - Gestão financeira
 
 ### 📋 **Outros Fluxos**
-- **[[fluxo-compras]]** - Reposição de estoque
-- **[[fluxo-contratos]]** - Faturamento recorrente
-- **[[fluxo-fiscal]]** - Emissão de documentos
+- **[Fluxo Compras](fluxo-compras.md)** - Reposição de estoque
+- **[Fluxo Contratos](fluxo-contratos.md)** - Faturamento recorrente
+- **[Fluxo Fiscal](fluxo-fiscal.md)** - Emissão de documentos
 
 ### 💡 **Casos de Uso**
-- **[[../casos-uso/comercio-geral/venda-completa]]** - Venda completa
-- **[[../casos-uso/servicos/venda-com-servico]]** - Venda + serviço
-- **[[../casos-uso/servicos/projeto-completo]]** - Projeto completo
+- **[Venda Completa](../casos-uso/comercio-geral/venda-completa.md)** - Venda completa
+- **[Venda com Serviço](../casos-uso/servicos/venda-com-servico.md)** - Venda + serviço
+- **[Projeto Completo](../casos-uso/servicos/projeto-completo.md)** - Projeto completo
 
 ---
 

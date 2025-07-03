@@ -390,20 +390,20 @@ O **PDV (Ponto de Venda)** é a interface principal para **vendas rápidas no ba
 ## 📚 Documentação Relacionada
 
 ### 🔗 **Funcionalidades Relacionadas**
-- **[[../cadastros/cadastro-de-produtos]]** - Base para vendas
-- **[[../cadastros/cadastro-de-clientes]]** - Identificação de clientes
-- **[[../financeiro/formas-pagamento]]** - Configurar pagamentos
-- **[[../integracoes/emissao-nfce]]** - Documentos fiscais
+- **[Cadastro De Produtos](../cadastros/cadastro-de-produtos.md)** - Base para vendas
+- **[Cadastro De Clientes](../cadastros/cadastro-de-clientes.md)** - Identificação de clientes
+- **[Formas Pagamento](../financeiro/formas-pagamento.md)** - Configurar pagamentos
+- **[Emissao Nfce](../integracoes/emissao-nfce.md)** - Documentos fiscais
 
 ### 📋 **Fluxos Relacionados**
-- **[[../../fluxos/fluxo-vendas-completo]]** - Processo completo
-- **[[../../fluxos/fluxo-caixa]]** - Gestão de caixa
-- **[[../../fluxos/fluxo-fiscal]]** - Emissão de documentos
+- **[Fluxo Vendas Completo](../../fluxos/fluxo-vendas-completo.md)** - Processo completo
+- **[Fluxo Caixa](../../fluxos/fluxo-caixa.md)** - Gestão de caixa
+- **[Fluxo Fiscal](../../fluxos/fluxo-fiscal.md)** - Emissão de documentos
 
 ### 💡 **Casos de Uso**
-- **[[../../casos-uso/comercio-geral/venda-balcao]]** - Venda típica
-- **[[../../casos-uso/comercio-geral/venda-multiplos-pagamentos]]** - Múltiplas formas
-- **[[../../casos-uso/comercio-geral/troca-devolucao]]** - Trocas e devoluções
+- **[Venda Balcao](../../casos-uso/comercio-geral/venda-balcao.md)** - Venda típica
+- **[Venda Multiplos Pagamentos](../../casos-uso/comercio-geral/venda-multiplos-pagamentos.md)** - Múltiplas formas
+- **[Troca Devolucao](../../casos-uso/comercio-geral/troca-devolucao.md)** - Trocas e devoluções
 
 ---
 

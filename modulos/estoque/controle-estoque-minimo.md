@@ -443,21 +443,21 @@ Estoque mínimo = 1,67 × 30 × 1,5 = 75 pares
 ## 📚 Documentação Relacionada
 
 ### **🔗 Processos Relacionados**
-- **[[movimentacao-estoque]]** - Entradas e saídas
-- **[[inventario-fisico]]** - Contagem física
-- **[[analise-abc]]** - Classificação de produtos
-- **[[previsao-demanda]]** - Planejamento futuro
+- **[Movimentacao Estoque](movimentacao-estoque.md)** - Entradas e saídas
+- **[Inventario Fisico](inventario-fisico.md)** - Contagem física
+- **[Analise Abc](analise-abc.md)** - Classificação de produtos
+- **[Previsao Demanda](previsao-demanda.md)** - Planejamento futuro
 
 ### **🔗 Módulos Integrados**
-- **[[../compras/index]]** - Processo de compras
-- **[[../vendas/index]]** - Análise de vendas
-- **[[../relatorios/index]]** - Relatórios gerenciais
-- **[[../financeiro/index]]** - Impacto financeiro
+- **[](../compras/index.md)** - Processo de compras
+- **[](../vendas/index.md)** - Análise de vendas
+- **[](../relatorios/index.md)** - Relatórios gerenciais
+- **[](../financeiro/index.md)** - Impacto financeiro
 
 ### **🔗 Fluxos Relacionados**
-- **[[../../fluxos/fluxo-reposicao]]** - Processo de reposição
-- **[[../../fluxos/fluxo-compras]]** - Processo de compras
-- **[[../../fluxos/fluxo-planejamento]]** - Planejamento de estoque
+- **[Fluxo Reposicao](../../fluxos/fluxo-reposicao.md)** - Processo de reposição
+- **[Fluxo Compras](../../fluxos/fluxo-compras.md)** - Processo de compras
+- **[Fluxo Planejamento](../../fluxos/fluxo-planejamento.md)** - Planejamento de estoque
 
 ---
 

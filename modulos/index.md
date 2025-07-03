@@ -14,7 +14,7 @@ O **ERP GerenciaTec** está organizado em **8 módulos principais**, cada um res
 
 ## 🏢 Módulos Principais
 
-### 👥 **[[cadastros/index]]** - Gestão de Cadastros
+### 👥 **[](cadastros/index.md)** - Gestão de Cadastros
 **Base fundamental do sistema** - Cadastre e gerencie todas as informações essenciais
 
 **Principais funcionalidades:**
@@ -28,7 +28,7 @@ O **ERP GerenciaTec** está organizado em **8 módulos principais**, cada um res
 
 ---
 
-### 💰 **[[financeiro/index]]** - Gestão Financeira
+### 💰 **[](financeiro/index.md)** - Gestão Financeira
 **Controle total das finanças** - Gerencie receitas, despesas e fluxo de caixa
 
 **Principais funcionalidades:**
@@ -42,7 +42,7 @@ O **ERP GerenciaTec** está organizado em **8 módulos principais**, cada um res
 
 ---
 
-### 🛒 **[[vendas/index]]** - Gestão de Vendas
+### 🛒 **[](vendas/index.md)** - Gestão de Vendas
 **Motor de vendas do negócio** - PDV, orçamentos, pedidos e atendimento
 
 **Principais funcionalidades:**
@@ -56,7 +56,7 @@ O **ERP GerenciaTec** está organizado em **8 módulos principais**, cada um res
 
 ---
 
-### 📦 **[[estoque/index]]** - Controle de Estoque
+### 📦 **[](estoque/index.md)** - Controle de Estoque
 **Gestão inteligente do estoque** - Controle, movimentação e reposição
 
 **Principais funcionalidades:**
@@ -70,7 +70,7 @@ O **ERP GerenciaTec** está organizado em **8 módulos principais**, cada um res
 
 ---
 
-### 🔗 **[[integracoes/index]]** - Integrações
+### 🔗 **[](integracoes/index.md)** - Integrações
 **Conecte seu negócio** - E-commerce, marketplaces e sistemas externos
 
 **Principais funcionalidades:**
@@ -84,7 +84,7 @@ O **ERP GerenciaTec** está organizado em **8 módulos principais**, cada um res
 
 ---
 
-### 🔧 **[[servicos/index]]** - Prestação de Serviços
+### 🔧 **[](servicos/index.md)** - Prestação de Serviços
 **Especializado para prestadores de serviços** - Gestão completa de ordens de serviço
 
 **Principais funcionalidades:**
@@ -98,7 +98,7 @@ O **ERP GerenciaTec** está organizado em **8 módulos principais**, cada um res
 
 ---
 
-### 📊 **[[relatorios/index]]** - Relatórios e Dashboard
+### 📊 **[](relatorios/index.md)** - Relatórios e Dashboard
 **Inteligência de negócio** - Dashboards, relatórios e análises
 
 **Principais funcionalidades:**
@@ -112,7 +112,7 @@ O **ERP GerenciaTec** está organizado em **8 módulos principais**, cada um res
 
 ---
 
-### ⚙️ **[[configuracoes/index]]** - Configurações
+### ⚙️ **[](configuracoes/index.md)** - Configurações
 **Personalize o sistema** - Configure o sistema para seu negócio
 
 **Principais funcionalidades:**
@@ -129,24 +129,24 @@ O **ERP GerenciaTec** está organizado em **8 módulos principais**, cada um res
 ## 🚀 Fluxo de Implementação Recomendado
 
 ### 📋 **Fase 1: Configuração Base**
-1. **[[configuracoes/dados-da-empresa]]** - Configure sua empresa
-2. **[[configuracoes/usuarios-e-permissoes]]** - Crie usuários
-3. **[[configuracoes/parametros-fiscais]]** - Configure impostos
+1. **[Dados Da Empresa](configuracoes/dados-da-empresa.md)** - Configure sua empresa
+2. **[Usuarios E Permissoes](configuracoes/usuarios-e-permissoes.md)** - Crie usuários
+3. **[Parametros Fiscais](configuracoes/parametros-fiscais.md)** - Configure impostos
 
 ### 📋 **Fase 2: Cadastros Fundamentais**
-1. **[[cadastros/cadastro-de-produtos]]** - Cadastre produtos/serviços
-2. **[[cadastros/cadastro-de-clientes]]** - Cadastre clientes
-3. **[[cadastros/cadastro-de-fornecedores]]** - Cadastre fornecedores
+1. **[Cadastro De Produtos](cadastros/cadastro-de-produtos.md)** - Cadastre produtos/serviços
+2. **[Cadastro De Clientes](cadastros/cadastro-de-clientes.md)** - Cadastre clientes
+3. **[Cadastro De Fornecedores](cadastros/cadastro-de-fornecedores.md)** - Cadastre fornecedores
 
 ### 📋 **Fase 3: Operação Básica**
-1. **[[vendas/pdv]]** - Configure e use o PDV
-2. **[[estoque/movimentacao-estoque]]** - Controle estoque
-3. **[[financeiro/contas-a-receber]]** - Gerencie recebimentos
+1. **[Pdv](vendas/pdv.md)** - Configure e use o PDV
+2. **[Movimentacao Estoque](estoque/movimentacao-estoque.md)** - Controle estoque
+3. **[Contas A Receber](financeiro/contas-a-receber.md)** - Gerencie recebimentos
 
 ### 📋 **Fase 4: Automação e Integrações**
-1. **[[integracoes/emissao-documentos-fiscais]]** - Configure NFe/NFCe
-2. **[[integracoes/ecommerce-marketplaces]]** - Conecte vendas online
-3. **[[financeiro/integracoes-bancarias]]** - Automatize financeiro
+1. **[Emissao Documentos Fiscais](integracoes/emissao-documentos-fiscais.md)** - Configure NFe/NFCe
+2. **[Ecommerce Marketplaces](integracoes/ecommerce-marketplaces.md)** - Conecte vendas online
+3. **[Integracoes Bancarias](financeiro/integracoes-bancarias.md)** - Automatize financeiro
 
 ---
 
@@ -184,10 +184,10 @@ O **ERP GerenciaTec** está organizado em **8 módulos principais**, cada um res
 - **#automatico**: Processos automatizados
 
 ### 🔗 **Links Úteis**
-- **[[../fluxos/index]]** - Fluxos de trabalho completos
-- **[[../casos-uso/index]]** - Casos de uso práticos
-- **[[../guias/index]]** - Guias por nível de usuário
-- **[[../faq]]** - Perguntas frequentes
+- **[](../fluxos/index.md)** - Fluxos de trabalho completos
+- **[](../casos-uso/index.md)** - Casos de uso práticos
+- **[](../guias/index.md)** - Guias por nível de usuário
+- **[Perguntas Frequentes](../faq.md)** - Perguntas frequentes
 
 ---
 

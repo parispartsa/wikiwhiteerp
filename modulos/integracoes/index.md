@@ -62,28 +62,28 @@ O módulo de **Integrações** é o centro de conectividade do ERP GerenciaTec, 
 ## 🔧 Funcionalidades Detalhadas
 
 ### 📱 **E-commerce**
-- [[configuracao-woocommerce]]
-- [[integracao-mercado-livre]]
-- [[sincronizacao-estoque-multicanal]]
-- [[gestao-precos-por-canal]]
+- [Configuracao Woocommerce](configuracao-woocommerce.md)
+- [Integracao Mercado Livre](integracao-mercado-livre.md)
+- [Sincronizacao Estoque Multicanal](sincronizacao-estoque-multicanal.md)
+- [Gestao Precos Por Canal](gestao-precos-por-canal.md)
 
 ### 🏛️ **Fiscal**
-- [[configuracao-nfe]]
-- [[emissao-automatica-nfce]]
-- [[integracao-sefaz]]
-- [[controle-contingencia-fiscal]]
+- [Configuracao Nfe](configuracao-nfe.md)
+- [Emissao Automatica Nfce](emissao-automatica-nfce.md)
+- [Integracao Sefaz](integracao-sefaz.md)
+- [Controle Contingencia Fiscal](controle-contingencia-fiscal.md)
 
 ### 💳 **Pagamentos**
-- [[configuracao-tef]]
-- [[integracao-pix]]
-- [[conciliacao-bancaria]]
-- [[boleto-registrado]]
+- [Configuracao Tef](configuracao-tef.md)
+- [Integracao Pix](integracao-pix.md)
+- [Conciliacao Bancaria](conciliacao-bancaria.md)
+- [Boleto Registrado](boleto-registrado.md)
 
 ### 🤖 **Automações**
-- [[automacao-pedidos-ecommerce]]
-- [[sincronizacao-tempo-real]]
-- [[regras-negocio-integracao]]
-- [[monitoramento-integracao]]
+- [Automacao Pedidos Ecommerce](automacao-pedidos-ecommerce.md)
+- [Sincronizacao Tempo Real](sincronizacao-tempo-real.md)
+- [Regras Negocio Integracao](regras-negocio-integracao.md)
+- [Monitoramento Integracao](monitoramento-integracao.md)
 
 ## 🎯 Casos de Uso
 
@@ -153,17 +153,17 @@ O módulo de **Integrações** é o centro de conectividade do ERP GerenciaTec, 
 
 ## 🚀 Próximos Passos
 
-1. **[[configuracao-inicial-integracoes]]** - Configure suas primeiras integrações
-2. **[[escolha-plataforma-ecommerce]]** - Selecione a melhor plataforma
-3. **[[configuracao-fiscal]]** - Configure documentos fiscais
-4. **[[monitoramento-integracoes]]** - Monitore suas integrações
+1. **[Configuracao Inicial Integracoes](configuracao-inicial-integracoes.md)** - Configure suas primeiras integrações
+2. **[Escolha Plataforma Ecommerce](escolha-plataforma-ecommerce.md)** - Selecione a melhor plataforma
+3. **[Configuracao Fiscal](configuracao-fiscal.md)** - Configure documentos fiscais
+4. **[Monitoramento Integracoes](monitoramento-integracoes.md)** - Monitore suas integrações
 
 ## 📚 Documentação Relacionada
 
-- [[../financeiro/index]] - Módulo Financeiro
-- [[../vendas/index]] - Módulo de Vendas
-- [[../estoque/index]] - Módulo de Estoque
-- [[../../configuracoes/index]] - Configurações do Sistema
+- [](../financeiro/index.md) - Módulo Financeiro
+- [](../vendas/index.md) - Módulo de Vendas
+- [](../estoque/index.md) - Módulo de Estoque
+- [](../../configuracoes/index.md) - Configurações do Sistema
 
 ---
 

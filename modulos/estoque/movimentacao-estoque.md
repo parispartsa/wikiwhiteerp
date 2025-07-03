@@ -648,21 +648,21 @@ Cobertura = Estoque Atual / Venda Média Diária
 ## 📚 Documentação Relacionada
 
 ### **🔗 Processos Relacionados**
-- **[[entrada-mercadorias]]** - Recebimento de produtos
-- **[[inventario-fisico]]** - Contagem física
-- **[[controle-validade]]** - Produtos com prazo
-- **[[transferencia-depositos]]** - Movimentação interna
+- **[Entrada Mercadorias](entrada-mercadorias.md)** - Recebimento de produtos
+- **[Inventario Fisico](inventario-fisico.md)** - Contagem física
+- **[Controle Validade](controle-validade.md)** - Produtos com prazo
+- **[Transferencia Depositos](transferencia-depositos.md)** - Movimentação interna
 
 ### **🔗 Módulos Integrados**
-- **[[../vendas/pdv]]** - Ponto de venda
-- **[[../financeiro/index]]** - Impacto financeiro
-- **[[../relatorios/index]]** - Relatórios gerenciais
-- **[[../fiscal/index]]** - Documentação fiscal
+- **[Pdv](../vendas/pdv.md)** - Ponto de venda
+- **[](../financeiro/index.md)** - Impacto financeiro
+- **[](../relatorios/index.md)** - Relatórios gerenciais
+- **[](../fiscal/index.md)** - Documentação fiscal
 
 ### **🔗 Fluxos Relacionados**
-- **[[../../fluxos/fluxo-compras]]** - Processo de compras
-- **[[../../fluxos/fluxo-vendas-completo]]** - Processo de vendas
-- **[[../../fluxos/fluxo-inventario]]** - Processo de inventário
+- **[Fluxo Compras](../../fluxos/fluxo-compras.md)** - Processo de compras
+- **[Fluxo Vendas Completo](../../fluxos/fluxo-vendas-completo.md)** - Processo de vendas
+- **[Fluxo Inventario](../../fluxos/fluxo-inventario.md)** - Processo de inventário
 
 ---
 

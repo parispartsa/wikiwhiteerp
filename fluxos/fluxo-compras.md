@@ -374,17 +374,17 @@ O **Fluxo de Compras** é um processo estruturado que garante a reposição adeq
 
 ## 🆘 Veja Também
 
-- **[[../modulos/estoque/gestao-de-compras]]** - Gestão de compras detalhada
-- **[[../modulos/cadastros/cadastro-de-fornecedores]]** - Cadastro de fornecedores
-- **[[../modulos/financeiro/contas-a-pagar]]** - Contas a pagar
-- **[[fluxo-vendas-completo]]** - Fluxo de vendas
-- **[[../modulos/relatorios/compras-por-fornecedor]]** - Relatórios de compras
+- **[Gestao De Compras](../modulos/estoque/gestao-de-compras.md)** - Gestão de compras detalhada
+- **[Cadastro de Fornecedores](../modulos/cadastros/cadastro-de-fornecedores.md)** - Cadastro de fornecedores
+- **[Contas a Pagar](../modulos/financeiro/contas-a-pagar.md)** - Contas a pagar
+- **[Fluxo Vendas Completo](fluxo-vendas-completo.md)** - Fluxo de vendas
+- **[Compras Por Fornecedor](../modulos/relatorios/compras-por-fornecedor.md)** - Relatórios de compras
 
 ---
 
 **Tags relacionadas**: #fluxo #compras #fornecedores #estoque #financeiro #automatico
 
-**Próximos passos**: Configure **[[../modulos/estoque/estoque-minimo-maximo]]** para automatizar reposição.
+**Próximos passos**: Configure **[Estoque Minimo Maximo](../modulos/estoque/estoque-minimo-maximo.md)** para automatizar reposição.
 
 ---
 

@@ -24,7 +24,7 @@ O **Módulo de Relatórios** é o **centro de inteligência** do seu negócio. A
 
 ## 📈 Relatórios de Vendas
 
-### 🛍️ **[[vendas-diarias]]** - Vendas Diárias
+### 🛍️ **[Vendas Diarias](vendas-diarias.md)** - Vendas Diárias
 **Acompanhe** o desempenho diário das vendas
 
 **Principais informações:**
@@ -45,7 +45,7 @@ O **Módulo de Relatórios** é o **centro de inteligência** do seu negócio. A
 
 ---
 
-### 📅 **[[vendas-periodicas]]** - Vendas por Período
+### 📅 **[Vendas Periodicas](vendas-periodicas.md)** - Vendas por Período
 **Análise completa** de vendas por período
 
 **Principais informações:**
@@ -66,7 +66,7 @@ O **Módulo de Relatórios** é o **centro de inteligência** do seu negócio. A
 
 ---
 
-### 👥 **[[vendas-por-vendedor]]** - Performance de Vendedores
+### 👥 **[Vendas Por Vendedor](vendas-por-vendedor.md)** - Performance de Vendedores
 **Análise individual** da equipe de vendas
 
 **Principais informações:**
@@ -81,7 +81,7 @@ O **Módulo de Relatórios** é o **centro de inteligência** do seu negócio. A
 
 ---
 
-### 🛒 **[[vendas-por-produto]]** - Análise de Produtos
+### 🛒 **[Vendas Por Produto](vendas-por-produto.md)** - Análise de Produtos
 **Desempenho detalhado** por produto
 
 **Principais informações:**
@@ -98,7 +98,7 @@ O **Módulo de Relatórios** é o **centro de inteligência** do seu negócio. A
 
 ## 💰 Relatórios Financeiros
 
-### 📊 **[[dre-gerencial]]** - DRE Gerencial
+### 📊 **[Dre Gerencial](dre-gerencial.md)** - DRE Gerencial
 **Demonstrativo de Resultado** do Exercício
 
 **Principais informações:**
@@ -120,7 +120,7 @@ O **Módulo de Relatórios** é o **centro de inteligência** do seu negócio. A
 
 ---
 
-### 💹 **[[fluxo-caixa-projetado]]** - Fluxo de Caixa
+### 💹 **[Fluxo Caixa Projetado](fluxo-caixa-projetado.md)** - Fluxo de Caixa
 **Projeção** de entradas e saídas
 
 **Principais informações:**
@@ -135,7 +135,7 @@ O **Módulo de Relatórios** é o **centro de inteligência** do seu negócio. A
 
 ---
 
-### 📄 **[[contas-receber]]** - Contas a Receber
+### 📄 **[Contas Receber](contas-receber.md)** - Contas a Receber
 **Gestão de recebimentos** e inadimplência
 
 **Principais informações:**
@@ -150,7 +150,7 @@ O **Módulo de Relatórios** é o **centro de inteligência** do seu negócio. A
 
 ---
 
-### 📋 **[[contas-pagar]]** - Contas a Pagar
+### 📋 **[Contas Pagar](contas-pagar.md)** - Contas a Pagar
 **Controle de obrigações** financeiras
 
 **Principais informações:**
@@ -167,7 +167,7 @@ O **Módulo de Relatórios** é o **centro de inteligência** do seu negócio. A
 
 ## 📦 Relatórios de Estoque
 
-### 📊 **[[posicao-estoque]]** - Posição de Estoque
+### 📊 **[Posicao Estoque](posicao-estoque.md)** - Posição de Estoque
 **Situação atual** do estoque
 
 **Principais informações:**
@@ -182,7 +182,7 @@ O **Módulo de Relatórios** é o **centro de inteligência** do seu negócio. A
 
 ---
 
-### 🔄 **[[movimentacao-estoque]]** - Movimentação de Estoque
+### 🔄 **[Movimentacao Estoque](movimentacao-estoque.md)** - Movimentação de Estoque
 **Histórico** de entradas e saídas
 
 **Principais informações:**
@@ -197,7 +197,7 @@ O **Módulo de Relatórios** é o **centro de inteligência** do seu negócio. A
 
 ---
 
-### 📋 **[[inventario-fisico]]** - Inventário Físico
+### 📋 **[Inventario Fisico](inventario-fisico.md)** - Inventário Físico
 **Controle** de contagens e divergências
 
 **Principais informações:**
@@ -214,7 +214,7 @@ O **Módulo de Relatórios** é o **centro de inteligência** do seu negócio. A
 
 ## 👥 Relatórios de Clientes
 
-### 🏆 **[[ranking-clientes]]** - Ranking de Clientes
+### 🏆 **[Ranking Clientes](ranking-clientes.md)** - Ranking de Clientes
 **Análise** dos melhores clientes
 
 **Principais informações:**
@@ -229,7 +229,7 @@ O **Módulo de Relatórios** é o **centro de inteligência** do seu negócio. A
 
 ---
 
-### 📈 **[[analise-comportamento]]** - Análise de Comportamento
+### 📈 **[Analise Comportamento](analise-comportamento.md)** - Análise de Comportamento
 **Padrões** de compra dos clientes
 
 **Principais informações:**
@@ -246,7 +246,7 @@ O **Módulo de Relatórios** é o **centro de inteligência** do seu negócio. A
 
 ## 📊 Dashboards Executivos
 
-### 🎯 **[[dashboard-geral]]** - Dashboard Geral
+### 🎯 **[Dashboard Geral](dashboard-geral.md)** - Dashboard Geral
 **Visão executiva** do negócio
 
 **Principais indicadores:**
@@ -261,7 +261,7 @@ O **Módulo de Relatórios** é o **centro de inteligência** do seu negócio. A
 
 ---
 
-### 🔍 **[[dashboard-operacional]]** - Dashboard Operacional
+### 🔍 **[Dashboard Operacional](dashboard-operacional.md)** - Dashboard Operacional
 **Controle** das operações diárias
 
 **Principais indicadores:**
@@ -276,7 +276,7 @@ O **Módulo de Relatórios** é o **centro de inteligência** do seu negócio. A
 
 ---
 
-### 📈 **[[dashboard-vendas]]** - Dashboard de Vendas
+### 📈 **[Dashboard Vendas](dashboard-vendas.md)** - Dashboard de Vendas
 **Foco** na performance comercial
 
 **Principais indicadores:**
@@ -293,7 +293,7 @@ O **Módulo de Relatórios** é o **centro de inteligência** do seu negócio. A
 
 ## 🎯 Análises Avançadas
 
-### 📊 **[[analise-abc]]** - Análise ABC
+### 📊 **[Analise Abc](analise-abc.md)** - Análise ABC
 **Classificação** por importância
 
 **Principais análises:**
@@ -308,7 +308,7 @@ O **Módulo de Relatórios** é o **centro de inteligência** do seu negócio. A
 
 ---
 
-### 📈 **[[analise-tendencias]]** - Análise de Tendências
+### 📈 **[Analise Tendencias](analise-tendencias.md)** - Análise de Tendências
 **Identificação** de padrões temporais
 
 **Principais análises:**
@@ -323,7 +323,7 @@ O **Módulo de Relatórios** é o **centro de inteligência** do seu negócio. A
 
 ---
 
-### 💹 **[[analise-rentabilidade]]** - Análise de Rentabilidade
+### 💹 **[Analise Rentabilidade](analise-rentabilidade.md)** - Análise de Rentabilidade
 **Profundidade** na análise de lucros
 
 **Principais análises:**
@@ -340,7 +340,7 @@ O **Módulo de Relatórios** é o **centro de inteligência** do seu negócio. A
 
 ## 📋 Relatórios Customizados
 
-### 🔧 **[[relatorios-personalizados]]** - Relatórios Personalizados
+### 🔧 **[Relatorios Personalizados](relatorios-personalizados.md)** - Relatórios Personalizados
 **Crie** relatórios específicos para sua necessidade
 
 **Principais recursos:**
@@ -355,7 +355,7 @@ O **Módulo de Relatórios** é o **centro de inteligência** do seu negócio. A
 
 ---
 
-### 📊 **[[construtor-relatorios]]** - Construtor de Relatórios
+### 📊 **[Construtor Relatorios](construtor-relatorios.md)** - Construtor de Relatórios
 **Ferramenta** para criar relatórios visuais
 
 **Principais recursos:**
@@ -372,7 +372,7 @@ O **Módulo de Relatórios** é o **centro de inteligência** do seu negócio. A
 
 ## 🔄 Automação de Relatórios
 
-### 📧 **[[relatorios-automaticos]]** - Relatórios Automáticos
+### 📧 **[Relatorios Automaticos](relatorios-automaticos.md)** - Relatórios Automáticos
 **Envio** programado de relatórios
 
 **Principais recursos:**
@@ -387,7 +387,7 @@ O **Módulo de Relatórios** é o **centro de inteligência** do seu negócio. A
 
 ---
 
-### 🚨 **[[alertas-inteligentes]]** - Alertas Inteligentes
+### 🚨 **[Alertas Inteligentes](alertas-inteligentes.md)** - Alertas Inteligentes
 **Notificações** baseadas em regras
 
 **Principais recursos:**
@@ -404,7 +404,7 @@ O **Módulo de Relatórios** é o **centro de inteligência** do seu negócio. A
 
 ## 📱 Relatórios Mobile
 
-### 📱 **[[app-relatorios]]** - App de Relatórios
+### 📱 **[App Relatorios](app-relatorios.md)** - App de Relatórios
 **Acesso** aos relatórios pelo celular
 
 **Principais recursos:**
@@ -551,16 +551,16 @@ O **Módulo de Relatórios** é o **centro de inteligência** do seu negócio. A
 ## 📚 Documentação Relacionada
 
 ### 🔗 **Módulos Relacionados**
-- **[[../vendas/index]]** - Dados de vendas
-- **[[../financeiro/index]]** - Dados financeiros
-- **[[../estoque/index]]** - Dados de estoque
-- **[[../clientes/index]]** - Dados de clientes
+- **[](../vendas/index.md)** - Dados de vendas
+- **[](../financeiro/index.md)** - Dados financeiros
+- **[](../estoque/index.md)** - Dados de estoque
+- **[](../clientes/index.md)** - Dados de clientes
 
 ### 📋 **Guias Relacionados**
-- **[[../../guias/analise-dados]]** - Como analisar dados
-- **[[../../guias/kpis-essenciais]]** - Indicadores importantes
-- **[[../../guias/dashboards]]** - Criação de painéis
-- **[[../../guias/business-intelligence]]** - BI avançado
+- **[Analise Dados](../../guias/analise-dados.md)** - Como analisar dados
+- **[Kpis Essenciais](../../guias/kpis-essenciais.md)** - Indicadores importantes
+- **[Dashboards](../../guias/dashboards.md)** - Criação de painéis
+- **[Business Intelligence](../../guias/business-intelligence.md)** - BI avançado
 
 ---
 

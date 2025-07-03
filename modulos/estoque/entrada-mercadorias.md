@@ -418,21 +418,21 @@ A **Entrada de Mercadorias** é o processo de **recebimento e registro** de prod
 ## 📚 Documentação Relacionada
 
 ### **🔗 Processos Relacionados**
-- **[[conferencia-recebimento]]** - Processo detalhado de conferência
-- **[[transferencia-depositos]]** - Movimentação interna
-- **[[ajustes-estoque]]** - Correções de divergências
-- **[[inventario-fisico]]** - Contagem física
+- **[Conferencia Recebimento](conferencia-recebimento.md)** - Processo detalhado de conferência
+- **[Transferencia Depositos](transferencia-depositos.md)** - Movimentação interna
+- **[Ajustes Estoque](ajustes-estoque.md)** - Correções de divergências
+- **[Inventario Fisico](inventario-fisico.md)** - Contagem física
 
 ### **🔗 Módulos Integrados**
-- **[[../compras/index]]** - Pedidos de compra
-- **[[../financeiro/contas-a-pagar]]** - Pagamento de fornecedores
-- **[[../cadastros/cadastro-de-produtos]]** - Cadastro de produtos
-- **[[../cadastros/cadastro-de-fornecedores]]** - Cadastro de fornecedores
+- **[](../compras/index.md)** - Pedidos de compra
+- **[Contas A Pagar](../financeiro/contas-a-pagar.md)** - Pagamento de fornecedores
+- **[Cadastro De Produtos](../cadastros/cadastro-de-produtos.md)** - Cadastro de produtos
+- **[Cadastro De Fornecedores](../cadastros/cadastro-de-fornecedores.md)** - Cadastro de fornecedores
 
 ### **🔗 Relatórios Relacionados**
-- **[[relatorio-movimentacao]]** - Histórico de movimentações
-- **[[relatorio-posicao]]** - Posição atual do estoque
-- **[[../financeiro/relatorio-custos]]** - Análise de custos
+- **[Relatorio Movimentacao](relatorio-movimentacao.md)** - Histórico de movimentações
+- **[Relatorio Posicao](relatorio-posicao.md)** - Posição atual do estoque
+- **[Relatorio Custos](../financeiro/relatorio-custos.md)** - Análise de custos
 
 ---
 

@@ -489,20 +489,20 @@ Preço de Venda: R$ 50,00 × 1,8 = R$ 90,00
 ## 📚 Documentação Relacionada
 
 ### 🔗 **Módulos Relacionados**
-- **[[../vendas/pdv]]** - Como usar produtos no PDV
-- **[[../estoque/controle-estoque]]** - Gestão de estoque
-- **[[../financeiro/precificacao]]** - Estratégias de preços
-- **[[../integracoes/ecommerce]]** - Sincronização online
+- **[Pdv](../vendas/pdv.md)** - Como usar produtos no PDV
+- **[Controle Estoque](../estoque/controle-estoque.md)** - Gestão de estoque
+- **[Precificacao](../financeiro/precificacao.md)** - Estratégias de preços
+- **[Ecommerce](../integracoes/ecommerce.md)** - Sincronização online
 
 ### 📋 **Fluxos Relacionados**
-- **[[../../fluxos/fluxo-cadastro-produto]]** - Processo completo
-- **[[../../fluxos/fluxo-compras]]** - Reposição de estoque
-- **[[../../fluxos/fluxo-vendas-completo]]** - Venda com produtos
+- **[Fluxo Cadastro Produto](../../fluxos/fluxo-cadastro-produto.md)** - Processo completo
+- **[Fluxo Compras](../../fluxos/fluxo-compras.md)** - Reposição de estoque
+- **[Fluxo Vendas Completo](../../fluxos/fluxo-vendas-completo.md)** - Venda com produtos
 
 ### 💡 **Casos de Uso**
-- **[[../../casos-uso/servicos/cadastro-equipamento]]** - Produto com manutenção
-- **[[../../casos-uso/comercio-geral/produto-variacao]]** - Variações
-- **[[../../casos-uso/servicos/cadastro-servico]]** - Serviços
+- **[Cadastro Equipamento](../../casos-uso/servicos/cadastro-equipamento.md)** - Produto com manutenção
+- **[Produto Variacao](../../casos-uso/comercio-geral/produto-variacao.md)** - Variações
+- **[Cadastro Servico](../../casos-uso/servicos/cadastro-servico.md)** - Serviços
 
 ---
 

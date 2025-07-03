@@ -94,7 +94,7 @@ Você deve ter recebido da equipe técnica:
 
 #### **Acesso**
 1. **Menu** → **Configurações** → **Empresa**
-2. **Ou** acesse **[[../modulos/configuracoes/dados-da-empresa]]**
+2. **Ou** acesse **[Dados da Empresa](../modulos/configuracoes/dados-da-empresa.md)**
 
 #### **Informações Obrigatórias**
 - **Razão Social**: Nome oficial da empresa
@@ -137,7 +137,7 @@ Você deve ter recebido da equipe técnica:
 #### **Acesso**
 1. **Menu** → **Cadastros** → **Produtos/Serviços**
 2. **Clique** em "Novo Produto"
-3. **Ou** acesse **[[../modulos/cadastros/cadastro-de-produtos]]**
+3. **Ou** acesse **[Cadastro de Produtos](../modulos/cadastros/cadastro-de-produtos.md)**
 
 #### **Informações Básicas**
 1. **Código**: Código interno (ex: 001)
@@ -194,7 +194,7 @@ Você deve ter recebido da equipe técnica:
 #### **Acesso**
 1. **Menu** → **Cadastros** → **Clientes**
 2. **Clique** em "Novo Cliente"
-3. **Ou** acesse **[[../modulos/cadastros/cadastro-de-clientes]]**
+3. **Ou** acesse **[Cadastro de Clientes](../modulos/cadastros/cadastro-de-clientes.md)**
 
 #### **Pessoa Física**
 1. **Nome Completo**: Nome do cliente
@@ -358,10 +358,10 @@ O certificado digital é obrigatório para emitir notas fiscais eletrônicas (NF
 ## 🎯 Próximos Passos
 
 ### 📚 **Para Continuar Aprendendo**
-1. **[[../modulos/vendas/orcamentos]]** - Criar orçamentos
-2. **[[../modulos/financeiro/contas-a-receber]]** - Gestão financeira
-3. **[[../modulos/estoque/compras]]** - Reposição de estoque
-4. **[[../modulos/integracoes/index]]** - Conectar e-commerce
+1. **[Orçamentos](../modulos/vendas/orcamentos.md)** - Criar orçamentos
+2. **[Contas a Receber](../modulos/financeiro/contas-a-receber.md)** - Gestão financeira
+3. **[Compras](../modulos/estoque/compras.md)** - Reposição de estoque
+4. **[Integrações](../modulos/integracoes/index.md)** - Conectar e-commerce
 
 ### 🎓 **Treinamento Avançado**
 - **Curso Online**: Plataforma de treinamento

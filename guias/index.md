@@ -14,7 +14,7 @@ Esta seção contém **guias práticos** e **tutoriais passo a passo** para ajud
 
 ## 🚀 Para Iniciantes
 
-### **[[primeiros-passos]]** - Primeiros Passos no Sistema
+### **[Primeiros Passos](primeiros-passos.md)** - Primeiros Passos no Sistema
 **Essencial para novos usuários** - Roteiro completo de 7 dias
 
 **O que você aprenderá:**
@@ -29,7 +29,7 @@ Esta seção contém **guias práticos** e **tutoriais passo a passo** para ajud
 
 ---
 
-### **[[configuracao-inicial]]** - Configuração Inicial Completa
+### **[Configuracao Inicial](configuracao-inicial.md)** - Configuração Inicial Completa
 **Preparação do sistema** - Configure tudo antes de começar
 
 **O que você aprenderá:**
@@ -46,7 +46,7 @@ Esta seção contém **guias práticos** e **tutoriais passo a passo** para ajud
 
 ## 🎯 Para Usuários Intermediários
 
-### **[[otimizacao-vendas]]** - Otimização de Vendas
+### **[Otimizacao Vendas](otimizacao-vendas.md)** - Otimização de Vendas
 **Maximize suas vendas** - Técnicas avançadas de vendas
 
 **O que você aprenderá:**
@@ -61,7 +61,7 @@ Esta seção contém **guias práticos** e **tutoriais passo a passo** para ajud
 
 ---
 
-### **[[gestao-estoque-avancada]]** - Gestão Avançada de Estoque
+### **[Gestao Estoque Avancada](gestao-estoque-avancada.md)** - Gestão Avançada de Estoque
 **Controle total do estoque** - Técnicas profissionais
 
 **O que você aprenderá:**
@@ -78,7 +78,7 @@ Esta seção contém **guias práticos** e **tutoriais passo a passo** para ajud
 
 ## 🏆 Para Usuários Avançados
 
-### **[[integracao-ecommerce]]** - Integração com E-commerce
+### **[Integracao Ecommerce](integracao-ecommerce.md)** - Integração com E-commerce
 **Omnichannel completo** - Una loja física e online
 
 **O que você aprenderá:**
@@ -93,7 +93,7 @@ Esta seção contém **guias práticos** e **tutoriais passo a passo** para ajud
 
 ---
 
-### **[[automacao-processos]]** - Automação de Processos
+### **[Automacao Processos](automacao-processos.md)** - Automação de Processos
 **Máxima eficiência** - Automatize tarefas repetitivas
 
 **O que você aprenderá:**
@@ -110,7 +110,7 @@ Esta seção contém **guias práticos** e **tutoriais passo a passo** para ajud
 
 ## 🎨 Guias Especializados
 
-### **[[configuracao-fiscal-avancada]]** - Configuração Fiscal Avançada
+### **[Configuracao Fiscal Avancada](configuracao-fiscal-avancada.md)** - Configuração Fiscal Avançada
 **Compliance total** - Atenda todas as exigências fiscais
 
 **O que você aprenderá:**
@@ -125,7 +125,7 @@ Esta seção contém **guias práticos** e **tutoriais passo a passo** para ajud
 
 ---
 
-### **[[relatorios-personalizados]]** - Relatórios Personalizados
+### **[Relatorios Personalizados](relatorios-personalizados.md)** - Relatórios Personalizados
 **Análises sob medida** - Crie relatórios específicos
 
 **O que você aprenderá:**
@@ -142,7 +142,7 @@ Esta seção contém **guias práticos** e **tutoriais passo a passo** para ajud
 
 ## 🏪 Guias por Segmento
 
-### **[[servicos-completo]]** - Guia Completo para Prestação de Serviços
+### **[Servicos Completo](servicos-completo.md)** - Guia Completo para Prestação de Serviços
 **Especializado para prestadores de serviços** - Funcionalidades específicas
 
 **O que você aprenderá:**
@@ -157,7 +157,7 @@ Esta seção contém **guias práticos** e **tutoriais passo a passo** para ajud
 
 ---
 
-### **[[prestacao-servicos]]** - Guia para Prestação de Serviços
+### **[Prestacao Servicos](prestacao-servicos.md)** - Guia para Prestação de Serviços
 **Otimizado para serviços** - Gestão completa de OS
 
 **O que você aprenderá:**
@@ -175,21 +175,21 @@ Esta seção contém **guias práticos** e **tutoriais passo a passo** para ajud
 ## 🎓 Trilhas de Aprendizado
 
 ### 🥉 **Trilha Básica** (2-3 semanas)
-1. **[[primeiros-passos]]** - Semana 1
-2. **[[configuracao-inicial]]** - Semana 2
+1. **[Primeiros Passos](primeiros-passos.md)** - Semana 1
+2. **[Configuracao Inicial](configuracao-inicial.md)** - Semana 2
 3. **Prática supervisionada** - Semana 3
 
 ### 🥈 **Trilha Intermediária** (3-4 semanas)
 1. **Trilha Básica** (pré-requisito)
-2. **[[otimizacao-vendas]]** - Semana 4
-3. **[[gestao-estoque-avancada]]** - Semana 5
+2. **[Otimizacao Vendas](otimizacao-vendas.md)** - Semana 4
+3. **[Gestao Estoque Avancada](gestao-estoque-avancada.md)** - Semana 5
 4. **Projeto prático** - Semana 6
 
 ### 🥇 **Trilha Avançada** (4-6 semanas)
 1. **Trilha Intermediária** (pré-requisito)
-2. **[[integracao-ecommerce]]** - Semanas 7-8
-3. **[[automacao-processos]]** - Semana 9
-4. **[[relatorios-personalizados]]** - Semana 10
+2. **[Integracao Ecommerce](integracao-ecommerce.md)** - Semanas 7-8
+3. **[Automacao Processos](automacao-processos.md)** - Semana 9
+4. **[Relatorios Personalizados](relatorios-personalizados.md)** - Semana 10
 
 ---
 

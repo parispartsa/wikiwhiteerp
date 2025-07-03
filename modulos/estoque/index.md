@@ -24,7 +24,7 @@ O **Módulo de Estoque** é o **coração operacional** do seu negócio. Aqui vo
 
 ## 📊 Posição de Estoque
 
-### 📋 **[[posicao-atual]]** - Posição Atual do Estoque
+### 📋 **[Posicao Atual](posicao-atual.md)** - Posição Atual do Estoque
 **Visão completa** do que você tem disponível
 
 **Principais informações:**
@@ -45,7 +45,7 @@ O **Módulo de Estoque** é o **coração operacional** do seu negócio. Aqui vo
 
 ---
 
-### 🔍 **[[consulta-rapida]]** - Consulta Rápida
+### 🔍 **[Consulta Rapida](consulta-rapida.md)** - Consulta Rápida
 **Busca instantânea** de produtos
 
 **Principais funcionalidades:**
@@ -60,7 +60,7 @@ O **Módulo de Estoque** é o **coração operacional** do seu negócio. Aqui vo
 
 ---
 
-### 📈 **[[giro-estoque]]** - Análise de Giro
+### 📈 **[Giro Estoque](giro-estoque.md)** - Análise de Giro
 **Velocidade** de movimentação dos produtos
 
 **Principais análises:**
@@ -77,7 +77,7 @@ O **Módulo de Estoque** é o **coração operacional** do seu negócio. Aqui vo
 
 ## 📥 Movimentação de Entrada
 
-### 🚛 **[[entrada-mercadorias]]** - Entrada de Mercadorias
+### 🚛 **[Entrada Mercadorias](entrada-mercadorias.md)** - Entrada de Mercadorias
 **Recebimento** de produtos dos fornecedores
 
 **Passo a passo:**
@@ -100,7 +100,7 @@ O **Módulo de Estoque** é o **coração operacional** do seu negócio. Aqui vo
 
 ---
 
-### 📋 **[[conferencia-recebimento]]** - Conferência de Recebimento
+### 📋 **[Conferencia Recebimento](conferencia-recebimento.md)** - Conferência de Recebimento
 **Validação** da mercadoria recebida
 
 **Processo de conferência:**
@@ -124,7 +124,7 @@ O **Módulo de Estoque** é o **coração operacional** do seu negócio. Aqui vo
 
 ---
 
-### 🔄 **[[transferencia-depositos]]** - Transferência entre Depósitos
+### 🔄 **[Transferencia Depositos](transferencia-depositos.md)** - Transferência entre Depósitos
 **Movimentação** entre localizações
 
 **Passo a passo:**
@@ -148,7 +148,7 @@ O **Módulo de Estoque** é o **coração operacional** do seu negócio. Aqui vo
 
 ## 📤 Movimentação de Saída
 
-### 🛍️ **[[saida-vendas]]** - Saída por Vendas
+### 🛍️ **[Saida Vendas](saida-vendas.md)** - Saída por Vendas
 **Baixa automática** nas vendas
 
 **Processo automático:**
@@ -169,7 +169,7 @@ O **Módulo de Estoque** é o **coração operacional** do seu negócio. Aqui vo
 
 ---
 
-### 📦 **[[saida-manual]]** - Saída Manual
+### 📦 **[Saida Manual](saida-manual.md)** - Saída Manual
 **Registro** de saídas não comerciais
 
 **Tipos de saída:**
@@ -193,7 +193,7 @@ O **Módulo de Estoque** é o **coração operacional** do seu negócio. Aqui vo
 
 ---
 
-### 🔄 **[[devolucoes]]** - Gestão de Devoluções
+### 🔄 **[Devolucoes](devolucoes.md)** - Gestão de Devoluções
 **Controle** de produtos retornados
 
 **Processo de devolução:**
@@ -218,7 +218,7 @@ O **Módulo de Estoque** é o **coração operacional** do seu negócio. Aqui vo
 
 ## 📊 Controle de Inventário
 
-### 📋 **[[inventario-fisico]]** - Inventário Físico
+### 📋 **[Inventario Fisico](inventario-fisico.md)** - Inventário Físico
 **Contagem** real vs. sistema
 
 **Processo de inventário:**
@@ -240,7 +240,7 @@ O **Módulo de Estoque** é o **coração operacional** do seu negócio. Aqui vo
 
 ---
 
-### 📈 **[[acuracidade-estoque]]** - Acuracidade do Estoque
+### 📈 **[Acuracidade Estoque](acuracidade-estoque.md)** - Acuracidade do Estoque
 **Precisão** entre físico e sistema
 
 **Indicadores de acuracidade:**
@@ -259,7 +259,7 @@ O **Módulo de Estoque** é o **coração operacional** do seu negócio. Aqui vo
 
 ---
 
-### 🔧 **[[ajustes-estoque]]** - Ajustes de Estoque
+### 🔧 **[Ajustes Estoque](ajustes-estoque.md)** - Ajustes de Estoque
 **Correções** de divergências
 
 **Tipos de ajuste:**
@@ -283,7 +283,7 @@ O **Módulo de Estoque** é o **coração operacional** do seu negócio. Aqui vo
 
 ## 🏢 Múltiplos Depósitos
 
-### 🏪 **[[gestao-depositos]]** - Gestão de Depósitos
+### 🏪 **[Gestao Depositos](gestao-depositos.md)** - Gestão de Depósitos
 **Organização** de múltiplas localizações
 
 **Tipos de depósito:**
@@ -304,7 +304,7 @@ O **Módulo de Estoque** é o **coração operacional** do seu negócio. Aqui vo
 
 ---
 
-### 🎯 **[[enderecamento]]** - Sistema de Endereçamento
+### 🎯 **[Enderecamento](enderecamento.md)** - Sistema de Endereçamento
 **Localização precisa** dos produtos
 
 **Estrutura de endereços:**
@@ -324,7 +324,7 @@ Exemplo: DEP01 > A > 03 > P2 > 15
 
 ---
 
-### 📊 **[[relatorios-deposito]]** - Relatórios por Depósito
+### 📊 **[Relatorios Deposito](relatorios-deposito.md)** - Relatórios por Depósito
 **Análises** específicas por localização
 
 **Relatórios disponíveis:**
@@ -341,7 +341,7 @@ Exemplo: DEP01 > A > 03 > P2 > 15
 
 ## ⚠️ Controles Especiais
 
-### 📅 **[[controle-validade]]** - Controle de Validade
+### 📅 **[Controle Validade](controle-validade.md)** - Controle de Validade
 **Gestão** de produtos perecíveis
 
 **Funcionalidades:**
@@ -362,7 +362,7 @@ Exemplo: DEP01 > A > 03 > P2 > 15
 
 ---
 
-### 🔢 **[[numero-serie]]** - Controle por Número de Série
+### 🔢 **[Numero Serie](numero-serie.md)** - Controle por Número de Série
 **Rastreamento** individual de produtos
 
 **Produtos típicos:**
@@ -382,7 +382,7 @@ Exemplo: DEP01 > A > 03 > P2 > 15
 
 ---
 
-### 📦 **[[kits-composicoes]]** - Kits e Composições
+### 📦 **[Kits Composicoes](kits-composicoes.md)** - Kits e Composições
 **Produtos** formados por outros produtos
 
 **Tipos de kit:**
@@ -404,7 +404,7 @@ Exemplo: DEP01 > A > 03 > P2 > 15
 
 ## 📊 Relatórios de Estoque
 
-### 📋 **[[relatorio-posicao]]** - Relatório de Posição
+### 📋 **[Relatorio Posicao](relatorio-posicao.md)** - Relatório de Posição
 **Situação atual** completa
 
 **Informações incluídas:**
@@ -426,7 +426,7 @@ Exemplo: DEP01 > A > 03 > P2 > 15
 
 ---
 
-### 🔄 **[[relatorio-movimentacao]]** - Relatório de Movimentação
+### 🔄 **[Relatorio Movimentacao](relatorio-movimentacao.md)** - Relatório de Movimentação
 **Histórico** de entradas e saídas
 
 **Tipos de movimento:**
@@ -446,7 +446,7 @@ Exemplo: DEP01 > A > 03 > P2 > 15
 
 ---
 
-### ⚠️ **[[relatorio-criticos]]** - Produtos Críticos
+### ⚠️ **[Relatorio Criticos](relatorio-criticos.md)** - Produtos Críticos
 **Situações** que requerem atenção
 
 **Tipos de criticidade:**
@@ -467,7 +467,7 @@ Exemplo: DEP01 > A > 03 > P2 > 15
 
 ---
 
-### 📈 **[[curva-abc]]** - Análise Curva ABC
+### 📈 **[Curva Abc](curva-abc.md)** - Análise Curva ABC
 **Classificação** por importância
 
 **Critérios de classificação:**
@@ -493,7 +493,7 @@ Exemplo: DEP01 > A > 03 > P2 > 15
 
 ## 🤖 Automações de Estoque
 
-### 🔄 **[[reposicao-automatica]]** - Reposição Automática
+### 🔄 **[Reposicao Automatica](reposicao-automatica.md)** - Reposição Automática
 **Compras** sugeridas pelo sistema
 
 **Como funciona:**
@@ -516,7 +516,7 @@ Exemplo: DEP01 > A > 03 > P2 > 15
 
 ---
 
-### 🚨 **[[alertas-estoque]]** - Alertas Automáticos
+### 🚨 **[Alertas Estoque](alertas-estoque.md)** - Alertas Automáticos
 **Notificações** em tempo real
 
 **Tipos de alerta:**
@@ -538,7 +538,7 @@ Exemplo: DEP01 > A > 03 > P2 > 15
 
 ---
 
-### 📊 **[[integracao-vendas]]** - Integração com Vendas
+### 📊 **[Integracao Vendas](integracao-vendas.md)** - Integração com Vendas
 **Sincronização** automática
 
 **Processo integrado:**
@@ -562,7 +562,7 @@ Exemplo: DEP01 > A > 03 > P2 > 15
 
 ## 🎯 Estratégias de Estoque
 
-### 📊 **[[dimensionamento]]** - Dimensionamento de Estoque
+### 📊 **[Dimensionamento](dimensionamento.md)** - Dimensionamento de Estoque
 **Calcular** quantidade ideal
 
 **Métodos de cálculo:**
@@ -583,7 +583,7 @@ Exemplo: DEP01 > A > 03 > P2 > 15
 
 ---
 
-### 🔄 **[[politicas-estoque]]** - Políticas de Estoque
+### 🔄 **[Politicas Estoque](politicas-estoque.md)** - Políticas de Estoque
 **Regras** de gestão por categoria
 
 **Políticas por tipo:**
@@ -604,7 +604,7 @@ Exemplo: DEP01 > A > 03 > P2 > 15
 
 ---
 
-### 📈 **[[otimizacao]]** - Otimização de Estoque
+### 📈 **[Otimizacao](otimizacao.md)** - Otimização de Estoque
 **Melhorar** performance continuamente
 
 **Indicadores de performance:**
@@ -627,7 +627,7 @@ Exemplo: DEP01 > A > 03 > P2 > 15
 
 ## 🔗 Integrações de Estoque
 
-### 🌐 **[[integracao-ecommerce]]** - Integração E-commerce
+### 🌐 **[Integracao Ecommerce](integracao-ecommerce.md)** - Integração E-commerce
 **Sincronização** com loja online
 
 **Sincronização automática:**
@@ -648,7 +648,7 @@ Exemplo: DEP01 > A > 03 > P2 > 15
 
 ---
 
-### 📱 **[[integracao-marketplace]]** - Integração Marketplaces
+### 📱 **[Integracao Marketplace](integracao-marketplace.md)** - Integração Marketplaces
 **Gestão** em múltiplos canais
 
 **Marketplaces suportados:**
@@ -669,7 +669,7 @@ Exemplo: DEP01 > A > 03 > P2 > 15
 
 ---
 
-### 🏭 **[[integracao-fornecedor]]** - Integração com Fornecedores
+### 🏭 **[Integracao Fornecedor](integracao-fornecedor.md)** - Integração com Fornecedores
 **EDI** e automação de pedidos
 
 **Tipos de integração:**
@@ -761,21 +761,21 @@ Exemplo: DEP01 > A > 03 > P2 > 15
 ## 📚 Documentação Relacionada
 
 ### 🔗 **Módulos Relacionados**
-- **[[../vendas/index]]** - Baixa automática nas vendas
-- **[[../compras/index]]** - Entrada de mercadorias
-- **[[../financeiro/index]]** - Valor do estoque
-- **[[../relatorios/index]]** - Análises de estoque
+- **[](../vendas/index.md)** - Baixa automática nas vendas
+- **[](../compras/index.md)** - Entrada de mercadorias
+- **[](../financeiro/index.md)** - Valor do estoque
+- **[](../relatorios/index.md)** - Análises de estoque
 
 ### 📋 **Fluxos Relacionados**
-- **[[../../fluxos/fluxo-compras]]** - Da compra à entrada
-- **[[../../fluxos/fluxo-vendas-completo]]** - Da venda à baixa
-- **[[../../fluxos/fluxo-inventario]]** - Processo de contagem
-- **[[../../fluxos/fluxo-transferencia]]** - Entre depósitos
+- **[Fluxo Compras](../../fluxos/fluxo-compras.md)** - Da compra à entrada
+- **[Fluxo Vendas Completo](../../fluxos/fluxo-vendas-completo.md)** - Da venda à baixa
+- **[Fluxo Inventario](../../fluxos/fluxo-inventario.md)** - Processo de contagem
+- **[Fluxo Transferencia](../../fluxos/fluxo-transferencia.md)** - Entre depósitos
 
 ### 💡 **Casos de Uso**
-- **[[../../casos-uso/comercio-geral/controle-estoque]]** - Gestão diária
-- **[[../../casos-uso/servicos/estoque-especializado]]** - Materiais específicos
-- **[[../../casos-uso/servicos/materiais-consumo]]** - Insumos de serviços
+- **[Controle Estoque](../../casos-uso/comercio-geral/controle-estoque.md)** - Gestão diária
+- **[Estoque Especializado](../../casos-uso/servicos/estoque-especializado.md)** - Materiais específicos
+- **[Materiais Consumo](../../casos-uso/servicos/materiais-consumo.md)** - Insumos de serviços
 
 ---
 

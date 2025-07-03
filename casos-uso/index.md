@@ -24,7 +24,7 @@ Os **Casos de Uso** apresentam cenários reais de utilização do GerenciaTec em
 
 ## 🏪 Comércio Varejista
 
-### **[[comercio-geral/index]]** - Visão Geral do Segmento
+### **[](comercio-geral/index.md)** - Visão Geral do Segmento
 
 **Características do Segmento**:
 - Alto volume de transações
@@ -44,7 +44,7 @@ Os **Casos de Uso** apresentam cenários reais de utilização do GerenciaTec em
 
 ### 🛒 **Casos de Uso Específicos**
 
-#### **[[comercio-geral/venda-balcao-multiplos-pagamentos]]**
+#### **[Venda de Balcão com Múltiplos Pagamentos](comercio-geral/venda-balcao.md)**
 **Cenário**: Cliente compra produtos no balcão com múltiplas formas de pagamento
 
 **Situação**: Cliente compra R$ 500 em produtos, pagando R$ 200 no cartão de débito, R$ 200 no cartão de crédito em 2x e R$ 100 em dinheiro.
@@ -53,7 +53,7 @@ Os **Casos de Uso** apresentam cenários reais de utilização do GerenciaTec em
 
 ---
 
-#### **[[comercio-geral/venda-online-com-entrega]]**
+#### **[Venda Online Com Entrega](comercio-geral/venda-online-com-entrega.md)**
 **Cenário**: Cliente compra pela loja online e solicita entrega
 
 **Situação**: Cliente acessa catálogo digital, seleciona produtos, escolhe entrega, paga online e acompanha status do pedido.
@@ -62,7 +62,7 @@ Os **Casos de Uso** apresentam cenários reais de utilização do GerenciaTec em
 
 ---
 
-#### **[[comercio-geral/venda-b2b-condicoes-especiais]]**
+#### **[Venda B2b Condicoes Especiais](comercio-geral/venda-b2b-condicoes-especiais.md)**
 **Cenário**: Venda para cliente corporativo com condições diferenciadas
 
 **Situação**: Cliente corporativo compra em grande volume com desconto especial, prazo de pagamento estendido e entrega programada.
@@ -71,7 +71,7 @@ Os **Casos de Uso** apresentam cenários reais de utilização do GerenciaTec em
 
 ---
 
-#### **[[comercio-geral/controle-produtos-validade]]**
+#### **[Controle Produtos Validade](comercio-geral/controle-produtos-validade.md)**
 **Cenário**: Gestão de produtos com prazo de validade
 
 **Situação**: Supermercado controla produtos perecíveis, monitora vencimentos e executa promoções para evitar perdas.
@@ -80,7 +80,7 @@ Os **Casos de Uso** apresentam cenários reais de utilização do GerenciaTec em
 
 ---
 
-#### **[[comercio-geral/gestao-multiplos-depositos]]**
+#### **[Gestao Multiplos Depositos](comercio-geral/gestao-multiplos-depositos.md)**
 **Cenário**: Controle de estoque em múltiplos depósitos
 
 **Situação**: Empresa com matriz e filiais precisa controlar estoque centralizado e fazer transferências entre unidades.
@@ -91,7 +91,7 @@ Os **Casos de Uso** apresentam cenários reais de utilização do GerenciaTec em
 
 ## 🔧 Prestação de Serviços Especializados
 
-### **[[servicos/index]]** - Visão Geral do Segmento
+### **[](servicos/index.md)** - Visão Geral do Segmento
 
 **Características do Segmento**:
 - Serviços técnicos especializados
@@ -111,7 +111,7 @@ Os **Casos de Uso** apresentam cenários reais de utilização do GerenciaTec em
 
 ### 🔧 **Casos de Uso Específicos**
 
-#### **[[servicos/manutencao-preventiva-agendamento]]**
+#### **[Manutencao Preventiva Agendamento](servicos/manutencao-preventiva-agendamento.md)**
 **Cenário**: Cliente agenda manutenção preventiva de equipamentos
 
 **Situação**: Cliente liga para agendar manutenção preventiva, escolhe horário, confirma serviços adicionais e recebe lembretes automáticos.
@@ -120,7 +120,7 @@ Os **Casos de Uso** apresentam cenários reais de utilização do GerenciaTec em
 
 ---
 
-#### **[[servicos/consultoria-tecnica-especializada]]**
+#### **[Consultoria Tecnica Especializada](servicos/consultoria-tecnica-especializada.md)**
 **Cenário**: Consultoria técnica com recomendação personalizada
 
 **Situação**: Cliente busca solução técnica adequada considerando especificações, ambiente e necessidades operacionais.
@@ -129,7 +129,7 @@ Os **Casos de Uso** apresentam cenários reais de utilização do GerenciaTec em
 
 ---
 
-#### **[[servicos/suporte-tecnico-emergencial]]**
+#### **[Suporte Tecnico Emergencial](servicos/suporte-tecnico-emergencial.md)**
 **Cenário**: Suporte técnico emergencial com relatório
 
 **Situação**: Técnico atende emergência, registra diagnóstico, executa reparo e agenda acompanhamento.
@@ -138,7 +138,7 @@ Os **Casos de Uso** apresentam cenários reais de utilização do GerenciaTec em
 
 ---
 
-#### **[[servicos/contrato-manutencao-recorrente]]**
+#### **[Contrato Manutencao Recorrente](servicos/contrato-manutencao-recorrente.md)**
 **Cenário**: Contrato de manutenção recorrente
 
 **Situação**: Cliente contrata manutenção mensal de equipamentos com visitas programadas e relatórios de acompanhamento.
@@ -147,7 +147,7 @@ Os **Casos de Uso** apresentam cenários reais de utilização do GerenciaTec em
 
 ---
 
-#### **[[servicos/programa-fidelidade-tecnica]]**
+#### **[Programa Fidelidade Tecnica](servicos/programa-fidelidade-tecnica.md)**
 **Cenário**: Programa de fidelidade com benefícios técnicos
 
 **Situação**: Cliente frequente acumula pontos em serviços, troca por descontos e recebe benefícios exclusivos como consultoria gratuita.
@@ -158,7 +158,7 @@ Os **Casos de Uso** apresentam cenários reais de utilização do GerenciaTec em
 
 ## 🔧 Prestação de Serviços
 
-### **[[servicos/index]]** - Visão Geral do Segmento
+### **[](servicos/index.md)** - Visão Geral do Segmento
 
 **Características do Segmento**:
 - Contratos recorrentes
@@ -178,7 +178,7 @@ Os **Casos de Uso** apresentam cenários reais de utilização do GerenciaTec em
 
 ### 🛠️ **Casos de Uso Específicos**
 
-#### **[[servicos/contrato-mensal-recorrente]]**
+#### **[Contrato Mensal Recorrente](servicos/contrato-mensal-recorrente.md)**
 **Cenário**: Contrato de manutenção mensal com faturamento automático
 
 **Situação**: Empresa de TI mantém contrato mensal de R$ 5.000 para suporte técnico, com faturamento automático e controle de horas.
@@ -187,7 +187,7 @@ Os **Casos de Uso** apresentam cenários reais de utilização do GerenciaTec em
 
 ---
 
-#### **[[servicos/projeto-multiplas-etapas]]**
+#### **[Projeto Multiplas Etapas](servicos/projeto-multiplas-etapas.md)**
 **Cenário**: Projeto de implementação com múltiplas etapas e marcos
 
 **Situação**: Consultoria executa projeto de 6 meses com 4 etapas, cada uma com entregáveis específicos e faturamento por marco.
@@ -196,7 +196,7 @@ Os **Casos de Uso** apresentam cenários reais de utilização do GerenciaTec em
 
 ---
 
-#### **[[servicos/servico-emergencia]]**
+#### **[Servico Emergencia](servicos/servico-emergencia.md)**
 **Cenário**: Atendimento de emergência com cobrança diferenciada
 
 **Situação**: Cliente solicita atendimento urgente fora do horário comercial, com cobrança de taxa de emergência.
@@ -205,7 +205,7 @@ Os **Casos de Uso** apresentam cenários reais de utilização do GerenciaTec em
 
 ---
 
-#### **[[servicos/manutencao-preventiva]]**
+#### **[Manutencao Preventiva](servicos/manutencao-preventiva.md)**
 **Cenário**: Programa de manutenção preventiva com agendamento automático
 
 **Situação**: Empresa de elevadores executa manutenções preventivas mensais em 50 equipamentos com agendamento automático.
@@ -214,7 +214,7 @@ Os **Casos de Uso** apresentam cenários reais de utilização do GerenciaTec em
 
 ---
 
-#### **[[servicos/consultoria-especializada]]**
+#### **[Consultoria Especializada](servicos/consultoria-especializada.md)**
 **Cenário**: Consultoria por horas com expertise específica
 
 **Situação**: Consultor especialista atende cliente por projeto específico, cobrando por hora trabalhada com relatórios detalhados.
@@ -225,7 +225,7 @@ Os **Casos de Uso** apresentam cenários reais de utilização do GerenciaTec em
 
 ## 🏭 Indústria e Distribuição
 
-### **[[industria/index]]** - Visão Geral do Segmento
+### **[](industria/index.md)** - Visão Geral do Segmento
 
 **Características do Segmento**:
 - Processos produtivos complexos
@@ -245,7 +245,7 @@ Os **Casos de Uso** apresentam cenários reais de utilização do GerenciaTec em
 
 ### 🏭 **Casos de Uso Específicos**
 
-#### **[[industria/controle-producao-lotes]]**
+#### **[Controle Producao Lotes](industria/controle-producao-lotes.md)**
 **Cenário**: Controle de produção com rastreabilidade de lotes
 
 **Situação**: Indústria alimentícia produz lotes de produtos com controle rigoroso de matéria-prima e rastreabilidade completa.
@@ -254,7 +254,7 @@ Os **Casos de Uso** apresentam cenários reais de utilização do GerenciaTec em
 
 ---
 
-#### **[[industria/distribuicao-multiplos-canais]]**
+#### **[Distribuicao Multiplos Canais](industria/distribuicao-multiplos-canais.md)**
 **Cenário**: Distribuição para múltiplos canais de venda
 
 **Situação**: Distribuidor atende varejo, atacado e e-commerce com preços e condições diferenciadas para cada canal.
@@ -434,18 +434,18 @@ Os **Casos de Uso** apresentam cenários reais de utilização do GerenciaTec em
 ## 🆘 Veja Também
 
 ### **Fluxos de Trabalho**
-- **[[../fluxos/index]]** - Fluxos integrados
-- **[[../fluxos/fluxo-vendas-completo]]** - Processo de vendas
-- **[[../fluxos/fluxo-financeiro]]** - Gestão financeira
+- **[](../fluxos/index.md)** - Fluxos integrados
+- **[Fluxo de Vendas Completo](../fluxos/fluxo-vendas-completo.md)** - Processo de vendas
+- **[Fluxo Financeiro](../fluxos/fluxo-financeiro.md)** - Gestão financeira
 
 ### **Módulos do Sistema**
-- **[[../modulos/index]]** - Visão geral dos módulos
-- **[[../modulos/vendas/index]]** - Módulo de vendas
-- **[[../modulos/financeiro/index]]** - Módulo financeiro
+- **[](../modulos/index.md)** - Visão geral dos módulos
+- **[Gestão de Vendas](../modulos/vendas/index.md)** - Módulo de vendas
+- **[Gestão Financeira](../modulos/financeiro/index.md)** - Módulo financeiro
 
 ### **Configurações**
-- **[[../configuracoes/index]]** - Configurações gerais
-- **[[../configuracoes/usuarios-e-permissoes]]** - Usuários e permissões
+- **[](../configuracoes/index.md)** - Configurações gerais
+- **[Usuarios E Permissoes](../configuracoes/usuarios-e-permissoes.md)** - Usuários e permissões
 
 ---
 

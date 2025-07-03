@@ -264,23 +264,23 @@ O **Cadastro de Clientes** é onde você mantém todas as informações dos seus
 
 Após cadastrar seus clientes:
 
-1. **[[cadastro-de-produtos]]** - Cadastre seus produtos
-2. **[[modulos/vendas/pdv]]** - Realize sua primeira venda
-3. **[[modulos/financeiro/contas-a-receber]]** - Acompanhe recebimentos
-4. **[[relatorios-clientes]]** - Analise seus dados
+1. **[Cadastro De Produtos](cadastro-de-produtos.md)** - Cadastre seus produtos
+2. **[PDV - Ponto de Venda](modulos/vendas/pdv.md)** - Realize sua primeira venda
+3. **[Contas a Receber](modulos/financeiro/contas-a-receber.md)** - Acompanhe recebimentos
+4. **[Relatorios Clientes](relatorios-clientes.md)** - Analise seus dados
 
 ## 📚 Documentação Relacionada
 
-- **[[cadastro-rapido-pdv]]** - Cadastro rápido no ponto de venda
-- **[[gestao-credito-debito]]** - Controle de limite de crédito
-- **[[cadastro-de-ordens-servico]]** - Para clientes de serviços
-- **[[fluxo-vendas-completo]]** - Fluxo completo de vendas
+- **[Cadastro Rapido Pdv](cadastro-rapido-pdv.md)** - Cadastro rápido no ponto de venda
+- **[Gestao Credito Debito](gestao-credito-debito.md)** - Controle de limite de crédito
+- **[Cadastro De Ordens Servico](cadastro-de-ordens-servico.md)** - Para clientes de serviços
+- **[Fluxo Vendas Completo](fluxo-vendas-completo.md)** - Fluxo completo de vendas
 
 ---
 
 **Tags relacionadas**: #cadastros #cliente #passo-a-passo #iniciante #importante
 
-**Veja também**: [[cadastro-de-fornecedores]] | [[cadastro-de-produtos]] | [[pdv]]
+**Veja também**: [Cadastro De Fornecedores](cadastro-de-fornecedores.md) | [Cadastro De Produtos](cadastro-de-produtos.md) | [Pdv](pdv.md)
 
 ---
 

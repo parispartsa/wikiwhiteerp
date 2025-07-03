@@ -357,19 +357,19 @@ Acuracidade Valor = (Valor Correto / Valor Total) × 100
 ## 📚 Documentação Relacionada
 
 ### **🔗 Processos Relacionados**
-- **[[entrada-mercadorias]]** - Recebimento de produtos
-- **[[ajustes-estoque]]** - Correções de divergências
-- **[[relatorio-movimentacao]]** - Histórico de movimentações
-- **[[acuracidade-estoque]]** - Indicadores de precisão
+- **[Entrada Mercadorias](entrada-mercadorias.md)** - Recebimento de produtos
+- **[Ajustes Estoque](ajustes-estoque.md)** - Correções de divergências
+- **[Relatorio Movimentacao](relatorio-movimentacao.md)** - Histórico de movimentações
+- **[Acuracidade Estoque](acuracidade-estoque.md)** - Indicadores de precisão
 
 ### **🔗 Módulos Integrados**
-- **[[../financeiro/index]]** - Valor do estoque
-- **[[../relatorios/index]]** - Relatórios gerenciais
-- **[[../configuracoes/usuarios-permissoes]]** - Controle de acesso
+- **[](../financeiro/index.md)** - Valor do estoque
+- **[](../relatorios/index.md)** - Relatórios gerenciais
+- **[Usuarios Permissoes](../configuracoes/usuarios-permissoes.md)** - Controle de acesso
 
 ### **🔗 Fluxos Relacionados**
-- **[[../../fluxos/fluxo-inventario]]** - Processo completo
-- **[[../../fluxos/fluxo-ajustes]]** - Correções de estoque
+- **[Fluxo Inventario](../../fluxos/fluxo-inventario.md)** - Processo completo
+- **[Fluxo Ajustes](../../fluxos/fluxo-ajustes.md)** - Correções de estoque
 
 ---
 

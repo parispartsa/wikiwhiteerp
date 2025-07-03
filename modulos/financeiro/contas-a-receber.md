@@ -211,16 +211,16 @@ A tela principal mostra:
 ## 🔗 Fluxos Relacionados
 
 ### 💰 **Fluxo de Recebimento**
-1. **[[../vendas/pdv]]** - Venda gera título automaticamente
-2. **[[contas-a-receber]]** - Controle de recebimentos
-3. **[[fluxo-de-caixa]]** - Impacto no fluxo de caixa
-4. **[[../relatorios/financeiro]]** - Relatórios de recebimento
+1. **[Pdv](../vendas/pdv.md)** - Venda gera título automaticamente
+2. **[Contas A Receber](contas-a-receber.md)** - Controle de recebimentos
+3. **[Fluxo De Caixa](fluxo-de-caixa.md)** - Impacto no fluxo de caixa
+4. **[Financeiro](../relatorios/financeiro.md)** - Relatórios de recebimento
 
 ### 🏦 **Fluxo de Cobrança**
-1. **[[contas-a-receber]]** - Identificar títulos vencidos
-2. **[[processo-cobranca]]** - Executar cobrança
-3. **[[negociacao-dividas]]** - Negociar com inadimplentes
-4. **[[baixa-por-perda]]** - Baixar perdas irrecuperáveis
+1. **[Contas A Receber](contas-a-receber.md)** - Identificar títulos vencidos
+2. **[Processo Cobranca](processo-cobranca.md)** - Executar cobrança
+3. **[Negociacao Dividas](negociacao-dividas.md)** - Negociar com inadimplentes
+4. **[Baixa Por Perda](baixa-por-perda.md)** - Baixar perdas irrecuperáveis
 
 ## 📊 Relatórios Relacionados
 
@@ -239,17 +239,17 @@ A tela principal mostra:
 
 ## 🆘 Veja Também
 
-- **[[contas-a-pagar]]** - Gestão de pagamentos
-- **[[fluxo-de-caixa]]** - Controle de fluxo de caixa
-- **[[../vendas/pdv]]** - Vendas que geram recebimentos
-- **[[../configuracoes/parametros-fiscais]]** - Configurações fiscais
-- **[[../relatorios/financeiro]]** - Relatórios financeiros
+- **[Contas A Pagar](contas-a-pagar.md)** - Gestão de pagamentos
+- **[Fluxo De Caixa](fluxo-de-caixa.md)** - Controle de fluxo de caixa
+- **[Pdv](../vendas/pdv.md)** - Vendas que geram recebimentos
+- **[Parametros Fiscais](../configuracoes/parametros-fiscais.md)** - Configurações fiscais
+- **[Financeiro](../relatorios/financeiro.md)** - Relatórios financeiros
 
 ---
 
 **Tags relacionadas**: #financeiro #receber #cobranca #boleto #passo-a-passo #importante
 
-**Próximos passos**: Configure **[[processo-cobranca]]** para automatizar a cobrança de títulos vencidos.
+**Próximos passos**: Configure **[Processo Cobranca](processo-cobranca.md)** para automatizar a cobrança de títulos vencidos.
 
 ---
 

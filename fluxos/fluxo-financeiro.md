@@ -397,17 +397,17 @@ Compra ← Contas a Pagar ← Pagamento ← Caixa
 
 ## 🆘 Veja Também
 
-- **[[../modulos/financeiro/contas-a-receber]]** - Contas a receber detalhado
-- **[[../modulos/financeiro/contas-a-pagar]]** - Contas a pagar detalhado
-- **[[../modulos/financeiro/fluxo-de-caixa]]** - Dashboard financeiro
-- **[[fluxo-vendas-completo]]** - Fluxo de vendas
-- **[[fluxo-compras]]** - Fluxo de compras
+- **[Contas a Receber](../modulos/financeiro/contas-a-receber.md)** - Contas a receber detalhado
+- **[Contas a Pagar](../modulos/financeiro/contas-a-pagar.md)** - Contas a pagar detalhado
+- **[Fluxo de Caixa](../modulos/financeiro/fluxo-de-caixa.md)** - Dashboard financeiro
+- **[Fluxo Vendas Completo](fluxo-vendas-completo.md)** - Fluxo de vendas
+- **[Fluxo Compras](fluxo-compras.md)** - Fluxo de compras
 
 ---
 
 **Tags relacionadas**: #fluxo #financeiro #contas-receber #contas-pagar #fluxo-caixa #automatico
 
-**Próximos passos**: Configure **[[../modulos/financeiro/integracao-bancaria]]** para automatizar conciliação.
+**Próximos passos**: Configure **[Integracao Bancaria](../modulos/financeiro/integracao-bancaria.md)** para automatizar conciliação.
 
 ---
 

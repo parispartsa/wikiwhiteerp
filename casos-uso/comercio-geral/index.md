@@ -22,7 +22,7 @@ Esta seção apresenta **casos de uso reais** do ERP GerenciaTec aplicados ao **
 
 ### 💰 **Vendas e Atendimento**
 
-#### 🛍️ **[[venda-balcao]]** - Venda no Balcão
+#### 🛍️ **[Venda Balcao](venda-balcao.md)** - Venda no Balcão
 **Cenário**: Cliente compra produtos na loja física
 - **Duração**: 11 minutos
 - **Personagens**: Maria (vendedora) e João (cliente)
@@ -30,7 +30,7 @@ Esta seção apresenta **casos de uso reais** do ERP GerenciaTec aplicados ao **
 - **Pagamento**: Cartão de crédito parcelado
 - **Resultado**: R$ 347,50 em vendas
 
-#### 🖥️ **[[venda-online-integrada]]** - Venda Online Integrada
+#### 🖥️ **[Venda Online Integrada](venda-online-integrada.md)** - Venda Online Integrada
 **Cenário**: Cliente compra pelo e-commerce com retirada na loja
 - **Duração**: 25 minutos (processo completo)
 - **Canal**: Site integrado ao ERP
@@ -38,7 +38,7 @@ Esta seção apresenta **casos de uso reais** do ERP GerenciaTec aplicados ao **
 - **Pagamento**: PIX instantâneo
 - **Logística**: Separação e retirada
 
-#### 📋 **[[orcamento-personalizado]]** - Orçamento Personalizado
+#### 📋 **[Orcamento Personalizado](orcamento-personalizado.md)** - Orçamento Personalizado
 **Cenário**: Cliente solicita orçamento para compra corporativa
 - **Duração**: 45 minutos
 - **Tipo**: B2B com condições especiais
@@ -50,7 +50,7 @@ Esta seção apresenta **casos de uso reais** do ERP GerenciaTec aplicados ao **
 
 ### 📦 **Gestão de Estoque**
 
-#### 📥 **[[recebimento-mercadoria]]** - Recebimento de Mercadoria
+#### 📥 **[Recebimento Mercadoria](recebimento-mercadoria.md)** - Recebimento de Mercadoria
 **Cenário**: Chegada de produtos do fornecedor
 - **Duração**: 30 minutos
 - **Processo**: Conferência e entrada no sistema
@@ -58,7 +58,7 @@ Esta seção apresenta **casos de uso reais** do ERP GerenciaTec aplicados ao **
 - **Validação**: Código de barras e qualidade
 - **Resultado**: Estoque atualizado automaticamente
 
-#### 🔄 **[[transferencia-depositos]]** - Transferência entre Depósitos
+#### 🔄 **[Transferencia Depositos](transferencia-depositos.md)** - Transferência entre Depósitos
 **Cenário**: Movimentação de produtos entre lojas
 - **Duração**: 20 minutos
 - **Origem**: Loja matriz
@@ -66,7 +66,7 @@ Esta seção apresenta **casos de uso reais** do ERP GerenciaTec aplicados ao **
 - **Produtos**: Produtos em falta na filial
 - **Controle**: Rastreamento completo
 
-#### ⚠️ **[[estoque-critico]]** - Gestão de Estoque Crítico
+#### ⚠️ **[Estoque Critico](estoque-critico.md)** - Gestão de Estoque Crítico
 **Cenário**: Produtos com estoque baixo
 - **Duração**: 15 minutos
 - **Alerta**: Sistema identifica produtos em falta
@@ -78,7 +78,7 @@ Esta seção apresenta **casos de uso reais** do ERP GerenciaTec aplicados ao **
 
 ### 💳 **Gestão Financeira**
 
-#### 💰 **[[controle-caixa]]** - Controle de Caixa Diário
+#### 💰 **[Controle Caixa](controle-caixa.md)** - Controle de Caixa Diário
 **Cenário**: Abertura, movimentação e fechamento de caixa
 - **Duração**: Todo o dia útil
 - **Operações**: Vendas, sangria, reforço
@@ -86,7 +86,7 @@ Esta seção apresenta **casos de uso reais** do ERP GerenciaTec aplicados ao **
 - **Conferência**: Fechamento com diferenças
 - **Resultado**: Caixa balanceado
 
-#### 📄 **[[cobranca-automatica]]** - Cobrança Automática
+#### 📄 **[Cobranca Automatica](cobranca-automatica.md)** - Cobrança Automática
 **Cenário**: Cliente com parcela em atraso
 - **Duração**: Processo automático
 - **Trigger**: Vencimento + 1 dia
@@ -94,7 +94,7 @@ Esta seção apresenta **casos de uso reais** do ERP GerenciaTec aplicados ao **
 - **Negociação**: Proposta de quitação
 - **Resultado**: Pagamento recebido
 
-#### 📊 **[[analise-financeira]]** - Análise Financeira Mensal
+#### 📊 **[Analise Financeira](analise-financeira.md)** - Análise Financeira Mensal
 **Cenário**: Fechamento e análise do mês
 - **Duração**: 2 horas
 - **Relatórios**: DRE, fluxo de caixa, inadimplência
@@ -106,7 +106,7 @@ Esta seção apresenta **casos de uso reais** do ERP GerenciaTec aplicados ao **
 
 ### 🔗 **Integrações e Automações**
 
-#### 🌐 **[[sincronizacao-ecommerce]]** - Sincronização E-commerce
+#### 🌐 **[Sincronizacao Ecommerce](sincronizacao-ecommerce.md)** - Sincronização E-commerce
 **Cenário**: Atualização automática de produtos online
 - **Duração**: Processo contínuo
 - **Plataforma**: WooCommerce integrado
@@ -114,7 +114,7 @@ Esta seção apresenta **casos de uso reais** do ERP GerenciaTec aplicados ao **
 - **Frequência**: Tempo real
 - **Resultado**: Loja online sempre atualizada
 
-#### 📱 **[[integracao-marketplace]]** - Integração com Marketplace
+#### 📱 **[Integracao Marketplace](integracao-marketplace.md)** - Integração com Marketplace
 **Cenário**: Venda através do Mercado Livre
 - **Duração**: Setup inicial + operação
 - **Produtos**: Catálogo sincronizado
@@ -122,7 +122,7 @@ Esta seção apresenta **casos de uso reais** do ERP GerenciaTec aplicados ao **
 - **Faturamento**: NFe automática
 - **Resultado**: Canal adicional de vendas
 
-#### 🏦 **[[conciliacao-bancaria]]** - Conciliação Bancária
+#### 🏦 **[Conciliacao Bancaria](conciliacao-bancaria.md)** - Conciliação Bancária
 **Cenário**: Conciliação automática de pagamentos
 - **Duração**: 10 minutos diários
 - **Fonte**: Arquivo OFX do banco
@@ -136,7 +136,7 @@ Esta seção apresenta **casos de uso reais** do ERP GerenciaTec aplicados ao **
 
 ### 👑 **Proprietário/Gerente**
 
-#### 📈 **[[dashboard-executivo]]** - Dashboard Executivo
+#### 📈 **[Dashboard Executivo](dashboard-executivo.md)** - Dashboard Executivo
 **Cenário**: Acompanhamento de KPIs diários
 - **Frequência**: Primeira coisa da manhã
 - **Indicadores**: Vendas, estoque, financeiro
@@ -144,7 +144,7 @@ Esta seção apresenta **casos de uso reais** do ERP GerenciaTec aplicados ao **
 - **Decisões**: Ações baseadas em dados
 - **Tempo**: 15 minutos
 
-#### 🎯 **[[definicao-metas]]** - Definição de Metas
+#### 🎯 **[Definicao Metas](definicao-metas.md)** - Definição de Metas
 **Cenário**: Planejamento mensal da equipe
 - **Processo**: Análise histórica + projeção
 - **Metas**: Vendas, margem, novos clientes
@@ -154,7 +154,7 @@ Esta seção apresenta **casos de uso reais** do ERP GerenciaTec aplicados ao **
 
 ### 💼 **Vendedor**
 
-#### 🎯 **[[meta-vendedor]]** - Acompanhamento de Meta
+#### 🎯 **[Meta Vendedor](meta-vendedor.md)** - Acompanhamento de Meta
 **Cenário**: Vendedor consulta sua performance
 - **Frequência**: Diária
 - **Dados**: Vendas do dia/mês, meta, ranking
@@ -162,7 +162,7 @@ Esta seção apresenta **casos de uso reais** do ERP GerenciaTec aplicados ao **
 - **Ações**: Foco em produtos/clientes específicos
 - **Resultado**: Metas atingidas
 
-#### 📞 **[[follow-up-cliente]]** - Follow-up de Cliente
+#### 📞 **[Follow Up Cliente](follow-up-cliente.md)** - Follow-up de Cliente
 **Cenário**: Acompanhamento pós-venda
 - **Trigger**: 7 dias após a compra
 - **Contato**: WhatsApp ou telefone
@@ -172,7 +172,7 @@ Esta seção apresenta **casos de uso reais** do ERP GerenciaTec aplicados ao **
 
 ### 📦 **Operacional/Estoque**
 
-#### 📋 **[[inventario-fisico]]** - Inventário Físico
+#### 📋 **[Inventario Fisico](inventario-fisico.md)** - Inventário Físico
 **Cenário**: Contagem mensal de estoque
 - **Planejamento**: Cronograma por setor
 - **Execução**: Contagem com código de barras
@@ -180,7 +180,7 @@ Esta seção apresenta **casos de uso reais** do ERP GerenciaTec aplicados ao **
 - **Relatórios**: Acuracidade do estoque
 - **Resultado**: Estoque 100% confiável
 
-#### 🚛 **[[recebimento-conferencia]]** - Recebimento e Conferência
+#### 🚛 **[Recebimento Conferencia](recebimento-conferencia.md)** - Recebimento e Conferência
 **Cenário**: Processo padrão de recebimento
 - **Documentos**: Nota fiscal vs. pedido
 - **Conferência**: Quantidade e qualidade
@@ -194,7 +194,7 @@ Esta seção apresenta **casos de uso reais** do ERP GerenciaTec aplicados ao **
 
 ### 👕 **Moda e Vestuário**
 
-#### 🎨 **[[produtos-variacao]]** - Produtos com Variação
+#### 🎨 **[Produtos Variacao](produtos-variacao.md)** - Produtos com Variação
 **Cenário**: Camiseta com múltiplas cores e tamanhos
 - **Configuração**: Matriz de variações
 - **Estoque**: Controle por variação
@@ -202,7 +202,7 @@ Esta seção apresenta **casos de uso reais** do ERP GerenciaTec aplicados ao **
 - **Relatórios**: Performance por variação
 - **Resultado**: Gestão eficiente de variações
 
-#### 🏷️ **[[promocao-sazonal]]** - Promoção Sazonal
+#### 🏷️ **[Promocao Sazonal](promocao-sazonal.md)** - Promoção Sazonal
 **Cenário**: Liquidação de fim de estação
 - **Planejamento**: Produtos para promoção
 - **Configuração**: Preços promocionais
@@ -212,7 +212,7 @@ Esta seção apresenta **casos de uso reais** do ERP GerenciaTec aplicados ao **
 
 ### 🔌 **Eletrônicos**
 
-#### 🛡️ **[[garantia-assistencia]]** - Garantia e Assistência
+#### 🛡️ **[Garantia Assistencia](garantia-assistencia.md)** - Garantia e Assistência
 **Cenário**: Produto com defeito na garantia
 - **Registro**: Número de série no sistema
 - **Processo**: Abertura de chamado
@@ -220,7 +220,7 @@ Esta seção apresenta **casos de uso reais** do ERP GerenciaTec aplicados ao **
 - **Comunicação**: Cliente sempre informado
 - **Resultado**: Problema resolvido
 
-#### 📱 **[[produto-serie]]** - Produto com Número de Série
+#### 📱 **[Produto Serie](produto-serie.md)** - Produto com Número de Série
 **Cenário**: Smartphone com controle individual
 - **Cadastro**: Número de série único
 - **Venda**: Rastreamento completo
@@ -230,7 +230,7 @@ Esta seção apresenta **casos de uso reais** do ERP GerenciaTec aplicados ao **
 
 ### 🏠 **Casa e Construção**
 
-#### 📏 **[[venda-medida]]** - Venda por Medida
+#### 📏 **[Venda Medida](venda-medida.md)** - Venda por Medida
 **Cenário**: Venda de materiais por metro
 - **Produto**: Tecido, cabo, tubo
 - **Medição**: Quantidade exata
@@ -238,7 +238,7 @@ Esta seção apresenta **casos de uso reais** do ERP GerenciaTec aplicados ao **
 - **Corte**: Ajuste do estoque
 - **Resultado**: Venda precisa
 
-#### 🎯 **[[projeto-construcao]]** - Projeto de Construção
+#### 🎯 **[Projeto Construcao](projeto-construcao.md)** - Projeto de Construção
 **Cenário**: Venda de material para obra
 - **Orçamento**: Lista completa de materiais
 - **Parcelamento**: Entrega conforme cronograma
@@ -276,19 +276,19 @@ Esta seção apresenta **casos de uso reais** do ERP GerenciaTec aplicados ao **
 ## 📚 Documentação Relacionada
 
 ### 🔗 **Outros Casos de Uso**
-- **[[../servicos/index]]** - Casos específicos para prestadores de serviços
-- **[[../servicos/index]]** - Prestação de serviços
-- **[[../restaurante/index]]** - Food service
+- **[](../servicos/index.md)** - Casos específicos para prestadores de serviços
+- **[](../servicos/index.md)** - Prestação de serviços
+- **[](../restaurante/index.md)** - Food service
 
 ### 📋 **Fluxos Relacionados**
-- **[[../../fluxos/fluxo-vendas-completo]]** - Processo completo de vendas
-- **[[../../fluxos/fluxo-compras]]** - Processo de compras
-- **[[../../fluxos/fluxo-estoque]]** - Gestão de estoque
+- **[Fluxo Vendas Completo](../../fluxos/fluxo-vendas-completo.md)** - Processo completo de vendas
+- **[Fluxo Compras](../../fluxos/fluxo-compras.md)** - Processo de compras
+- **[Fluxo Estoque](../../fluxos/fluxo-estoque.md)** - Gestão de estoque
 
 ### 🎓 **Guias de Implementação**
-- **[[../../guias/primeiros-passos]]** - Como começar
-- **[[../../guias/configuracao-inicial]]** - Setup do sistema
-- **[[../../guias/treinamento-equipe]]** - Capacitação
+- **[Primeiros Passos](../../guias/primeiros-passos.md)** - Como começar
+- **[Configuracao Inicial](../../guias/configuracao-inicial.md)** - Setup do sistema
+- **[Treinamento Equipe](../../guias/treinamento-equipe.md)** - Capacitação
 
 ---
 
