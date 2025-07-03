@@ -1,4 +1,4 @@
-# 📋 ERP GerenciaTech - Documentação do Usuário Final
+# 📋 WikiWhite ERP - Documentação do Usuário Final
 
 🏠 **Home**
 
@@ -6,9 +6,9 @@
 
 ---
 
-## 🎯 Bem-vindo ao ERP GerenciaTech
+## 🎯 Bem-vindo ao WikiWhite ERP
 
-O **ERP GerenciaTech** é uma solução completa de gestão empresarial desenvolvida especialmente para **comércios em geral** e **prestadores de serviços**. Este sistema integra todos os processos do seu negócio em uma única plataforma, proporcionando **automação**, **controle** e **crescimento sustentável**.
+O **WikiWhite ERP** é uma solução completa de gestão empresarial desenvolvida especialmente para **comércios em geral**, **petshops** e **prestadores de serviços**. Este sistema integra todos os processos do seu negócio em uma única plataforma, proporcionando **automação**, **controle** e **crescimento sustentável**.
 
 ### 🚀 **O que você encontrará nesta documentação**
 
@@ -24,32 +24,28 @@ Esta documentação foi criada pensando em **você**, usuário final, que precis
 
 ## 📚 Navegação Rápida
 
-### 🏢 **Por Módulos do Sistema**
-- **[Gestão de Cadastros](modulos/cadastros/index.md)** - Gestão de Cadastros (Clientes, Fornecedores, Produtos)
-- **[Gestão Financeira](modulos/financeiro/index.md)** - Gestão Financeira (Contas, Fluxo de Caixa, Boletos)
-- **[Gestão de Vendas](modulos/vendas/index.md)** - Gestão de Vendas (PDV, Orçamentos, Pedidos)
-- **[Controle de Estoque](modulos/estoque/index.md)** - Controle de Estoque (Movimentação, Compras)
-- **[Integrações](modulos/integracoes/index.md)** - Integrações (E-commerce, Fiscal, Bancária)
-- **[Serviços](modulos/servicos/index.md)** - Serviços (Ordens de Serviço, Agendamentos)
-- **[Relatórios e Dashboard](modulos/relatorios/index.md)** - Relatórios e Dashboard
-- **[Configurações do Sistema](modulos/configuracoes/index.md)** - Configurações do Sistema
+### 🚀 **[Guias Iniciais](guias/)**
+- **[Configuração Inicial](guias/configuracao-inicial.md)** - Primeiros passos para configurar o sistema
+- **[Primeiros Passos](guias/primeiros-passos.md)** - Tutorial básico para começar a usar o sistema
 
-### 🔄 **Por Fluxos de Trabalho**
-- **[Fluxo de Vendas Completo](fluxos/fluxo-vendas-completo.md)** - Do orçamento à entrega
-- **[Fluxo de Compras](fluxos/fluxo-compras.md)** - Reposição de estoque
-- **[Fluxo de Contratos](fluxos/fluxo-contratos.md)** - Faturamento recorrente
-- **[Fluxo Fiscal](fluxos/fluxo-fiscal.md)** - Emissão de documentos fiscais
+### 📊 **[Módulos do Sistema](modulos/)**
+- **[Cadastros](modulos/cadastros/)** - Gestão de clientes, fornecedores e produtos
+- **[Vendas](modulos/vendas/)** - PDV e gestão de vendas
+- **[Estoque](modulos/estoque/)** - Controle de estoque, entrada de mercadorias e inventário
+- **[Financeiro](modulos/financeiro/)** - Contas a pagar e receber
+- **[Relatórios](modulos/relatorios/)** - Relatórios gerenciais
+- **[Integrações](modulos/integracoes/)** - Configuração de NFe e outras integrações
+- **[Configurações](modulos/configuracoes/)** - Gestão de usuários e configurações do sistema
 
-### 💡 **Por Casos de Uso**
-- **[Comércio Geral](casos-uso/comercio-geral/index.md)** - Comércio Varejista
-- **[Prestação de Serviços](casos-uso/servicos/index.md)** - Prestação de Serviços
-- **[Prestação de Serviços](casos-uso/servicos/index.md)** - Prestação de Serviços
-- **[Pequena Indústria](casos-uso/industria/index.md)** - Pequena Indústria
+### 🔄 **[Fluxos de Trabalho](fluxos/)**
+- **[Fluxo de Vendas](fluxos/fluxo-vendas-completo.md)** - Processo completo de vendas
+- **[Fluxo de Compras](fluxos/fluxo-compras.md)** - Processo de compras e fornecedores
+- **[Fluxo Financeiro](fluxos/fluxo-financeiro.md)** - Gestão financeira integrada
 
-### 🎯 **Por Nível de Usuário**
-- **[Guia Iniciante](guias/iniciante.md)** - Primeiros passos no sistema
-- **[Guia Intermediário](guias/intermediario.md)** - Funcionalidades avançadas
-- **[Guia Administrador](guias/administrador.md)** - Configurações e gestão
+### 🎯 **[Casos de Uso](casos-uso/)**
+- **[Comércio Geral](casos-uso/comercio-geral/)** - Cenários específicos para comércio
+- **[Petshop](casos-uso/petshop/)** - Funcionalidades específicas para petshops
+- **[Prestação de Serviços](casos-uso/prestacao-servicos/)** - Gestão de serviços
 
 ---
 
@@ -57,46 +53,46 @@ Esta documentação foi criada pensando em **você**, usuário final, que precis
 
 ### 👋 **Novo no sistema?**
 1. **[Primeiros Passos](guias/primeiros-passos.md)** - Como acessar e navegar
-2. **[Dados da Empresa](modulos/configuracoes/dados-da-empresa.md)** - Configure sua empresa
+2. **[Configuração Inicial](guias/configuracao-inicial.md)** - Configure sua empresa
 3. **[Cadastro de Produtos](modulos/cadastros/cadastro-de-produtos.md)** - Cadastre seus produtos
 4. **[PDV - Ponto de Venda](modulos/vendas/pdv.md)** - Faça sua primeira venda
 
 ### 🔧 **Configuração inicial**
-1. **[Usuários e Permissões](modulos/configuracoes/usuarios-e-permissoes.md)** - Gerencie usuários
-2. **[Parâmetros Fiscais](modulos/configuracoes/parametros-fiscais.md)** - Configure impostos
-3. **[Emissão de Documentos Fiscais](modulos/integracoes/emissao-documentos-fiscais.md)** - Configure NFe/NFCe
-4. **[Integrações Bancárias](modulos/financeiro/integracoes-bancarias.md)** - Conecte seu banco
+1. **[Gestão de Usuários](modulos/configuracoes/gestao-usuarios.md)** - Gerencie usuários
+2. **[Configuração de NFe](modulos/integracoes/configuracao-nfe.md)** - Configure documentos fiscais
+3. **[Controle de Estoque](modulos/estoque/)** - Configure seu estoque
+4. **[Contas a Receber](modulos/financeiro/contas-a-receber.md)** - Configure financeiro
 
 ### ⚡ **Tarefas mais comuns**
 - **[PDV - Ponto de Venda](modulos/vendas/pdv.md)** - Realizar vendas no balcão
 - **[Cadastro de Clientes](modulos/cadastros/cadastro-de-clientes.md)** - Cadastrar clientes
 - **[Contas a Receber](modulos/financeiro/contas-a-receber.md)** - Controlar recebimentos
 - **[Movimentação de Estoque](modulos/estoque/movimentacao-estoque.md)** - Controlar estoque
-- **[Emissão de NFe](modulos/integracoes/emissao-nfe.md)** - Emitir notas fiscais
+- **[Configuração de NFe](modulos/integracoes/configuracao-nfe.md)** - Emitir notas fiscais
 
 ---
 
 ## 🎯 Funcionalidades por Tipo de Negócio
 
-### 🛒 **Comércio Varejista**
+### 🛒 **Comércio Geral**
 - **PDV completo** com múltiplas formas de pagamento
 - **Controle de estoque** com alertas automáticos
 - **Integração com e-commerce** e marketplaces
 - **Emissão automática** de documentos fiscais
 - **Relatórios gerenciais** completos
 
-### 🔧 **Prestação de Serviços**
-- **Ordens de serviço** com controle completo
+### 🐕 **Petshop**
+- **Cadastro de animais** com histórico veterinário
 - **Agendamento de serviços** especializados
-- **Controle de materiais** e tempo de execução
+- **Controle de vacinas** e medicamentos
 - **Histórico detalhado** de atendimentos
 - **Lembretes automáticos** para clientes
 
 ### 🔧 **Prestação de Serviços**
-- **Contratos recorrentes** com faturamento automático
-- **Ordens de serviço** com controle de tempo
-- **Gestão de projetos** e etapas
-- **Faturamento por horas** trabalhadas
+- **Ordens de serviço** com controle completo
+- **Agendamento de técnicos** e recursos
+- **Controle de materiais** e tempo de execução
+- **Faturamento por projeto** ou horas trabalhadas
 - **Controle de equipes** e produtividade
 
 ---
@@ -104,7 +100,7 @@ Esta documentação foi criada pensando em **você**, usuário final, que precis
 ## 🔍 Como Usar Esta Documentação
 
 ### 🔗 **Navegação por Links Internos**
-- Use os links `[Nome Do Documento](nome-do-documento.md)` para navegar
+- Use os links para navegar entre documentos
 - Cada documento tem links relacionados ao final
 - Use o breadcrumb no topo para voltar
 
@@ -130,20 +126,20 @@ Esta documentação foi criada pensando em **você**, usuário final, que precis
 ## 🆘 Precisa de Ajuda?
 
 ### 📞 **Suporte Técnico**
-- **Email**: suporte@GerenciaTech.com.br
+- **Email**: suporte@wikiwhiteerp.com.br
 - **WhatsApp**: (11) 99999-9999
 - **Horário**: Segunda a Sexta, 8h às 18h
 
 ### 💬 **Comunidade**
-- **Forum**: forum.GerenciaTech.com.br
-- **Canal Telegram**: @GerenciaTech_usuarios
-- **YouTube**: Canal GerenciaTech
+- **Forum**: forum.wikiwhiteerp.com.br
+- **Canal Telegram**: @WikiWhiteERP_usuarios
+- **YouTube**: Canal WikiWhite ERP
 
 ### 📚 **Recursos Adicionais**
-- **[Perguntas Frequentes](faq.md)** - Perguntas Frequentes
-- **[Glossário](glossario.md)** - Termos Técnicos
-- **[Resolução de Problemas](troubleshooting.md)** - Resolução de Problemas
-- **[Novidades e Atualizações](changelog.md)** - Novidades e Atualizações
+- **Perguntas Frequentes** - Dúvidas comuns
+- **Glossário** - Termos técnicos
+- **Resolução de Problemas** - Troubleshooting
+- **Novidades e Atualizações** - Changelog
 
 ---
 
@@ -155,9 +151,8 @@ Esta documentação foi criada pensando em **você**, usuário final, que precis
 - `#vendas` - Processo de vendas
 - `#estoque` - Controle de estoque
 - `#integracoes` - Integrações com terceiros
-- `#servicos` - Funcionalidades de serviços
-- `#relatorios` - Relatórios e dashboards
 - `#configuracoes` - Configurações do sistema
+- `#relatorios` - Relatórios e dashboards
 
 ### Por Contexto
 - `#importante` - Informações críticas
@@ -179,4 +174,4 @@ Esta documentação foi criada pensando em **você**, usuário final, que precis
 
 ---
 
-💡 **Dica**: Marque esta página nos favoritos e use-a como ponto de partida para navegar pela documentação completa do sistema ERP GerenciaTech. 
+💡 **Dica**: Marque esta página nos favoritos e use-a como ponto de partida para navegar pela documentação completa do sistema WikiWhite ERP. 

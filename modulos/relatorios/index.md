@@ -1,599 +1,457 @@
-# 📊 Módulo: Relatórios e Análises
+# 📊 Módulo: Relatórios e Dashboard
 
 🏠 [Home](../../index.md) > 📋 [Módulos](../index.md) > **📊 Relatórios**
 
-#relatorios #analises #dashboards #kpis #decisao #inteligencia
+#relatorios #dashboard #analise #indicadores #bi
 
 ---
 
 ## 🎯 Visão Geral do Módulo
 
-O **Módulo de Relatórios** é o **centro de inteligência** do seu negócio. Aqui você transforma dados em **informações valiosas** para tomar decisões estratégicas e operacionais que impulsionam o crescimento da empresa.
+O **Módulo de Relatórios** é o **centro de inteligência** do seu negócio. Aqui você transforma dados em insights, acompanha indicadores de performance e toma decisões estratégicas baseadas em informações precisas e atualizadas.
 
-### 🚀 **Por que Relatórios são Essenciais?**
-- 📈 **Tomada de decisões** baseada em dados reais
-- 🎯 **Identificação de oportunidades** e problemas
-- 📊 **Acompanhamento de metas** e performance
-- 💰 **Otimização de resultados** financeiros
-- 🔍 **Análise de tendências** e padrões
-- 📋 **Compliance** e prestação de contas
-
-> **💡 Dica Importante**: Dados sem análise são apenas números. Use os relatórios para extrair insights que geram resultados!
-
----
-
-## 📈 Relatórios de Vendas
-
-### 🛍️ **[Vendas Diarias](vendas-diarias.md)** - Vendas Diárias
-**Acompanhe** o desempenho diário das vendas
-
-**Principais informações:**
-- 💰 **Faturamento do dia** - Total vendido
-- 📊 **Comparativo** - Dia anterior, semana, mês
-- 🎯 **Meta diária** - Progresso vs. objetivo
-- 💳 **Formas de pagamento** - Distribuição
-- 👥 **Performance por vendedor** - Ranking
-- 📦 **Produtos mais vendidos** - Top 10
-
-**Casos de uso:**
-- Acompanhamento diário de resultados
-- Identificação de padrões de venda
-- Motivação da equipe de vendas
-- Ajustes de estratégia em tempo real
-
-**Tags**: `#vendas #diario #faturamento #meta #performance`
-
----
-
-### 📅 **[Vendas Periodicas](vendas-periodicas.md)** - Vendas por Período
-**Análise completa** de vendas por período
-
-**Principais informações:**
-- 📊 **Faturamento mensal** - Evolução temporal
-- 📈 **Crescimento** - Percentual vs. período anterior
-- 🎯 **Sazonalidade** - Identificação de padrões
-- 💰 **Margem de lucro** - Rentabilidade
-- 📦 **Mix de produtos** - Participação por categoria
-- 🏪 **Performance por loja** - Comparativo
-
-**Benefícios:**
-- Planejamento estratégico
-- Identificação de tendências
-- Otimização de estoque
-- Definição de metas realistas
-
-**Tags**: `#vendas #mensal #crescimento #sazonalidade #planejamento`
-
----
-
-### 👥 **[Vendas Por Vendedor](vendas-por-vendedor.md)** - Performance de Vendedores
-**Análise individual** da equipe de vendas
-
-**Principais informações:**
-- 🎯 **Meta vs. realizado** - Por vendedor
-- 💰 **Comissões** - Valores a pagar
-- 📊 **Ranking** - Classificação da equipe
-- 🏆 **Prêmios** - Bonificações conquistadas
-- 📈 **Evolução** - Crescimento individual
-- 👥 **Clientes atendidos** - Quantidade e qualidade
-
-**Tags**: `#vendedor #meta #comissao #ranking #performance #equipe`
-
----
-
-### 🛒 **[Vendas Por Produto](vendas-por-produto.md)** - Análise de Produtos
-**Desempenho detalhado** por produto
-
-**Principais informações:**
-- 📦 **Produtos mais vendidos** - Ranking
-- 💰 **Faturamento por produto** - Participação
-- 📊 **Margem de lucro** - Rentabilidade
-- 📈 **Giro de estoque** - Velocidade de venda
-- ⚠️ **Produtos parados** - Baixa rotação
-- 🎯 **Análise ABC** - Classificação por importância
-
-**Tags**: `#produto #ranking #margem #giro #abc #rentabilidade`
-
----
-
-## 💰 Relatórios Financeiros
-
-### 📊 **[Dre Gerencial](dre-gerencial.md)** - DRE Gerencial
-**Demonstrativo de Resultado** do Exercício
-
-**Principais informações:**
-- 💵 **Receita bruta** - Total de vendas
-- 💸 **Deduções** - Impostos, devoluções, descontos
-- 💰 **Receita líquida** - Receita após deduções
-- 📉 **Custo dos produtos** - CMV/CSP
-- 📊 **Lucro bruto** - Receita líquida - custos
-- 💳 **Despesas operacionais** - Gastos fixos e variáveis
-- 🎯 **Lucro líquido** - Resultado final
-
-**Benefícios:**
-- Visão completa da rentabilidade
-- Identificação de gastos excessivos
-- Comparação entre períodos
-- Base para decisões estratégicas
-
-**Tags**: `#dre #receita #lucro #despesas #rentabilidade #gerencial`
-
----
-
-### 💹 **[Fluxo Caixa Projetado](fluxo-caixa-projetado.md)** - Fluxo de Caixa
-**Projeção** de entradas e saídas
-
-**Principais informações:**
-- 💰 **Saldo atual** - Posição do caixa
-- 📈 **Entradas previstas** - Recebimentos futuros
-- 📉 **Saídas programadas** - Pagamentos agendados
-- 📊 **Saldo projetado** - Posição futura
-- ⚠️ **Alertas** - Períodos críticos
-- 🎯 **Cenários** - Otimista, realista, pessimista
-
-**Tags**: `#fluxo-caixa #projecao #saldo #entradas #saidas #planejamento`
-
----
-
-### 📄 **[Contas Receber](contas-receber.md)** - Contas a Receber
-**Gestão de recebimentos** e inadimplência
-
-**Principais informações:**
-- 💳 **Títulos em aberto** - Valores a receber
-- 📅 **Vencimentos** - Cronograma de recebimentos
-- ⚠️ **Títulos vencidos** - Inadimplência
-- 👥 **Clientes em atraso** - Ranking de devedores
-- 📊 **Aging** - Análise por tempo de atraso
-- 💰 **Previsão de recebimento** - Projeção
-
-**Tags**: `#contas-receber #inadimplencia #vencimento #aging #cobranca`
-
----
-
-### 📋 **[Contas Pagar](contas-pagar.md)** - Contas a Pagar
-**Controle de obrigações** financeiras
-
-**Principais informações:**
-- 💸 **Títulos em aberto** - Valores a pagar
-- 📅 **Vencimentos** - Cronograma de pagamentos
-- 🏭 **Fornecedores** - Ranking de credores
-- 📊 **Categorias** - Gastos por tipo
-- 💰 **Fluxo de pagamentos** - Projeção
-- ⚠️ **Alertas** - Vencimentos próximos
-
-**Tags**: `#contas-pagar #fornecedores #vencimento #categorias #pagamento`
-
----
-
-## 📦 Relatórios de Estoque
-
-### 📊 **[Posicao Estoque](posicao-estoque.md)** - Posição de Estoque
-**Situação atual** do estoque
-
-**Principais informações:**
-- 📦 **Quantidade atual** - Por produto
-- 💰 **Valor do estoque** - Custo total
-- ⚠️ **Estoque baixo** - Produtos em falta
-- 📈 **Giro de estoque** - Velocidade de saída
-- 🎯 **Cobertura** - Dias de estoque
-- 📋 **Localização** - Onde está cada produto
-
-**Tags**: `#estoque #posicao #quantidade #valor #giro #cobertura`
-
----
-
-### 🔄 **[Movimentacao Estoque](movimentacao-estoque.md)** - Movimentação de Estoque
-**Histórico** de entradas e saídas
-
-**Principais informações:**
-- 📥 **Entradas** - Compras, transferências, ajustes
-- 📤 **Saídas** - Vendas, transferências, perdas
-- 📊 **Saldo** - Evolução do estoque
-- 🎯 **Produtos críticos** - Maior movimentação
-- 📅 **Período** - Análise temporal
-- 💰 **Valor movimentado** - Custo das movimentações
-
-**Tags**: `#movimentacao #entradas #saidas #saldo #historico #temporal`
-
----
-
-### 📋 **[Inventario Fisico](inventario-fisico.md)** - Inventário Físico
-**Controle** de contagens e divergências
-
-**Principais informações:**
-- 📊 **Divergências** - Diferenças encontradas
-- 📈 **Acuracidade** - Percentual de assertividade
-- 💰 **Valor das diferenças** - Impacto financeiro
-- 📦 **Produtos com divergência** - Lista detalhada
-- 🎯 **Ajustes necessários** - Correções
-- 📅 **Histórico** - Inventários anteriores
-
-**Tags**: `#inventario #divergencia #acuracidade #ajustes #contagem`
-
----
-
-## 👥 Relatórios de Clientes
-
-### 🏆 **[Ranking Clientes](ranking-clientes.md)** - Ranking de Clientes
-**Análise** dos melhores clientes
-
-**Principais informações:**
-- 💰 **Faturamento por cliente** - Participação
-- 📊 **Frequência de compras** - Regularidade
-- 🎯 **Ticket médio** - Valor médio por compra
-- 📈 **Crescimento** - Evolução das compras
-- 👥 **Segmentação** - Classificação ABC
-- 📅 **Última compra** - Recência
-
-**Tags**: `#clientes #ranking #faturamento #frequencia #ticket-medio #abc`
-
----
-
-### 📈 **[Analise Comportamento](analise-comportamento.md)** - Análise de Comportamento
-**Padrões** de compra dos clientes
-
-**Principais informações:**
-- 🛒 **Produtos preferidos** - Por cliente
-- 📅 **Sazonalidade** - Padrões temporais
-- 💳 **Formas de pagamento** - Preferências
-- 🎯 **Cross-selling** - Produtos relacionados
-- 📊 **Lifetime Value** - Valor vitalício
-- 🔄 **Retenção** - Taxa de retorno
-
-**Tags**: `#comportamento #preferencias #sazonalidade #cross-selling #ltv`
+### 🚀 **Por que os Relatórios são Essenciais?**
+- 📊 **Visibilidade total** - Enxergue o que acontece no seu negócio
+- 🎯 **Decisões inteligentes** - Baseadas em dados, não intuição
+- 📈 **Identificação de oportunidades** - Descubra potenciais de crescimento
+- ⚠️ **Detecção de problemas** - Antecipe situações críticas
+- 💰 **Otimização de resultados** - Maximize lucros e eficiência
 
 ---
 
 ## 📊 Dashboards Executivos
 
-### 🎯 **[Dashboard Geral](dashboard-geral.md)** - Dashboard Geral
-**Visão executiva** do negócio
+### 🏆 **[Dashboard Geral](dashboard-geral.md)** - Visão Executiva
+**Panorama completo do negócio** - KPIs principais em tempo real
 
 **Principais indicadores:**
-- 💰 **Faturamento** - Diário, mensal, anual
-- 📈 **Crescimento** - Percentual vs. período anterior
-- 🎯 **Metas** - Progresso vs. objetivos
-- 💳 **Margem** - Rentabilidade
-- 👥 **Clientes** - Novos e ativos
-- 📦 **Estoque** - Giro e valor
+- 💰 Faturamento do dia/mês
+- 📈 Crescimento vs. período anterior
+- 🎯 Metas vs. realizado
+- 💳 Contas a receber/pagar
+- 📦 Produtos mais vendidos
+- 👥 Novos clientes
 
-**Tags**: `#dashboard #executivo #kpis #faturamento #crescimento #metas`
+**Gráficos disponíveis:**
+- 📈 Evolução de vendas
+- 🥧 Participação por categoria
+- 📊 Performance por vendedor
+- 💰 Fluxo de caixa projetado
 
----
-
-### 🔍 **[Dashboard Operacional](dashboard-operacional.md)** - Dashboard Operacional
-**Controle** das operações diárias
-
-**Principais indicadores:**
-- 🛍️ **Vendas do dia** - Progresso em tempo real
-- 💰 **Caixa** - Saldo atual
-- 📦 **Estoque crítico** - Produtos em falta
-- 👥 **Equipe** - Performance individual
-- 📞 **Atendimento** - Qualidade e tempo
-- 🚨 **Alertas** - Situações críticas
-
-**Tags**: `#dashboard #operacional #tempo-real #vendas #caixa #alertas`
+**Tags**: `#dashboard #executivo #kpi #tempo-real #geral`
 
 ---
 
-### 📈 **[Dashboard Vendas](dashboard-vendas.md)** - Dashboard de Vendas
-**Foco** na performance comercial
+### 💰 **[Dashboard Financeiro](dashboard-financeiro.md)** - Controle Financeiro
+**Saúde financeira em tempo real** - Fluxo de caixa e indicadores
 
-**Principais indicadores:**
-- 🎯 **Meta vs. realizado** - Por período
-- 👥 **Ranking vendedores** - Performance
-- 📊 **Funil de vendas** - Conversão
-- 💰 **Ticket médio** - Valor médio
-- 📦 **Produtos em destaque** - Mais vendidos
-- 🔄 **Recorrência** - Clientes fiéis
+**Principais métricas:**
+- 💵 Saldo atual de caixa
+- 📈 Receitas vs. despesas
+- 📊 Contas em atraso
+- 💳 Previsão de recebimentos
+- 📉 Inadimplência
+- 🎯 Margem de lucro
 
-**Tags**: `#dashboard #vendas #meta #ranking #funil #ticket-medio`
+**Alertas automáticos:**
+- 🔴 Saldo baixo
+- ⚠️ Vencimentos próximos
+- 📈 Meta atingida
+- 🚨 Inadimplência alta
 
----
-
-## 🎯 Análises Avançadas
-
-### 📊 **[Analise Abc](analise-abc.md)** - Análise ABC
-**Classificação** por importância
-
-**Principais análises:**
-- 📦 **Produtos ABC** - Por faturamento
-- 👥 **Clientes ABC** - Por valor
-- 🏭 **Fornecedores ABC** - Por volume
-- 💰 **Margem ABC** - Por rentabilidade
-- 📈 **Giro ABC** - Por movimentação
-- 🎯 **Estratégias** - Por classificação
-
-**Tags**: `#abc #classificacao #produtos #clientes #fornecedores #estrategia`
+**Tags**: `#dashboard #financeiro #fluxo-caixa #inadimplencia #margem`
 
 ---
 
-### 📈 **[Analise Tendencias](analise-tendencias.md)** - Análise de Tendências
-**Identificação** de padrões temporais
+### 🛒 **[Dashboard Vendas](dashboard-vendas.md)** - Performance Comercial
+**Acompanhe vendas e equipe** - Resultados em tempo real
 
-**Principais análises:**
-- 📅 **Sazonalidade** - Padrões por período
-- 📊 **Crescimento** - Tendências de longo prazo
-- 🎯 **Previsão** - Projeções futuras
-- 📈 **Correlações** - Relações entre variáveis
-- 🔄 **Ciclos** - Padrões repetitivos
-- 🎨 **Visualizações** - Gráficos avançados
+**Indicadores de vendas:**
+- 📊 Vendas do dia/mês
+- 🎯 Meta vs. realizado
+- 💰 Ticket médio
+- 📈 Conversão de orçamentos
+- 🏆 Ranking de vendedores
+- 📦 Produtos em destaque
 
-**Tags**: `#tendencias #sazonalidade #previsao #correlacao #ciclos`
+**Análises disponíveis:**
+- 👥 Performance por vendedor
+- 📅 Vendas por período
+- 🏷️ Vendas por categoria
+- 💳 Vendas por forma de pagamento
 
----
-
-### 💹 **[Analise Rentabilidade](analise-rentabilidade.md)** - Análise de Rentabilidade
-**Profundidade** na análise de lucros
-
-**Principais análises:**
-- 💰 **Margem por produto** - Rentabilidade individual
-- 👥 **Margem por cliente** - Lucratividade
-- 🏪 **Margem por loja** - Performance local
-- 📊 **Margem por categoria** - Segmentação
-- 📈 **Evolução** - Tendências de margem
-- 🎯 **Oportunidades** - Melhorias possíveis
-
-**Tags**: `#rentabilidade #margem #produto #cliente #categoria #evolucao`
+**Tags**: `#dashboard #vendas #performance #ranking #meta`
 
 ---
 
-## 📋 Relatórios Customizados
+## 📋 Relatórios Operacionais
 
-### 🔧 **[Relatorios Personalizados](relatorios-personalizados.md)** - Relatórios Personalizados
-**Crie** relatórios específicos para sua necessidade
+### 💰 **[Relatórios Financeiros](relatorios-financeiros.md)** - Gestão Financeira
+**Controle total das finanças** - DRE, fluxo de caixa e análises
 
-**Principais recursos:**
-- 🎯 **Filtros avançados** - Critérios específicos
-- 📊 **Campos personalizados** - Dados relevantes
-- 🎨 **Layout customizado** - Visual profissional
-- 📅 **Agendamento** - Envio automático
-- 📧 **Distribuição** - Para equipe específica
-- 💾 **Exportação** - Excel, PDF, CSV
+**Relatórios disponíveis:**
+- 📊 DRE (Demonstrativo de Resultado)
+- 💰 Fluxo de caixa detalhado
+- 📈 Contas a receber/pagar
+- 🏦 Conciliação bancária
+- 📋 Movimento de caixa
+- 💳 Vendas por forma de pagamento
 
-**Tags**: `#personalizado #filtros #layout #agendamento #exportacao`
+**Análises especiais:**
+- 📊 Comparativo mensal/anual
+- 🎯 Análise de margem
+- 📈 Projeção de resultados
+- ⚠️ Análise de inadimplência
 
----
-
-### 📊 **[Construtor Relatorios](construtor-relatorios.md)** - Construtor de Relatórios
-**Ferramenta** para criar relatórios visuais
-
-**Principais recursos:**
-- 🖱️ **Drag and drop** - Interface intuitiva
-- 📈 **Gráficos** - Diversos tipos
-- 🎯 **Indicadores** - KPIs visuais
-- 📋 **Tabelas** - Dados estruturados
-- 🎨 **Temas** - Visual profissional
-- 🔄 **Tempo real** - Dados atualizados
-
-**Tags**: `#construtor #visual #graficos #kpis #drag-drop #tempo-real`
+**Tags**: `#financeiro #dre #fluxo-caixa #contas #margem`
 
 ---
 
-## 🔄 Automação de Relatórios
+### 🛒 **[Relatórios de Vendas](relatorios-vendas.md)** - Análise Comercial
+**Performance de vendas detalhada** - Produtos, clientes e períodos
 
-### 📧 **[Relatorios Automaticos](relatorios-automaticos.md)** - Relatórios Automáticos
-**Envio** programado de relatórios
+**Relatórios principais:**
+- 📊 Vendas por período
+- 👥 Vendas por cliente
+- 📦 Vendas por produto
+- 🏆 Ranking de produtos
+- 💰 Análise de margem
+- 📈 Evolução de vendas
 
-**Principais recursos:**
-- 📅 **Agendamento** - Diário, semanal, mensal
-- 📧 **Email** - Distribuição automática
-- 👥 **Grupos** - Listas de destinatários
-- 🎯 **Condições** - Envio condicional
-- 📊 **Formatos** - PDF, Excel, imagem
-- 🔔 **Notificações** - Alertas importantes
+**Segmentações:**
+- 📅 Por período (dia, mês, ano)
+- 🏷️ Por categoria de produto
+- 👥 Por vendedor
+- 📍 Por localização
+- 💳 Por forma de pagamento
 
-**Tags**: `#automatico #agendamento #email #grupos #condicoes #formatos`
-
----
-
-### 🚨 **[Alertas Inteligentes](alertas-inteligentes.md)** - Alertas Inteligentes
-**Notificações** baseadas em regras
-
-**Principais recursos:**
-- 🎯 **Regras personalizadas** - Critérios específicos
-- 📊 **Limites** - Valores máximos/mínimos
-- 📈 **Tendências** - Mudanças significativas
-- 🔔 **Canais** - Email, SMS, WhatsApp
-- ⚡ **Tempo real** - Alertas instantâneos
-- 📋 **Histórico** - Log de alertas
-
-**Tags**: `#alertas #regras #limites #tendencias #tempo-real #historico`
+**Tags**: `#vendas #produtos #clientes #ranking #evolucao`
 
 ---
 
-## 📱 Relatórios Mobile
+### 📦 **[Relatórios de Estoque](relatorios-estoque.md)** - Controle de Estoque
+**Gestão inteligente do estoque** - Posição, movimentação e análises
 
-### 📱 **[App Relatorios](app-relatorios.md)** - App de Relatórios
-**Acesso** aos relatórios pelo celular
+**Relatórios essenciais:**
+- 📊 Posição atual de estoque
+- 🔄 Movimentação de produtos
+- ⚠️ Produtos em falta
+- 📈 Giro de estoque
+- 💰 Valor do estoque
+- 📋 Inventário físico
 
-**Principais recursos:**
-- 📊 **Dashboards mobile** - Otimizados para celular
-- 🔔 **Notificações push** - Alertas importantes
-- 📈 **Gráficos interativos** - Visualização touch
-- 🔄 **Sincronização** - Dados em tempo real
-- 📱 **Offline** - Acesso sem internet
-- 🎯 **Personalização** - Telas favoritas
+**Análises avançadas:**
+- 🔄 Curva ABC de produtos
+- 📊 Sazonalidade
+- ⚠️ Produtos críticos
+- 💰 Análise de investimento
+- 📈 Previsão de demanda
 
-**Tags**: `#mobile #app #dashboard #push #touch #offline #sincronizacao`
-
----
-
-## 🎯 Indicadores-Chave (KPIs)
-
-### 📊 **KPIs Financeiros**
-- **Faturamento Mensal**: Meta vs. realizado
-- **Margem de Lucro**: Percentual de rentabilidade
-- **Fluxo de Caixa**: Saldo projetado
-- **Inadimplência**: Percentual de atraso
-- **Giro de Caixa**: Velocidade do dinheiro
-- **ROI**: Retorno sobre investimento
-
-### 🛍️ **KPIs de Vendas**
-- **Ticket Médio**: Valor médio por venda
-- **Conversão**: Taxa de fechamento
-- **Recorrência**: Clientes que retornam
-- **Cross-selling**: Produtos adicionais
-- **Sazonalidade**: Variações por período
-- **Performance**: Vendas por vendedor
-
-### 📦 **KPIs de Estoque**
-- **Giro de Estoque**: Velocidade de saída
-- **Cobertura**: Dias de estoque
-- **Acuracidade**: Precisão do inventário
-- **Ruptura**: Produtos em falta
-- **Obsolescência**: Produtos parados
-- **Valor Imobilizado**: Capital em estoque
-
-### 👥 **KPIs de Clientes**
-- **CAC**: Custo de aquisição
-- **LTV**: Valor vitalício
-- **Churn**: Taxa de perda
-- **NPS**: Satisfação do cliente
-- **Retenção**: Taxa de retorno
-- **Segmentação**: Classificação ABC
+**Tags**: `#estoque #posicao #movimentacao #giro #abc`
 
 ---
 
-## 🔗 Integrações com Relatórios
+### 👥 **[Relatórios de Clientes](relatorios-clientes.md)** - Análise de Clientes
+**Conheça seus clientes** - Comportamento, fidelidade e oportunidades
 
-### 📊 **Business Intelligence**
-- **Power BI** - Dashboards avançados
-- **Tableau** - Visualizações complexas
-- **Google Analytics** - Dados web
-- **Excel** - Análises detalhadas
+**Relatórios de cliente:**
+- 🏆 Ranking de clientes
+- 📊 Análise de compras
+- 📈 Evolução por cliente
+- 💰 Ticket médio por cliente
+- 📅 Última compra
+- 🎯 Segmentação de clientes
 
-### 🤖 **Automação**
-- **Zapier** - Conecta com outras ferramentas
-- **API** - Integração customizada
-- **Webhooks** - Notificações automáticas
-- **ETL** - Extração e transformação
+**Análises comportamentais:**
+- 🔄 Frequência de compras
+- 💰 Valor vitalício (LTV)
+- 📊 Produtos preferidos
+- 📈 Tendências de consumo
+- ⚠️ Clientes inativos
 
----
-
-## 💡 Melhores Práticas
-
-### ✅ **Uso Eficiente**
-1. **Defina objetivos** claros para cada relatório
-2. **Escolha métricas** relevantes para seu negócio
-3. **Configure alertas** para situações críticas
-4. **Automatize** relatórios recorrentes
-5. **Treine a equipe** para interpretar dados
-
-### 🚀 **Otimização**
-1. **Filtre dados** por período relevante
-2. **Agrupe informações** por categoria
-3. **Use gráficos** para facilitar compreensão
-4. **Exporte** em formatos apropriados
-5. **Compartilhe** com pessoas certas
-
-### 🔒 **Segurança**
-1. **Controle acesso** por perfil de usuário
-2. **Proteja dados** sensíveis
-3. **Faça backup** dos relatórios
-4. **Monitore** uso dos relatórios
-5. **Audite** acessos regulamente
+**Tags**: `#clientes #ranking #comportamento #ltv #segmentacao`
 
 ---
 
-## 🚨 Problemas Comuns e Soluções
+## 📈 Relatórios Analíticos
 
-### ❌ **Relatório Lento**
-**Possíveis causas:**
-- Muitos dados sendo processados
-- Filtros inadequados
-- Consultas complexas
-- Horário de pico
+### 📊 **[Análise ABC](analise-abc.md)** - Classificação por Importância
+**Priorize o que importa** - Produtos, clientes e análises estratégicas
 
-**Soluções:**
-1. **Otimize filtros** por período
-2. **Agende** para horários livres
-3. **Simplifique** consultas
-4. **Use cache** quando possível
+**Análises ABC disponíveis:**
+- 📦 Produtos por faturamento
+- 👥 Clientes por volume
+- 🏷️ Categorias por margem
+- 📍 Regiões por vendas
+- 👨‍💼 Vendedores por performance
 
-### ❌ **Dados Inconsistentes**
-**Possíveis causas:**
-- Sincronização pendente
-- Dados duplicados
-- Configuração incorreta
-- Período de cálculo
+**Critérios de classificação:**
+- 💰 Faturamento
+- 📊 Quantidade vendida
+- 💵 Margem de lucro
+- 🔄 Frequência de compra
+- 📈 Crescimento
 
-**Soluções:**
-1. **Verifique** sincronização
-2. **Elimine** duplicatas
-3. **Revise** configurações
-4. **Padronize** períodos
+**Tags**: `#abc #classificacao #estrategia #prioridade #pareto`
+
+---
+
+### 📅 **[Análise Temporal](analise-temporal.md)** - Tendências e Sazonalidade
+**Entenda padrões temporais** - Sazonalidade e tendências
+
+**Análises temporais:**
+- 📈 Vendas por mês/trimestre
+- 📊 Comparativo anual
+- 🔄 Sazonalidade de produtos
+- 📅 Dias da semana
+- ⏰ Horários de pico
+- 🎯 Tendências de crescimento
+
+**Visualizações:**
+- 📈 Gráficos de linha
+- 📊 Barras comparativas
+- 🥧 Pizza por período
+- 📊 Heatmap temporal
+- 📈 Tendências lineares
+
+**Tags**: `#temporal #sazonalidade #tendencias #comparativo #crescimento`
+
+---
+
+### 💹 **[Análise de Margem](analise-margem.md)** - Rentabilidade Detalhada
+**Maximize a rentabilidade** - Análise de margens por produto e categoria
+
+**Análises de margem:**
+- 💰 Margem por produto
+- 🏷️ Margem por categoria
+- 👥 Margem por cliente
+- 📅 Evolução de margem
+- 🎯 Produtos mais rentáveis
+- ⚠️ Produtos com margem baixa
+
+**Indicadores calculados:**
+- 💵 Margem bruta
+- 💰 Margem líquida
+- 📊 Markup aplicado
+- 🎯 Margem target
+- 📈 Evolução temporal
+
+**Tags**: `#margem #rentabilidade #markup #produtos #evolucao`
+
+---
+
+## 🎯 Relatórios Especializados
+
+### 🐕 **[Relatórios Petshop](relatorios-petshop.md)** - Específicos para Petshops
+**Relatórios especializados** - Animais, vacinas e serviços
+
+**Relatórios específicos:**
+- 🐕 Cadastro de animais
+- 💉 Controle de vacinas
+- 📅 Agendamentos por período
+- 🏥 Histórico veterinário
+- 💊 Medicamentos por animal
+- 📊 Serviços mais realizados
+
+**Análises veterinárias:**
+- 📈 Animais por espécie/raça
+- 💉 Vacinas em atraso
+- 📅 Próximos agendamentos
+- 💰 Faturamento por serviço
+- 🎯 Clientes mais frequentes
+
+**Tags**: `#petshop #animais #vacinas #veterinario #agendamentos`
+
+---
+
+### 🔧 **[Relatórios de Serviços](relatorios-servicos.md)** - Prestação de Serviços
+**Controle de serviços** - Ordens, produtividade e materiais
+
+**Relatórios de OS:**
+- 📋 Ordens de serviço por período
+- ⏱️ Tempo médio de execução
+- 👨‍🔧 Produtividade por técnico
+- 🔧 Materiais mais utilizados
+- 💰 Faturamento por serviço
+- 📊 Status das ordens
+
+**Análises de produtividade:**
+- 👥 Performance por técnico
+- ⏰ Tempo vs. estimado
+- 💰 Margem por serviço
+- 📈 Evolução de produtividade
+- 🎯 Metas vs. realizado
+
+**Tags**: `#servicos #ordens #produtividade #tecnico #materiais`
+
+---
+
+### 🔧 **[Relatórios Prestação](relatorios-prestacao.md)** - Prestação de Serviços
+**Gestão de contratos** - Projetos, horas e faturamento
+
+**Relatórios de contratos:**
+- 📋 Contratos ativos
+- 💰 Faturamento recorrente
+- ⏱️ Horas trabalhadas
+- 🎯 Projetos em andamento
+- 📊 Margem por contrato
+- 📈 Renovações de contrato
+
+**Análises de projeto:**
+- 📅 Cronograma vs. realizado
+- 💰 Orçado vs. executado
+- 👥 Alocação de recursos
+- 📊 Eficiência por projeto
+- 🎯 Satisfação do cliente
+
+**Tags**: `#prestacao #contratos #projetos #horas #faturamento`
+
+---
+
+## 🔧 Personalização e Configuração
+
+### ⚙️ **[Relatórios Personalizados](relatorios-personalizados.md)** - Sob Medida
+**Crie relatórios específicos** - Atenda necessidades únicas
+
+**Funcionalidades:**
+- 🎨 Designer visual de relatórios
+- 📊 Campos personalizáveis
+- 🔍 Filtros avançados
+- 📈 Gráficos customizados
+- 📧 Agendamento automático
+- 📤 Exportação em múltiplos formatos
+
+**Tipos de personalização:**
+- 📋 Campos específicos
+- 🎨 Layout personalizado
+- 🔍 Filtros únicos
+- 📊 Cálculos customizados
+- 📈 Visualizações especiais
+
+**Tags**: `#personalizado #customizado #designer #filtros #agendamento`
+
+---
+
+### 📧 **[Automação de Relatórios](automacao-relatorios.md)** - Envio Automático
+**Automatize distribuição** - Relatórios na hora certa
+
+**Configurações de automação:**
+- ⏰ Agendamento (diário, semanal, mensal)
+- 📧 Lista de destinatários
+- 📎 Formatos de exportação
+- 🔍 Filtros automáticos
+- 📊 Dados sempre atualizados
+- 🚨 Alertas condicionais
+
+**Cenários de uso:**
+- 📊 DRE mensal para sócios
+- 📈 Vendas diárias para gerentes
+- 📦 Estoque semanal para compras
+- 💰 Fluxo de caixa para financeiro
+- 🎯 Metas para vendedores
+
+**Tags**: `#automacao #agendamento #email #distribuicao #alertas`
+
+---
+
+## 📱 Acesso Mobile e Exportação
+
+### 📱 **[Relatórios Mobile](relatorios-mobile.md)** - Acesso em Qualquer Lugar
+**Informações na palma da mão** - Dashboards responsivos
+
+**Funcionalidades mobile:**
+- 📊 Dashboards otimizados
+- 📈 Gráficos interativos
+- 🔍 Filtros simplificados
+- 📱 Notificações push
+- 📤 Compartilhamento rápido
+- 🔄 Sincronização offline
+
+**Relatórios mobile:**
+- 💰 Vendas do dia
+- 📊 Posição de caixa
+- 📦 Estoque crítico
+- 👥 Novos clientes
+- 🎯 Metas do mês
+
+**Tags**: `#mobile #responsivo #dashboard #notificacoes #offline`
+
+---
+
+### 📤 **[Exportação de Dados](exportacao-dados.md)** - Múltiplos Formatos
+**Dados onde você precisar** - Integração com outras ferramentas
+
+**Formatos de exportação:**
+- 📊 Excel (XLSX)
+- 📄 PDF
+- 📋 CSV
+- 🌐 HTML
+- 📊 Power BI
+- 📈 Google Sheets
+
+**Configurações de exportação:**
+- 🎨 Layout personalizado
+- 📊 Dados filtrados
+- 📈 Gráficos inclusos
+- 📧 Envio automático
+- 🔄 Atualização programada
+
+**Tags**: `#exportacao #excel #pdf #csv #powerbi #automacao`
 
 ---
 
 ## 🎯 Próximos Passos
 
 ### 📚 **Para Iniciantes**
-1. **Comece** com relatórios básicos
-2. **Configure** alertas importantes
-3. **Agende** relatórios diários
-4. **Analise** dados regularmente
+1. **[Dashboard Geral](dashboard-geral.md)** - Comece com visão geral
+2. **[Relatórios Financeiros](relatorios-financeiros.md)** - Controle financeiro
+3. **[Relatórios de Vendas](relatorios-vendas.md)** - Performance comercial
 
-### 🎯 **Para Usuários Avançados**
-1. **Crie** relatórios personalizados
-2. **Implemente** dashboards
-3. **Configure** automações
-4. **Integre** com outras ferramentas
-
-### 🚀 **Para Especialistas**
-1. **Desenvolva** análises avançadas
-2. **Implemente** BI
-3. **Crie** previsões
-4. **Automatize** decisões
+### 🚀 **Para Usuários Avançados**
+1. **[Análise ABC](analise-abc.md)** - Classificação estratégica
+2. **[Relatórios Personalizados](relatorios-personalizados.md)** - Sob medida
+3. **[Automação de Relatórios](automacao-relatorios.md)** - Distribuição automática
 
 ---
 
 ## 📚 Documentação Relacionada
 
 ### 🔗 **Módulos Relacionados**
-- **[](../vendas/index.md)** - Dados de vendas
-- **[](../financeiro/index.md)** - Dados financeiros
-- **[](../estoque/index.md)** - Dados de estoque
-- **[](../clientes/index.md)** - Dados de clientes
+- **[Vendas](../vendas/index.md)** - Dados de vendas
+- **[Financeiro](../financeiro/index.md)** - Informações financeiras
+- **[Estoque](../estoque/index.md)** - Dados de estoque
+- **[Cadastros](../cadastros/index.md)** - Base de dados
 
-### 📋 **Guias Relacionados**
-- **[Analise Dados](../../guias/analise-dados.md)** - Como analisar dados
-- **[Kpis Essenciais](../../guias/kpis-essenciais.md)** - Indicadores importantes
-- **[Dashboards](../../guias/dashboards.md)** - Criação de painéis
-- **[Business Intelligence](../../guias/business-intelligence.md)** - BI avançado
+### 📋 **Fluxos Relacionados**
+- **[Fluxo de Vendas](../../fluxos/fluxo-vendas-completo.md)** - Dados de vendas
+- **[Fluxo Financeiro](../../fluxos/fluxo-financeiro.md)** - Informações financeiras
 
 ---
 
 ## 📋 Checklist de Relatórios
 
 ### ✅ **Configuração Inicial**
-- [ ] Relatórios básicos configurados
-- [ ] Alertas importantes ativos
-- [ ] Usuários com permissões corretas
-- [ ] Agendamentos programados
+- [ ] Dashboards principais configurados
+- [ ] Usuários com permissões definidas
+- [ ] Relatórios básicos testados
+- [ ] Filtros padrão configurados
 
 ### ✅ **Uso Diário**
-- [ ] Dashboard executivo consultado
-- [ ] Relatórios operacionais revisados
-- [ ] Alertas verificados
-- [ ] Ações tomadas baseadas em dados
+- [ ] Dashboard geral consultado
+- [ ] Vendas do dia verificadas
+- [ ] Posição de caixa conferida
+- [ ] Estoque crítico monitorado
 
-### ✅ **Análise Mensal**
-- [ ] DRE analisado
-- [ ] Metas avaliadas
-- [ ] Tendências identificadas
-- [ ] Estratégias ajustadas
-
-### ✅ **Otimização Contínua**
-- [ ] Relatórios desnecessários removidos
-- [ ] Novos KPIs adicionados
-- [ ] Automações implementadas
-- [ ] Feedback da equipe coletado
+### ✅ **Análises Periódicas**
+- [ ] DRE mensal gerado
+- [ ] Análise ABC realizada
+- [ ] Performance de vendas avaliada
+- [ ] Margem de produtos revisada
 
 ---
 
-**💡 Dica Final**: Relatórios são ferramentas poderosas, mas só geram valor quando usados para tomar decisões. Transforme dados em ações!
+**💡 Dica Final**: Os relatórios são a bússola do seu negócio. Use-os diariamente para tomar decisões inteligentes e identificar oportunidades de crescimento!
 
 ---
 
-**Tags relacionadas**: #relatorios #analises #dashboards #kpis #decisao #inteligencia #dados #business-intelligence 
+**Tags relacionadas**: #relatorios #dashboard #analise #indicadores #bi #kpi #performance #financeiro 

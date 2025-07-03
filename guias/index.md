@@ -1,4 +1,4 @@
-# 📚 Guias do ERP GerenciaTech
+# 📚 Guias do WikiWhite ERP
 
 🏠 [Home](../index.md) > **📚 Guias**
 
@@ -8,7 +8,7 @@
 
 ## 🎯 Guias Disponíveis
 
-Esta seção contém **guias práticos** e **tutoriais passo a passo** para ajudar você a dominar o ERP GerenciaTech. Os guias estão organizados por **nível de experiência** e **área de conhecimento**.
+Esta seção contém **guias práticos** e **tutoriais passo a passo** para ajudar você a dominar o WikiWhite ERP. Os guias estão organizados por **nível de experiência** e **área de conhecimento**.
 
 ---
 
@@ -269,7 +269,7 @@ Esta seção contém **guias práticos** e **tutoriais passo a passo** para ajud
 5. **Busque** ajuda quando necessário
 
 ### 💡 **Dica Final**
-O aprendizado é um processo **contínuo**. Não tenha pressa, pratique bastante e sempre busque aprimorar seus conhecimentos. O ERP GerenciaTech tem muito a oferecer!
+O aprendizado é um processo **contínuo**. Não tenha pressa, pratique bastante e sempre busque aprimorar seus conhecimentos. O WikiWhite ERP tem muito a oferecer!
 
 ---
 

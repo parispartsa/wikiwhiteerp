@@ -24,7 +24,7 @@ Os **Casos de Uso** apresentam cenários reais de utilização do GerenciaTech e
 
 ## 🏪 Comércio Varejista
 
-### **[](comercio-geral/index.md)** - Visão Geral do Segmento
+### **[Comércio Geral](comercio-geral/index.md)** - Visão Geral do Segmento
 
 **Características do Segmento**:
 - Alto volume de transações
@@ -91,7 +91,7 @@ Os **Casos de Uso** apresentam cenários reais de utilização do GerenciaTech e
 
 ## 🔧 Prestação de Serviços Especializados
 
-### **[](servicos/index.md)** - Visão Geral do Segmento
+### **[Serviços Especializados](servicos/index.md)** - Visão Geral do Segmento
 
 **Características do Segmento**:
 - Serviços técnicos especializados
@@ -158,7 +158,7 @@ Os **Casos de Uso** apresentam cenários reais de utilização do GerenciaTech e
 
 ## 🔧 Prestação de Serviços
 
-### **[](servicos/index.md)** - Visão Geral do Segmento
+### **[Prestação de Serviços](prestacao-servicos/index.md)** - Visão Geral do Segmento
 
 **Características do Segmento**:
 - Contratos recorrentes
@@ -225,7 +225,7 @@ Os **Casos de Uso** apresentam cenários reais de utilização do GerenciaTech e
 
 ## 🏭 Indústria e Distribuição
 
-### **[](industria/index.md)** - Visão Geral do Segmento
+### **[Indústria](industria/index.md)** - Visão Geral do Segmento
 
 **Características do Segmento**:
 - Processos produtivos complexos
@@ -434,17 +434,17 @@ Os **Casos de Uso** apresentam cenários reais de utilização do GerenciaTech e
 ## 🆘 Veja Também
 
 ### **Fluxos de Trabalho**
-- **[](../fluxos/index.md)** - Fluxos integrados
+- **[Fluxos de Trabalho](../fluxos/index.md)** - Fluxos integrados
 - **[Fluxo de Vendas Completo](../fluxos/fluxo-vendas-completo.md)** - Processo de vendas
 - **[Fluxo Financeiro](../fluxos/fluxo-financeiro.md)** - Gestão financeira
 
 ### **Módulos do Sistema**
-- **[](../modulos/index.md)** - Visão geral dos módulos
+- **[Módulos](../modulos/index.md)** - Visão geral dos módulos
 - **[Gestão de Vendas](../modulos/vendas/index.md)** - Módulo de vendas
 - **[Gestão Financeira](../modulos/financeiro/index.md)** - Módulo financeiro
 
 ### **Configurações**
-- **[](../configuracoes/index.md)** - Configurações gerais
+- **[Configurações](../configuracoes/index.md)** - Configurações gerais
 - **[Usuarios E Permissoes](../configuracoes/usuarios-e-permissoes.md)** - Usuários e permissões
 
 ---

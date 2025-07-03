@@ -1,4 +1,4 @@
-# 📋 Módulos do Sistema ERP GerenciaTech
+# 📋 Módulos do Sistema WikiWhite ERP
 
 🏠 [Home](../index.md) > **📋 Módulos**
 
@@ -8,13 +8,13 @@
 
 ## 🎯 Visão Geral dos Módulos
 
-O **ERP GerenciaTech** está organizado em **8 módulos principais**, cada um responsável por uma área específica da gestão empresarial. Esta organização modular permite que você acesse rapidamente as funcionalidades que precisa no seu dia a dia.
+O **WikiWhite ERP** está organizado em **8 módulos principais**, cada um responsável por uma área específica da gestão empresarial. Esta organização modular permite que você acesse rapidamente as funcionalidades que precisa no seu dia a dia.
 
 ---
 
 ## 🏢 Módulos Principais
 
-### 👥 **[](cadastros/index.md)** - Gestão de Cadastros
+### 👥 **[Cadastros](cadastros/index.md)** - Gestão de Cadastros
 **Base fundamental do sistema** - Cadastre e gerencie todas as informações essenciais
 
 **Principais funcionalidades:**
@@ -28,7 +28,7 @@ O **ERP GerenciaTech** está organizado em **8 módulos principais**, cada um re
 
 ---
 
-### 💰 **[](financeiro/index.md)** - Gestão Financeira
+### 💰 **[Financeiro](financeiro/index.md)** - Gestão Financeira
 **Controle total das finanças** - Gerencie receitas, despesas e fluxo de caixa
 
 **Principais funcionalidades:**
@@ -42,7 +42,7 @@ O **ERP GerenciaTech** está organizado em **8 módulos principais**, cada um re
 
 ---
 
-### 🛒 **[](vendas/index.md)** - Gestão de Vendas
+### 🛒 **[Vendas](vendas/index.md)** - Gestão de Vendas
 **Motor de vendas do negócio** - PDV, orçamentos, pedidos e atendimento
 
 **Principais funcionalidades:**
@@ -56,7 +56,7 @@ O **ERP GerenciaTech** está organizado em **8 módulos principais**, cada um re
 
 ---
 
-### 📦 **[](estoque/index.md)** - Controle de Estoque
+### 📦 **[Estoque](estoque/index.md)** - Controle de Estoque
 **Gestão inteligente do estoque** - Controle, movimentação e reposição
 
 **Principais funcionalidades:**
@@ -70,7 +70,7 @@ O **ERP GerenciaTech** está organizado em **8 módulos principais**, cada um re
 
 ---
 
-### 🔗 **[](integracoes/index.md)** - Integrações
+### 🔗 **[Integrações](integracoes/index.md)** - Integrações
 **Conecte seu negócio** - E-commerce, marketplaces e sistemas externos
 
 **Principais funcionalidades:**
@@ -84,7 +84,7 @@ O **ERP GerenciaTech** está organizado em **8 módulos principais**, cada um re
 
 ---
 
-### 🔧 **[](servicos/index.md)** - Prestação de Serviços
+### 🔧 **[Serviços](servicos/index.md)** - Prestação de Serviços
 **Especializado para prestadores de serviços** - Gestão completa de ordens de serviço
 
 **Principais funcionalidades:**
@@ -98,7 +98,7 @@ O **ERP GerenciaTech** está organizado em **8 módulos principais**, cada um re
 
 ---
 
-### 📊 **[](relatorios/index.md)** - Relatórios e Dashboard
+### 📊 **[Relatórios](relatorios/index.md)** - Relatórios e Dashboard
 **Inteligência de negócio** - Dashboards, relatórios e análises
 
 **Principais funcionalidades:**
@@ -112,7 +112,7 @@ O **ERP GerenciaTech** está organizado em **8 módulos principais**, cada um re
 
 ---
 
-### ⚙️ **[](configuracoes/index.md)** - Configurações
+### ⚙️ **[Configurações](configuracoes/index.md)** - Configurações
 **Personalize o sistema** - Configure o sistema para seu negócio
 
 **Principais funcionalidades:**
@@ -184,9 +184,9 @@ O **ERP GerenciaTech** está organizado em **8 módulos principais**, cada um re
 - **#automatico**: Processos automatizados
 
 ### 🔗 **Links Úteis**
-- **[](../fluxos/index.md)** - Fluxos de trabalho completos
-- **[](../casos-uso/index.md)** - Casos de uso práticos
-- **[](../guias/index.md)** - Guias por nível de usuário
+- **[Fluxos de Trabalho](../fluxos/index.md)** - Fluxos de trabalho completos
+- **[Casos de Uso](../casos-uso/index.md)** - Casos de uso práticos
+- **[Guias](../guias/index.md)** - Guias por nível de usuário
 - **[Perguntas Frequentes](../faq.md)** - Perguntas frequentes
 
 ---
