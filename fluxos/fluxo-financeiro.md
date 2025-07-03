@@ -333,7 +333,7 @@ Compra ← Contas a Pagar ← Pagamento ← Caixa
 - **Tarde**: Pagamentos de fornecedores
 - **Noite**: Fechamento e conciliação
 
-### 🐾 **Caso 2: Pet Shop**
+### 🔧 **Caso 2: Prestação de Serviços**
 **Situação**: Serviços agendados e produtos
 
 **Fluxo Específico**:

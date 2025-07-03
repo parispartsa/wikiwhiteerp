@@ -1,308 +1,529 @@
-# 📦 Cadastro de Produtos
+# 📦 Cadastro de Produtos e Serviços
 
-🏠 [Home](../../index.md) > 📋 [Módulos](../index.md) > 👥 [Cadastros](index.md) > **Produtos**
+🏠 [Home](../../../index.md) > 📋 [Módulos](../../index.md) > 👥 [Cadastros](../index.md) > **📦 Produtos**
 
-#cadastros #produto #estoque #passo-a-passo #importante
+#cadastros #produtos #servicos #estoque #fiscal #preco #passo-a-passo
 
-## 📋 O que é
+---
 
-O **Cadastro de Produtos** é onde você mantém seu catálogo completo de produtos e serviços. Este é o coração do seu negócio, pois aqui você define:
+## 🎯 O que é o Cadastro de Produtos?
 
-- **Informações Básicas** - Nome, descrição, categoria
-- **Preços** - Custo, venda, margem de lucro
-- **Estoque** - Quantidade, mínimo, máximo
-- **Códigos** - Barras, referência, SKU
-- **Dados Fiscais** - NCM, CFOP, impostos
-- **Variações** - Cor, tamanho, modelo
+O **Cadastro de Produtos** é o **coração do seu sistema ERP**. Aqui você registra tudo o que vende: produtos físicos, serviços, kits, composições e muito mais. É a base para:
 
-## 🚀 Como Fazer
+- 🛒 **Vendas no PDV** e orçamentos
+- 📊 **Controle de estoque** e movimentações
+- 💰 **Precificação** e margens de lucro
+- 📄 **Emissão de notas fiscais**
+- 📈 **Relatórios** de performance
 
-### Passo 1: Acessar o Módulo
+> **💡 Dica Importante**: Um produto bem cadastrado economiza tempo em todas as vendas futuras!
+
+---
+
+## 🚀 Como Cadastrar um Produto
+
+### **Passo 1: Acessar o Cadastro**
 1. No menu principal, clique em **"Cadastros"**
-2. Selecione **"Produtos"**
-3. Clique no botão **"Novo Produto"** (ícone +)
+2. Selecione **"Produtos/Serviços"**
+3. Clique no botão **"Novo Produto"** (➕)
 
-### Passo 2: Definir Tipo do Item
-- **Produto**: Item físico com controle de estoque
-- **Serviço**: Prestação de serviço sem estoque
-- **Produto Digital**: Downloads, licenças, etc.
+### **Passo 2: Informações Básicas**
 
-> **💡 Dica**: Escolha o tipo correto pois isso afeta o comportamento do sistema.
+#### **📋 Dados Principais**
+- **Código**: Código interno do produto (gerado automaticamente ou manual)
+- **Código de Barras**: EAN/UPC para leitura no PDV
+- **Descrição**: Nome completo do produto
+- **Descrição Resumida**: Nome curto para o PDV
+- **Tipo**: Produto, Serviço, Kit ou Composição
 
-### Passo 3: Informações Básicas
+#### **💰 Informações Financeiras**
+- **Preço de Custo**: Quanto você paga pelo produto
+- **Preço de Venda**: Quanto você cobra do cliente
+- **Margem de Lucro**: Calculada automaticamente
+- **Unidade**: Unidade de medida (UN, KG, M, L, etc.)
 
-#### 📝 **Identificação**
-- **Código do Produto**: Código interno único (gerado automaticamente)
-- **Código de Barras**: EAN, UPC ou código personalizado
-- **Código de Referência**: Seu código interno personalizado
-- **SKU**: Stock Keeping Unit (opcional)
-
-#### 📋 **Descrição**
-- **Nome do Produto**: Nome comercial (obrigatório)
-- **Descrição Curta**: Resumo para PDV e relatórios
-- **Descrição Completa**: Detalhes para e-commerce
-- **Marca**: Fabricante ou marca do produto
-- **Modelo**: Modelo específico (opcional)
-
-### Passo 4: Categorização
-- **Categoria**: Classificação principal (Ração, Brinquedos, etc.)
-- **Subcategoria**: Classificação específica (Ração Cães, Ração Gatos)
-- **Tags**: Etiquetas para busca (#promocao, #novidade, #sazonal)
-- **Localização**: Prateleira, corredor, depósito
-
-### Passo 5: Preços e Custos
-
-#### 💰 **Custos**
-- **Preço de Custo**: Valor pago ao fornecedor
-- **Custo Adicional**: Frete, impostos, etc.
-- **Custo Total**: Custo + Custo Adicional (calculado automaticamente)
-
-#### 💲 **Preços de Venda**
-- **Preço de Venda**: Valor para o cliente final
-- **Margem de Lucro**: Percentual calculado automaticamente
-- **Markup**: Multiplicador sobre o custo
-
-> **💡 Dica**: O sistema calcula automaticamente margem e markup conforme você digita.
-
-### Passo 6: Controle de Estoque
-
-#### 📊 **Quantidades**
+#### **📊 Controle de Estoque**
+- **Controla Estoque**: Sim/Não
 - **Estoque Atual**: Quantidade disponível
-- **Estoque Mínimo**: Alerta quando atingir este valor
-- **Estoque Máximo**: Limite para compras
-- **Ponto de Pedido**: Quando fazer nova compra
+- **Estoque Mínimo**: Alerta de reposição
+- **Estoque Máximo**: Limite de compra
 
-#### 📦 **Unidades de Medida**
-- **Unidade de Venda**: UN, KG, MT, LT, etc.
-- **Unidade de Compra**: Pode ser diferente da venda
-- **Fator de Conversão**: Relação entre unidades
-
-### Passo 7: Informações Fiscais
-
-#### 🏛️ **Códigos Fiscais**
+### **Passo 3: Informações Fiscais**
 - **NCM**: Nomenclatura Comum do Mercosul
-- **CEST**: Código Especificador da Substituição Tributária
-- **CFOP**: Código Fiscal de Operações e Prestações
+- **CFOP**: Código Fiscal de Operações
 - **CST**: Código de Situação Tributária
+- **Alíquota ICMS**: Percentual do imposto
+- **Origem**: Nacional, Importado, etc.
 
-#### 💼 **Impostos**
-- **ICMS**: Alíquota do ICMS
-- **IPI**: Alíquota do IPI
-- **PIS**: Alíquota do PIS
-- **COFINS**: Alíquota do COFINS
-
-### Passo 8: Fornecedores
+### **Passo 4: Categorização**
+- **Categoria**: Grupo principal (ex: Ração, Brinquedos)
+- **Subcategoria**: Grupo específico (ex: Ração para Cães)
+- **Marca**: Fabricante do produto
 - **Fornecedor Principal**: Fornecedor padrão
-- **Fornecedores Alternativos**: Outros fornecedores
-- **Código do Fornecedor**: Código do produto no fornecedor
-- **Prazo de Entrega**: Tempo para recebimento
 
-### Passo 9: Imagens e Mídia
-- **Imagem Principal**: Foto principal do produto
-- **Imagens Adicionais**: Múltiplas fotos
-- **Vídeo**: Link para vídeo demonstrativo
-- **Manual/Ficha**: Anexar documentos
+### **Passo 5: Detalhes Adicionais**
+- **Foto**: Imagem do produto
+- **Descrição Completa**: Detalhes técnicos
+- **Observações**: Informações internas
+- **Status**: Ativo/Inativo
 
-### Passo 10: Salvar o Produto
-1. Revise todas as informações
-2. Clique em **"Salvar"**
-3. O sistema confirma o cadastro
+### **Passo 6: Salvar**
+- Clique em **"Salvar"** para finalizar
+- O produto estará disponível para venda imediatamente
+
+---
+
+## 🎯 Tipos de Produtos
+
+### 📦 **Produto Físico**
+**Características:**
+- Controla estoque
+- Tem peso e dimensões
+- Pode ter código de barras
+- Movimenta fisicamente
+
+**Exemplo:**
+```
+Código: 001
+Descrição: Equipamento Industrial Modelo X1
+Preço: R$ 89,90
+Estoque: 50 unidades
+NCM: 2309.10.00
+```
+
+### 🔧 **Serviço**
+**Características:**
+- Não controla estoque
+- Pode ter tempo de execução
+- Profissional responsável
+- Pode usar materiais
+
+**Exemplo:**
+```
+Código: S001
+Descrição: Banho e Tosa Completa
+Preço: R$ 45,00
+Tempo: 2 horas
+Profissional: Qualquer tosador
+```
+
+### 📋 **Kit/Composição**
+**Características:**
+- Agrupa vários produtos
+- Preço único ou soma dos itens
+- Pode ter desconto especial
+- Controla estoque dos componentes
+
+**Exemplo:**
+```
+Kit Higiene Canina:
+- 1x Shampoo Neutro
+- 1x Condicionador
+- 1x Escova
+Preço Kit: R$ 35,00 (desconto de 15%)
+```
+
+---
+
+## 🏷️ Códigos de Barras e SKU
+
+### **📊 Código de Barras**
+- **EAN-13**: Padrão internacional (13 dígitos)
+- **EAN-8**: Versão reduzida (8 dígitos)
+- **Código 128**: Para produtos internos
+- **QR Code**: Para produtos digitais
+
+### **🔤 SKU (Stock Keeping Unit)**
+- **Código interno** único para cada produto
+- **Padrão sugerido**: CAT-MARCA-MODELO-VAR
+- **Exemplo**: RAC-GOL-ADU15-15KG
+
+### **⚡ Dicas de Códigos**
+1. **Use padrões consistentes** para facilitar busca
+2. **Evite caracteres especiais** (!, @, #, etc.)
+3. **Mantenha códigos curtos** mas descritivos
+4. **Teste sempre** no leitor de código de barras
+
+---
+
+## 💰 Estratégias de Precificação
+
+### **📈 Precificação por Margem**
+```
+Preço de Venda = Preço de Custo ÷ (1 - Margem Desejada)
+
+Exemplo:
+Custo: R$ 50,00
+Margem desejada: 40%
+Preço de Venda: R$ 50,00 ÷ 0,6 = R$ 83,33
+```
+
+### **🎯 Precificação por Markup**
+```
+Preço de Venda = Preço de Custo × (1 + Markup)
+
+Exemplo:
+Custo: R$ 50,00
+Markup: 80%
+Preço de Venda: R$ 50,00 × 1,8 = R$ 90,00
+```
+
+### **📊 Tabelas de Preços**
+- **Preço Atacado**: Para compras acima de X unidades
+- **Preço VIP**: Para clientes especiais
+- **Preço Promocional**: Para campanhas
+- **Preço Funcionário**: Para colaboradores
+
+---
+
+## 🎨 Variações de Produtos
+
+### **👕 Produtos com Variações**
+**Exemplo: Camiseta**
+- **Variação 1**: Cor (Azul, Vermelho, Verde)
+- **Variação 2**: Tamanho (P, M, G, GG)
+- **Resultado**: 12 produtos diferentes
+
+### **🔧 Como Configurar**
+1. **Cadastre o produto pai** (Camiseta Básica)
+2. **Defina os atributos** (Cor, Tamanho)
+3. **Crie as variações** automaticamente
+4. **Ajuste preços** se necessário
+5. **Configure estoque** individual
+
+### **📋 Gestão de Variações**
+- **Código único** para cada variação
+- **Preços diferenciados** por variação
+- **Estoque independente** por variação
+- **Fotos específicas** para cada uma
+
+---
+
+## 📸 Imagens e Descrições
+
+### **🖼️ Fotos de Produtos**
+**Especificações recomendadas:**
+- **Formato**: JPG ou PNG
+- **Tamanho**: 800x800 pixels
+- **Peso**: Máximo 2MB
+- **Fundo**: Preferencialmente branco
+- **Qualidade**: Alta definição
+
+### **📝 Descrições Eficazes**
+**Estrutura sugerida:**
+1. **Título chamativo** (60 caracteres)
+2. **Características principais** (bullet points)
+3. **Benefícios** para o cliente
+4. **Especificações técnicas**
+5. **Instruções de uso** (se aplicável)
+
+**Exemplo:**
+```
+🔧 Equipamento Industrial Modelo X1 - Alta Performance
+
+✅ Características:
+• Material de alta resistência
+• Rico em funcionalidades avançadas
+• Sem componentes descartáveis
+• Operação simplificada
+
+🎯 Benefícios:
+• Maior produtividade
+• Redução de custos operacionais
+• Maior durabilidade
+• Ideal para operações de 1 a 3 turnos
+
+📊 Especificações:
+• Peso: 15kg
+• Potência: 2100W
+• Voltagem: 220V
+• Garantia: 24 meses
+```
+
+---
+
+## 🏭 Informações do Fornecedor
+
+### **📋 Dados do Fornecedor**
+- **Fornecedor Principal**: Quem fornece normalmente
+- **Fornecedores Alternativos**: Opções secundárias
+- **Código do Fornecedor**: Referência do produto
+- **Prazo de Entrega**: Tempo para reposição
+- **Pedido Mínimo**: Quantidade mínima de compra
+
+### **💰 Condições Comerciais**
+- **Preço de Compra**: Valor negociado
+- **Desconto por Volume**: Tabela de descontos
+- **Prazo de Pagamento**: Condições financeiras
+- **Frete**: Responsabilidade e valor
+
+---
+
+## 🔄 Controle de Estoque
+
+### **📊 Tipos de Controle**
+
+#### **🎯 Controle Simples**
+- **Estoque Atual**: Quantidade disponível
+- **Entrada**: Compras e ajustes positivos
+- **Saída**: Vendas e ajustes negativos
+- **Saldo**: Automático (Entrada - Saída)
+
+#### **📈 Controle Avançado**
+- **Múltiplos Depósitos**: Estoque por localização
+- **Lote e Validade**: Controle FIFO/FEFO
+- **Reservas**: Produtos separados para pedidos
+- **Estoque Virtual**: Disponível para venda
+
+### **⚠️ Alertas de Estoque**
+- **Estoque Mínimo**: Alerta para reposição
+- **Estoque Máximo**: Limite de compra
+- **Produtos Vencidos**: Alerta de validade
+- **Produtos Parados**: Sem movimento
+
+---
+
+## 📄 Aspectos Fiscais
+
+### **🏛️ Informações Obrigatórias**
+- **NCM**: Classificação fiscal do produto
+- **CFOP**: Operação fiscal (venda, transferência, etc.)
+- **CST**: Situação tributária
+- **Alíquota**: Percentual de imposto
+- **Origem**: Nacional, importado, etc.
+
+### **💡 Dicas Fiscais**
+1. **Consulte sempre** um contador para NCM
+2. **Mantenha atualizado** com mudanças da legislação
+3. **Use códigos corretos** para evitar multas
+4. **Documente** as justificativas fiscais
+
+### **📋 Tabela de CST Comuns**
+| CST | Descrição |
+|-----|-----------|
+| 000 | Tributada integralmente |
+| 101 | Tributada com cobrança por ST |
+| 102 | Tributada sem cobrança |
+| 400 | Isenta |
+| 500 | Substituição tributária |
+
+---
 
 ## 🔧 Funcionalidades Avançadas
 
-### 🎨 **Produtos com Variações**
-Para produtos que têm variações (cor, tamanho, modelo):
-
-1. **Ativar Variações** no cadastro principal
-2. **Definir Atributos**: Cor, Tamanho, Modelo
-3. **Criar Combinações**: Azul P, Azul M, Azul G, etc.
-4. **Preços Específicos**: Cada variação pode ter preço diferente
-5. **Estoque Individual**: Controle separado por variação
-
-### 📦 **Kits e Composições**
-Para produtos compostos por outros produtos:
-
-1. **Ativar Composição** no cadastro
-2. **Adicionar Componentes**: Produtos que compõem o kit
-3. **Definir Quantidades**: Quantidade de cada componente
-4. **Preço do Kit**: Pode ser diferente da soma dos componentes
-5. **Estoque Automático**: Baseado nos componentes
-
-### 💰 **Tabelas de Preços**
-Para preços diferenciados por cliente:
-
-1. **Criar Tabelas**: Varejo, Atacado, VIP
-2. **Definir Preços**: Preço específico por tabela
-3. **Vincular Clientes**: Associar cliente à tabela
-4. **Aplicação Automática**: Sistema aplica preço correto
-
-## 💡 Casos de Uso
-
-### 🐕 **Caso 1: Ração para Cães**
-**Situação**: Cadastrar ração com múltiplas variações.
-
-**Passo a passo**:
-1. Nome: "Ração Premier Cães Adultos"
-2. Categoria: "Ração" > "Cães"
-3. Ativar variações: Peso (1kg, 3kg, 15kg)
-4. Preços diferentes por peso
-5. Estoque individual por variação
-6. NCM: 2309.10.00
-7. Fornecedor: Premier Pet
-8. Salvar
-
-### 🧸 **Caso 2: Kit de Brinquedos**
-**Situação**: Kit com 3 brinquedos diferentes.
-
-**Passo a passo**:
-1. Nome: "Kit Brinquedos Cães"
-2. Tipo: Produto composto
-3. Componentes:
-   - Bolinha de borracha (1 un)
-   - Corda colorida (1 un)
-   - Osso de couro (1 un)
-4. Preço do kit: R$ 25,00
-5. Estoque baseado no componente com menor quantidade
-6. Salvar
-
-### 💊 **Caso 3: Medicamento Veterinário**
-**Situação**: Produto controlado com lote e validade.
-
-**Passo a passo**:
-1. Nome: "Antibiótico Veterinário XYZ"
-2. Categoria: "Medicamentos"
-3. Ativar controle de lote
-4. Ativar controle de validade
-5. NCM específico para medicamentos
-6. Fornecedor: Laboratório ABC
-7. Observações: "Receita veterinária obrigatória"
-8. Salvar
-
-## 🔍 Busca e Filtros
-
-### 🔎 **Formas de Buscar Produtos**
-- **Por Nome**: Digite parte do nome
-- **Por Código**: Código interno ou de barras
-- **Por Categoria**: Filtre por categoria
-- **Por Marca**: Produtos de uma marca específica
-- **Por Fornecedor**: Produtos de um fornecedor
-- **Por Tags**: Use #tag para filtrar
-
-### 🏷️ **Filtros Avançados**
-- **Status**: Ativo/Inativo
-- **Tipo**: Produto/Serviço
-- **Estoque**: Com estoque/Sem estoque/Estoque baixo
-- **Preço**: Faixa de preços
-- **Categoria**: Múltiplas categorias
-- **Fornecedor**: Múltiplos fornecedores
-
-## 📊 Relatórios Disponíveis
-
-### 📈 **Relatórios Básicos**
-- **Catálogo de Produtos**: Lista completa
-- **Produtos por Categoria**: Organizado por categoria
-- **Produtos em Falta**: Estoque zerado
-- **Produtos com Estoque Baixo**: Abaixo do mínimo
-
-### 📊 **Relatórios Avançados**
-- **Produtos Mais Vendidos**: Ranking por vendas
-- **Análise de Margem**: Rentabilidade por produto
+### **📊 Relatórios de Produtos**
+- **Produtos Mais Vendidos**: Ranking por quantidade
+- **Margem de Lucro**: Análise de rentabilidade
+- **Produtos Parados**: Sem movimento
 - **Curva ABC**: Classificação por importância
-- **Produtos Inativos**: Sem movimento há X dias
+- **Estoque Valorizado**: Valor total do estoque
 
-## 🚨 Alertas e Validações
+### **🔄 Importação/Exportação**
+- **Importar de Planilha**: Upload de arquivo Excel/CSV
+- **Exportar Catálogo**: Gerar arquivo para backup
+- **Sincronização**: Com e-commerce e marketplaces
+- **API**: Integração com sistemas externos
 
-### ⚠️ **Validações Automáticas**
-- **Código de Barras**: Validação de formato
-- **NCM**: Formato correto
-- **Preços**: Não podem ser negativos
-- **Estoque**: Não pode ser negativo (configurável)
+### **🎯 Automações**
+- **Reposição Automática**: Pedidos automáticos
+- **Ajuste de Preços**: Baseado em margem
+- **Promoções**: Campanhas automáticas
+- **Relatórios Agendados**: Envio por email
 
-### 🔔 **Alertas Importantes**
-- **Estoque Baixo**: Produtos abaixo do mínimo
-- **Sem Preço**: Produtos sem preço de venda
-- **Sem Fornecedor**: Produtos sem fornecedor
-- **Validade Vencida**: Produtos com validade vencida
+---
 
-## 🔄 Integrações
+## 💡 Casos de Uso Específicos
 
-### 🌐 **E-commerce**
-- **Sincronização Automática**: Produtos para loja online
-- **Imagens**: Upload automático de fotos
-- **Preços**: Sincronização de preços
-- **Estoque**: Atualização em tempo real
+### 🔧 **Prestação de Serviços**
+**Produtos típicos:**
+- **Equipamentos**: Controle de manutenção
+- **Materiais**: Controle de estoque
+- **Ferramentas**: Variações de modelo e marca
+- **Serviços**: Manutenção, consultoria, suporte
 
-### 📱 **Código de Barras**
-- **Leitura**: Leitor de código de barras
-- **Geração**: Criar códigos para produtos sem código
-- **Etiquetas**: Impressão de etiquetas
+**Configurações especiais:**
+- **Controle de manutenção**: Para equipamentos
+- **Ordem de serviço**: Para materiais utilizados
+- **Agendamento**: Para serviços
+- **Fichas técnicas**: Para produtos especializados
 
-### 📊 **Sistemas Externos**
-- **Fornecedores**: Importação de catálogos
-- **Contabilidade**: Exportação para sistemas contábeis
-- **Marketplaces**: Integração com Mercado Livre, etc.
+### 🏪 **Comércio Geral**
+**Produtos típicos:**
+- **Eletrodomésticos**: Garantia e assistência
+- **Roupas**: Variações de cor e tamanho
+- **Alimentos**: Controle de validade
+- **Eletrônicos**: Número de série
 
-## 📋 Checklist de Boas Práticas
+**Configurações especiais:**
+- **Garantia**: Prazo e condições
+- **Assistência técnica**: Rede autorizada
+- **Número de série**: Controle individual
+- **Certificações**: Inmetro, Anatel, etc.
 
-### ✅ **Antes de Cadastrar**
-- [ ] Tenha informações completas do produto
-- [ ] Defina categoria apropriada
-- [ ] Pesquise NCM correto
-- [ ] Tenha fotos de qualidade
+### 🔧 **Prestação de Serviços**
+**Serviços típicos:**
+- **Consultoria**: Por hora ou projeto
+- **Manutenção**: Preventiva e corretiva
+- **Treinamento**: Presencial ou online
+- **Desenvolvimento**: Software ou website
 
-### ✅ **Durante o Cadastro**
-- [ ] Preencha descrição completa
-- [ ] Configure preços corretamente
-- [ ] Defina estoque mínimo
-- [ ] Adicione código de barras
+**Configurações especiais:**
+- **Tempo de execução**: Estimativa de horas
+- **Profissional**: Responsável pelo serviço
+- **Materiais**: Produtos utilizados
+- **Etapas**: Divisão do projeto
 
-### ✅ **Após o Cadastro**
-- [ ] Teste busca do produto
-- [ ] Verifique cálculo de preços
-- [ ] Confirme dados fiscais
-- [ ] Treine equipe sobre novos produtos
+---
 
-## 🆘 Troubleshooting
+## 🚨 Problemas Comuns e Soluções
 
-### 🔧 **Problemas Comuns**
+### ❌ **Produto Não Aparece no PDV**
+**Possíveis causas:**
+- Produto inativo
+- Sem preço de venda
+- Categoria desabilitada
+- Estoque zerado (se controla estoque)
 
-#### **Erro: Código de Barras Duplicado**
-- **Causa**: Código já existe no sistema
-- **Solução**: Verifique se não é o mesmo produto ou use código diferente
-- **Prevenção**: Sempre busque antes de cadastrar
+**Soluções:**
+1. Verificar se o produto está **ativo**
+2. Conferir se tem **preço de venda**
+3. Verificar se a **categoria está ativa**
+4. Ajustar **configuração de estoque**
 
-#### **Erro: NCM Inválido**
-- **Causa**: Código NCM incorreto
-- **Solução**: Consulte tabela oficial do NCM
-- **Prevenção**: Use ferramenta de busca de NCM
+### ❌ **Código de Barras Não Funciona**
+**Possíveis causas:**
+- Código incorreto
+- Produto duplicado
+- Leitor descalibrado
+- Formato inválido
 
-#### **Erro: Preço Negativo**
-- **Causa**: Preço inserido com valor negativo
-- **Solução**: Insira valor positivo
-- **Prevenção**: Valide dados antes de salvar
+**Soluções:**
+1. Verificar **código no produto**
+2. Buscar **produtos duplicados**
+3. Testar **leitor de código**
+4. Validar **formato do código**
 
-## 🎯 Próximos Passos
+### ❌ **Estoque Negativo**
+**Possíveis causas:**
+- Venda sem estoque
+- Ajuste incorreto
+- Produto sem controle
+- Erro de sistema
 
-Após cadastrar seus produtos:
+**Soluções:**
+1. Fazer **ajuste de estoque**
+2. Verificar **histórico de movimentação**
+3. Configurar **controle de estoque**
+4. Revisar **vendas do período**
 
-1. **[[modulos/estoque/entrada-produtos]]** - Registre entrada de estoque
-2. **[[modulos/vendas/pdv]]** - Realize vendas
-3. **[[modulos/compras/pedido-compra]]** - Faça reposição
-4. **[[relatorios-produtos]]** - Analise performance
+### ❌ **Margem de Lucro Incorreta**
+**Possíveis causas:**
+- Preço de custo errado
+- Cálculo manual incorreto
+- Impostos não considerados
+- Despesas não incluídas
+
+**Soluções:**
+1. Verificar **preço de custo**
+2. Usar **calculadora automática**
+3. Incluir **impostos no cálculo**
+4. Considerar **despesas operacionais**
+
+---
+
+## 🎯 Checklist de Cadastro
+
+### ✅ **Informações Obrigatórias**
+- [ ] Código do produto definido
+- [ ] Descrição clara e completa
+- [ ] Preço de custo informado
+- [ ] Preço de venda calculado
+- [ ] Unidade de medida selecionada
+- [ ] Categoria atribuída
+- [ ] Status ativo marcado
+
+### ✅ **Informações Fiscais**
+- [ ] NCM correto informado
+- [ ] CFOP configurado
+- [ ] CST definido
+- [ ] Alíquota de ICMS
+- [ ] Origem do produto
+
+### ✅ **Controle de Estoque**
+- [ ] Definir se controla estoque
+- [ ] Estoque inicial informado
+- [ ] Estoque mínimo configurado
+- [ ] Fornecedor principal vinculado
+
+### ✅ **Qualidade do Cadastro**
+- [ ] Foto do produto adicionada
+- [ ] Descrição detalhada
+- [ ] Código de barras testado
+- [ ] Preços validados
+- [ ] Produto testado no PDV
+
+---
+
+## 🚀 Próximos Passos
+
+### 📚 **Para Iniciantes**
+1. **Cadastre 10 produtos** principais
+2. **Teste no PDV** se aparecem
+3. **Configure categorias** básicas
+4. **Adicione fotos** dos produtos
+
+### 🎯 **Para Usuários Avançados**
+1. **Implemente variações** de produtos
+2. **Configure tabelas** de preços
+3. **Automatize reposição** de estoque
+4. **Integre com e-commerce**
+
+### 🚀 **Para Especialistas**
+1. **Desenvolva regras** de precificação
+2. **Implemente controle** de lote
+3. **Configure relatórios** personalizados
+4. **Integre com ERP** de fornecedores
+
+---
 
 ## 📚 Documentação Relacionada
 
-- **[[gestao-variacoes-produtos]]** - Produtos com variações
-- **[[composicao-kits]]** - Kits e produtos compostos
-- **[[tabelas-precos]]** - Preços diferenciados
-- **[[controle-estoque]]** - Gestão de estoque
+### 🔗 **Módulos Relacionados**
+- **[[../vendas/pdv]]** - Como usar produtos no PDV
+- **[[../estoque/controle-estoque]]** - Gestão de estoque
+- **[[../financeiro/precificacao]]** - Estratégias de preços
+- **[[../integracoes/ecommerce]]** - Sincronização online
+
+### 📋 **Fluxos Relacionados**
+- **[[../../fluxos/fluxo-cadastro-produto]]** - Processo completo
+- **[[../../fluxos/fluxo-compras]]** - Reposição de estoque
+- **[[../../fluxos/fluxo-vendas-completo]]** - Venda com produtos
+
+### 💡 **Casos de Uso**
+- **[[../../casos-uso/servicos/cadastro-equipamento]]** - Produto com manutenção
+- **[[../../casos-uso/comercio-geral/produto-variacao]]** - Variações
+- **[[../../casos-uso/servicos/cadastro-servico]]** - Serviços
 
 ---
 
-**Tags relacionadas**: #cadastros #produto #estoque #passo-a-passo #importante
+## 🎥 Recursos Multimídia
 
-**Veja também**: [[cadastro-de-fornecedores]] | [[controle-estoque]] | [[pdv]]
+### 📹 **Vídeos Tutoriais**
+- **Cadastro Básico**: Como cadastrar seu primeiro produto
+- **Variações**: Configurando produtos com cor e tamanho
+- **Códigos de Barras**: Setup e teste de leitores
+- **Precificação**: Estratégias de margem e markup
+
+### 🖼️ **Imagens de Apoio**
+- **Tela de Cadastro**: Screenshot com campos destacados
+- **Fluxo Visual**: Diagrama do processo
+- **Exemplos**: Produtos bem cadastrados
+- **Erros Comuns**: O que evitar
 
 ---
 
-*💡 **Dica**: Um catálogo bem organizado é essencial para vendas eficientes. Invista tempo na qualidade das informações e imagens dos produtos!* 
+**💡 Dica Final**: O cadastro de produtos é um investimento. Quanto mais completo e organizado, mais fácil será gerenciar seu negócio. Dedique tempo para fazer bem feito!
+
+---
+
+**Tags relacionadas**: #cadastros #produtos #servicos #estoque #fiscal #preco #passo-a-passo #codigo-barras #variacao 

@@ -18,7 +18,7 @@ Os **Casos de Uso** apresentam cenários reais de utilização do GerenciaTec em
 
 ### ✅ **Segmentação por Negócio**
 - **Comércio Varejista**: Lojas físicas e online
-- **Pet Shop**: Estabelecimentos especializados
+- **Prestadores de Serviços**: Empresas especializadas
 - **Prestação de Serviços**: Empresas de serviços
 - **Indústria**: Fabricação e distribuição
 
@@ -89,70 +89,70 @@ Os **Casos de Uso** apresentam cenários reais de utilização do GerenciaTec em
 
 ---
 
-## 🐾 Pet Shop
+## 🔧 Prestação de Serviços Especializados
 
-### **[[petshop/index]]** - Visão Geral do Segmento
+### **[[servicos/index]]** - Visão Geral do Segmento
 
 **Características do Segmento**:
-- Serviços especializados
-- Relacionamento próximo com clientes
-- Produtos com especificidades técnicas
-- Agendamentos frequentes
-- Controle sanitário rigoroso
+- Serviços técnicos especializados
+- Relacionamento consultivo com clientes
+- Equipamentos com especificidades técnicas
+- Agendamentos programados
+- Controle de qualidade rigoroso
 
 **Principais Desafios**:
-- Agendamento de serviços
-- Controle de vacinas e medicamentos
-- Histórico detalhado dos animais
-- Gestão de produtos especializados
-- Relacionamento com veterinários
+- Agendamento de serviços técnicos
+- Controle de materiais e equipamentos
+- Histórico detalhado dos atendimentos
+- Gestão de equipe especializada
+- Relacionamento com fornecedores técnicos
 
 ---
 
-### 🐕 **Casos de Uso Específicos**
+### 🔧 **Casos de Uso Específicos**
 
-#### **[[petshop/banho-tosa-agendamento]]**
-**Cenário**: Cliente agenda banho e tosa para seu pet
+#### **[[servicos/manutencao-preventiva-agendamento]]**
+**Cenário**: Cliente agenda manutenção preventiva de equipamentos
 
-**Situação**: Cliente liga para agendar banho e tosa, escolhe horário, confirma serviços adicionais e recebe lembretes automáticos.
+**Situação**: Cliente liga para agendar manutenção preventiva, escolhe horário, confirma serviços adicionais e recebe lembretes automáticos.
 
-**Solução**: Sistema registra agendamento, vincula ao animal, programa lembretes, controla tempo de execução e fatura automaticamente.
-
----
-
-#### **[[petshop/venda-racao-recomendacao]]**
-**Cenário**: Venda de ração com recomendação personalizada
-
-**Situação**: Cliente busca ração adequada para seu pet considerando idade, peso, raça e necessidades especiais.
-
-**Solução**: Sistema consulta ficha do animal, sugere produtos adequados, calcula quantidade mensal e oferece programa de reposição automática.
+**Solução**: Sistema registra agendamento, vincula ao equipamento, programa lembretes, controla tempo de execução e fatura automaticamente.
 
 ---
 
-#### **[[petshop/consulta-veterinaria-receituario]]**
-**Cenário**: Consulta veterinária com prescrição de medicamentos
+#### **[[servicos/consultoria-tecnica-especializada]]**
+**Cenário**: Consultoria técnica com recomendação personalizada
 
-**Situação**: Veterinário atende animal, registra diagnóstico, prescreve medicamentos e agenda retorno.
+**Situação**: Cliente busca solução técnica adequada considerando especificações, ambiente e necessidades operacionais.
 
-**Solução**: Sistema registra consulta, gera receituário, controla medicamentos prescritos, agenda retorno e envia lembretes.
-
----
-
-#### **[[petshop/hospedagem-fim-semana]]**
-**Cenário**: Hospedagem de pet durante viagem dos donos
-
-**Situação**: Cliente precisa viajar e deixa pet em hospedagem por 3 dias, com cuidados especiais e medicação.
-
-**Solução**: Sistema registra hospedagem, programa cuidados diários, controla medicação, envia atualizações aos donos e fatura serviços.
+**Solução**: Sistema consulta histórico do cliente, sugere soluções adequadas, calcula custos e oferece programa de manutenção contínua.
 
 ---
 
-#### **[[petshop/programa-fidelidade]]**
-**Cenário**: Programa de fidelidade com benefícios progressivos
+#### **[[servicos/suporte-tecnico-emergencial]]**
+**Cenário**: Suporte técnico emergencial com relatório
 
-**Situação**: Cliente frequente acumula pontos em compras e serviços, troca por descontos e recebe benefícios exclusivos.
+**Situação**: Técnico atende emergência, registra diagnóstico, executa reparo e agenda acompanhamento.
 
-**Solução**: Sistema acumula pontos automaticamente, oferece resgates, envia ofertas personalizadas e gerencia níveis de fidelidade.
+**Solução**: Sistema registra atendimento, gera relatório técnico, controla materiais utilizados, agenda retorno e envia atualizações.
+
+---
+
+#### **[[servicos/contrato-manutencao-recorrente]]**
+**Cenário**: Contrato de manutenção recorrente
+
+**Situação**: Cliente contrata manutenção mensal de equipamentos com visitas programadas e relatórios de acompanhamento.
+
+**Solução**: Sistema registra contrato, programa visitas automáticas, controla execução, envia relatórios aos gestores e fatura mensalmente.
+
+---
+
+#### **[[servicos/programa-fidelidade-tecnica]]**
+**Cenário**: Programa de fidelidade com benefícios técnicos
+
+**Situação**: Cliente frequente acumula pontos em serviços, troca por descontos e recebe benefícios exclusivos como consultoria gratuita.
+
+**Solução**: Sistema acumula pontos automaticamente, oferece resgates, envia ofertas personalizadas e gerencia níveis de parceria técnica.
 
 ---
 
@@ -267,7 +267,7 @@ Os **Casos de Uso** apresentam cenários reais de utilização do GerenciaTec em
 
 ### 🔗 **Casos por Módulo**
 
-| Módulo | Comércio | Pet Shop | Serviços | Indústria |
+| Módulo | Comércio | Serviços Especializados | Serviços | Indústria |
 |--------|----------|----------|----------|-----------|
 | **PDV** | ✅ | ✅ | ❌ | ❌ |
 | **Vendas** | ✅ | ✅ | ✅ | ✅ |
@@ -288,7 +288,7 @@ Os **Casos de Uso** apresentam cenários reais de utilização do GerenciaTec em
 - **Prioridade**: PDV e estoque
 - **Automação**: Média
 
-#### **Pet Shop** - Complexidade: ⭐⭐⭐⭐
+#### **Serviços Especializados** - Complexidade: ⭐⭐⭐⭐
 - **Foco**: Relacionamento e especialização
 - **Prioridade**: Agendamento e histórico
 - **Automação**: Alta
@@ -321,11 +321,11 @@ Os **Casos de Uso** apresentam cenários reais de utilização do GerenciaTec em
 3. Integração e-commerce
 4. Relatórios de vendas
 
-##### **Pet Shop**
-1. Cadastro de animais
-2. Agendamento de serviços
-3. Controle de vacinas
-4. Histórico veterinário
+##### **Serviços Especializados**
+1. Cadastro de equipamentos
+2. Agendamento de serviços técnicos
+3. Controle de materiais
+4. Histórico de atendimentos
 
 ##### **Serviços**
 1. Contratos recorrentes
@@ -347,11 +347,11 @@ Os **Casos de Uso** apresentam cenários reais de utilização do GerenciaTec em
 - Controle de promoções
 - Integração com marketplaces
 
-#### **Pet Shop**
-- Cadastro de espécies e raças
-- Agendamento por serviço
-- Controle de medicamentos
-- Histórico por animal
+#### **Serviços Especializados**
+- Cadastro de equipamentos e tipos
+- Agendamento por serviço técnico
+- Controle de materiais
+- Histórico por cliente
 
 #### **Serviços**
 - Contratos com recorrência
@@ -375,10 +375,10 @@ Os **Casos de Uso** apresentam cenários reais de utilização do GerenciaTec em
 - Conversão de vendas
 - Margem de lucro
 
-#### **Pet Shop**
-- Taxa de agendamento
-- Frequência de clientes
-- Receita por animal
+#### **Serviços Especializados**
+- Taxa de agendamento técnico
+- Frequência de atendimentos
+- Receita por equipamento
 - Satisfação do cliente
 
 #### **Serviços**
@@ -399,9 +399,9 @@ Os **Casos de Uso** apresentam cenários reais de utilização do GerenciaTec em
 - **Problema**: Divergência de estoque
 - **Solução**: Inventário físico e auditoria
 
-### 🐾 **Pet Shop**
+### 🔧 **Serviços Especializados**
 - **Problema**: Agendamento conflitante
-- **Solução**: Configurar agenda com bloqueios
+- **Solução**: Configurar agenda com bloqueios por técnico
 
 ### 🔧 **Serviços**
 - **Problema**: Horas não registradas

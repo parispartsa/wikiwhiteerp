@@ -105,8 +105,8 @@ Os **Fluxos de Trabalho** do GerenciaTec são processos estruturados que conecta
 
 ## 🔄 Fluxos Especializados
 
-### 🐾 **Fluxo Pet Shop**
-**Descrição**: Processos específicos para estabelecimentos pet
+### 🔧 **Fluxo Prestação de Serviços**
+**Descrição**: Processos específicos para prestadores de serviços
 
 **Características Especiais**:
 - Cadastro de animais
@@ -291,7 +291,7 @@ Os **Fluxos de Trabalho** do GerenciaTec são processos estruturados que conecta
 - Giro rápido de estoque
 - Sazonalidade
 
-### 🐾 **Pet Shop**
+### 🔧 **Prestação de Serviços**
 **Fluxos Prioritários**:
 1. Fluxo de Serviços
 2. Fluxo de Vendas

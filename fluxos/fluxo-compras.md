@@ -311,7 +311,7 @@ O **Fluxo de Compras** é um processo estruturado que garante a reposição adeq
 - **Entregas Diárias**: Fornecedores entregam diariamente
 - **Conferência Rápida**: Processo de conferência otimizado
 
-### 🐾 **Caso 2: Pet Shop**
+### 🔧 **Caso 2: Prestação de Serviços**
 **Situação**: Compra de ração e medicamentos
 
 **Fluxo Específico**:

@@ -1,309 +1,436 @@
-# 🛒 PDV - Ponto de Venda
+# 💻 PDV - Ponto de Venda
 
-🏠 [Home](../../index.md) > 📋 [Módulos](../index.md) > 🛒 [Vendas](index.md) > **PDV**
+🏠 [Home](../../index.md) > 📋 [Módulos](../index.md) > 🛒 [Vendas](index.md) > **💻 PDV**
 
-#pdv #vendas #passo-a-passo #importante #balcao
+#pdv #vendas #balcao #rapido #importante #passo-a-passo
 
-## 📋 O que é
+---
 
-O **PDV (Ponto de Venda)** é o módulo para vendas rápidas no balcão. É otimizado para:
+## 🎯 O que é o PDV
 
-- **Vendas Ágeis** - Interface simples e intuitiva
-- **Múltiplas Formas de Pagamento** - Dinheiro, cartão, PIX, etc.
-- **Controle de Estoque** - Baixa automática no estoque
-- **Emissão Fiscal** - Notas fiscais automáticas
-- **Gestão de Caixa** - Abertura, sangria, fechamento
+O **PDV (Ponto de Venda)** é a interface principal para **vendas rápidas no balcão**. Foi desenvolvido para proporcionar **agilidade máxima** no atendimento, permitindo que você finalize uma venda em poucos cliques. É ideal para comércios que precisam de **velocidade** e **praticidade** no dia a dia.
 
-## 🚀 Como Usar o PDV
+### 🚀 **Principais Vantagens**
+- ⚡ **Velocidade**: Vendas finalizadas em segundos
+- 📱 **Simplicidade**: Interface intuitiva e touch-friendly
+- 🔄 **Integração**: Atualiza estoque e financeiro automaticamente
+- 🧾 **Fiscal**: Emite NFCe automaticamente
+- 💰 **Controle**: Gestão completa do caixa
 
-### Passo 1: Abrir o Caixa
-1. Acesse **"Vendas"** > **"PDV"**
-2. Clique em **"Abrir Caixa"**
-3. Informe o **valor inicial** em dinheiro
-4. Confirme a abertura
+---
 
-> **💡 Dica**: Sempre confira o valor inicial antes de confirmar.
+## 🔍 Como Acessar o PDV
 
-### Passo 2: Identificar o Cliente
-- **Cliente Cadastrado**: Digite nome, CPF ou telefone
-- **Cliente Novo**: Clique em **"Novo Cliente"** para cadastro rápido
-- **Consumidor Final**: Use a opção **"Consumidor Final"**
+### 📍 **Localização no Sistema**
+1. **Menu Principal** → **Vendas** → **PDV**
+2. **Ou** use o atalho: **F2** (tecla de função)
+3. **Ou** clique no ícone 💻 na barra superior
 
-> **⚠️ Atenção**: Para emissão de nota fiscal, o cliente deve ter CPF/CNPJ válido.
+### 🔐 **Permissões Necessárias**
+- ✅ Acesso ao módulo de Vendas
+- ✅ Permissão para PDV
+- ✅ Permissão para emitir documentos fiscais (se aplicável)
 
-### Passo 3: Adicionar Produtos
+---
 
-#### 🔍 **Formas de Buscar Produtos**
-- **Código de Barras**: Use leitor ou digite o código
-- **Código do Produto**: Digite o código interno
-- **Nome do Produto**: Digite parte do nome
-- **Busca Rápida**: Use F2 para busca avançada
+## 📋 Passo a Passo: Como Fazer uma Venda
 
-#### 📦 **Adicionando Itens**
-1. Encontre o produto desejado
-2. Informe a **quantidade** (padrão: 1)
-3. Confirme com **Enter** ou clique em **"Adicionar"**
-4. O item aparece na lista de vendas
+### 1️⃣ **Abrir o PDV**
 
-### Passo 4: Aplicar Descontos (se necessário)
-- **Desconto no Item**: Clique no item e altere o desconto
-- **Desconto na Venda**: Use o campo **"Desconto Total"**
-- **Desconto em %**: Digite o percentual
-- **Desconto em R$**: Digite o valor fixo
+1. **Acesse** o menu **Vendas** → **PDV**
+2. **Selecione** o caixa (se houver múltiplos caixas)
+3. **Aguarde** o carregamento da interface
+4. **Verifique** se o caixa está aberto
 
-> **💡 Dica**: Configure permissões para controlar quem pode dar desconto.
+> **💡 Dica**: Se o caixa estiver fechado, você precisará fazer a abertura primeiro.
 
-### Passo 5: Escolher Forma de Pagamento
+---
 
-#### 💰 **Opções Disponíveis**
-- **Dinheiro**: Pagamento em espécie
-- **Cartão de Débito**: Pagamento via POS
-- **Cartão de Crédito**: À vista ou parcelado
-- **PIX**: Pagamento instantâneo
-- **Boleto**: Para pagamento posterior
-- **Crediário**: Parcelamento próprio
+### 2️⃣ **Identificar o Cliente**
 
-#### 🔄 **Pagamento Misto**
-Para usar múltiplas formas:
-1. Selecione a primeira forma
-2. Informe o valor parcial
-3. Clique em **"Adicionar"**
-4. Repita para outras formas
-5. Complete até o valor total
+#### **Cliente Cadastrado**
+1. **Digite** o CPF/CNPJ ou nome no campo cliente
+2. **Selecione** o cliente na lista que aparecer
+3. **Confirme** os dados exibidos
 
-### Passo 6: Processar a Venda
-1. Revise todos os itens
-2. Confirme o total
-3. Clique em **"Finalizar Venda"**
-4. Aguarde o processamento
+#### **Cliente Eventual (Sem Cadastro)**
+1. **Deixe** o campo cliente em branco, ou
+2. **Selecione** "Consumidor Final" (se disponível)
 
-### Passo 7: Emitir Comprovantes
-- **Cupom Fiscal**: Impressão automática
-- **Nota Fiscal**: Emitida automaticamente (se configurado)
-- **Comprovante de Cartão**: Via POS (se aplicável)
+#### **Cadastro Rápido**
+1. **Clique** em "Novo Cliente" (ícone +)
+2. **Preencha** dados básicos: nome, telefone, CPF
+3. **Salve** e continue a venda
+
+> **⚠️ Importante**: Para vendas acima de R$ 200, é obrigatório identificar o cliente.
+
+---
+
+### 3️⃣ **Adicionar Produtos**
+
+#### **Por Código de Barras**
+1. **Posicione** o cursor no campo "Produto"
+2. **Escaneie** o código de barras com o leitor
+3. **Confirme** o produto adicionado
+
+#### **Por Busca Manual**
+1. **Digite** o código ou nome do produto
+2. **Selecione** o produto na lista
+3. **Confirme** a adição
+
+#### **Por Catálogo Visual**
+1. **Clique** em "Catálogo" ou "Produtos"
+2. **Navegue** pelas categorias
+3. **Clique** no produto desejado
+
+#### **Ajustar Quantidade**
+1. **Clique** na quantidade do produto
+2. **Digite** a nova quantidade
+3. **Confirme** a alteração
+
+> **💡 Dica**: Use o código de barras sempre que possível - é muito mais rápido!
+
+---
+
+### 4️⃣ **Aplicar Descontos (Se Necessário)**
+
+#### **Desconto no Item**
+1. **Clique** no produto na lista
+2. **Clique** em "Desconto" ou use o ícone %
+3. **Digite** o valor ou percentual
+4. **Confirme** o desconto
+
+#### **Desconto na Venda Total**
+1. **Clique** em "Desconto Geral"
+2. **Escolha** valor fixo ou percentual
+3. **Digite** o desconto
+4. **Confirme**
+
+> **⚠️ Atenção**: Verifique se você tem permissão para o desconto aplicado.
+
+---
+
+### 5️⃣ **Escolher Forma de Pagamento**
+
+#### **Dinheiro**
+1. **Clique** em "Dinheiro"
+2. **Digite** o valor recebido
+3. **Confirme** - o sistema calculará o troco
+
+#### **Cartão de Débito/Crédito**
+1. **Clique** em "Cartão"
+2. **Selecione** débito ou crédito
+3. **Escolha** a operadora (se necessário)
+4. **Confirme** a transação
+
+#### **PIX**
+1. **Clique** em "PIX"
+2. **Gere** o QR Code ou copie o código
+3. **Aguarde** a confirmação do pagamento
+
+#### **Múltiplas Formas**
+1. **Adicione** a primeira forma de pagamento
+2. **Clique** em "Adicionar Pagamento"
+3. **Repita** para outras formas
+4. **Confirme** quando o total estiver completo
+
+> **💡 Dica**: O sistema mostra em tempo real quanto ainda falta pagar.
+
+---
+
+### 6️⃣ **Finalizar a Venda**
+
+1. **Verifique** todos os itens e valores
+2. **Confirme** a forma de pagamento
+3. **Clique** em "Finalizar Venda" ou **F12**
+4. **Aguarde** o processamento
+
+#### **O que Acontece Automaticamente**
+- ✅ **Estoque** é baixado automaticamente
+- ✅ **NFCe** é emitida (se configurada)
+- ✅ **Financeiro** é atualizado
+- ✅ **Cupom** é gerado para impressão
+
+---
+
+### 7️⃣ **Imprimir Cupom**
+
+1. **Aguarde** a geração do cupom
+2. **Verifique** se a impressora está funcionando
+3. **Entregue** o cupom ao cliente
+4. **Guarde** a via da empresa (se houver)
+
+> **📄 Importante**: O cupom fiscal é obrigatório por lei!
+
+---
 
 ## 🔧 Funcionalidades Avançadas
 
-### 🎯 **Vendas Rápidas**
-- **Teclas de Atalho**: F1 a F12 para produtos frequentes
-- **Últimas Vendas**: Acesso rápido a vendas recentes
-- **Carrinho Suspenso**: Suspender venda para atender outro cliente
-- **Busca Inteligente**: Sistema aprende seus padrões
+### 🔄 **Troca e Devolução**
 
-### 💳 **Gestão de Pagamentos**
-- **Troco Automático**: Cálculo automático do troco
-- **Validação de Cartão**: Integração com POS
-- **Confirmação PIX**: Validação automática
-- **Parcelamento**: Configuração flexível
+#### **Devolução Simples**
+1. **Clique** em "Devolução"
+2. **Informe** o número da venda original
+3. **Selecione** os itens a devolver
+4. **Escolha** o motivo da devolução
+5. **Processe** o estorno
 
-### 📊 **Controles Operacionais**
-- **Sangria**: Retirada de dinheiro do caixa
-- **Reforço**: Adição de dinheiro ao caixa
-- **Cancelamento**: Cancelar vendas com justificativa
-- **Troca/Devolução**: Processar devoluções
+#### **Troca de Produto**
+1. **Inicie** uma devolução
+2. **Adicione** os novos produtos
+3. **Calcule** a diferença de valores
+4. **Finalize** a operação
 
-## 💡 Casos de Uso
+### 💰 **Gestão de Caixa**
 
-### 🐕 **Caso 1: Venda Simples - Pet Shop**
-**Situação**: Cliente compra ração para seu cão.
+#### **Abertura de Caixa**
+1. **Acesse** "Gestão de Caixa"
+2. **Clique** em "Abrir Caixa"
+3. **Informe** o valor inicial
+4. **Confirme** a abertura
 
-**Passo a passo**:
-1. Identificar cliente: "Maria Silva"
-2. Ler código de barras da ração
-3. Quantidade: 1
-4. Total: R$ 45,00
-5. Pagamento: Dinheiro R$ 50,00
-6. Troco: R$ 5,00
-7. Finalizar venda
-8. Imprimir cupom
+#### **Sangria (Retirada)**
+1. **Clique** em "Sangria"
+2. **Digite** o valor a retirar
+3. **Informe** o motivo
+4. **Confirme** a operação
 
-### 🛍️ **Caso 2: Venda com Desconto**
-**Situação**: Cliente VIP com desconto especial.
+#### **Reforço (Adição)**
+1. **Clique** em "Reforço"
+2. **Digite** o valor a adicionar
+3. **Informe** a origem
+4. **Confirme** a operação
 
-**Passo a passo**:
-1. Identificar cliente VIP
-2. Adicionar produtos
-3. Sistema aplica desconto automático (10%)
-4. Confirmar desconto
-5. Pagamento com cartão
-6. Finalizar venda
+#### **Fechamento de Caixa**
+1. **Clique** em "Fechar Caixa"
+2. **Confira** os valores
+3. **Informe** divergências (se houver)
+4. **Confirme** o fechamento
 
-### 💳 **Caso 3: Pagamento Misto**
-**Situação**: Cliente paga parte em dinheiro, parte no cartão.
+### 📊 **Consultas Rápidas**
 
-**Passo a passo**:
-1. Total da venda: R$ 120,00
-2. Primeira forma: Dinheiro R$ 70,00
-3. Segunda forma: Cartão R$ 50,00
-4. Confirmar pagamento
-5. Processar no POS
-6. Finalizar venda
+#### **Consultar Produto**
+1. **Digite** o código do produto
+2. **Pressione** **F4** ou clique na lupa
+3. **Visualize** estoque, preço e informações
 
-### 🔄 **Caso 4: Troca de Produto**
-**Situação**: Cliente quer trocar produto comprado ontem.
+#### **Consultar Cliente**
+1. **Digite** CPF/CNPJ ou nome
+2. **Pressione** **F3** ou clique na lupa
+3. **Veja** histórico e limite de crédito
 
-**Passo a passo**:
-1. Localizar venda original
-2. Selecionar item para troca
-3. Adicionar novo produto
-4. Calcular diferença
-5. Processar pagamento/troco
-6. Finalizar operação
+#### **Consultar Venda**
+1. **Acesse** "Consultar Vendas"
+2. **Informe** período ou número
+3. **Visualize** detalhes da venda
 
-## 🎨 Personalização da Interface
+---
 
-### 🖥️ **Layout do PDV**
-- **Tela Cheia**: Maximize para melhor visualização
-- **Cores**: Personalize cores da interface
-- **Fontes**: Ajuste tamanho das fontes
-- **Botões**: Configure botões de acesso rápido
+## ⚙️ Configurações do PDV
 
-### ⌨️ **Teclas de Atalho**
-- **F1**: Buscar produto
-- **F2**: Busca avançada
-- **F3**: Aplicar desconto
-- **F4**: Finalizar venda
-- **F5**: Suspender venda
-- **F6**: Cancelar item
-- **F7**: Sangria
-- **F8**: Reforço
-- **F9**: Consultar preço
-- **F10**: Fechar caixa
+### 🔧 **Configurações Básicas**
 
-### 🎯 **Botões Rápidos**
-Configure até 20 botões para produtos mais vendidos:
-1. Acesse **"Configurações"** > **"PDV"**
-2. Clique em **"Botões Rápidos"**
-3. Selecione produtos
-4. Defina posição e cor
-5. Salve configurações
+#### **Acesso às Configurações**
+1. **Menu** → **Configurações** → **PDV**
+2. **Ou** clique no ícone ⚙️ no PDV
 
-## 📊 Relatórios do PDV
+#### **Principais Configurações**
+- **Impressora Fiscal**: Configurar impressora
+- **Formas de Pagamento**: Ativar/desativar opções
+- **Descontos**: Limites por usuário
+- **Layout**: Personalizar interface
+- **Atalhos**: Definir teclas de função
 
-### 📈 **Relatórios Operacionais**
-- **Vendas do Dia**: Todas as vendas realizadas
-- **Movimento de Caixa**: Entradas e saídas
-- **Produtos Vendidos**: Ranking de produtos
-- **Formas de Pagamento**: Distribuição por forma
+### 📄 **Emissão Fiscal**
 
-### 📊 **Relatórios Gerenciais**
-- **Performance por Vendedor**: Vendas por operador
-- **Análise de Horários**: Picos de movimento
-- **Ticket Médio**: Valor médio das vendas
-- **Tempo de Atendimento**: Eficiência do atendimento
+#### **NFCe (Nota Fiscal de Consumidor)**
+- **Ativar** emissão automática
+- **Configurar** certificado digital
+- **Definir** série e numeração
+- **Testar** comunicação com SEFAZ
 
-### 📱 **Dashboard em Tempo Real**
-- **Vendas do Dia**: Valor total vendido
-- **Quantidade de Vendas**: Número de transações
-- **Ticket Médio**: Valor médio por venda
-- **Meta do Dia**: Progresso da meta
+#### **Cupom Não-Fiscal**
+- Para empresas optantes pelo Simples
+- Configurar layout do cupom
+- Definir informações obrigatórias
 
-## 🔒 Segurança e Controle
+---
 
-### 🛡️ **Controles de Acesso**
-- **Login Obrigatório**: Cada vendedor tem seu login
-- **Permissões**: Controle por funcionalidade
-- **Auditoria**: Log de todas as operações
-- **Backup**: Backup automático das vendas
+## 🎯 Dicas de Produtividade
 
-### 📋 **Controles Operacionais**
-- **Limite de Desconto**: Máximo por vendedor
-- **Aprovação de Descontos**: Desconto acima do limite
-- **Cancelamento**: Justificativa obrigatória
-- **Sangria**: Limite máximo configurável
+### ⌨️ **Atalhos Úteis**
+- **F2**: Abrir PDV
+- **F3**: Consultar cliente
+- **F4**: Consultar produto
+- **F5**: Atualizar tela
+- **F12**: Finalizar venda
+- **Esc**: Cancelar operação
+- **Enter**: Confirmar
 
-### 🔍 **Auditoria e Rastreabilidade**
-- **Log de Operações**: Todas as ações registradas
-- **Histórico de Alterações**: Mudanças em vendas
-- **Identificação do Usuário**: Quem fez o quê
-- **Timestamp**: Data e hora de cada operação
+### 🚀 **Otimização de Performance**
+1. **Mantenha** catálogo organizado
+2. **Use** códigos de barras sempre
+3. **Configure** atalhos personalizados
+4. **Treine** equipe regularmente
+5. **Mantenha** sistema atualizado
 
-## 🔄 Integrações
+### 📱 **Uso em Tablet**
+- Interface otimizada para touch
+- Botões maiores para facilitar uso
+- Gestos intuitivos
+- Modo retrato/paisagem
 
-### 💳 **Equipamentos**
-- **POS**: Máquinas de cartão
-- **Leitor de Código de Barras**: Leitura automática
-- **Impressora Fiscal**: Cupons fiscais
-- **Gaveta de Dinheiro**: Abertura automática
-
-### 🏦 **Sistemas Financeiros**
-- **Bancos**: Confirmação de PIX
-- **Adquirentes**: Cielo, Rede, Stone
-- **Gateways**: PagSeguro, Mercado Pago
-- **Conciliação**: Baixa automática
-
-### 📊 **Sistemas de Gestão**
-- **Estoque**: Baixa automática
-- **Financeiro**: Títulos a receber
-- **Fiscal**: Emissão de notas
-- **CRM**: Histórico do cliente
+---
 
 ## 🆘 Troubleshooting
 
-### 🔧 **Problemas Comuns**
+### ❌ **Problemas Comuns**
 
-#### **Erro: Produto Não Encontrado**
-- **Causa**: Código incorreto ou produto inativo
-- **Solução**: Verifique código ou status do produto
-- **Prevenção**: Mantenha cadastro atualizado
+#### **PDV Não Abre**
+- **Causa**: Caixa não foi aberto
+- **Solução**: Abra o caixa primeiro
+- **Prevenção**: Sempre abra o caixa no início do dia
 
-#### **Erro: Estoque Insuficiente**
-- **Causa**: Quantidade solicitada maior que disponível
-- **Solução**: Ajuste quantidade ou registre entrada
-- **Prevenção**: Configure alertas de estoque baixo
+#### **Produto Não Encontrado**
+- **Causa**: Produto não cadastrado ou código incorreto
+- **Solução**: Verifique cadastro do produto
+- **Prevenção**: Mantenha catálogo atualizado
 
-#### **Erro: Falha na Impressão**
+#### **Erro na Impressão**
 - **Causa**: Impressora desconectada ou sem papel
-- **Solução**: Verifique conexão e papel
-- **Prevenção**: Manutenção preventiva
+- **Solução**: Verifique conexão e suprimentos
+- **Prevenção**: Teste impressora regularmente
 
-#### **Erro: POS Não Responde**
-- **Causa**: Conexão ou configuração incorreta
-- **Solução**: Verifique cabos e configurações
-- **Prevenção**: Teste diário dos equipamentos
+#### **NFCe Rejeitada**
+- **Causa**: Problema com certificado ou SEFAZ
+- **Solução**: Verifique certificado e conexão
+- **Prevenção**: Monitore validade do certificado
 
-## 📋 Checklist de Boas Práticas
+#### **Desconto Não Permitido**
+- **Causa**: Usuário sem permissão
+- **Solução**: Solicite autorização de supervisor
+- **Prevenção**: Configure permissões adequadamente
 
-### ✅ **Abertura do Caixa**
-- [ ] Conferir valor inicial
-- [ ] Testar equipamentos
-- [ ] Verificar papel da impressora
-- [ ] Confirmar conexão com internet
+### 🔧 **Soluções Rápidas**
 
-### ✅ **Durante as Vendas**
-- [ ] Sempre identificar o cliente
-- [ ] Conferir produtos antes de adicionar
-- [ ] Validar formas de pagamento
-- [ ] Entregar comprovantes
+#### **PDV Travado**
+1. **Pressione** Esc várias vezes
+2. **Atualize** a página (F5)
+3. **Feche** e abra novamente
+4. **Reinicie** o navegador se necessário
 
-### ✅ **Fechamento do Caixa**
-- [ ] Conferir valor em dinheiro
-- [ ] Imprimir relatório de fechamento
-- [ ] Fazer backup dos dados
-- [ ] Guardar dinheiro em local seguro
+#### **Erro de Conexão**
+1. **Verifique** conexão com internet
+2. **Teste** outros módulos
+3. **Aguarde** alguns minutos
+4. **Contate** suporte se persistir
+
+---
+
+## 📊 Relatórios do PDV
+
+### 📈 **Vendas do Dia**
+- Total de vendas
+- Quantidade de cupons
+- Ticket médio
+- Formas de pagamento
+
+### 💰 **Movimento de Caixa**
+- Abertura/fechamento
+- Sangrias e reforços
+- Total de entradas
+- Divergências
+
+### 👥 **Performance por Vendedor**
+- Vendas por operador
+- Tempo médio de atendimento
+- Produtos mais vendidos
+- Descontos aplicados
+
+---
+
+## 🔗 Integrações
+
+### 🏦 **TEF (Transferência Eletrônica de Fundos)**
+- Integração com máquinas de cartão
+- Processamento automático
+- Conciliação de vendas
+- Relatórios unificados
+
+### 📱 **WhatsApp**
+- Envio de cupom por WhatsApp
+- Confirmação de vendas
+- Promoções e ofertas
+- Suporte ao cliente
+
+### 🌐 **E-commerce**
+- Sincronização de estoque
+- Preços unificados
+- Pedidos online no PDV
+- Omnichannel
+
+---
 
 ## 🎯 Próximos Passos
 
-Após dominar o PDV:
+### 🚀 **Para Iniciantes**
+1. **Pratique** vendas simples primeiro
+2. **Aprenda** os atalhos básicos
+3. **Configure** formas de pagamento
+4. **Teste** a emissão fiscal
 
-1. **[[modulos/financeiro/contas-a-receber]]** - Acompanhe recebimentos
-2. **[[modulos/estoque/controle-estoque]]** - Monitore estoque
-3. **[[relatorios-vendas]]** - Analise performance
-4. **[[configuracoes-pdv-avancadas]]** - Personalize ainda mais
+### 🎯 **Para Usuários Avançados**
+1. **Configure** descontos automáticos
+2. **Personalize** layout da interface
+3. **Integre** com TEF
+4. **Automatize** processos
+
+---
 
 ## 📚 Documentação Relacionada
 
-- **[[orcamentos]]** - Criar orçamentos antes da venda
-- **[[cadastro-rapido-cliente]]** - Cadastrar clientes no PDV
-- **[[controle-estoque]]** - Gestão de estoque
-- **[[emissao-fiscal]]** - Notas fiscais automáticas
+### 🔗 **Funcionalidades Relacionadas**
+- **[[../cadastros/cadastro-de-produtos]]** - Base para vendas
+- **[[../cadastros/cadastro-de-clientes]]** - Identificação de clientes
+- **[[../financeiro/formas-pagamento]]** - Configurar pagamentos
+- **[[../integracoes/emissao-nfce]]** - Documentos fiscais
+
+### 📋 **Fluxos Relacionados**
+- **[[../../fluxos/fluxo-vendas-completo]]** - Processo completo
+- **[[../../fluxos/fluxo-caixa]]** - Gestão de caixa
+- **[[../../fluxos/fluxo-fiscal]]** - Emissão de documentos
+
+### 💡 **Casos de Uso**
+- **[[../../casos-uso/comercio-geral/venda-balcao]]** - Venda típica
+- **[[../../casos-uso/comercio-geral/venda-multiplos-pagamentos]]** - Múltiplas formas
+- **[[../../casos-uso/comercio-geral/troca-devolucao]]** - Trocas e devoluções
 
 ---
 
-**Tags relacionadas**: #pdv #vendas #passo-a-passo #importante #balcao
+## 📋 Checklist de Boas Práticas
 
-**Veja também**: [[orcamentos]] | [[controle-estoque]] | [[contas-a-receber]]
+### ✅ **Antes de Começar o Dia**
+- [ ] Abrir caixa com valor inicial
+- [ ] Testar impressora fiscal
+- [ ] Verificar conexão com internet
+- [ ] Conferir estoque de produtos principais
+
+### ✅ **Durante as Vendas**
+- [ ] Sempre identificar o cliente
+- [ ] Confirmar produtos e quantidades
+- [ ] Verificar forma de pagamento
+- [ ] Entregar cupom fiscal
+
+### ✅ **No Final do Dia**
+- [ ] Conferir total de vendas
+- [ ] Fechar caixa corretamente
+- [ ] Imprimir relatórios do dia
+- [ ] Fazer backup se necessário
 
 ---
 
-*💡 **Dica**: O PDV é o coração das vendas no balcão. Invista tempo no treinamento da equipe para garantir agilidade e precisão no atendimento!* 
+**💡 Dica Final**: O PDV é a ferramenta que você mais usará no dia a dia. Dedique tempo para conhecê-lo bem e configurá-lo adequadamente. Uma venda rápida e eficiente faz toda a diferença na experiência do cliente!
+
+---
+
+**Tags relacionadas**: #pdv #vendas #balcao #rapido #importante #passo-a-passo #fiscal #caixa 

@@ -1,367 +1,490 @@
 # 🔄 Fluxo de Vendas Completo
 
-🏠 [Home](../index.md) > 🔄 [Fluxos](index.md) > **Vendas Completo**
+🏠 [Home](../index.md) > 🔄 [Fluxos](index.md) > **📈 Vendas Completo**
 
-#fluxo #vendas #processo #passo-a-passo #importante #automatico
+#fluxo #vendas #processo #completo #passo-a-passo
 
-## 📋 Visão Geral
+---
 
-O **Fluxo de Vendas Completo** é o processo que vai desde o primeiro contato com o cliente até a entrega do produto e recebimento do pagamento. Este fluxo integra todos os módulos do sistema para garantir uma experiência completa e automatizada.
+## 🎯 Visão Geral do Fluxo
 
-## 🎯 Objetivo do Fluxo
+O **Fluxo de Vendas Completo** do ERP GerenciaTec abrange todo o processo comercial, desde o **primeiro contato** com o cliente até a **entrega final** do produto ou serviço. Este fluxo é **flexível** e se adapta a diferentes tipos de negócio e situações de venda.
 
-- **Padronizar** o processo de vendas
-- **Automatizar** tarefas repetitivas
-- **Garantir** que nada seja esquecido
-- **Integrar** todos os módulos do sistema
-- **Otimizar** o tempo de atendimento
-- **Melhorar** a experiência do cliente
+### 🚀 **Principais Benefícios**
+- **Padronização** do processo comercial
+- **Rastreabilidade** completa da venda
+- **Integração automática** entre módulos
+- **Redução de erros** e retrabalho
+- **Melhoria** na experiência do cliente
 
-## 🚀 Etapas do Fluxo
+---
 
-### 1️⃣ **Primeiro Contato e Qualificação**
+## 🔄 Visão Geral do Processo
 
-#### 📞 **Recepção do Cliente**
-- **Presencial**: Cliente chega ao estabelecimento
-- **Telefone**: Ligação para informações
-- **WhatsApp**: Mensagem pelo aplicativo
-- **Site/E-commerce**: Interesse online
-- **Indicação**: Cliente indicado por outro
+```mermaid
+graph TD
+    A[Primeiro Contato] --> B[Qualificação]
+    B --> C[Orçamento]
+    C --> D[Negociação]
+    D --> E[Aprovação]
+    E --> F[Pedido]
+    F --> G[Verificação]
+    G --> H[Separação]
+    H --> I[Entrega]
+    I --> J[Faturamento]
+    J --> K[Cobrança]
+    K --> L[Recebimento]
+    L --> M[Pós-Venda]
+```
 
-#### 🔍 **Qualificação Inicial**
-- **Identificar necessidade**: O que o cliente busca?
-- **Verificar disponibilidade**: Produto/serviço disponível?
-- **Avaliar urgência**: Quando precisa?
-- **Definir orçamento**: Faixa de preço aceitável?
+---
 
-### 2️⃣ **Cadastro/Identificação do Cliente**
+## 📋 Etapas Detalhadas
 
-#### 👥 **Cliente Já Cadastrado**
-1. Buscar por **nome**, **CPF** ou **telefone**
-2. Verificar **dados atualizados**
-3. Consultar **histórico de compras**
-4. Verificar **limite de crédito**
-5. Aplicar **categoria/desconto** se aplicável
+### 1️⃣ **Primeiro Contato**
+**Objetivo**: Identificar oportunidade de venda
 
-#### 👤 **Cliente Novo**
-1. **[[modulos/cadastros/cadastro-de-clientes]]** - Cadastro completo
-2. Ou **[[cadastro-rapido-pdv]]** - Cadastro mínimo
-3. Definir **categoria** (Normal, VIP, Atacado)
-4. Configurar **limite de crédito**
-5. Explicar **benefícios** do cadastro
+#### **Canais de Entrada**
+- 🏪 **Presencial**: Cliente na loja
+- 📞 **Telefone**: Ligação do cliente
+- 📧 **Email**: Solicitação por email
+- 📱 **WhatsApp**: Mensagem direta
+- 🌐 **Site**: Formulário de contato
+- 🛍️ **Marketplace**: Pedido online
 
-### 3️⃣ **Apresentação de Produtos/Serviços**
+#### **Ações Necessárias**
+1. **Recepcionar** o cliente adequadamente
+2. **Identificar** a necessidade
+3. **Qualificar** o potencial de compra
+4. **Registrar** o contato no sistema
 
-#### 📦 **Seleção de Produtos**
-- **Demonstrar produtos**: Características e benefícios
-- **Comparar opções**: Diferentes modelos/marcas
-- **Verificar estoque**: Disponibilidade imediata
-- **Sugerir complementos**: Produtos relacionados
-- **Apresentar promoções**: Ofertas especiais
+#### **Documentação Relacionada**
+- **[[../modulos/cadastros/cadastro-de-clientes]]** - Como cadastrar clientes
+- **[[../modulos/crm/gestao-leads]]** - Gestão de leads
 
-#### 🐾 **Para Pet Shops**
-- **Identificar o pet**: [[modulos/petshop/cadastro-de-animais]]
-- **Verificar necessidades**: Porte, idade, raça
-- **Histórico de compras**: Produtos já utilizados
-- **Agendar serviços**: Banho, tosa, consulta
-- **Orientar sobre uso**: Como usar produtos
+---
 
-### 4️⃣ **Criação do Orçamento**
+### 2️⃣ **Qualificação do Cliente**
+**Objetivo**: Entender necessidades e perfil do cliente
 
-#### 📝 **Montagem do Orçamento**
-1. Acessar **[[modulos/vendas/orcamentos]]**
-2. Adicionar **produtos selecionados**
-3. Aplicar **descontos** se necessário
-4. Definir **condições de pagamento**
-5. Calcular **frete** (se aplicável)
-6. Adicionar **observações** importantes
+#### **Informações a Coletar**
+- 👤 **Dados Pessoais**: Nome, contato, empresa
+- 💰 **Orçamento**: Faixa de investimento
+- ⏰ **Prazo**: Quando precisa da solução
+- 🎯 **Necessidades**: O que está buscando
+- 🏢 **Autoridade**: Quem decide a compra
 
-#### 💰 **Negociação**
-- **Apresentar valor total**
-- **Explicar condições**
-- **Negociar descontos** (se autorizado)
-- **Oferecer alternativas** de pagamento
-- **Destacar benefícios** da compra
+#### **Processo de Qualificação**
+1. **Fazer** perguntas abertas
+2. **Ouvir** atentamente as respostas
+3. **Registrar** informações no sistema
+4. **Classificar** o lead (quente/morno/frio)
 
-### 5️⃣ **Aprovação e Conversão**
+#### **Ferramentas do Sistema**
+- **[[../modulos/cadastros/cadastro-de-clientes]]** - Cadastro completo
+- **[[../modulos/crm/historico-interacoes]]** - Histórico de contatos
 
-#### ✅ **Cliente Aprova Orçamento**
-1. **Confirmar** todos os itens
-2. **Validar** dados do cliente
-3. **Converter** orçamento em **pedido**
-4. **Gerar** número do pedido
-5. **Definir** prazo de entrega
+---
 
-#### ❌ **Cliente Não Aprova**
-1. **Entender objeções**
-2. **Fazer ajustes** no orçamento
-3. **Agendar** nova apresentação
-4. **Salvar** orçamento para follow-up
-5. **Programar** contato posterior
+### 3️⃣ **Elaboração do Orçamento**
+**Objetivo**: Criar proposta comercial adequada
 
-### 6️⃣ **Processamento do Pedido**
+#### **Preparação do Orçamento**
+1. **Acessar** **[[../modulos/vendas/orcamentos]]**
+2. **Selecionar** cliente qualificado
+3. **Adicionar** produtos/serviços
+4. **Configurar** condições comerciais
+5. **Calcular** impostos e frete
+6. **Revisar** valores e prazos
 
-#### 📋 **Verificações Pré-Venda**
-- **Estoque**: Confirmar disponibilidade
-- **Crédito**: Verificar limite do cliente
-- **Preços**: Validar valores atuais
-- **Promoções**: Aplicar ofertas válidas
-- **Documentos**: CPF/CNPJ para nota fiscal
+#### **Elementos do Orçamento**
+- 📋 **Produtos/Serviços**: Descrição detalhada
+- 💰 **Preços**: Valores unitários e totais
+- 📊 **Condições**: Prazos e formas de pagamento
+- 🚚 **Entrega**: Prazo e local
+- ⏰ **Validade**: Prazo de validade da proposta
 
-#### 🔄 **Reserva de Produtos**
-1. **Reservar itens** no estoque
-2. **Bloquear quantidade** temporariamente
-3. **Definir prazo** da reserva
-4. **Notificar** setor de separação
-5. **Atualizar** disponibilidade
+#### **Personalização**
+- **Logo** da empresa
+- **Cores** corporativas
+- **Observações** específicas
+- **Termos** e condições
 
-### 7️⃣ **Processamento do Pagamento**
+---
 
-#### 💳 **Escolha da Forma de Pagamento**
-- **À Vista**: Dinheiro, PIX, débito
-- **Parcelado**: Cartão de crédito
-- **Boleto**: Para pagamento posterior
-- **Crediário**: Parcelamento próprio
-- **Misto**: Combinação de formas
+### 4️⃣ **Apresentação e Negociação**
+**Objetivo**: Apresentar proposta e negociar condições
 
-#### 🏦 **Processamento Financeiro**
-1. **Processar pagamento** imediato
-2. **Gerar títulos** a receber (se parcelado)
-3. **Emitir boletos** (se necessário)
-4. **Atualizar** financeiro automaticamente
-5. **Confirmar** transação
+#### **Formas de Apresentação**
+- 🏪 **Presencial**: Na loja ou empresa do cliente
+- 📧 **Email**: Envio automático pelo sistema
+- 📱 **WhatsApp**: Compartilhamento direto
+- 🌐 **Portal**: Acesso online pelo cliente
 
-### 8️⃣ **Emissão de Documentos Fiscais**
+#### **Técnicas de Negociação**
+1. **Apresentar** benefícios, não apenas características
+2. **Mostrar** valor agregado
+3. **Estar** preparado para objeções
+4. **Oferecer** alternativas quando necessário
+5. **Buscar** ganha-ganha
 
-#### 📄 **Nota Fiscal Automática**
-1. **Sistema gera** NFe/NFCe automaticamente
-2. **Transmite** para SEFAZ
-3. **Aguarda** autorização
-4. **Imprime** DANFE
-5. **Envia** por email para cliente
+#### **Registro no Sistema**
+- **Status** da negociação
+- **Objeções** apresentadas
+- **Contrapropostas** feitas
+- **Próximos** passos
 
-#### 🧾 **Outros Documentos**
-- **Cupom fiscal** (se PDV)
-- **Recibo** de pagamento
-- **Comprovante** de cartão
-- **Boleto** (se aplicável)
-- **Garantia** do produto
+---
 
-### 9️⃣ **Separação e Preparação**
+### 5️⃣ **Aprovação do Cliente**
+**Objetivo**: Confirmar aceite da proposta
 
-#### 📦 **Separação de Produtos**
+#### **Formas de Aprovação**
+- ✅ **Verbal**: Confirmação por telefone
+- 📧 **Email**: Resposta de aceite
+- 📱 **WhatsApp**: Mensagem de confirmação
+- 📄 **Assinatura**: Documento físico ou digital
+
+#### **Ações no Sistema**
+1. **Alterar** status do orçamento para "Aprovado"
+2. **Registrar** forma de aprovação
+3. **Definir** responsável pelo pedido
+4. **Programar** próximas etapas
+
+---
+
+### 6️⃣ **Conversão em Pedido**
+**Objetivo**: Transformar orçamento aprovado em pedido de venda
+
+#### **Processo de Conversão**
+1. **Acessar** orçamento aprovado
+2. **Clicar** em "Converter em Pedido"
+3. **Revisar** dados do pedido
+4. **Confirmar** prazos de entrega
+5. **Salvar** pedido gerado
+
+#### **Informações do Pedido**
+- 📋 **Número**: Numeração sequencial automática
+- 📅 **Data**: Data de criação do pedido
+- 🚚 **Entrega**: Prazo e endereço
+- 💰 **Pagamento**: Condições confirmadas
+- 👥 **Responsável**: Vendedor ou atendente
+
+#### **Documentação**
+- **[[../modulos/vendas/pedidos]]** - Gestão de pedidos
+
+---
+
+### 7️⃣ **Verificação e Preparação**
+**Objetivo**: Confirmar disponibilidade e preparar o pedido
+
+#### **Verificação de Estoque**
+1. **Consultar** **[[../modulos/estoque/consulta-estoque]]**
+2. **Confirmar** disponibilidade de todos os itens
+3. **Verificar** localização dos produtos
+4. **Reservar** produtos para o pedido
+
+#### **Verificação de Crédito**
+- **Consultar** limite de crédito do cliente
+- **Verificar** histórico de pagamentos
+- **Confirmar** condições de pagamento
+
+#### **Preparação Interna**
+- **Comunicar** equipe de separação
+- **Programar** produção (se necessário)
+- **Coordenar** logística de entrega
+
+---
+
+### 8️⃣ **Separação dos Produtos**
+**Objetivo**: Preparar produtos para entrega
+
+#### **Processo de Separação**
 1. **Imprimir** lista de separação
 2. **Localizar** produtos no estoque
-3. **Conferir** quantidade e qualidade
+3. **Conferir** quantidades e especificações
 4. **Embalar** adequadamente
-5. **Anexar** documentos
+5. **Identificar** volumes
 
-#### 🏷️ **Etiquetagem**
-- **Etiqueta** de identificação
-- **Dados** do cliente
-- **Endereço** de entrega
-- **Observações** especiais
-- **Código** de rastreamento
+#### **Controle de Qualidade**
+- **Verificar** estado dos produtos
+- **Testar** funcionamento (se aplicável)
+- **Conferir** acessórios e manuais
+- **Documentar** não conformidades
 
-### 🔟 **Entrega/Retirada**
+#### **Atualização no Sistema**
+- **Alterar** status para "Separado"
+- **Registrar** responsável pela separação
+- **Anexar** fotos se necessário
+- **Programar** entrega
 
-#### 🚚 **Entrega**
-1. **Agendar** entrega com cliente
-2. **Roteirizar** entregas do dia
-3. **Carregar** veículo
-4. **Confirmar** entrega no sistema
-5. **Coletar** assinatura/confirmação
+---
 
-#### 🏪 **Retirada**
-1. **Notificar** cliente que está pronto
-2. **Conferir** produtos na retirada
-3. **Entregar** documentos
-4. **Explicar** garantia e uso
-5. **Confirmar** retirada no sistema
+### 9️⃣ **Entrega/Retirada**
+**Objetivo**: Fazer o produto chegar ao cliente
 
-### 1️⃣1️⃣ **Baixa no Estoque**
+#### **Modalidades de Entrega**
+- 🏪 **Retirada**: Cliente busca na loja
+- 🚚 **Entrega**: Transporte próprio
+- 📦 **Correios**: Envio pelos correios
+- 🚛 **Transportadora**: Empresa terceirizada
 
-#### 📊 **Atualização Automática**
-1. **Sistema baixa** estoque automaticamente
-2. **Atualiza** quantidade disponível
-3. **Verifica** estoque mínimo
-4. **Gera alertas** se necessário
-5. **Atualiza** custo médio
+#### **Processo de Entrega**
+1. **Confirmar** endereço e horário
+2. **Preparar** documentação
+3. **Carregar** produtos no veículo
+4. **Entregar** ao destinatário
+5. **Obter** comprovante de entrega
 
-#### 📈 **Controles**
-- **Rastreabilidade** do produto
-- **Histórico** de movimentação
-- **Localização** atual
-- **Status** da venda
-- **Margem** realizada
+#### **Documentação da Entrega**
+- **Nota fiscal** de venda
+- **Comprovante** de entrega
+- **Manual** do produto
+- **Termo** de garantia
 
-### 1️⃣2️⃣ **Finalização Financeira**
+---
 
-#### 💰 **Recebimento**
-- **À vista**: Baixa automática
-- **Parcelado**: Acompanhar vencimentos
-- **Boleto**: Aguardar compensação
-- **Cartão**: Confirmar aprovação
-- **Conciliação**: Automática com banco
+### 🔟 **Faturamento**
+**Objetivo**: Emitir documentos fiscais e financeiros
 
-#### 📊 **Relatórios**
-1. **Atualizar** relatórios de vendas
-2. **Calcular** comissões
-3. **Atualizar** metas
-4. **Gerar** indicadores
-5. **Analisar** performance
+#### **Documentos Fiscais**
+- **[[../modulos/integracoes/emissao-nfe]]** - Nota Fiscal Eletrônica
+- **[[../modulos/integracoes/emissao-nfce]]** - Nota Fiscal de Consumidor
+- **[[../modulos/integracoes/emissao-nfse]]** - Nota Fiscal de Serviços
 
-## 🔄 Fluxos Alternativos
+#### **Processo de Faturamento**
+1. **Confirmar** entrega realizada
+2. **Emitir** nota fiscal
+3. **Transmitir** para SEFAZ
+4. **Enviar** para o cliente
+5. **Arquivar** documentos
 
-### 🛒 **Venda Direta no PDV**
-Para vendas rápidas no balcão:
-1. **[[modulos/vendas/pdv]]** - Acesso direto ao PDV
-2. **Identificar** cliente rapidamente
-3. **Adicionar** produtos por código de barras
-4. **Processar** pagamento imediato
-5. **Emitir** cupom fiscal
-6. **Entregar** produtos na hora
+#### **Integração Financeira**
+- **Gerar** títulos a receber
+- **Enviar** boletos (se aplicável)
+- **Configurar** lembretes de cobrança
 
-### 🌐 **Venda Online**
-Para vendas pelo e-commerce:
-1. **Cliente** faz pedido online
-2. **Sistema** importa pedido automaticamente
-3. **Validar** estoque e pagamento
-4. **Processar** conforme fluxo normal
-5. **Integrar** com transportadora
+---
 
-### 📞 **Venda por Telefone/WhatsApp**
-Para vendas remotas:
-1. **Atender** cliente remotamente
-2. **Criar** orçamento no sistema
-3. **Enviar** por WhatsApp/email
-4. **Aguardar** aprovação
-5. **Processar** pagamento remoto
-6. **Programar** entrega
+### 1️⃣1️⃣ **Cobrança**
+**Objetivo**: Gerenciar recebimento dos valores
 
-## 🎯 Pontos de Controle
+#### **Formas de Cobrança**
+- 💰 **À Vista**: Pagamento imediato
+- 📄 **Boleto**: Cobrança bancária
+- 💳 **Cartão**: Débito ou crédito
+- 📱 **PIX**: Transferência instantânea
 
-### ✅ **Checkpoints Obrigatórios**
-- [ ] **Cliente identificado** e cadastrado
-- [ ] **Produtos disponíveis** em estoque
-- [ ] **Preços validados** e atuais
-- [ ] **Pagamento processado** com sucesso
-- [ ] **Nota fiscal emitida** e autorizada
-- [ ] **Produtos separados** e conferidos
-- [ ] **Entrega confirmada** pelo cliente
-- [ ] **Estoque atualizado** automaticamente
-- [ ] **Financeiro baixado** corretamente
+#### **Processo de Cobrança**
+1. **Acompanhar** vencimentos
+2. **Enviar** lembretes
+3. **Fazer** cobranças ativas
+4. **Negociar** quando necessário
+5. **Registrar** acordos
 
-### ⚠️ **Alertas de Validação**
-- **Estoque insuficiente**: Produto sem estoque
-- **Limite de crédito**: Cliente acima do limite
-- **Preço desatualizado**: Produto com preço antigo
-- **CPF/CNPJ inválido**: Documento incorreto
-- **Erro fiscal**: Problema na emissão da NFe
+#### **Documentação**
+- **[[../modulos/financeiro/contas-a-receber]]** - Gestão de recebimentos
+- **[[../modulos/financeiro/cobranca]]** - Processo de cobrança
 
-## 📊 Métricas do Fluxo
+---
 
-### 📈 **Indicadores de Performance**
-- **Tempo médio** de atendimento
-- **Taxa de conversão** orçamento → venda
-- **Ticket médio** por venda
-- **Produtos por venda** (cross-sell)
-- **Satisfação** do cliente
+### 1️⃣2️⃣ **Recebimento**
+**Objetivo**: Confirmar pagamento e baixar títulos
 
-### 📉 **Pontos de Melhoria**
-- **Gargalos** no processo
-- **Etapas demoradas**
-- **Erros frequentes**
-- **Retrabalho** identificado
-- **Automações** possíveis
+#### **Processo de Recebimento**
+1. **Identificar** pagamento
+2. **Conferir** valor e data
+3. **Baixar** título no sistema
+4. **Conciliar** com extrato bancário
+5. **Atualizar** situação do cliente
 
-## 🤖 Automações Disponíveis
+#### **Formas de Confirmação**
+- 🏦 **Extrato bancário**
+- 📱 **Notificação PIX**
+- 💳 **Comprovante cartão**
+- 📄 **Comprovante boleto**
 
-### ⚡ **Automações Ativas**
-- **Geração automática** de títulos a receber
-- **Emissão automática** de notas fiscais
-- **Baixa automática** de estoque
-- **Envio automático** de boletos por email
-- **Conciliação automática** de pagamentos
-- **Alertas automáticos** de vencimento
+---
 
-### 🔧 **Configurações Recomendadas**
-- **Ativar** emissão automática de NFe
-- **Configurar** envio de boletos por email
-- **Definir** limites de desconto por usuário
-- **Configurar** alertas de estoque baixo
-- **Ativar** backup automático de vendas
+### 1️⃣3️⃣ **Pós-Venda**
+**Objetivo**: Garantir satisfação e fidelização
 
-## 📋 Checklist de Boas Práticas
+#### **Ações de Pós-Venda**
+- 📞 **Pesquisa** de satisfação
+- 🛠️ **Suporte** técnico
+- 📧 **Newsletter** com dicas
+- 🎁 **Ofertas** especiais
 
-### ✅ **Antes da Venda**
-- [ ] Sistema funcionando corretamente
-- [ ] Estoque atualizado
-- [ ] Preços validados
-- [ ] Equipamentos testados
-- [ ] Equipe treinada
+#### **Oportunidades**
+- 🔄 **Venda cruzada**: Produtos complementares
+- ⬆️ **Upgrade**: Versões superiores
+- 🔁 **Recompra**: Produtos recorrentes
+- 👥 **Indicação**: Novos clientes
 
-### ✅ **Durante a Venda**
-- [ ] Cliente bem atendido
-- [ ] Produtos demonstrados
-- [ ] Orçamento detalhado
-- [ ] Pagamento processado
-- [ ] Documentos emitidos
+---
 
-### ✅ **Após a Venda**
-- [ ] Produtos entregues
-- [ ] Cliente satisfeito
-- [ ] Estoque atualizado
-- [ ] Financeiro correto
-- [ ] Follow-up agendado
+## 🎯 Variações do Fluxo
 
-## 🆘 Troubleshooting
+### ⚡ **Venda Rápida (PDV)**
+```
+Cliente → Produtos → Pagamento → Cupom → Entrega
+```
+**Tempo**: 2-5 minutos  
+**Ideal para**: Comércio varejista
 
-### 🔧 **Problemas Comuns**
+### 📋 **Venda Consultiva**
+```
+Lead → Qualificação → Orçamento → Negociação → Pedido → Entrega
+```
+**Tempo**: 1-30 dias  
+**Ideal para**: Vendas B2B, produtos complexos
 
-#### **Erro na Emissão da NFe**
-1. **Verificar** conexão com internet
-2. **Validar** dados do cliente
-3. **Conferir** certificado digital
-4. **Tentar** reenvio
-5. **Contatar** suporte se persistir
+### 🔧 **Prestação de Serviços**
+```
+Solicitação → Orçamento → OS → Execução → Entrega → Faturamento
+```
+**Tempo**: Variável  
+**Ideal para**: Serviços técnicos
 
-#### **Estoque Divergente**
-1. **Conferir** movimentações recentes
-2. **Verificar** vendas não baixadas
-3. **Fazer** inventário do produto
-4. **Ajustar** estoque se necessário
-5. **Investigar** causa da divergência
+---
 
-#### **Pagamento Não Aprovado**
-1. **Verificar** dados do cartão
-2. **Tentar** novamente
-3. **Oferecer** forma alternativa
-4. **Contatar** administradora
-5. **Registrar** tentativa
+## 📊 Métricas e Controles
 
-## 🎯 Próximos Passos
+### 📈 **KPIs do Funil de Vendas**
+- **Taxa de Conversão**: Lead → Orçamento → Venda
+- **Tempo Médio**: Duração de cada etapa
+- **Ticket Médio**: Valor médio das vendas
+- **Margem de Lucro**: Rentabilidade por venda
 
-Para otimizar seu fluxo de vendas:
+### 🎯 **Pontos de Controle**
+- **Qualificação**: % de leads qualificados
+- **Orçamento**: Tempo para envio
+- **Negociação**: Taxa de aprovação
+- **Entrega**: Prazo médio de entrega
+- **Recebimento**: Inadimplência
 
-1. **[[configuracoes-automaticas]]** - Configure automações
-2. **[[treinamento-equipe]]** - Treine sua equipe
-3. **[[relatorios-vendas]]** - Analise performance
-4. **[[otimizacao-processo]]** - Melhore continuamente
+---
+
+## 🔧 Automações Disponíveis
+
+### 🤖 **Automações do Sistema**
+- **Baixa de estoque** automática
+- **Emissão fiscal** automática
+- **Geração de títulos** a receber
+- **Envio de boletos** por email
+- **Lembretes** de cobrança
+
+### 📱 **Integrações**
+- **WhatsApp**: Notificações automáticas
+- **Email**: Confirmações e lembretes
+- **Transportadoras**: Rastreamento
+- **Bancos**: Conciliação automática
+
+---
+
+## 🆘 Problemas Comuns e Soluções
+
+### ❌ **Orçamento Não Aprovado**
+**Causas Possíveis**:
+- Preço alto demais
+- Prazo inadequado
+- Falta de confiança
+- Concorrência
+
+**Soluções**:
+- Revisar precificação
+- Oferecer condições especiais
+- Melhorar apresentação
+- Acompanhar mais de perto
+
+### ❌ **Atraso na Entrega**
+**Causas Possíveis**:
+- Falta de estoque
+- Problema logístico
+- Falha na comunicação
+- Problema com fornecedor
+
+**Soluções**:
+- Melhorar controle de estoque
+- Ter fornecedores alternativos
+- Comunicar proativamente
+- Criar buffer de segurança
+
+### ❌ **Inadimplência**
+**Causas Possíveis**:
+- Análise de crédito inadequada
+- Falta de acompanhamento
+- Problemas do cliente
+- Produto com defeito
+
+**Soluções**:
+- Melhorar análise de crédito
+- Acompanhar vencimentos
+- Negociar rapidamente
+- Garantir qualidade
+
+---
+
+## 🔄 Melhorias Contínuas
+
+### 📊 **Análise de Performance**
+- **Revisar** métricas mensalmente
+- **Identificar** gargalos
+- **Implementar** melhorias
+- **Treinar** equipe
+
+### 🎯 **Otimizações**
+- **Reduzir** tempo de resposta
+- **Melhorar** taxa de conversão
+- **Aumentar** ticket médio
+- **Diminuir** inadimplência
+
+---
 
 ## 📚 Documentação Relacionada
 
-- **[[modulos/vendas/pdv]]** - Vendas no balcão
-- **[[modulos/vendas/orcamentos]]** - Criação de orçamentos
-- **[[modulos/financeiro/contas-a-receber]]** - Gestão financeira
-- **[[modulos/estoque/controle-estoque]]** - Controle de estoque
+### 🔗 **Módulos Envolvidos**
+- **[[../modulos/vendas/index]]** - Gestão de vendas
+- **[[../modulos/cadastros/index]]** - Cadastros base
+- **[[../modulos/estoque/index]]** - Controle de estoque
+- **[[../modulos/financeiro/index]]** - Gestão financeira
+
+### 📋 **Outros Fluxos**
+- **[[fluxo-compras]]** - Reposição de estoque
+- **[[fluxo-contratos]]** - Faturamento recorrente
+- **[[fluxo-fiscal]]** - Emissão de documentos
+
+### 💡 **Casos de Uso**
+- **[[../casos-uso/comercio-geral/venda-completa]]** - Venda completa
+- **[[../casos-uso/servicos/venda-com-servico]]** - Venda + serviço
+- **[[../casos-uso/servicos/projeto-completo]]** - Projeto completo
 
 ---
 
-**Tags relacionadas**: #fluxo #vendas #processo #passo-a-passo #importante #automatico
+## 📋 Checklist do Fluxo
 
-**Veja também**: [[fluxo-compras]] | [[fluxo-contratos]] | [[pdv]]
+### ✅ **Preparação**
+- [ ] Clientes cadastrados
+- [ ] Produtos com preços atualizados
+- [ ] Estoque conferido
+- [ ] Equipe treinada
+
+### ✅ **Durante o Processo**
+- [ ] Qualificar bem o cliente
+- [ ] Orçamento detalhado
+- [ ] Negociação documentada
+- [ ] Aprovação registrada
+
+### ✅ **Finalização**
+- [ ] Entrega confirmada
+- [ ] Documentos emitidos
+- [ ] Cobrança programada
+- [ ] Pós-venda planejado
 
 ---
 
-*💡 **Dica**: Um fluxo bem definido e seguido garante vendas mais eficientes e clientes mais satisfeitos. Treine sua equipe e monitore os indicadores regularmente!* 
+**💡 Dica Final**: O fluxo de vendas é o processo mais importante do seu negócio. Dedique tempo para entendê-lo, otimizá-lo e treinar sua equipe. Cada etapa bem executada aumenta significativamente suas chances de sucesso!
+
+---
+
+**Tags relacionadas**: #fluxo #vendas #processo #completo #passo-a-passo #comercial #gestao 

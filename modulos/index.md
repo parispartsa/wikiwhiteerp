@@ -1,269 +1,198 @@
 # 📋 Módulos do Sistema ERP GerenciaTec
 
-🏠 [Home](../index.md) > **Módulos**
+🏠 [Home](../index.md) > **📋 Módulos**
 
-#modulos #sistema #gestao #erp #completo
-
-## 📋 Visão Geral
-
-O **ERP GerenciaTec** é organizado em módulos integrados que cobrem todas as áreas do seu negócio. Cada módulo é especializado em uma função específica, mas todos trabalham juntos para proporcionar uma gestão completa e automatizada.
-
-## 🏗️ Arquitetura Modular
-
-### ✅ **Vantagens da Arquitetura Modular**
-- **Especialização**: Cada módulo é otimizado para sua função
-- **Integração**: Dados compartilhados entre todos os módulos
-- **Flexibilidade**: Use apenas os módulos que precisa
-- **Escalabilidade**: Adicione novos módulos conforme cresce
-- **Manutenção**: Atualizações independentes por módulo
-
-### 🔗 **Integração Entre Módulos**
-- **Dados Únicos**: Cadastre uma vez, use em todo lugar
-- **Fluxos Automáticos**: Processos que atravessam módulos
-- **Relatórios Integrados**: Visão completa do negócio
-- **Permissões Unificadas**: Controle de acesso centralizado
-
-## 📦 Módulos Disponíveis
-
-### 👥 **[Gestão de Cadastros](cadastros/index.md)**
-**Base fundamental do sistema**
-
-- **Clientes**: Pessoas físicas e jurídicas
-- **Fornecedores**: Empresas parceiras
-- **Produtos/Serviços**: Catálogo completo
-- **Animais**: Cadastro específico para pet shops
-
-**Por que é importante**: Todos os outros módulos dependem destes cadastros básicos.
+#modulos #indice #navegacao #sistema
 
 ---
 
-### 💰 **[Gestão Financeira](financeiro/index.md)**
-**Controle total das finanças**
+## 🎯 Visão Geral dos Módulos
 
-- **Contas a Receber**: Valores a receber de clientes
-- **Contas a Pagar**: Obrigações com fornecedores
-- **Fluxo de Caixa**: Entradas e saídas de dinheiro
-- **Conciliação Bancária**: Movimentos bancários
-
-**Por que é importante**: Visão clara da saúde financeira e planejamento de caixa.
+O **ERP GerenciaTec** está organizado em **8 módulos principais**, cada um responsável por uma área específica da gestão empresarial. Esta organização modular permite que você acesse rapidamente as funcionalidades que precisa no seu dia a dia.
 
 ---
 
-### 🛒 **[Gestão de Vendas](vendas/index.md)**
-**Do orçamento à entrega**
+## 🏢 Módulos Principais
 
-- **PDV**: Vendas rápidas no balcão
-- **Orçamentos**: Propostas comerciais
-- **Pedidos**: Vendas confirmadas
-- **Ordens de Serviço**: Prestação de serviços
+### 👥 **[[cadastros/index]]** - Gestão de Cadastros
+**Base fundamental do sistema** - Cadastre e gerencie todas as informações essenciais
 
-**Por que é importante**: Otimiza o processo comercial e melhora a experiência do cliente.
+**Principais funcionalidades:**
+- 👤 Cadastro de Clientes (Pessoa Física e Jurídica)
+- 🏭 Cadastro de Fornecedores
+- 📦 Cadastro de Produtos e Serviços
+- 🏷️ Categorias e Grupos
+- 🔗 Relacionamentos e Vínculos
 
----
-
-### 📦 **[Controle de Estoque](estoque/index.md)**
-**Gestão completa do inventário**
-
-- **Movimentação**: Entradas e saídas
-- **Inventário**: Controle físico
-- **Compras**: Reposição automática
-- **Transferências**: Entre depósitos
-
-**Por que é importante**: Evita rupturas e otimiza capital de giro.
+**Tags**: `#cadastros #clientes #fornecedores #produtos #fundamental`
 
 ---
 
-### 🔗 **[Integrações](integracoes/index.md)**
-**Conecte com o mundo digital**
+### 💰 **[[financeiro/index]]** - Gestão Financeira
+**Controle total das finanças** - Gerencie receitas, despesas e fluxo de caixa
 
-- **E-commerce**: WooCommerce, Loja Integrada, etc.
-- **Marketplaces**: Mercado Livre, iFood
-- **Emissão Fiscal**: NFe, NFCe, NFSe automáticas
-- **Bancos**: Conciliação e pagamentos
+**Principais funcionalidades:**
+- 📈 Contas a Receber
+- 📉 Contas a Pagar
+- 💳 Fluxo de Caixa
+- 🏦 Integração Bancária
+- 📄 Boletos e PIX
 
-**Por que é importante**: Expande canais de venda e automatiza processos.
-
----
-
-### 🐾 **[Pet Shop](petshop/index.md)**
-**Especializado para pet shops**
-
-- **Cadastro de Animais**: Informações completas dos pets
-- **Agendamentos**: Banho, tosa, consultas
-- **Controle Veterinário**: Vacinas e tratamentos
-- **Serviços Especiais**: Hospedagem, day care
-
-**Por que é importante**: Funcionalidades específicas para o mercado pet.
+**Tags**: `#financeiro #receber #pagar #fluxo-caixa #boleto`
 
 ---
 
-### 📊 **[Relatórios e Dashboard](relatorios/index.md)**
-**Inteligência para decisões**
+### 🛒 **[[vendas/index]]** - Gestão de Vendas
+**Motor de vendas do negócio** - PDV, orçamentos, pedidos e atendimento
 
-- **Dashboards**: Visão executiva em tempo real
-- **Relatórios Operacionais**: Dia a dia do negócio
-- **Relatórios Gerenciais**: Análises estratégicas
-- **Relatórios Fiscais**: Compliance tributário
+**Principais funcionalidades:**
+- 💻 PDV (Ponto de Venda)
+- 📋 Orçamentos e Propostas
+- 📦 Pedidos de Venda
+- 🔧 Ordens de Serviço
+- 📊 Análise de Vendas
 
-**Por que é importante**: Transforma dados em informações para decisões estratégicas.
-
----
-
-### ⚙️ **[Configurações](configuracoes/index.md)**
-**Personalize o sistema**
-
-- **Dados da Empresa**: Informações básicas
-- **Usuários e Permissões**: Controle de acesso
-- **Parâmetros Fiscais**: Configurações tributárias
-- **Integrações**: APIs e conectores
-
-**Por que é importante**: Adapta o sistema às necessidades específicas do seu negócio.
-
-## 🔄 Fluxos Integrados
-
-### 📈 **Fluxo Comercial**
-```
-Cadastros → Vendas → Financeiro → Relatórios
-```
-1. **Cadastre** clientes e produtos
-2. **Venda** no PDV ou orçamentos
-3. **Receba** automaticamente
-4. **Analise** performance
-
-### 📦 **Fluxo Operacional**
-```
-Cadastros → Estoque → Vendas → Financeiro
-```
-1. **Cadastre** produtos e fornecedores
-2. **Controle** estoque e compras
-3. **Venda** com baixa automática
-4. **Pague** fornecedores
-
-### 🌐 **Fluxo Digital**
-```
-Integrações → Vendas → Estoque → Financeiro
-```
-1. **Integre** e-commerce e marketplaces
-2. **Processe** vendas online
-3. **Atualize** estoque em tempo real
-4. **Concilie** pagamentos automaticamente
-
-## 🎯 Por Onde Começar
-
-### 🚀 **Implementação Recomendada**
-
-#### **Semana 1: Base**
-1. **[Configurações](configuracoes/index.md)** - Configure dados da empresa
-2. **[Cadastros](cadastros/index.md)** - Cadastre produtos e clientes básicos
-
-#### **Semana 2: Vendas**
-3. **[Vendas](vendas/index.md)** - Configure PDV e realize primeiras vendas
-4. **[Financeiro](financeiro/index.md)** - Configure contas e formas de pagamento
-
-#### **Semana 3: Operação**
-5. **[Estoque](estoque/index.md)** - Configure controle de estoque
-6. **[Relatórios](relatorios/index.md)** - Configure dashboards básicos
-
-#### **Semana 4: Expansão**
-7. **[Integrações](integracoes/index.md)** - Conecte e-commerce e bancos
-8. **[Pet Shop](petshop/index.md)** - Se aplicável ao seu negócio
-
-## 📊 Matriz de Dependências
-
-| Módulo | Depende de | Usado por |
-|--------|------------|-----------|
-| **Cadastros** | Configurações | Todos os outros |
-| **Vendas** | Cadastros | Financeiro, Estoque |
-| **Financeiro** | Cadastros, Vendas | Relatórios |
-| **Estoque** | Cadastros, Vendas | Relatórios |
-| **Integrações** | Cadastros, Vendas | Financeiro, Estoque |
-| **Pet Shop** | Cadastros | Vendas, Relatórios |
-| **Relatórios** | Todos | - |
-| **Configurações** | - | Todos |
-
-## 🎨 Personalização por Segmento
-
-### 🛍️ **Comércio Geral**
-**Módulos Essenciais**:
-- ✅ Cadastros
-- ✅ Vendas (PDV)
-- ✅ Financeiro
-- ✅ Estoque
-- ✅ Relatórios
-
-**Módulos Opcionais**:
-- 🔗 Integrações (e-commerce)
-- ⚙️ Configurações avançadas
-
-### 🐾 **Pet Shop**
-**Módulos Essenciais**:
-- ✅ Cadastros
-- ✅ Pet Shop
-- ✅ Vendas
-- ✅ Financeiro
-- ✅ Relatórios
-
-**Módulos Opcionais**:
-- 📦 Estoque (se vende produtos)
-- 🔗 Integrações (delivery)
-
-### 🔧 **Prestação de Serviços**
-**Módulos Essenciais**:
-- ✅ Cadastros
-- ✅ Vendas (Ordens de Serviço)
-- ✅ Financeiro
-- ✅ Relatórios
-
-**Módulos Opcionais**:
-- 📦 Estoque (se usa materiais)
-- 🔗 Integrações (agenda online)
-
-## 📱 Acesso Mobile
-
-### 📲 **Módulos Otimizados para Mobile**
-- **PDV**: Interface touch-friendly
-- **Cadastros**: Cadastro rápido
-- **Relatórios**: Dashboards responsivos
-- **Pet Shop**: Agendamentos mobile
-
-### 💻 **Módulos Desktop Preferencial**
-- **Configurações**: Telas complexas
-- **Relatórios Avançados**: Múltiplas abas
-- **Integrações**: Configurações técnicas
-
-## 🆘 Suporte por Módulo
-
-### 📞 **Canais de Suporte**
-- **Email**: suporte@gerenciatec.com.br
-- **WhatsApp**: (11) 9999-9999
-- **Chat**: Dentro do sistema
-- **Vídeos**: Canal YouTube
-
-### 🎓 **Treinamento**
-- **Curso Básico**: Módulos essenciais
-- **Cursos Específicos**: Por módulo
-- **Workshops**: Sessões práticas
-- **Consultoria**: Implementação guiada
-
-## 🔄 Atualizações e Novidades
-
-### 📅 **Ciclo de Atualizações**
-- **Mensais**: Correções e melhorias
-- **Trimestrais**: Novas funcionalidades
-- **Anuais**: Novos módulos
-
-### 🆕 **Próximos Módulos**
-- **CRM**: Gestão de relacionamento
-- **RH**: Recursos humanos
-- **Produção**: Controle de produção
-- **BI**: Business Intelligence
+**Tags**: `#vendas #pdv #orcamento #pedidos #atendimento`
 
 ---
 
-**Tags relacionadas**: #modulos #sistema #gestao #erp #completo
+### 📦 **[[estoque/index]]** - Controle de Estoque
+**Gestão inteligente do estoque** - Controle, movimentação e reposição
 
-**Comece agora**: [[configuracoes/dados-da-empresa]] | [[cadastros/cadastro-de-produtos]]
+**Principais funcionalidades:**
+- 📊 Movimentação de Estoque
+- 🛒 Gestão de Compras
+- 📍 Múltiplos Almoxarifados
+- 📋 Inventário Físico
+- ⚠️ Alertas de Estoque
+
+**Tags**: `#estoque #compras #movimentacao #inventario #alertas`
 
 ---
 
-*💡 **Dica**: Comece pelos módulos básicos (Configurações e Cadastros) e vá expandindo gradualmente. Cada módulo implementado corretamente potencializa os demais!* 
+### 🔗 **[[integracoes/index]]** - Integrações
+**Conecte seu negócio** - E-commerce, marketplaces e sistemas externos
+
+**Principais funcionalidades:**
+- 🌐 E-commerce (WooCommerce, Loja Integrada)
+- 🛍️ Marketplaces (Mercado Livre, iFood)
+- 📄 Emissão Fiscal (NFe, NFCe, NFSe)
+- 🏦 Integração Bancária
+- 📊 APIs e Webhooks
+
+**Tags**: `#integracoes #ecommerce #marketplace #fiscal #api`
+
+---
+
+### 🔧 **[[servicos/index]]** - Prestação de Serviços
+**Especializado para prestadores de serviços** - Gestão completa de ordens de serviço
+
+**Principais funcionalidades:**
+- 📋 Ordens de Serviço
+- 🕐 Controle de Tempo
+- 📦 Controle de Materiais
+- 📅 Agendamento de Serviços
+- 📊 Relatórios de Produtividade
+
+**Tags**: `#servicos #ordens #agendamento #materiais #produtividade`
+
+---
+
+### 📊 **[[relatorios/index]]** - Relatórios e Dashboard
+**Inteligência de negócio** - Dashboards, relatórios e análises
+
+**Principais funcionalidades:**
+- 📈 Dashboard Executivo
+- 📊 Relatórios Gerenciais
+- 💰 Relatórios Financeiros
+- 📋 Relatórios Fiscais
+- 🎯 Indicadores de Performance
+
+**Tags**: `#relatorios #dashboard #analise #indicadores #performance`
+
+---
+
+### ⚙️ **[[configuracoes/index]]** - Configurações
+**Personalize o sistema** - Configure o sistema para seu negócio
+
+**Principais funcionalidades:**
+- 🏢 Dados da Empresa
+- 👥 Usuários e Permissões
+- 📊 Parâmetros Fiscais
+- 🔧 Configurações Gerais
+- 🔐 Segurança e Backup
+
+**Tags**: `#configuracoes #usuarios #empresa #fiscal #seguranca`
+
+---
+
+## 🚀 Fluxo de Implementação Recomendado
+
+### 📋 **Fase 1: Configuração Base**
+1. **[[configuracoes/dados-da-empresa]]** - Configure sua empresa
+2. **[[configuracoes/usuarios-e-permissoes]]** - Crie usuários
+3. **[[configuracoes/parametros-fiscais]]** - Configure impostos
+
+### 📋 **Fase 2: Cadastros Fundamentais**
+1. **[[cadastros/cadastro-de-produtos]]** - Cadastre produtos/serviços
+2. **[[cadastros/cadastro-de-clientes]]** - Cadastre clientes
+3. **[[cadastros/cadastro-de-fornecedores]]** - Cadastre fornecedores
+
+### 📋 **Fase 3: Operação Básica**
+1. **[[vendas/pdv]]** - Configure e use o PDV
+2. **[[estoque/movimentacao-estoque]]** - Controle estoque
+3. **[[financeiro/contas-a-receber]]** - Gerencie recebimentos
+
+### 📋 **Fase 4: Automação e Integrações**
+1. **[[integracoes/emissao-documentos-fiscais]]** - Configure NFe/NFCe
+2. **[[integracoes/ecommerce-marketplaces]]** - Conecte vendas online
+3. **[[financeiro/integracoes-bancarias]]** - Automatize financeiro
+
+---
+
+## 🎯 Módulos por Tipo de Negócio
+
+### 🛒 **Comércio Varejista - Prioridade**
+1. **Vendas** (PDV) - 🔥 Crítico
+2. **Estoque** (Controle) - 🔥 Crítico  
+3. **Cadastros** (Produtos/Clientes) - ⚡ Alto
+4. **Financeiro** (Recebimentos) - ⚡ Alto
+5. **Integrações** (Fiscal) - ⚡ Alto
+
+### 🔧 **Serviços - Prioridade**
+1. **Serviços** (Ordens/Agendamentos) - 🔥 Crítico
+2. **Vendas** (Agendamento) - 🔥 Crítico
+3. **Cadastros** (Clientes/Produtos) - ⚡ Alto
+4. **Financeiro** (Recebimentos) - ⚡ Alto
+5. **Relatórios** (Histórico) - 📊 Médio
+
+### 🔧 **Prestação de Serviços - Prioridade**
+1. **Vendas** (Ordens de Serviço) - 🔥 Crítico
+2. **Financeiro** (Contratos) - 🔥 Crítico
+3. **Cadastros** (Clientes/Serviços) - ⚡ Alto
+4. **Relatórios** (Produtividade) - 📊 Médio
+5. **Configurações** (Permissões) - 📊 Médio
+
+---
+
+## 🔍 Navegação Rápida
+
+### 🏷️ **Por Tags Principais**
+- **#iniciante**: Módulos básicos para começar
+- **#avançado**: Funcionalidades complexas
+- **#obrigatorio**: Configurações obrigatórias
+- **#automatico**: Processos automatizados
+
+### 🔗 **Links Úteis**
+- **[[../fluxos/index]]** - Fluxos de trabalho completos
+- **[[../casos-uso/index]]** - Casos de uso práticos
+- **[[../guias/index]]** - Guias por nível de usuário
+- **[[../faq]]** - Perguntas frequentes
+
+---
+
+**💡 Dica**: Comece sempre pelas **Configurações** e **Cadastros** antes de usar os módulos operacionais. Isso garantirá uma experiência mais fluida e eficiente.
+
+---
+
+**Tags relacionadas**: #modulos #indice #navegacao #sistema #organizacao 

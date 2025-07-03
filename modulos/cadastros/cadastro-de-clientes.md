@@ -115,13 +115,13 @@ O **Cadastro de Clientes** é onde você mantém todas as informações dos seus
 8. Salvar
 
 ### 🏢 **Caso 2: Cliente Pessoa Jurídica**
-**Situação**: Pet Shop Amor Animal precisa comprar produtos para revenda.
+**Situação**: Empresa de Manutenção Industrial precisa comprar equipamentos para serviços.
 
 **Passo a passo**:
 1. Selecione "Pessoa Jurídica"
 2. Digite CNPJ: 12345678000123
-3. Razão Social: Pet Shop Amor Animal Ltda
-4. Nome Fantasia: Amor Animal
+3. Razão Social: Manutenção Industrial Ltda
+4. Nome Fantasia: Manutenção Pro
 5. Inscrição Estadual: 123456789
 6. Contatos e endereço
 7. Limite de crédito: R$ 5.000,00
@@ -273,7 +273,7 @@ Após cadastrar seus clientes:
 
 - **[[cadastro-rapido-pdv]]** - Cadastro rápido no ponto de venda
 - **[[gestao-credito-debito]]** - Controle de limite de crédito
-- **[[cadastro-de-animais]]** - Para clientes de pet shop
+- **[[cadastro-de-ordens-servico]]** - Para clientes de serviços
 - **[[fluxo-vendas-completo]]** - Fluxo completo de vendas
 
 ---
