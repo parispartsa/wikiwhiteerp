@@ -6,7 +6,7 @@
 
 ## 🎯 Visão Geral
 
-O módulo de **Integrações** é o centro de conectividade do ERP GerenciaTec, permitindo que seu negócio se conecte com o mundo digital e automatize processos essenciais. Este módulo transforma seu ERP em uma central de comando que sincroniza dados com e-commerces, marketplaces, bancos, órgãos fiscais e outras ferramentas.
+O módulo de **Integrações** é o centro de conectividade do ERP GerenciaTech, permitindo que seu negócio se conecte com o mundo digital e automatize processos essenciais. Este módulo transforma seu ERP em uma central de comando que sincroniza dados com e-commerces, marketplaces, bancos, órgãos fiscais e outras ferramentas.
 
 ## 🌟 Principais Funcionalidades
 

@@ -1,4 +1,4 @@
-# 📋 Módulos do Sistema ERP GerenciaTec
+# 📋 Módulos do Sistema ERP GerenciaTech
 
 🏠 [Home](../index.md) > **📋 Módulos**
 
@@ -8,7 +8,7 @@
 
 ## 🎯 Visão Geral dos Módulos
 
-O **ERP GerenciaTec** está organizado em **8 módulos principais**, cada um responsável por uma área específica da gestão empresarial. Esta organização modular permite que você acesse rapidamente as funcionalidades que precisa no seu dia a dia.
+O **ERP GerenciaTech** está organizado em **8 módulos principais**, cada um responsável por uma área específica da gestão empresarial. Esta organização modular permite que você acesse rapidamente as funcionalidades que precisa no seu dia a dia.
 
 ---
 

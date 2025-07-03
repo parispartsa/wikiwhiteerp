@@ -1,4 +1,4 @@
-# 📚 Guias do ERP GerenciaTec
+# 📚 Guias do ERP GerenciaTech
 
 🏠 [Home](../index.md) > **📚 Guias**
 
@@ -8,7 +8,7 @@
 
 ## 🎯 Guias Disponíveis
 
-Esta seção contém **guias práticos** e **tutoriais passo a passo** para ajudar você a dominar o ERP GerenciaTec. Os guias estão organizados por **nível de experiência** e **área de conhecimento**.
+Esta seção contém **guias práticos** e **tutoriais passo a passo** para ajudar você a dominar o ERP GerenciaTech. Os guias estão organizados por **nível de experiência** e **área de conhecimento**.
 
 ---
 
@@ -216,12 +216,12 @@ Esta seção contém **guias práticos** e **tutoriais passo a passo** para ajud
 
 ### 💬 **Canais de Ajuda**
 - **Chat do Sistema**: Suporte em tempo real
-- **Email**: guias@gerenciatec.com.br
+- **Email**: guias@GerenciaTech.com.br
 - **WhatsApp**: (11) 99999-9999
-- **Fórum**: forum.gerenciatec.com.br
+- **Fórum**: forum.GerenciaTech.com.br
 
 ### 📚 **Recursos Complementares**
-- **Vídeos**: youtube.com/gerenciatec
+- **Vídeos**: youtube.com/GerenciaTech
 - **Webinars**: Sessões ao vivo
 - **FAQ**: Perguntas frequentes
 - **Comunidade**: Troca de experiências
@@ -269,7 +269,7 @@ Esta seção contém **guias práticos** e **tutoriais passo a passo** para ajud
 5. **Busque** ajuda quando necessário
 
 ### 💡 **Dica Final**
-O aprendizado é um processo **contínuo**. Não tenha pressa, pratique bastante e sempre busque aprimorar seus conhecimentos. O ERP GerenciaTec tem muito a oferecer!
+O aprendizado é um processo **contínuo**. Não tenha pressa, pratique bastante e sempre busque aprimorar seus conhecimentos. O ERP GerenciaTech tem muito a oferecer!
 
 ---
 

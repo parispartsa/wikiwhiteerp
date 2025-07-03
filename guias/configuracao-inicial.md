@@ -8,7 +8,7 @@
 
 ## 🎯 Objetivo deste Guia
 
-Este guia te ajudará a **configurar o ERP GerenciaTec** do zero, seguindo a **sequência correta** para que tudo funcione perfeitamente desde o primeiro dia. É o **ponto de partida obrigatório** para qualquer empresa.
+Este guia te ajudará a **configurar o ERP GerenciaTech** do zero, seguindo a **sequência correta** para que tudo funcione perfeitamente desde o primeiro dia. É o **ponto de partida obrigatório** para qualquer empresa.
 
 ### ⏱️ **Tempo estimado**: 4-6 horas
 ### 👥 **Quem deve fazer**: Administrador do sistema
@@ -658,7 +658,7 @@ DRE Mensal: Email dia 5 do mês
 
 ### **🆘 Quando Precisar de Ajuda**
 - **Documentação**: Esta seção de configuração
-- **Suporte Técnico**: suporte@gerenciatec.com.br
+- **Suporte Técnico**: suporte@GerenciaTech.com.br
 - **WhatsApp**: (11) 9999-9999
 - **Vídeos**: Canal no YouTube
 - **Treinamento**: Agende uma sessão

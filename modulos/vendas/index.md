@@ -8,7 +8,7 @@
 
 ## 🎯 Visão Geral do Módulo
 
-O **Módulo de Vendas** é o **coração comercial** do ERP GerenciaTec. Aqui você gerencia todo o processo de vendas, desde o primeiro contato com o cliente até a entrega final do produto ou serviço. Este módulo oferece **flexibilidade total** para atender diferentes tipos de negócio e situações de venda.
+O **Módulo de Vendas** é o **coração comercial** do ERP GerenciaTech. Aqui você gerencia todo o processo de vendas, desde o primeiro contato com o cliente até a entrega final do produto ou serviço. Este módulo oferece **flexibilidade total** para atender diferentes tipos de negócio e situações de venda.
 
 ### 🚀 **Principais Benefícios**
 - **Agilidade** no atendimento ao cliente

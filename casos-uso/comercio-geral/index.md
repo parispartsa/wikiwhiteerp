@@ -8,7 +8,7 @@
 
 ## 🎯 Visão Geral
 
-Esta seção apresenta **casos de uso reais** do ERP GerenciaTec aplicados ao **comércio geral**. São exemplos práticos que mostram como usar o sistema no dia a dia de lojas, distribuidoras e empresas comerciais.
+Esta seção apresenta **casos de uso reais** do ERP GerenciaTech aplicados ao **comércio geral**. São exemplos práticos que mostram como usar o sistema no dia a dia de lojas, distribuidoras e empresas comerciais.
 
 ### 🏪 **Tipos de Comércio Cobertos**
 - **Varejo** - Lojas físicas e online
@@ -314,7 +314,7 @@ Esta seção apresenta **casos de uso reais** do ERP GerenciaTec aplicados ao **
 
 ---
 
-**💡 Dica Final**: Os casos de uso são o caminho mais rápido para dominar o ERP GerenciaTec. Use-os como guia e adapte para sua realidade específica!
+**💡 Dica Final**: Os casos de uso são o caminho mais rápido para dominar o ERP GerenciaTech. Use-os como guia e adapte para sua realidade específica!
 
 ---
 

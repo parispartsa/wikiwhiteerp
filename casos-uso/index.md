@@ -6,7 +6,7 @@
 
 ## 📋 Visão Geral
 
-Os **Casos de Uso** apresentam cenários reais de utilização do GerenciaTec em diferentes tipos de negócio. Cada caso demonstra como o sistema resolve problemas específicos e otimiza processos operacionais, oferecendo exemplos práticos para implementação.
+Os **Casos de Uso** apresentam cenários reais de utilização do GerenciaTech em diferentes tipos de negócio. Cada caso demonstra como o sistema resolve problemas específicos e otimiza processos operacionais, oferecendo exemplos práticos para implementação.
 
 ## 🎯 Objetivos dos Casos de Uso
 

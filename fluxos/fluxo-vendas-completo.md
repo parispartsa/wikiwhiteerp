@@ -8,7 +8,7 @@
 
 ## 🎯 Visão Geral do Fluxo
 
-O **Fluxo de Vendas Completo** do ERP GerenciaTec abrange todo o processo comercial, desde o **primeiro contato** com o cliente até a **entrega final** do produto ou serviço. Este fluxo é **flexível** e se adapta a diferentes tipos de negócio e situações de venda.
+O **Fluxo de Vendas Completo** do ERP GerenciaTech abrange todo o processo comercial, desde o **primeiro contato** com o cliente até a **entrega final** do produto ou serviço. Este fluxo é **flexível** e se adapta a diferentes tipos de negócio e situações de venda.
 
 ### 🚀 **Principais Benefícios**
 - **Padronização** do processo comercial

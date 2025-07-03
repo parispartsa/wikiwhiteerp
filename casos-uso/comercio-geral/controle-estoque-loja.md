@@ -8,7 +8,7 @@
 
 ## 🎯 Cenário
 
-**Carlos Silva** é dono de uma **loja de roupas** no centro da cidade. Ele tem 500 produtos diferentes e estava tendo problemas com **falta de mercadorias** nas vendas e **excesso de estoque** em outros produtos. Decidiu implementar um **controle de estoque eficiente** no ERP GerenciaTec.
+**Carlos Silva** é dono de uma **loja de roupas** no centro da cidade. Ele tem 500 produtos diferentes e estava tendo problemas com **falta de mercadorias** nas vendas e **excesso de estoque** em outros produtos. Decidiu implementar um **controle de estoque eficiente** no ERP GerenciaTech.
 
 ### 📊 **Dados da Loja**
 - 🏪 **Negócio**: Loja de roupas e acessórios

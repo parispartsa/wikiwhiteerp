@@ -6,7 +6,7 @@
 
 ## 🎯 Visão Geral
 
-A **NFe (Nota Fiscal Eletrônica)** é um documento fiscal obrigatório para a maioria das operações comerciais entre empresas. Este guia apresenta o processo completo de configuração da emissão automática de NFe no ERP GerenciaTec, garantindo compliance fiscal e automatização do processo.
+A **NFe (Nota Fiscal Eletrônica)** é um documento fiscal obrigatório para a maioria das operações comerciais entre empresas. Este guia apresenta o processo completo de configuração da emissão automática de NFe no ERP GerenciaTech, garantindo compliance fiscal e automatização do processo.
 
 ## 📋 Pré-requisitos
 

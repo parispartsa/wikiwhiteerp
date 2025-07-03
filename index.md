@@ -1,4 +1,4 @@
-# 📋 ERP GerenciaTec - Documentação do Usuário Final
+# 📋 ERP GerenciaTech - Documentação do Usuário Final
 
 🏠 **Home**
 
@@ -6,9 +6,9 @@
 
 ---
 
-## 🎯 Bem-vindo ao ERP GerenciaTec
+## 🎯 Bem-vindo ao ERP GerenciaTech
 
-O **ERP GerenciaTec** é uma solução completa de gestão empresarial desenvolvida especialmente para **comércios em geral** e **prestadores de serviços**. Este sistema integra todos os processos do seu negócio em uma única plataforma, proporcionando **automação**, **controle** e **crescimento sustentável**.
+O **ERP GerenciaTech** é uma solução completa de gestão empresarial desenvolvida especialmente para **comércios em geral** e **prestadores de serviços**. Este sistema integra todos os processos do seu negócio em uma única plataforma, proporcionando **automação**, **controle** e **crescimento sustentável**.
 
 ### 🚀 **O que você encontrará nesta documentação**
 
@@ -130,14 +130,14 @@ Esta documentação foi criada pensando em **você**, usuário final, que precis
 ## 🆘 Precisa de Ajuda?
 
 ### 📞 **Suporte Técnico**
-- **Email**: suporte@gerenciatec.com.br
+- **Email**: suporte@GerenciaTech.com.br
 - **WhatsApp**: (11) 99999-9999
 - **Horário**: Segunda a Sexta, 8h às 18h
 
 ### 💬 **Comunidade**
-- **Forum**: forum.gerenciatec.com.br
-- **Canal Telegram**: @gerenciatec_usuarios
-- **YouTube**: Canal GerenciaTec
+- **Forum**: forum.GerenciaTech.com.br
+- **Canal Telegram**: @GerenciaTech_usuarios
+- **YouTube**: Canal GerenciaTech
 
 ### 📚 **Recursos Adicionais**
 - **[Perguntas Frequentes](faq.md)** - Perguntas Frequentes
@@ -179,4 +179,4 @@ Esta documentação foi criada pensando em **você**, usuário final, que precis
 
 ---
 
-💡 **Dica**: Marque esta página nos favoritos e use-a como ponto de partida para navegar pela documentação completa do sistema ERP GerenciaTec. 
+💡 **Dica**: Marque esta página nos favoritos e use-a como ponto de partida para navegar pela documentação completa do sistema ERP GerenciaTech. 

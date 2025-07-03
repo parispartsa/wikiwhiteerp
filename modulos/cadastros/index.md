@@ -8,7 +8,7 @@
 
 ## 🎯 Visão Geral do Módulo
 
-O **Módulo de Cadastros** é a **base fundamental** do ERP GerenciaTec. Aqui você registra todas as informações essenciais que alimentam os demais módulos do sistema. É como a **fundação** de uma casa - tudo depende de cadastros bem feitos e organizados.
+O **Módulo de Cadastros** é a **base fundamental** do ERP GerenciaTech. Aqui você registra todas as informações essenciais que alimentam os demais módulos do sistema. É como a **fundação** de uma casa - tudo depende de cadastros bem feitos e organizados.
 
 ### 🚀 **Por que os Cadastros são Importantes?**
 - **Base de dados confiável** para todas as operações

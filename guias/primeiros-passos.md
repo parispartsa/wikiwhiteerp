@@ -1,4 +1,4 @@
-# 🚀 Primeiros Passos no ERP GerenciaTec
+# 🚀 Primeiros Passos no ERP GerenciaTech
 
 🏠 [Home](../index.md) > 📚 [Guias](index.md) > **🚀 Primeiros Passos**
 
@@ -6,9 +6,9 @@
 
 ---
 
-## 🎯 Bem-vindo ao ERP GerenciaTec!
+## 🎯 Bem-vindo ao ERP GerenciaTech!
 
-Este guia foi criado especialmente para **novos usuários** que estão começando a usar o sistema. Aqui você encontrará um **roteiro passo a passo** para configurar e começar a usar o ERP GerenciaTec de forma rápida e eficiente.
+Este guia foi criado especialmente para **novos usuários** que estão começando a usar o sistema. Aqui você encontrará um **roteiro passo a passo** para configurar e começar a usar o ERP GerenciaTech de forma rápida e eficiente.
 
 ### 🚀 **O que você aprenderá**
 - Como fazer o **primeiro acesso** ao sistema
@@ -37,7 +37,7 @@ Este guia foi criado especialmente para **novos usuários** que estão começand
 
 #### **Informações Necessárias**
 Você deve ter recebido da equipe técnica:
-- 🌐 **URL do sistema**: `https://sua-empresa.gerenciatec.com.br`
+- 🌐 **URL do sistema**: `https://sua-empresa.GerenciaTech.com.br`
 - 👤 **Usuário**: Seu login de acesso
 - 🔑 **Senha temporária**: Para primeiro acesso
 
@@ -399,7 +399,7 @@ O certificado digital é obrigatório para emitir notas fiscais eletrônicas (NF
 ## 📞 Canais de Suporte
 
 ### 🆘 **Quando Precisar de Ajuda**
-- **Email**: suporte@gerenciatec.com.br
+- **Email**: suporte@GerenciaTech.com.br
 - **WhatsApp**: (11) 99999-9999
 - **Chat**: Dentro do sistema (ícone 💬)
 - **Telefone**: 0800-123-4567
@@ -410,10 +410,10 @@ O certificado digital é obrigatório para emitir notas fiscais eletrônicas (NF
 - **Domingo**: Apenas emergências
 
 ### 📚 **Recursos de Autoajuda**
-- **Central de Ajuda**: help.gerenciatec.com.br
-- **Vídeos Tutoriais**: youtube.com/gerenciatec
+- **Central de Ajuda**: help.GerenciaTech.com.br
+- **Vídeos Tutoriais**: youtube.com/GerenciaTech
 - **FAQ**: Perguntas frequentes
-- **Comunidade**: forum.gerenciatec.com.br
+- **Comunidade**: forum.GerenciaTech.com.br
 
 ---
 
@@ -454,7 +454,7 @@ O certificado digital é obrigatório para emitir notas fiscais eletrônicas (NF
 
 ## 🎉 Parabéns!
 
-Se você chegou até aqui e completou todos os passos, **parabéns**! Você já tem o básico do ERP GerenciaTec configurado e funcionando.
+Se você chegou até aqui e completou todos os passos, **parabéns**! Você já tem o básico do ERP GerenciaTech configurado e funcionando.
 
 ### 🚀 **Próximas Etapas**
 1. **Praticar** as vendas diárias
@@ -466,7 +466,7 @@ Se você chegou até aqui e completou todos os passos, **parabéns**! Você já 
 ### 💡 **Dica Final**
 O ERP é uma ferramenta poderosa, mas lembre-se: **a prática leva à perfeição**. Use o sistema diariamente, explore suas funcionalidades e não hesite em buscar ajuda quando precisar.
 
-**Bem-vindo ao ERP GerenciaTec!** 🎉
+**Bem-vindo ao ERP GerenciaTech!** 🎉
 
 ---
 
