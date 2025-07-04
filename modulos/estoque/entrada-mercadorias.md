@@ -424,7 +424,7 @@ A **Entrada de Mercadorias** é o processo de **recebimento e registro** de prod
 - **[Inventario Fisico](inventario-fisico.md)** - Contagem física
 
 ### **🔗 Módulos Integrados**
-- **[](../compras/index.md)** - Pedidos de compra
+- **[Compras](../financeiro/contas-a-pagar.md)** - Pedidos de compra
 - **[Contas A Pagar](../financeiro/contas-a-pagar.md)** - Pagamento de fornecedores
 - **[Cadastro De Produtos](../cadastros/cadastro-de-produtos.md)** - Cadastro de produtos
 - **[Cadastro De Fornecedores](../cadastros/cadastro-de-fornecedores.md)** - Cadastro de fornecedores

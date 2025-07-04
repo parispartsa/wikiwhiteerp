@@ -384,10 +384,10 @@ graph TD
 ## 📚 Documentação Relacionada
 
 ### 🔗 **Módulos Relacionados**
-- **[](../vendas/index.md)** - Gera contas a receber
-- **[](../compras/index.md)** - Gera contas a pagar
-- **[](../contratos/index.md)** - Faturamento recorrente
-- **[](../relatorios/index.md)** - Análises financeiras
+- **[Vendas](../vendas/index.md)** - Gera contas a receber
+- **[Compras](../estoque/entrada-mercadorias.md)** - Gera contas a pagar
+- **[Contratos](../vendas/pedidos.md)** - Faturamento recorrente
+- **[Relatórios](../relatorios/index.md)** - Análises financeiras
 
 ### 📋 **Fluxos Relacionados**
 - **[Fluxo Vendas Completo](../../fluxos/fluxo-vendas-completo.md)** - Do pedido ao recebimento

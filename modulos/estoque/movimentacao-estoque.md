@@ -655,9 +655,9 @@ Cobertura = Estoque Atual / Venda Média Diária
 
 ### **🔗 Módulos Integrados**
 - **[Pdv](../vendas/pdv.md)** - Ponto de venda
-- **[](../financeiro/index.md)** - Impacto financeiro
-- **[](../relatorios/index.md)** - Relatórios gerenciais
-- **[](../fiscal/index.md)** - Documentação fiscal
+- **[Financeiro](../financeiro/index.md)** - Impacto financeiro
+- **[Relatórios](../relatorios/index.md)** - Relatórios gerenciais
+- **[Integrações](../integracoes/index.md)** - Documentação fiscal
 
 ### **🔗 Fluxos Relacionados**
 - **[Fluxo Compras](../../fluxos/fluxo-compras.md)** - Processo de compras

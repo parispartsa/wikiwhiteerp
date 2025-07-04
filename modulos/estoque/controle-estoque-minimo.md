@@ -449,10 +449,10 @@ Estoque mínimo = 1,67 × 30 × 1,5 = 75 pares
 - **[Previsao Demanda](previsao-demanda.md)** - Planejamento futuro
 
 ### **🔗 Módulos Integrados**
-- **[](../compras/index.md)** - Processo de compras
-- **[](../vendas/index.md)** - Análise de vendas
-- **[](../relatorios/index.md)** - Relatórios gerenciais
-- **[](../financeiro/index.md)** - Impacto financeiro
+- **[Compras](../financeiro/contas-a-pagar.md)** - Processo de compras
+- **[Vendas](../vendas/index.md)** - Análise de vendas
+- **[Relatórios](../relatorios/index.md)** - Relatórios gerenciais
+- **[Financeiro](../financeiro/index.md)** - Impacto financeiro
 
 ### **🔗 Fluxos Relacionados**
 - **[Fluxo Reposicao](../../fluxos/fluxo-reposicao.md)** - Processo de reposição

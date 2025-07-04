@@ -372,7 +372,7 @@ Os **Fluxos de Trabalho** do White ERP são processos estruturados que conectam 
 - **[Parametros Fiscais](../configuracoes/parametros-fiscais.md)** - Parâmetros fiscais
 
 ### **Casos de Uso**
-- **[](../casos-uso/index.md)** - Cenários específicos por segmento
+- **[Casos de Uso](../casos-uso/index.md)** - Cenários específicos por segmento
 
 ---
 

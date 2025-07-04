@@ -276,9 +276,9 @@ Esta seção apresenta **casos de uso reais** do White ERP aplicados ao **comér
 ## 📚 Documentação Relacionada
 
 ### 🔗 **Outros Casos de Uso**
-- **[](../servicos/index.md)** - Casos específicos para prestadores de serviços
-- **[](../servicos/index.md)** - Prestação de serviços
-- **[](../restaurante/index.md)** - Food service
+- **[Petshop](../petshop/index.md)** - Casos específicos para petshops
+- **[Prestação de Serviços](../prestacao-servicos/)** - Prestação de serviços
+- **[Serviços](../servicos/)** - Casos de serviços
 
 ### 📋 **Fluxos Relacionados**
 - **[Fluxo Vendas Completo](../../fluxos/fluxo-vendas-completo.md)** - Processo completo de vendas

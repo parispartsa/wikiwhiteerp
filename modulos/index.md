@@ -8,7 +8,7 @@
 
 ## 🎯 Visão Geral dos Módulos
 
-O **White ERP** está organizado em **8 módulos principais**, cada um responsável por uma área específica da gestão empresarial. Esta organização modular permite que você acesse rapidamente as funcionalidades que precisa no seu dia a dia.
+O **White ERP** está organizado em **13 módulos principais**, cada um responsável por uma área específica da gestão empresarial. Esta organização modular permite que você acesse rapidamente as funcionalidades que precisa no seu dia a dia.
 
 ---
 
@@ -84,17 +84,87 @@ O **White ERP** está organizado em **8 módulos principais**, cada um responsá
 
 ---
 
-### 🔧 **[Serviços](servicos/index.md)** - Prestação de Serviços
-**Especializado para prestadores de serviços** - Gestão completa de ordens de serviço
+### 👥 **[CRM](crm/index.md)** - Gestão de Relacionamento
+**Marketing e relacionamento com clientes** - Leads, campanhas e automação
 
 **Principais funcionalidades:**
-- 📋 Ordens de Serviço
-- 🕐 Controle de Tempo
-- 📦 Controle de Materiais
-- 📅 Agendamento de Serviços
-- 📊 Relatórios de Produtividade
+- 📧 Email Marketing
+- 🎯 Gestão de Leads
+- 📊 Qualificação de Leads
+- 📋 Sistema de Enquetes
+- 🔄 Automação de Marketing
 
-**Tags**: `#servicos #ordens #agendamento #materiais #produtividade`
+**Tags**: `#crm #leads #email-marketing #campanhas #automacao`
+
+---
+
+### 👤 **[RH](rh/index.md)** - Recursos Humanos
+**Gestão de pessoas e colaboradores** - Cadastros e controle de equipe
+
+**Principais funcionalidades:**
+- 👥 Cadastro de Colaboradores
+- 🏢 Gestão de Departamentos e Cargos
+- 📊 Controle de Custos de Pessoal
+- 📋 Documentação de RH
+- 🔄 Integração com Financeiro
+
+**Tags**: `#rh #colaboradores #departamentos #custos #gestao-pessoas`
+
+---
+
+### 🏦 **[GPay](gpay/index.md)** - Conta Digital
+**Pagamentos digitais integrados** - PIX, boletos e transferências
+
+**Principais funcionalidades:**
+- 💳 Criação de Conta Digital
+- ⚡ PIX Instantâneo
+- 📄 Pagamento de Boletos
+- 🔄 Transferências Bancárias
+- 📊 Gestão de Saldo e Extrato
+
+**Tags**: `#gpay #pix #conta-digital #pagamentos #transferencias`
+
+---
+
+### 📊 **[Contabilidade](contabilidade/index.md)** - Gestão Contábil
+**Controle contábil completo** - Plano de contas e DRE
+
+**Principais funcionalidades:**
+- 📋 Plano de Contas
+- 📊 DRE - Demonstração do Resultado
+- 🔄 Lançamentos Automáticos
+- 📈 Relatórios Contábeis
+- 🏢 Integração com Financeiro
+
+**Tags**: `#contabilidade #plano-contas #dre #lancamentos #relatorios`
+
+---
+
+### 🚛 **[Transportes](transportes/index.md)** - Logística e Transporte
+**Gestão de frota e documentos fiscais** - MDFe, CTe e compliance
+
+**Principais funcionalidades:**
+- 📋 MDFe - Manifesto Eletrônico
+- 🚚 CTe - Conhecimento de Transporte
+- 🚛 Gestão de Frota
+- 🛡️ CIOT e Seguros
+- 📊 Controle de Pedágios
+
+**Tags**: `#transportes #mdfe #cte #frota #logistica`
+
+---
+
+### 🔧 **[Módulos de Apoio](modulos-apoio/index.md)** - Infraestrutura
+**Serviços de apoio e infraestrutura** - Backup, comunicação e monitoramento
+
+**Principais funcionalidades:**
+- 💾 Sistema de Backup
+- 💬 Comunicação em Tempo Real
+- 📧 Sistema de Email
+- 🏦 Processamento Bancário
+- 🗺️ Serviços de Localização
+
+**Tags**: `#modulos-apoio #backup #comunicacao #email #infraestrutura`
 
 ---
 
@@ -159,12 +229,12 @@ O **White ERP** está organizado em **8 módulos principais**, cada um responsá
 4. **Financeiro** (Recebimentos) - ⚡ Alto
 5. **Integrações** (Fiscal) - ⚡ Alto
 
-### 🔧 **Serviços - Prioridade**
-1. **Serviços** (Ordens/Agendamentos) - 🔥 Crítico
-2. **Vendas** (Agendamento) - 🔥 Crítico
-3. **Cadastros** (Clientes/Produtos) - ⚡ Alto
+### 🐕 **Petshop - Prioridade**
+1. **Vendas** (PDV/Agendamentos) - 🔥 Crítico
+2. **Cadastros** (Clientes/Animais) - 🔥 Crítico
+3. **CRM** (Relacionamento) - ⚡ Alto
 4. **Financeiro** (Recebimentos) - ⚡ Alto
-5. **Relatórios** (Histórico) - 📊 Médio
+5. **Estoque** (Produtos Veterinários) - 📊 Médio
 
 ### 🔧 **Prestação de Serviços - Prioridade**
 1. **Vendas** (Ordens de Serviço) - 🔥 Crítico

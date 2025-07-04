@@ -313,10 +313,10 @@ graph TD
 ## 📚 Documentação Relacionada
 
 ### 🔗 **Módulos que Dependem de Cadastros**
-- **[](../vendas/index.md)** - Usa clientes e produtos
-- **[](../estoque/index.md)** - Usa produtos e fornecedores
-- **[](../financeiro/index.md)** - Usa clientes e fornecedores
-- **[](../relatorios/index.md)** - Analisa todos os cadastros
+- **[Vendas](../vendas/index.md)** - Usa clientes e produtos
+- **[Estoque](../estoque/index.md)** - Usa produtos e fornecedores
+- **[Financeiro](../financeiro/index.md)** - Usa clientes e fornecedores
+- **[Relatórios](../relatorios/index.md)** - Analisa todos os cadastros
 
 ### 📋 **Fluxos Relacionados**
 - **[Fluxo Vendas Completo](../../fluxos/fluxo-vendas-completo.md)** - Depende de cadastros

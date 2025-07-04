@@ -363,8 +363,8 @@ Acuracidade Valor = (Valor Correto / Valor Total) × 100
 - **[Acuracidade Estoque](acuracidade-estoque.md)** - Indicadores de precisão
 
 ### **🔗 Módulos Integrados**
-- **[](../financeiro/index.md)** - Valor do estoque
-- **[](../relatorios/index.md)** - Relatórios gerenciais
+- **[Financeiro](../financeiro/index.md)** - Valor do estoque
+- **[Relatórios](../relatorios/index.md)** - Relatórios gerenciais
 - **[Usuarios Permissoes](../configuracoes/usuarios-permissoes.md)** - Controle de acesso
 
 ### **🔗 Fluxos Relacionados**
