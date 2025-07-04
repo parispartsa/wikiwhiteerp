@@ -1,13 +1,16 @@
 # 📋 Cursor Rules - Documentação White ERP
 
 ## 🎯 Objetivo
-Padronizar a criação e manutenção da documentação do usuário final do White ERP, garantindo consistência, qualidade e usabilidade em todos os documentos.
+Padronizar a criação e manutenção da documentação do usuário final do White ERP, garantindo consistência, qualidade e usabilidade em todos os documentos, seguindo as melhores práticas do GitBook.
 
 ## 📚 Estrutura de Documentação
 
 ### 🏗️ Arquitetura de Pastas
 ```
 usuario-final/
+├── .gitbook.yaml              # Configuração do GitBook
+├── SUMMARY.md                 # Índice de navegação (OBRIGATÓRIO)
+├── index.md                   # Página inicial
 ├── assets/                    # Recursos visuais
 │   ├── diagrams/             # Diagramas Mermaid
 │   ├── images/               # Imagens e screenshots
@@ -50,7 +53,7 @@ usuario-final/
 - Configuração inicial
 - Primeiros passos
 
-## 🎨 Padrões de Formatação
+## 🎨 Padrões de Formatação GitBook
 
 ### 📝 Estrutura de Cabeçalho (OBRIGATÓRIO)
 ```markdown
@@ -142,7 +145,7 @@ usuario-final/
 [Insights importantes]
 ```
 
-## 🎨 Padrões Visuais
+## 🎨 Padrões Visuais GitBook
 
 ### 🎯 Emojis Padronizados
 - **📋** - Listas, processos, documentos
@@ -160,26 +163,190 @@ usuario-final/
 - **🏪** - Comércio, vendas, loja
 - **🔐** - Segurança, permissões, acesso
 
-### 📝 Formatação de Texto
-- **Negrito**: Para destacar ações importantes
-- *Itálico*: Para termos técnicos
-- `Código`: Para nomes de campos, botões, menus
-- > Citações: Para dicas importantes
+### 📝 Formatação de Texto GitBook
+- **Negrito**: Para destacar ações importantes (`**texto**`)
+- *Itálico*: Para termos técnicos (`*texto*` ou `_texto_`)
+- `Código`: Para nomes de campos, botões, menus (`` `texto` ``)
+- ~~Riscado~~: Para texto obsoleto (`~~texto~~`)
+- > Citações: Para dicas importantes (`> texto`)
 
-### 📋 Listas e Numeração
-- Use **listas numeradas** para processos sequenciais
-- Use **listas com marcadores** para itens relacionados
-- Use **emojis** como marcadores quando apropriado
+### 🎨 Blocos Especiais GitBook
 
-### 🎨 Caixas de Destaque
+#### 📋 Hints (Blocos de Destaque)
 ```markdown
-> **💡 Dica**: Informações úteis para otimizar o uso
+{% hint style="info" %}
+**💡 Dica**: Informações úteis para otimizar o uso
+{% endhint %}
 
-> **⚠️ Atenção**: Cuidados importantes a serem observados
+{% hint style="warning" %}
+**⚠️ Atenção**: Cuidados importantes a serem observados
+{% endhint %}
 
-> **📋 Exemplo**: Casos práticos ilustrativos
+{% hint style="success" %}
+**✅ Sucesso**: Confirmação de ação realizada
+{% endhint %}
 
-> **🔧 Configuração**: Ajustes necessários no sistema
+{% hint style="danger" %}
+**🚨 Perigo**: Alertas críticos sobre ações destrutivas
+{% endhint %}
+```
+
+#### 📑 Tabs (Abas)
+```markdown
+{% tabs %}
+{% tab title="Windows" %}
+Instruções para Windows
+{% endtab %}
+
+{% tab title="macOS" %}
+Instruções para macOS
+{% endtab %}
+
+{% tab title="Linux" %}
+Instruções para Linux
+{% endtab %}
+{% endtabs %}
+```
+
+#### 📋 Stepper (Passo a Passo)
+```markdown
+{% stepper %}
+{% step %}
+### Passo 1: Preparação
+Descrição do primeiro passo
+{% endstep %}
+
+{% step %}
+### Passo 2: Execução
+Descrição do segundo passo
+{% endstep %}
+
+{% step %}
+### Passo 3: Finalização
+Descrição do terceiro passo
+{% endstep %}
+{% endstepper %}
+```
+
+#### 📂 Expandable (Seções Expansíveis)
+```markdown
+<details>
+<summary>Configurações Avançadas</summary>
+
+Conteúdo das configurações avançadas que ficará oculto até ser clicado.
+
+</details>
+```
+
+#### 📋 Task Lists (Listas de Tarefas)
+```markdown
+- [ ] Tarefa não concluída
+- [x] Tarefa concluída
+  - [ ] Subtarefa não concluída
+  - [x] Subtarefa concluída
+```
+
+#### 🔗 Page Links (Links de Página)
+```markdown
+{% content-ref url="./documento-relacionado.md" %}
+documento-relacionado.md
+{% endcontent-ref %}
+```
+
+#### 💾 Code Blocks (Blocos de Código)
+```markdown
+{% code title="exemplo.js" overflow="wrap" lineNumbers="true" %}
+```javascript
+function exemplo() {
+    console.log("Exemplo de código");
+}
+```
+{% endcode %}
+```
+
+### 🖼️ Imagens GitBook
+
+#### 📸 Imagem Simples
+```markdown
+![Descrição da imagem](caminho/para/imagem.png)
+```
+
+#### 📸 Imagem com Legenda
+```markdown
+<figure>
+    <img src="caminho/para/imagem.png" alt="Descrição da imagem">
+    <figcaption>Legenda da imagem</figcaption>
+</figure>
+```
+
+#### 🌓 Imagem com Modo Claro/Escuro
+```markdown
+<figure>
+    <picture>
+        <source srcset="caminho/para/imagem-escura.png" media="(prefers-color-scheme: dark)">
+        <img src="caminho/para/imagem-clara.png" alt="Descrição da imagem">
+    </picture>
+    <figcaption>Legenda da imagem</figcaption>
+</figure>
+```
+
+#### 📏 Imagem Redimensionada
+```markdown
+<img src="caminho/para/imagem.png" alt="Descrição" width="300">
+<!-- ou -->
+<img src="caminho/para/imagem.png" alt="Descrição" width="50%">
+```
+
+### 📊 Tabelas GitBook
+
+#### 📋 Tabela Básica
+```markdown
+| Coluna 1 | Coluna 2 | Coluna 3 |
+|----------|----------|----------|
+| Valor 1  | Valor 2  | Valor 3  |
+| Valor 4  | Valor 5  | Valor 6  |
+```
+
+#### 📋 Tabela com Cards
+```markdown
+<table data-view="cards">
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th data-hidden data-card-target data-type="content-ref"></th>
+<th data-hidden data-card-cover data-type="files"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Título do Card</strong></td>
+<td>Descrição do card</td>
+<td><a href="link-destino.md">link-destino.md</a></td>
+<td><a href="imagem-capa.png">imagem-capa.png</a></td>
+</tr>
+</tbody>
+</table>
+```
+
+#### 📋 Tabela Largura Completa
+```markdown
+<table data-full-width="true">
+<thead>
+<tr>
+<th>Projeto</th>
+<th>Responsável</th>
+<th data-type="rating" data-max="5">Avaliação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Projeto A</td>
+<td>João</td>
+<td>4</td>
+</tr>
+</tbody>
+</table>
 ```
 
 ## 🔄 Diagramas Mermaid (Compatível com GitBook)
@@ -247,6 +414,39 @@ stateDiagram-v2
     Arquivado --> [*]
 ```
 
+#### Diagrama de Classe
+```mermaid
+classDiagram
+    class Usuario {
+        +String nome
+        +String email
+        +login()
+        +logout()
+    }
+    
+    class Produto {
+        +String codigo
+        +String nome
+        +Double preco
+        +calcularDesconto()
+    }
+    
+    Usuario --> Produto : compra
+```
+
+#### Diagrama de Gantt
+```mermaid
+gantt
+    title Cronograma do Projeto
+    dateFormat  YYYY-MM-DD
+    section Planejamento
+    Análise de Requisitos    :done, req, 2024-01-01, 2024-01-15
+    Design da Solução        :active, design, 2024-01-10, 2024-01-25
+    section Desenvolvimento
+    Implementação            :impl, after design, 30d
+    Testes                   :test, after impl, 15d
+```
+
 ## 📝 Diretrizes de Redação
 
 ### 🎯 Tom e Linguagem
@@ -283,7 +483,16 @@ stateDiagram-v2
 - **Evite** links externos quando possível
 - **Se necessário**, marque claramente como externos
 
-## 🏷️ Metadados
+## 🏷️ Metadados GitBook
+
+### 📄 Front Matter (YAML)
+```markdown
+---
+title: Título da Página
+description: Descrição da página para SEO
+hidden: false
+---
+```
 
 ### 📊 Informações no Rodapé
 ```markdown
@@ -303,7 +512,7 @@ stateDiagram-v2
 **Responsável**: [Nome]
 ```
 
-## 🎯 Boas Práticas
+## 🎯 Boas Práticas GitBook
 
 ### ✅ Faça
 - **Use** exemplos práticos e contextualizados
@@ -312,6 +521,9 @@ stateDiagram-v2
 - **Teste** todos os links internos
 - **Revise** ortografia e gramática
 - **Atualize** datas de modificação
+- **Use** blocos especiais do GitBook (hints, tabs, steppers)
+- **Teste** diagramas Mermaid antes de publicar
+- **Mantenha** hierarquia clara no SUMMARY.md
 
 ### ❌ Evite
 - **Jargões** técnicos sem explicação
@@ -320,10 +532,46 @@ stateDiagram-v2
 - **Links** quebrados
 - **Formatação** inconsistente
 - **Conteúdo** duplicado
+- **Recursos experimentais** do Mermaid
+- **Cores customizadas** em diagramas
+- **Caracteres especiais** problemáticos
+
+## 🔧 Configuração GitBook
+
+### 📋 Arquivo .gitbook.yaml
+```yaml
+root: ./
+
+structure:
+  readme: index.md
+  summary: SUMMARY.md
+
+redirects:
+  pagina-antiga: nova-pagina.md
+  secao-antiga/: nova-secao/
+```
+
+### 📋 Estrutura SUMMARY.md
+```markdown
+# Summary
+
+## 🏠 Página Inicial
+* [📋 White ERP - Documentação](index.md)
+
+## 🚀 Guias Iniciais
+* [📚 Guias do White ERP](guias/index.md)
+  * [🚀 Primeiros Passos](guias/primeiros-passos.md)
+  * [⚙️ Configuração Inicial](guias/configuracao-inicial.md)
+
+## 📋 Módulos do Sistema
+* [📋 Módulos do Sistema](modulos/index.md)
+  * [👥 Gestão de Cadastros](modulos/cadastros/index.md)
+    * [👥 Cadastro de Clientes](modulos/cadastros/cadastro-de-clientes.md)
+```
 
 ## 🔧 Ferramentas e Validação
 
-### 📋 Checklist de Qualidade
+### 📋 Checklist de Qualidade GitBook
 - [ ] Título claro e descritivo
 - [ ] Navegação breadcrumb presente
 - [ ] Tags apropriadas incluídas
@@ -333,6 +581,11 @@ stateDiagram-v2
 - [ ] Formatação consistente
 - [ ] Ortografia revisada
 - [ ] Metadados completos
+- [ ] SUMMARY.md atualizado
+- [ ] Diagramas Mermaid testados
+- [ ] Blocos GitBook funcionando
+- [ ] Imagens com alt text
+- [ ] Responsividade verificada
 
 ### 🎯 Critérios de Aprovação
 - **Clareza**: Usuário consegue seguir sem dúvidas
@@ -340,6 +593,7 @@ stateDiagram-v2
 - **Consistência**: Segue todos os padrões estabelecidos
 - **Utilidade**: Resolve problemas reais do usuário
 - **Atualidade**: Informações estão atualizadas
+- **Compatibilidade**: Funciona corretamente no GitBook
 
 ## 📊 Métricas de Sucesso
 
@@ -348,12 +602,15 @@ stateDiagram-v2
 - **Taxa de erro**: Baixa incidência de erros seguindo a documentação
 - **Satisfação**: Feedback positivo dos usuários
 - **Reutilização**: Documentos são consultados frequentemente
+- **Navegação**: Facilidade para encontrar informações
 
 ### 📈 Processo de Melhoria
 - **Colete** feedback dos usuários
 - **Monitore** dúvidas frequentes
 - **Atualize** baseado em mudanças do sistema
 - **Revise** periodicamente a estrutura
+- **Analise** métricas do GitBook
+- **Otimize** conteúdo baseado em dados
 
 ---
 
@@ -365,18 +622,24 @@ stateDiagram-v2
 3. **Adicione** tags relevantes
 4. **Preencha** as seções seguindo os padrões
 5. **Inclua** exemplos práticos
-6. **Revise** usando o checklist de qualidade
-7. **Teste** todos os links
-8. **Publique** e monitore feedback
+6. **Use** blocos especiais GitBook quando apropriado
+7. **Adicione** diagramas Mermaid se necessário
+8. **Revise** usando o checklist de qualidade
+9. **Teste** todos os links e funcionalidades
+10. **Atualize** SUMMARY.md
+11. **Publique** e monitore feedback
 
 ### 🔧 Para Atualizar Documentos Existentes
 1. **Verifique** se segue os padrões atuais
 2. **Atualize** formatação se necessário
 3. **Revise** conteúdo e exemplos
 4. **Teste** funcionalidades descritas
-5. **Atualize** data de modificação
-6. **Documente** mudanças significativas
-7. **Atualize** SUMMARY.md se necessário
+5. **Atualize** blocos GitBook obsoletos
+6. **Verifique** diagramas Mermaid
+7. **Atualize** data de modificação
+8. **Documente** mudanças significativas
+9. **Atualize** SUMMARY.md se necessário
+10. **Teste** no GitBook antes de publicar
 
 ### 📋 LEMBRETE CRÍTICO: SUMMARY.md
 🚨 **ATENÇÃO**: Toda vez que você:
@@ -453,7 +716,7 @@ stateDiagram-v2
 1. Criar/Alterar/Excluir documento
 2. Atualizar SUMMARY.md imediatamente
 3. Verificar estrutura e links
-4. Testar navegação
+4. Testar navegação no GitBook
 5. Confirmar alterações
 ```
 
@@ -486,14 +749,128 @@ stateDiagram-v2
 - [ ] Ordem lógica mantida
 - [ ] Indentação correta
 - [ ] Sintaxe Markdown válida
+- [ ] Compatível com GitBook
 
 #### 🎯 Ferramentas de Verificação
 - **GitBook**: Verificar se processa sem erros
 - **Links internos**: Testar navegação
 - **Estrutura**: Confirmar hierarquia lógica
+- **Sintaxe**: Validar Markdown
 
 ---
 
-**Versão**: 1.1  
+## 📋 Templates Rápidos
+
+### 📄 Template: Módulo
+```markdown
+# 🔧 [Nome do Módulo]
+
+🏠 [Home](../../index.md) > 📋 [Módulos](../index.md) > **[Nome do Módulo]**
+
+#modulo #[categoria] #[nivel]
+
+---
+
+## 📋 O que é
+
+Descrição clara da funcionalidade do módulo.
+
+## 🚀 Como Fazer
+
+{% stepper %}
+{% step %}
+### Passo 1: [Título]
+Descrição do primeiro passo
+{% endstep %}
+
+{% step %}
+### Passo 2: [Título]
+Descrição do segundo passo
+{% endstep %}
+{% endstepper %}
+
+## 💡 Casos de Uso
+
+Exemplos práticos de uso do módulo.
+
+## 🚨 Pontos de Atenção
+
+{% hint style="warning" %}
+**⚠️ Atenção**: Cuidados importantes
+{% endhint %}
+
+---
+
+## 📚 Documentação Relacionada
+- [Documento relacionado](../link.md)
+
+## 🏷️ Tags
+`#modulo` `#categoria` `#nivel`
+
+---
+
+**Última atualização**: [Data]
+**Versão do documento**: [Versão]
+**Responsável**: [Nome]
+```
+
+### 🔄 Template: Fluxo
+```markdown
+# 🔄 [Nome do Fluxo]
+
+🏠 [Home](../../index.md) > 🔄 [Fluxos](../index.md) > **[Nome do Fluxo]**
+
+#fluxo #[categoria] #[nivel]
+
+---
+
+## 🎯 Visão Geral do Fluxo
+
+Objetivo e benefícios do fluxo.
+
+## 🔄 Visão Geral do Processo
+
+```mermaid
+graph TD
+    A[Início] --> B[Processo]
+    B --> C{Decisão}
+    C -->|Sim| D[Ação 1]
+    C -->|Não| E[Ação 2]
+    D --> F[Fim]
+    E --> F
+```
+
+## 📋 Etapas Detalhadas
+
+1. **Etapa 1**: Descrição
+2. **Etapa 2**: Descrição
+3. **Etapa 3**: Descrição
+
+## 💡 Dicas e Boas Práticas
+
+{% hint style="info" %}
+**💡 Dica**: Informações úteis
+{% endhint %}
+
+---
+
+## 📚 Documentação Relacionada
+- [Documento relacionado](../link.md)
+
+## 🏷️ Tags
+`#fluxo` `#categoria` `#nivel`
+
+---
+
+**Última atualização**: [Data]
+**Versão do documento**: [Versão]
+**Responsável**: [Nome]
+```
+
+---
+
+**Versão**: 2.0  
 **Última atualização**: Janeiro 2025  
-**Responsável**: Equipe de Documentação White ERP 
+**Responsável**: Equipe de Documentação White ERP
+
+**Baseado em**: GitBook Best Practices e Context7 Documentation Standards
