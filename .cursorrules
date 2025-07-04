@@ -376,9 +376,124 @@ stateDiagram-v2
 4. **Teste** funcionalidades descritas
 5. **Atualize** data de modificação
 6. **Documente** mudanças significativas
+7. **Atualize** SUMMARY.md se necessário
+
+### 📋 LEMBRETE CRÍTICO: SUMMARY.md
+🚨 **ATENÇÃO**: Toda vez que você:
+- **Criar** um novo arquivo `.md`
+- **Excluir** um arquivo existente
+- **Renomear** um arquivo
+- **Mover** um arquivo para outra pasta
+
+**VOCÊ DEVE IMEDIATAMENTE** atualizar o `SUMMARY.md` para manter a navegação funcionando corretamente no GitBook.
 
 ---
 
-**Versão**: 1.0  
+## 📋 Gestão do SUMMARY.md (OBRIGATÓRIO)
+
+### 🔄 Atualização Automática
+**SEMPRE** que realizar qualquer uma das ações abaixo, você **DEVE** atualizar o arquivo `SUMMARY.md`:
+
+#### 📄 Criação de Novos Documentos
+- **Criar** novo arquivo `.md` em qualquer pasta
+- **Adicionar** entrada correspondente no `SUMMARY.md`
+- **Manter** hierarquia e estrutura existente
+- **Usar** emoji e título apropriados
+
+#### 🗑️ Exclusão de Documentos
+- **Remover** entrada do `SUMMARY.md`
+- **Verificar** se não há links quebrados
+- **Ajustar** numeração se necessário
+
+#### 📝 Renomeação de Arquivos
+- **Atualizar** nome do arquivo no `SUMMARY.md`
+- **Manter** estrutura de pastas
+- **Verificar** links internos afetados
+
+#### 📁 Reorganização de Estrutura
+- **Mover** entradas para nova localização
+- **Ajustar** hierarquia no `SUMMARY.md`
+- **Atualizar** caminhos relativos
+
+### 🎯 Padrões para SUMMARY.md
+
+#### 📋 Estrutura Hierárquica
+```markdown
+## 🚀 Guias Iniciais
+* [📚 Guias do White ERP](guias/index.md)
+  * [🚀 Primeiros Passos](guias/primeiros-passos.md)
+  * [🌐 Integração com E-commerce](guias/integracao-ecommerce.md)
+
+## 📋 Módulos do Sistema
+* [📋 Módulos do Sistema](modulos/index.md)
+  * [👥 Módulo: Gestão de Cadastros](modulos/cadastros/index.md)
+    * [👥 Cadastro de Clientes](modulos/cadastros/cadastro-de-clientes.md)
+```
+
+#### 🏷️ Nomenclatura Padrão
+- **Use** emoji apropriado para cada tipo de documento
+- **Mantenha** consistência nos títulos
+- **Siga** padrão: `[Emoji Título](caminho/arquivo.md)`
+
+#### 🔗 Caminhos Relativos
+- **Sempre** use caminhos relativos à raiz
+- **Exemplo**: `guias/integracao-ecommerce.md`
+- **Não use** caminhos absolutos
+
+### ⚠️ Regras Críticas
+
+#### 🚨 NUNCA Esqueça
+1. **Toda** alteração de estrutura = atualização do `SUMMARY.md`
+2. **Verificar** se o GitBook pode processar as mudanças
+3. **Testar** navegação após mudanças
+4. **Manter** ordem lógica e hierárquica
+
+#### ✅ Processo Obrigatório
+```markdown
+1. Criar/Alterar/Excluir documento
+2. Atualizar SUMMARY.md imediatamente
+3. Verificar estrutura e links
+4. Testar navegação
+5. Confirmar alterações
+```
+
+#### 📊 Exemplo de Atualização
+**Antes** (criar novo guia):
+```markdown
+## 🚀 Guias Iniciais
+* [📚 Guias do White ERP](guias/index.md)
+  * [🚀 Primeiros Passos](guias/primeiros-passos.md)
+  * [⚙️ Configuração Inicial](guias/configuracao-inicial.md)
+```
+
+**Depois** (adicionar integração e-commerce):
+```markdown
+## 🚀 Guias Iniciais
+* [📚 Guias do White ERP](guias/index.md)
+  * [🚀 Primeiros Passos](guias/primeiros-passos.md)
+  * [⚙️ Configuração Inicial](guias/configuracao-inicial.md)
+  * [🌐 Integração com E-commerce](guias/integracao-ecommerce.md)
+```
+
+### 🔧 Validação do SUMMARY.md
+
+#### 📋 Checklist de Validação
+- [ ] Todos os arquivos `.md` estão listados
+- [ ] Hierarquia está correta
+- [ ] Emojis estão consistentes
+- [ ] Caminhos estão corretos
+- [ ] Não há links quebrados
+- [ ] Ordem lógica mantida
+- [ ] Indentação correta
+- [ ] Sintaxe Markdown válida
+
+#### 🎯 Ferramentas de Verificação
+- **GitBook**: Verificar se processa sem erros
+- **Links internos**: Testar navegação
+- **Estrutura**: Confirmar hierarquia lógica
+
+---
+
+**Versão**: 1.1  
 **Última atualização**: Janeiro 2025  
 **Responsável**: Equipe de Documentação White ERP 
