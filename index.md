@@ -2,7 +2,7 @@
 
 🏠 **Home**
 
-#documentacao #erp #usuario-final #guia-completo
+#documentacao #erp #usuario-final #guia-completo #iniciante
 
 ---
 
@@ -10,85 +10,126 @@
 
 O **White ERP** é uma solução completa de gestão empresarial desenvolvida especialmente para **comércios em geral**, **petshops** e **prestadores de serviços**. Este sistema integra todos os processos do seu negócio em uma única plataforma, proporcionando **automação**, **controle** e **crescimento sustentável**.
 
-### 🚀 **O que você encontrará nesta documentação**
+> **💡 Dica**: Esta documentação foi criada pensando em você, usuário final, que precisa utilizar o sistema no dia a dia para otimizar seus processos de negócio.
 
-Esta documentação foi criada pensando em **você**, usuário final, que precisa utilizar o sistema no dia a dia. Aqui você encontrará:
+### 📋 O que você encontrará nesta documentação
 
 - **Passo a passo detalhado** de todas as funcionalidades
-- **Casos de uso práticos** para diferentes tipos de negócio
+- **Casos de uso práticos** para diferentes tipos de negócio  
 - **Dicas e boas práticas** para otimizar seu trabalho
-- **Troubleshooting** para resolver problemas comuns
 - **Fluxos completos** de processos de negócio
-
----
-
-## 📚 Navegação Rápida
-
-### 🚀 **[Guias Iniciais](guias/)**
-- **[Configuração Inicial](guias/configuracao-inicial.md)** - Primeiros passos para configurar o sistema
-- **[Primeiros Passos](guias/primeiros-passos.md)** - Tutorial básico para começar a usar o sistema
-
-### 📊 **[Módulos do Sistema](modulos/)**
-- **[Cadastros](modulos/cadastros/)** - Gestão de clientes, fornecedores e produtos
-- **[Vendas](modulos/vendas/)** - PDV e gestão de vendas
-- **[Estoque](modulos/estoque/)** - Controle de estoque, entrada de mercadorias e inventário
-- **[Financeiro](modulos/financeiro/)** - Contas a pagar e receber
-- **[Relatórios](modulos/relatorios/)** - Relatórios gerenciais
-- **[Integrações](modulos/integracoes/)** - Configuração de NFe e outras integrações
-- **[Configurações](modulos/configuracoes/)** - Gestão de usuários e configurações do sistema
-
-### 🔄 **[Fluxos de Trabalho](fluxos/)**
-- **[Fluxo de Vendas](fluxos/fluxo-vendas-completo.md)** - Processo completo de vendas
-- **[Fluxo de Compras](fluxos/fluxo-compras.md)** - Processo de compras e fornecedores
-- **[Fluxo Financeiro](fluxos/fluxo-financeiro.md)** - Gestão financeira integrada
-
-### 🎯 **[Casos de Uso](casos-uso/)**
-- **[Comércio Geral](casos-uso/comercio-geral/)** - Cenários específicos para comércio
-- **[Petshop](casos-uso/petshop/)** - Funcionalidades específicas para petshops
-- **[Prestação de Serviços](casos-uso/prestacao-servicos/)** - Gestão de serviços
+- **Troubleshooting** para resolver problemas comuns
 
 ---
 
 ## 🚀 Começando Agora
 
-### 👋 **Novo no sistema?**
-1. **[Primeiros Passos](guias/primeiros-passos.md)** - Como acessar e navegar
-2. **[Configuração Inicial](guias/configuracao-inicial.md)** - Configure sua empresa
-3. **[Cadastro de Produtos](modulos/cadastros/cadastro-de-produtos.md)** - Cadastre seus produtos
-4. **[PDV - Ponto de Venda](modulos/vendas/pdv.md)** - Faça sua primeira venda
+### 👋 Novo no sistema?
 
-### 🔧 **Configuração inicial**
-1. **[Gestão de Usuários](modulos/configuracoes/gestao-usuarios.md)** - Gerencie usuários
-2. **[Configuração de NFe](modulos/integracoes/configuracao-nfe.md)** - Configure documentos fiscais
-3. **[Controle de Estoque](modulos/estoque/)** - Configure seu estoque
-4. **[Contas a Receber](modulos/financeiro/contas-a-receber.md)** - Configure financeiro
+1. **[Primeiros Passos](guias/primeiros-passos.md)** - Como acessar e navegar no sistema
+2. **[Configuração Inicial](guias/configuracao-inicial.md)** - Configure sua empresa e parâmetros básicos
+3. **[Cadastro de Produtos](modulos/cadastros/cadastro-de-produtos.md)** - Cadastre seus produtos e serviços
+4. **[PDV - Ponto de Venda](modulos/vendas/pdv.md)** - Realize sua primeira venda
 
-### ⚡ **Tarefas mais comuns**
+> **⚠️ Atenção**: Execute as configurações iniciais na ordem apresentada para garantir o funcionamento correto do sistema.
+
+### 🔧 Configuração Essencial
+
+1. **[Dados da Empresa](modulos/configuracoes/dados-da-empresa.md)** - Configure informações da empresa
+2. **[Gestão de Usuários](modulos/configuracoes/gestao-usuarios.md)** - Gerencie usuários e permissões
+3. **[Parâmetros Fiscais](modulos/configuracoes/parametros-fiscais.md)** - Configure aspectos fiscais
+4. **[Formas de Pagamento](modulos/financeiro/formas-pagamento.md)** - Configure meios de pagamento
+
+### ⚡ Tarefas Mais Comuns
+
 - **[PDV - Ponto de Venda](modulos/vendas/pdv.md)** - Realizar vendas no balcão
-- **[Cadastro de Clientes](modulos/cadastros/cadastro-de-clientes.md)** - Cadastrar clientes
+- **[Cadastro de Clientes](modulos/cadastros/cadastro-de-clientes.md)** - Cadastrar e gerenciar clientes
 - **[Contas a Receber](modulos/financeiro/contas-a-receber.md)** - Controlar recebimentos
-- **[Movimentação de Estoque](modulos/estoque/movimentacao-estoque.md)** - Controlar estoque
-- **[Configuração de NFe](modulos/integracoes/configuracao-nfe.md)** - Emitir notas fiscais
+- **[Movimentação de Estoque](modulos/estoque/movimentacao-estoque.md)** - Controlar entrada e saída de produtos
+- **[Emissão de NFCe](modulos/integracoes/emissao-nfce.md)** - Emitir notas fiscais
+
+---
+
+## 📚 Navegação por Módulos
+
+### 🚀 Guias Iniciais
+**[📚 Guias do White ERP](guias/)**
+
+- **[⚙️ Configuração Inicial](guias/configuracao-inicial.md)** - Primeiros passos para configurar o sistema
+- **[🚀 Primeiros Passos](guias/primeiros-passos.md)** - Tutorial básico para começar a usar
+- **[🌐 Integração com E-commerce](guias/integracao-ecommerce.md)** - Configure vendas online
+
+### 📋 Módulos do Sistema
+**[📋 Módulos do Sistema](modulos/)**
+
+#### 👥 Gestão de Cadastros
+**[👥 Módulo: Gestão de Cadastros](modulos/cadastros/)**
+- **[👥 Cadastro de Clientes](modulos/cadastros/cadastro-de-clientes.md)** - Gerencie informações de clientes
+- **[🏭 Cadastro de Fornecedores](modulos/cadastros/cadastro-de-fornecedores.md)** - Controle fornecedores
+- **[📦 Cadastro de Produtos](modulos/cadastros/cadastro-de-produtos.md)** - Gerencie produtos e serviços
+
+#### 🛒 Gestão de Vendas
+**[🛒 Módulo: Gestão de Vendas](modulos/vendas/)**
+- **[🛒 PDV - Ponto de Venda](modulos/vendas/pdv.md)** - Sistema de vendas no balcão
+- **[📋 Orçamentos](modulos/vendas/orcamentos.md)** - Criação e gestão de orçamentos
+- **[📦 Pedidos](modulos/vendas/pedidos.md)** - Controle de pedidos de venda
+
+#### 📦 Controle de Estoque
+**[📦 Módulo: Controle de Estoque](modulos/estoque/)**
+- **[📥 Entrada de Mercadorias](modulos/estoque/entrada-mercadorias.md)** - Registre entradas de produtos
+- **[📊 Movimentação de Estoque](modulos/estoque/movimentacao-estoque.md)** - Controle movimentações
+- **[📋 Inventário Físico](modulos/estoque/inventario-fisico.md)** - Realize inventários
+- **[⚠️ Alertas de Estoque](modulos/estoque/alertas-estoque.md)** - Configure alertas automáticos
+
+#### 💰 Gestão Financeira
+**[💰 Módulo: Gestão Financeira](modulos/financeiro/)**
+- **[📈 Contas a Receber](modulos/financeiro/contas-a-receber.md)** - Controle recebimentos
+- **[📉 Contas a Pagar](modulos/financeiro/contas-a-pagar.md)** - Gerencie pagamentos
+- **[💳 Formas de Pagamento](modulos/financeiro/formas-pagamento.md)** - Configure meios de pagamento
+- **[💹 Fluxo de Caixa](modulos/financeiro/fluxo-de-caixa.md)** - Controle fluxo financeiro
+
+#### 🔧 Configurações
+**[🔧 Módulo: Configurações](modulos/configuracoes/)**
+- **[🏢 Dados da Empresa](modulos/configuracoes/dados-da-empresa.md)** - Configure informações da empresa
+- **[👤 Gestão de Usuários](modulos/configuracoes/gestao-usuarios.md)** - Gerencie usuários
+- **[🔐 Usuários e Permissões](modulos/configuracoes/usuarios-e-permissoes.md)** - Controle de acesso
+- **[📋 Parâmetros Fiscais](modulos/configuracoes/parametros-fiscais.md)** - Configure aspectos fiscais
+
+### 🔄 Fluxos de Trabalho
+**[🔄 Fluxos de Trabalho](fluxos/)**
+
+- **[🛒 Fluxo de Vendas Completo](fluxos/fluxo-vendas-completo.md)** - Processo completo de vendas
+- **[🛍️ Fluxo de Compras](fluxos/fluxo-compras.md)** - Processo de compras e fornecedores
+- **[💰 Fluxo Financeiro](fluxos/fluxo-financeiro.md)** - Gestão financeira integrada
+- **[📦 Fluxo de Estoque](fluxos/fluxo-inventario.md)** - Controle de inventário
+- **[🏪 Fluxo de Atendimento](fluxos/fluxo-atendimento.md)** - Processo de atendimento ao cliente
+
+### 🎯 Casos de Uso
+**[🎯 Casos de Uso](casos-uso/)**
+
+- **[🛒 Comércio Geral](casos-uso/comercio-geral/)** - Cenários específicos para comércio
+- **[🐕 Petshop](casos-uso/petshop/)** - Funcionalidades específicas para petshops
+- **[🔧 Prestação de Serviços](casos-uso/prestacao-servicos/)** - Gestão de serviços
 
 ---
 
 ## 🎯 Funcionalidades por Tipo de Negócio
 
-### 🛒 **Comércio Geral**
+### 🛒 Comércio Geral
 - **PDV completo** com múltiplas formas de pagamento
 - **Controle de estoque** com alertas automáticos
 - **Integração com e-commerce** e marketplaces
 - **Emissão automática** de documentos fiscais
 - **Relatórios gerenciais** completos
 
-### 🐕 **Petshop**
+### 🐕 Petshop
 - **Cadastro de animais** com histórico veterinário
 - **Agendamento de serviços** especializados
 - **Controle de vacinas** e medicamentos
 - **Histórico detalhado** de atendimentos
 - **Lembretes automáticos** para clientes
 
-### 🔧 **Prestação de Serviços**
+### 🔧 Prestação de Serviços
 - **Ordens de serviço** com controle completo
 - **Agendamento de técnicos** e recursos
 - **Controle de materiais** e tempo de execução
@@ -99,43 +140,41 @@ Esta documentação foi criada pensando em **você**, usuário final, que precis
 
 ## 🔍 Como Usar Esta Documentação
 
-### 🔗 **Navegação por Links Internos**
-- Use os links para navegar entre documentos
-- Cada documento tem links relacionados ao final
-- Use o breadcrumb no topo para voltar
+### 🔗 Navegação
+- Use os **links internos** para navegar entre documentos
+- Cada documento possui **links relacionados** ao final
+- Use o **breadcrumb** no topo para voltar às seções anteriores
 
-### 🏷️ **Sistema de Tags**
+### 🏷️ Sistema de Tags
 - `#iniciante` - Conteúdo para novos usuários
+- `#intermediario` - Funcionalidades de nível médio
 - `#avançado` - Funcionalidades complexas
 - `#passo-a-passo` - Tutoriais detalhados
 - `#importante` - Informações críticas
 - `#obrigatorio` - Configurações obrigatórias
 
-### 🔍 **Busca Rápida**
+### 🔍 Busca Rápida
 - Use **Ctrl+F** para buscar na página
-- Procure por tags específicas: `#pdv`, `#fiscal`, `#estoque`
-- Use palavras-chave dos títulos e seções
+- Procure por **tags específicas**: `#pdv`, `#fiscal`, `#estoque`
+- Use **palavras-chave** dos títulos e seções
 
-### 📱 **Acesso Mobile**
-- Esta documentação é **responsiva**
-- Funciona bem em tablets e smartphones
-- Mantenha sempre atualizada
+> **📋 Exemplo**: Para encontrar informações sobre vendas, procure pela tag `#vendas` ou use termos como "PDV", "orçamento", "pedido".
 
 ---
 
 ## 🆘 Precisa de Ajuda?
 
-### 📞 **Suporte Técnico**
-- **Email**: suporte@Whiteerp.com.br
+### 📞 Suporte Técnico
+- **Email**: suporte@whiteerp.com.br
 - **WhatsApp**: (11) 99999-9999
 - **Horário**: Segunda a Sexta, 8h às 18h
 
-### 💬 **Comunidade**
-- **Forum**: forum.Whiteerp.com.br
+### 💬 Comunidade
+- **Forum**: forum.whiteerp.com.br
 - **Canal Telegram**: @WhiteERP_usuarios
 - **YouTube**: Canal White ERP
 
-### 📚 **Recursos Adicionais**
+### 📚 Recursos Adicionais
 - **Perguntas Frequentes** - Dúvidas comuns
 - **Glossário** - Termos técnicos
 - **Resolução de Problemas** - Troubleshooting
@@ -147,11 +186,11 @@ Esta documentação foi criada pensando em **você**, usuário final, que precis
 
 ### Por Módulo
 - `#cadastros` - Funcionalidades de cadastro
-- `#financeiro` - Gestão financeira
 - `#vendas` - Processo de vendas
 - `#estoque` - Controle de estoque
-- `#integracoes` - Integrações com terceiros
+- `#financeiro` - Gestão financeira
 - `#configuracoes` - Configurações do sistema
+- `#integracoes` - Integrações com terceiros
 - `#relatorios` - Relatórios e dashboards
 
 ### Por Contexto
@@ -161,17 +200,25 @@ Esta documentação foi criada pensando em **você**, usuário final, que precis
 - `#automatico` - Processos automatizados
 - `#integracao` - Integrações com terceiros
 
-### Por Usuário
+### Por Nível
 - `#iniciante` - Conteúdo básico
+- `#intermediario` - Funcionalidades de nível médio
 - `#avançado` - Funcionalidades complexas
-- `#administrador` - Configurações de sistema
+
+---
+
+## 📚 Documentação Relacionada
+
+- [📚 Guias do White ERP](guias/index.md)
+- [📋 Módulos do Sistema](modulos/index.md)
+- [🔄 Fluxos de Trabalho](fluxos/index.md)
+- [🎯 Casos de Uso](casos-uso/index.md)
+
+## 🏷️ Tags
+`#documentacao` `#erp` `#usuario-final` `#guia-completo` `#iniciante`
 
 ---
 
 **Última atualização**: Janeiro 2025  
-**Versão da documentação**: 1.0  
-**Versão do sistema**: 2024.1
-
----
-
-💡 **Dica**: Marque esta página nos favoritos e use-a como ponto de partida para navegar pela documentação completa do sistema White ERP. 
+**Versão do documento**: 1.1  
+**Responsável**: Equipe de Documentação White ERP 
