@@ -1,0 +1,384 @@
+# 📋 Cursor Rules - Documentação White ERP
+
+## 🎯 Objetivo
+Padronizar a criação e manutenção da documentação do usuário final do White ERP, garantindo consistência, qualidade e usabilidade em todos os documentos.
+
+## 📚 Estrutura de Documentação
+
+### 🏗️ Arquitetura de Pastas
+```
+usuario-final/
+├── assets/                    # Recursos visuais
+│   ├── diagrams/             # Diagramas Mermaid
+│   ├── images/               # Imagens e screenshots
+│   └── videos/               # Vídeos tutoriais
+├── casos-uso/                # Casos práticos por segmento
+│   ├── comercio-geral/       # Comércio varejista
+│   ├── petshop/              # Petshops
+│   ├── prestacao-servicos/   # Prestadores de serviços
+│   └── contabilidade/        # Contabilidade
+├── fluxos/                   # Processos completos
+├── guias/                    # Guias iniciais
+├── modulos/                  # Documentação por módulo
+│   ├── cadastros/            # Gestão de cadastros
+│   ├── vendas/               # Gestão de vendas
+│   ├── estoque/              # Controle de estoque
+│   ├── financeiro/           # Gestão financeira
+│   └── [outros-modulos]/     # Outros módulos
+└── relatorios/               # Relatórios e dashboards
+```
+
+### 📄 Tipos de Documentos
+
+#### 1. **Módulos do Sistema** (`modulos/`)
+- Documentação funcional de cada módulo
+- Foco em "como fazer" passo a passo
+- Exemplos práticos e casos de uso
+
+#### 2. **Fluxos de Trabalho** (`fluxos/`)
+- Processos completos de negócio
+- Integração entre módulos
+- Visão end-to-end
+
+#### 3. **Casos de Uso** (`casos-uso/`)
+- Cenários práticos por segmento
+- Histórias de usuário
+- Exemplos contextualizados
+
+#### 4. **Guias Iniciais** (`guias/`)
+- Onboarding de novos usuários
+- Configuração inicial
+- Primeiros passos
+
+## 🎨 Padrões de Formatação
+
+### 📝 Estrutura de Cabeçalho (OBRIGATÓRIO)
+```markdown
+# 🎯 [Emoji] Título do Documento
+
+🏠 [Home](../../index.md) > 📋 [Seção](../index.md) > **Documento Atual**
+
+#tag1 #tag2 #tag3 #categoria #nivel
+
+---
+```
+
+### 🏷️ Sistema de Tags (OBRIGATÓRIO)
+**Tags por Categoria:**
+- **Módulo**: `#cadastros` `#vendas` `#estoque` `#financeiro` `#configuracoes`
+- **Nível**: `#iniciante` `#intermediario` `#avançado`
+- **Tipo**: `#passo-a-passo` `#caso-uso` `#fluxo` `#configuracao`
+- **Importância**: `#importante` `#obrigatorio` `#opcional`
+- **Contexto**: `#automatico` `#manual` `#integracao`
+
+### 📋 Estrutura de Seções
+
+#### Para Módulos:
+```markdown
+## 📋 O que é
+[Descrição clara da funcionalidade]
+
+## 🚀 Como Fazer
+[Passo a passo detalhado]
+
+## 🔧 Funcionalidades Avançadas
+[Recursos adicionais]
+
+## 💡 Casos de Uso
+[Exemplos práticos]
+
+## 🔍 Busca e Filtros
+[Como encontrar informações]
+
+## 📊 Relatórios Disponíveis
+[Relatórios relacionados]
+
+## 🚨 Alertas e Validações
+[Avisos importantes]
+
+## 🔐 Permissões e Segurança
+[Controle de acesso]
+```
+
+#### Para Fluxos:
+```markdown
+## 🎯 Visão Geral do Fluxo
+[Objetivo e benefícios]
+
+## 🔄 Visão Geral do Processo
+[Diagrama Mermaid obrigatório]
+
+## 📋 Etapas Detalhadas
+[Cada etapa numerada]
+
+## 🔧 Configurações Necessárias
+[Pré-requisitos]
+
+## 💡 Dicas e Boas Práticas
+[Otimizações]
+
+## 🚨 Pontos de Atenção
+[Cuidados especiais]
+```
+
+#### Para Casos de Uso:
+```markdown
+## 🎯 Cenário do Caso
+[Situação, personagens, objetivo]
+
+## 📋 Contexto Detalhado
+[Informações do negócio]
+
+## 🔄 Fluxo do Atendimento
+[Processo passo a passo]
+
+## 📊 Resultados Esperados
+[Benefícios alcançados]
+
+## 🔧 Configurações Utilizadas
+[Setup necessário]
+
+## 💡 Lições Aprendidas
+[Insights importantes]
+```
+
+## 🎨 Padrões Visuais
+
+### 🎯 Emojis Padronizados
+- **📋** - Listas, processos, documentos
+- **🎯** - Objetivos, metas, foco
+- **🚀** - Início, primeiros passos, ações
+- **💡** - Dicas, ideias, casos de uso
+- **⚠️** - Atenção, cuidados, alertas
+- **✅** - Confirmação, sucesso, validação
+- **🔧** - Configurações, ferramentas, ajustes
+- **📊** - Relatórios, análises, dados
+- **🔄** - Fluxos, processos, ciclos
+- **💰** - Financeiro, valores, pagamentos
+- **👥** - Clientes, usuários, pessoas
+- **📦** - Produtos, estoque, itens
+- **🏪** - Comércio, vendas, loja
+- **🔐** - Segurança, permissões, acesso
+
+### 📝 Formatação de Texto
+- **Negrito**: Para destacar ações importantes
+- *Itálico*: Para termos técnicos
+- `Código`: Para nomes de campos, botões, menus
+- > Citações: Para dicas importantes
+
+### 📋 Listas e Numeração
+- Use **listas numeradas** para processos sequenciais
+- Use **listas com marcadores** para itens relacionados
+- Use **emojis** como marcadores quando apropriado
+
+### 🎨 Caixas de Destaque
+```markdown
+> **💡 Dica**: Informações úteis para otimizar o uso
+
+> **⚠️ Atenção**: Cuidados importantes a serem observados
+
+> **📋 Exemplo**: Casos práticos ilustrativos
+
+> **🔧 Configuração**: Ajustes necessários no sistema
+```
+
+## 🔄 Diagramas Mermaid (Compatível com GitBook)
+
+### 📊 Obrigatório para Fluxos
+```mermaid
+graph TD
+    A[Início] --> B[Processo]
+    B --> C{Decisão}
+    C -->|Sim| D[Ação 1]
+    C -->|Não| E[Ação 2]
+    D --> F[Fim]
+    E --> F
+```
+
+### 🎯 Padrões de Diagramas Compatíveis com GitBook
+- **Fluxogramas**: Para processos lineares (`graph TD` ou `graph LR`)
+- **Diagramas de decisão**: Para fluxos condicionais (`graph TD` com decisões)
+- **Diagramas de sequência**: Para interações entre sistemas (`sequenceDiagram`)
+- **Diagramas de estado**: Para status de documentos (`stateDiagram-v2`)
+- **Diagramas de classe**: Para estruturas de dados (`classDiagram`)
+- **Diagramas de Gantt**: Para cronogramas (`gantt`)
+
+### 📋 Diretrizes para Compatibilidade GitBook
+- **Use sempre** a sintaxe Mermaid padrão
+- **Evite** recursos experimentais ou beta
+- **Teste** os diagramas no GitBook antes de publicar
+- **Mantenha** simplicidade visual para melhor renderização
+- **Use** cores padrão do Mermaid (evite cores customizadas)
+- **Evite** caracteres especiais que possam causar problemas de renderização
+
+### 🎨 Exemplos de Diagramas Compatíveis
+
+#### Fluxograma Básico
+```mermaid
+graph TD
+    A[Início] --> B[Ação]
+    B --> C{Condição}
+    C -->|Sim| D[Resultado A]
+    C -->|Não| E[Resultado B]
+    D --> F[Fim]
+    E --> F
+```
+
+#### Diagrama de Sequência
+```mermaid
+sequenceDiagram
+    participant U as Usuário
+    participant S as Sistema
+    participant D as Banco de Dados
+    
+    U->>S: Solicita dados
+    S->>D: Consulta informações
+    D->>S: Retorna dados
+    S->>U: Exibe resultado
+```
+
+#### Diagrama de Estado
+```mermaid
+stateDiagram-v2
+    [*] --> Rascunho
+    Rascunho --> Aprovado: aprovar
+    Aprovado --> Publicado: publicar
+    Publicado --> Arquivado: arquivar
+    Arquivado --> [*]
+```
+
+## 📝 Diretrizes de Redação
+
+### 🎯 Tom e Linguagem
+- **Tom**: Amigável, didático, profissional
+- **Pessoa**: Segunda pessoa (você)
+- **Linguagem**: Clara, objetiva, sem jargões técnicos
+- **Público**: Usuário final não técnico
+
+### 📋 Estrutura de Conteúdo
+1. **Comece** com o contexto (o que é, para que serve)
+2. **Siga** com o passo a passo prático
+3. **Inclua** exemplos reais e contextualizados
+4. **Termine** com dicas e informações complementares
+
+### 🔍 Palavras-chave
+- Use termos consistentes para a mesma funcionalidade
+- Prefira "clique" a "pressione" para ações de mouse
+- Use "digite" para entrada de dados
+- Use "selecione" para escolhas em listas
+
+## 🔗 Sistema de Links
+
+### 📍 Navegação (OBRIGATÓRIO)
+```markdown
+🏠 [Home](../../index.md) > 📋 [Seção](../index.md) > **Documento Atual**
+```
+
+### 🔗 Links Internos
+- **Sempre** use caminhos relativos
+- **Inclua** links para documentos relacionados
+- **Crie** seções de "Documentação Relacionada"
+
+### 🔗 Links Externos
+- **Evite** links externos quando possível
+- **Se necessário**, marque claramente como externos
+
+## 🏷️ Metadados
+
+### 📊 Informações no Rodapé
+```markdown
+---
+
+## 📚 Documentação Relacionada
+- [Documento 1](../link1.md)
+- [Documento 2](../link2.md)
+
+## 🏷️ Tags
+`#tag1` `#tag2` `#categoria` `#nivel`
+
+---
+
+**Última atualização**: [Data]
+**Versão do documento**: [Versão]
+**Responsável**: [Nome]
+```
+
+## 🎯 Boas Práticas
+
+### ✅ Faça
+- **Use** exemplos práticos e contextualizados
+- **Inclua** screenshots quando necessário
+- **Mantenha** consistência na formatação
+- **Teste** todos os links internos
+- **Revise** ortografia e gramática
+- **Atualize** datas de modificação
+
+### ❌ Evite
+- **Jargões** técnicos sem explicação
+- **Parágrafos** muito longos
+- **Informações** desatualizadas
+- **Links** quebrados
+- **Formatação** inconsistente
+- **Conteúdo** duplicado
+
+## 🔧 Ferramentas e Validação
+
+### 📋 Checklist de Qualidade
+- [ ] Título claro e descritivo
+- [ ] Navegação breadcrumb presente
+- [ ] Tags apropriadas incluídas
+- [ ] Estrutura de seções seguida
+- [ ] Exemplos práticos incluídos
+- [ ] Links internos funcionando
+- [ ] Formatação consistente
+- [ ] Ortografia revisada
+- [ ] Metadados completos
+
+### 🎯 Critérios de Aprovação
+- **Clareza**: Usuário consegue seguir sem dúvidas
+- **Completude**: Todas as informações necessárias estão presentes
+- **Consistência**: Segue todos os padrões estabelecidos
+- **Utilidade**: Resolve problemas reais do usuário
+- **Atualidade**: Informações estão atualizadas
+
+## 📊 Métricas de Sucesso
+
+### 🎯 Indicadores de Qualidade
+- **Tempo de conclusão**: Usuário consegue completar tarefa rapidamente
+- **Taxa de erro**: Baixa incidência de erros seguindo a documentação
+- **Satisfação**: Feedback positivo dos usuários
+- **Reutilização**: Documentos são consultados frequentemente
+
+### 📈 Processo de Melhoria
+- **Colete** feedback dos usuários
+- **Monitore** dúvidas frequentes
+- **Atualize** baseado em mudanças do sistema
+- **Revise** periodicamente a estrutura
+
+---
+
+## 🚀 Início Rápido
+
+### 📋 Para Criar um Novo Documento
+1. **Copie** o template apropriado (módulo/fluxo/caso-uso)
+2. **Adapte** o cabeçalho com título e navegação
+3. **Adicione** tags relevantes
+4. **Preencha** as seções seguindo os padrões
+5. **Inclua** exemplos práticos
+6. **Revise** usando o checklist de qualidade
+7. **Teste** todos os links
+8. **Publique** e monitore feedback
+
+### 🔧 Para Atualizar Documentos Existentes
+1. **Verifique** se segue os padrões atuais
+2. **Atualize** formatação se necessário
+3. **Revise** conteúdo e exemplos
+4. **Teste** funcionalidades descritas
+5. **Atualize** data de modificação
+6. **Documente** mudanças significativas
+
+---
+
+**Versão**: 1.0  
+**Última atualização**: Janeiro 2025  
+**Responsável**: Equipe de Documentação White ERP 
