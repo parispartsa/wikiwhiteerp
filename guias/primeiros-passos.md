@@ -400,7 +400,7 @@ O certificado digital é obrigatório para emitir notas fiscais eletrônicas (NF
 
 ### 🆘 **Quando Precisar de Ajuda**
 - **Email**: suporte@White.com.br
-- **WhatsApp**: (11) 99999-9999
+- **WhatsApp**: (49) 9 9959-9599
 - **Chat**: Dentro do sistema (ícone 💬)
 - **Telefone**: 0800-123-4567
 
@@ -411,7 +411,7 @@ O certificado digital é obrigatório para emitir notas fiscais eletrônicas (NF
 
 ### 📚 **Recursos de Autoajuda**
 - **Central de Ajuda**: help.White.com.br
-- **Vídeos Tutoriais**: youtube.com/White
+- **Vídeos Tutoriais**: [Canal White ERP](https://www.youtube.com/@whiteerp)
 - **FAQ**: Perguntas frequentes
 - **Comunidade**: forum.White.com.br
 

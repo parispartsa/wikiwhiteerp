@@ -60,7 +60,7 @@ O **White ERP** é uma solução completa de gestão empresarial desenvolvida es
 - **[🌐 Integração com E-commerce](guias/integracao-ecommerce.md)** - Configure vendas online
 
 ### 📋 Módulos do Sistema
-**[📋 Módulos do Sistema](modulos/)**
+**[📋 Módulos do Sistema](modulos/index.md)**
 
 #### 👥 Gestão de Cadastros
 **[👥 Módulo: Gestão de Cadastros](modulos/cadastros/index.md)**
@@ -69,34 +69,34 @@ O **White ERP** é uma solução completa de gestão empresarial desenvolvida es
 - **[📦 Cadastro de Produtos](modulos/cadastros/cadastro-de-produtos.md)** - Gerencie produtos e serviços
 
 #### 🛒 Gestão de Vendas
-**[🛒 Módulo: Gestão de Vendas](modulos/vendas/)**
+**[🛒 Módulo: Gestão de Vendas](modulos/vendas/index.md)**
 - **[🛒 PDV - Ponto de Venda](modulos/vendas/pdv.md)** - Sistema de vendas no balcão
 - **[📋 Orçamentos](modulos/vendas/orcamentos.md)** - Criação e gestão de orçamentos
 - **[📦 Pedidos](modulos/vendas/pedidos.md)** - Controle de pedidos de venda
 
 #### 📦 Controle de Estoque
-**[📦 Módulo: Controle de Estoque](modulos/estoque/)**
+**[📦 Módulo: Controle de Estoque](modulos/estoque/index.md)**
 - **[📥 Entrada de Mercadorias](modulos/estoque/entrada-mercadorias.md)** - Registre entradas de produtos
 - **[📊 Movimentação de Estoque](modulos/estoque/movimentacao-estoque.md)** - Controle movimentações
 - **[📋 Inventário Físico](modulos/estoque/inventario-fisico.md)** - Realize inventários
 - **[⚠️ Alertas de Estoque](modulos/estoque/alertas-estoque.md)** - Configure alertas automáticos
 
 #### 💰 Gestão Financeira
-**[💰 Módulo: Gestão Financeira](modulos/financeiro/)**
+**[💰 Módulo: Gestão Financeira](modulos/financeiro/index.md)**
 - **[📈 Contas a Receber](modulos/financeiro/contas-a-receber.md)** - Controle recebimentos
 - **[📉 Contas a Pagar](modulos/financeiro/contas-a-pagar.md)** - Gerencie pagamentos
 - **[💳 Formas de Pagamento](modulos/financeiro/formas-pagamento.md)** - Configure meios de pagamento
 - **[💹 Fluxo de Caixa](modulos/financeiro/fluxo-de-caixa.md)** - Controle fluxo financeiro
 
 #### 🔧 Configurações
-**[🔧 Módulo: Configurações](modulos/configuracoes/)**
+**[🔧 Módulo: Configurações](modulos/configuracoes/index.md)**
 - **[🏢 Dados da Empresa](modulos/configuracoes/dados-da-empresa.md)** - Configure informações da empresa
 - **[👤 Gestão de Usuários](modulos/configuracoes/gestao-usuarios.md)** - Gerencie usuários
 - **[🔐 Usuários e Permissões](modulos/configuracoes/usuarios-e-permissoes.md)** - Controle de acesso
 - **[📋 Parâmetros Fiscais](modulos/configuracoes/parametros-fiscais.md)** - Configure aspectos fiscais
 
 ### 🔄 Fluxos de Trabalho
-**[🔄 Fluxos de Trabalho](fluxos/)**
+**[🔄 Fluxos de Trabalho](fluxos/index.md)**
 
 - **[🛒 Fluxo de Vendas Completo](fluxos/fluxo-vendas-completo.md)** - Processo completo de vendas
 - **[🛍️ Fluxo de Compras](fluxos/fluxo-compras.md)** - Processo de compras e fornecedores
@@ -105,11 +105,11 @@ O **White ERP** é uma solução completa de gestão empresarial desenvolvida es
 - **[🏪 Fluxo de Atendimento](fluxos/fluxo-atendimento.md)** - Processo de atendimento ao cliente
 
 ### 🎯 Casos de Uso
-**[🎯 Casos de Uso](casos-uso/)**
+**[🎯 Casos de Uso](casos-uso/index.md)**
 
-- **[🛒 Comércio Geral](casos-uso/comercio-geral/)** - Cenários específicos para comércio
-- **[🐕 Petshop](casos-uso/petshop/)** - Funcionalidades específicas para petshops
-- **[🔧 Prestação de Serviços](casos-uso/prestacao-servicos/)** - Gestão de serviços
+- **[🛒 Comércio Geral](casos-uso/comercio-geral/index.md)** - Cenários específicos para comércio
+- **[🐕 Petshop](casos-uso/petshop/index.md)** - Funcionalidades específicas para petshops
+- **[🔧 Prestação de Serviços](casos-uso/prestacao-servicos/index.md)** - Gestão de serviços
 
 ---
 
@@ -165,14 +165,15 @@ O **White ERP** é uma solução completa de gestão empresarial desenvolvida es
 ## 🆘 Precisa de Ajuda?
 
 ### 📞 Suporte Técnico
-- **Email**: suporte@whiteerp.com.br
-- **WhatsApp**: (11) 99999-9999
+- **Email**: contato@whiteerp.com.br
+- **WhatsApp**: (49) 9 9959-9599
 - **Horário**: Segunda a Sexta, 8h às 18h
 
-### 💬 Comunidade
+### 💬 Comunidade e Redes Sociais
 - **Forum**: forum.whiteerp.com.br
 - **Canal Telegram**: @WhiteERP_usuarios
-- **YouTube**: Canal White ERP
+- **YouTube**: [Canal White ERP](https://www.youtube.com/@whiteerp)
+- **Instagram**: [White ERP](https://www.instagram.com/white_erp/)
 
 ### 📚 Recursos Adicionais
 - **Perguntas Frequentes** - Dúvidas comuns

@@ -217,11 +217,11 @@ Esta seção contém **guias práticos** e **tutoriais passo a passo** para ajud
 ### 💬 **Canais de Ajuda**
 - **Chat do Sistema**: Suporte em tempo real
 - **Email**: guias@White.com.br
-- **WhatsApp**: (11) 99999-9999
+- **WhatsApp**: (49) 9 9959-9599
 - **Fórum**: forum.White.com.br
 
 ### 📚 **Recursos Complementares**
-- **Vídeos**: youtube.com/White
+- **Vídeos**: [Canal White ERP](https://www.youtube.com/@whiteerp)
 - **Webinars**: Sessões ao vivo
 - **FAQ**: Perguntas frequentes
 - **Comunidade**: Troca de experiências
