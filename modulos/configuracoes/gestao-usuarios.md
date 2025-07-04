@@ -6,7 +6,7 @@
 
 ## 🎯 Visão Geral
 
-A **Gestão de Usuários e Permissões** é fundamental para garantir segurança, controle e organização no ERP GerenciaTech. Este módulo permite criar usuários, definir perfis de acesso, controlar permissões específicas e monitorar atividades, garantindo que cada pessoa tenha acesso apenas ao que precisa para executar suas funções.
+A **Gestão de Usuários e Permissões** é fundamental para garantir segurança, controle e organização no ERP White. Este módulo permite criar usuários, definir perfis de acesso, controlar permissões específicas e monitorar atividades, garantindo que cada pessoa tenha acesso apenas ao que precisa para executar suas funções.
 
 ## 🔐 Conceitos Fundamentais
 

@@ -6,7 +6,7 @@
 
 ## 🎯 O que são Enquetes Inteligentes
 
-O **Sistema de Enquetes Inteligentes** é o diferencial exclusivo do CRM GerenciaTech. Permite criar questionários com **pontuação ponderada** que qualificam leads automaticamente, gerando um **score científico** baseado nas respostas. Cada resposta tem um peso específico que contribui para a classificação final do prospect.
+O **Sistema de Enquetes Inteligentes** é o diferencial exclusivo do CRM White. Permite criar questionários com **pontuação ponderada** que qualificam leads automaticamente, gerando um **score científico** baseado nas respostas. Cada resposta tem um peso específico que contribui para a classificação final do prospect.
 
 ### 🌟 Diferenciais das Enquetes
 

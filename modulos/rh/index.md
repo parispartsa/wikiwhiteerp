@@ -6,7 +6,7 @@
 
 ## 🎯 Visão Geral
 
-O **Módulo RH** do ERP GerenciaTech é uma solução completa para gestão de recursos humanos que integra cadastro de colaboradores, estrutura organizacional, controle de turnos e geração automática de despesas. Com funcionalidades avançadas de organização departamental e integração financeira, automatiza processos de RH e garante compliance trabalhista.
+O **Módulo RH** do ERP White é uma solução completa para gestão de recursos humanos que integra cadastro de colaboradores, estrutura organizacional, controle de turnos e geração automática de despesas. Com funcionalidades avançadas de organização departamental e integração financeira, automatiza processos de RH e garante compliance trabalhista.
 
 ### 🌟 Diferenciais do Módulo RH
 
@@ -205,6 +205,6 @@ O **Módulo RH** do ERP GerenciaTech é uma solução completa para gestão de r
 
 ---
 
-> **💡 Dica Importante**: O módulo RH do GerenciaTech não é apenas um cadastro de funcionários. É uma plataforma completa que integra gestão de pessoas com controles financeiros e organizacionais, garantindo compliance e eficiência operacional.
+> **💡 Dica Importante**: O módulo RH do White não é apenas um cadastro de funcionários. É uma plataforma completa que integra gestão de pessoas com controles financeiros e organizacionais, garantindo compliance e eficiência operacional.
 
 **🎯 Próximo Passo**: Comece pelo [Cadastro de Colaboradores](cadastro-colaboradores.md) para entender como gerenciar sua equipe de forma completa e integrada. 

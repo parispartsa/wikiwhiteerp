@@ -6,7 +6,7 @@
 
 ## 🎯 O que é o DRE
 
-O **DRE (Demonstração do Resultado do Exercício)** é um relatório contábil fundamental que apresenta o resultado das operações da empresa em um determinado período. No ERP GerenciaTech, o DRE é gerado automaticamente com base nos lançamentos contábeis, oferecendo análise em tempo real da performance financeira.
+O **DRE (Demonstração do Resultado do Exercício)** é um relatório contábil fundamental que apresenta o resultado das operações da empresa em um determinado período. No ERP White, o DRE é gerado automaticamente com base nos lançamentos contábeis, oferecendo análise em tempo real da performance financeira.
 
 ### 🚀 Principais Benefícios
 - **Geração Automática**: DRE atualizado em tempo real

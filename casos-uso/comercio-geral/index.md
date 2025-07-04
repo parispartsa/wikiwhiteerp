@@ -8,7 +8,7 @@
 
 ## 🎯 Visão Geral
 
-Esta seção apresenta **casos de uso reais** do WikiWhite ERP aplicados ao **comércio geral**. São exemplos práticos que mostram como usar o sistema no dia a dia de lojas, distribuidoras e empresas comerciais.
+Esta seção apresenta **casos de uso reais** do White ERP aplicados ao **comércio geral**. São exemplos práticos que mostram como usar o sistema no dia a dia de lojas, distribuidoras e empresas comerciais.
 
 ### 🏪 **Tipos de Comércio Cobertos**
 - **Varejo** - Lojas físicas e online
@@ -314,7 +314,7 @@ Esta seção apresenta **casos de uso reais** do WikiWhite ERP aplicados ao **co
 
 ---
 
-**💡 Dica Final**: Os casos de uso são o caminho mais rápido para dominar o WikiWhite ERP. Use-os como guia e adapte para sua realidade específica!
+**💡 Dica Final**: Os casos de uso são o caminho mais rápido para dominar o White ERP. Use-os como guia e adapte para sua realidade específica!
 
 ---
 

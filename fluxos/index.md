@@ -6,7 +6,7 @@
 
 ## 📋 Visão Geral
 
-Os **Fluxos de Trabalho** do WikiWhite ERP são processos estruturados que conectam diferentes módulos do sistema, garantindo que as operações da empresa fluam de forma integrada e automatizada. Cada fluxo representa um processo completo de negócio, desde o início até a conclusão.
+Os **Fluxos de Trabalho** do White ERP são processos estruturados que conectam diferentes módulos do sistema, garantindo que as operações da empresa fluam de forma integrada e automatizada. Cada fluxo representa um processo completo de negócio, desde o início até a conclusão.
 
 ## 🎯 Objetivos dos Fluxos
 

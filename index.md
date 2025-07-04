@@ -1,4 +1,4 @@
-# 📋 WikiWhite ERP - Documentação do Usuário Final
+# 📋 White ERP - Documentação do Usuário Final
 
 🏠 **Home**
 
@@ -6,9 +6,9 @@
 
 ---
 
-## 🎯 Bem-vindo ao WikiWhite ERP
+## 🎯 Bem-vindo ao White ERP
 
-O **WikiWhite ERP** é uma solução completa de gestão empresarial desenvolvida especialmente para **comércios em geral**, **petshops** e **prestadores de serviços**. Este sistema integra todos os processos do seu negócio em uma única plataforma, proporcionando **automação**, **controle** e **crescimento sustentável**.
+O **White ERP** é uma solução completa de gestão empresarial desenvolvida especialmente para **comércios em geral**, **petshops** e **prestadores de serviços**. Este sistema integra todos os processos do seu negócio em uma única plataforma, proporcionando **automação**, **controle** e **crescimento sustentável**.
 
 ### 🚀 **O que você encontrará nesta documentação**
 
@@ -126,14 +126,14 @@ Esta documentação foi criada pensando em **você**, usuário final, que precis
 ## 🆘 Precisa de Ajuda?
 
 ### 📞 **Suporte Técnico**
-- **Email**: suporte@wikiwhiteerp.com.br
+- **Email**: suporte@Whiteerp.com.br
 - **WhatsApp**: (11) 99999-9999
 - **Horário**: Segunda a Sexta, 8h às 18h
 
 ### 💬 **Comunidade**
-- **Forum**: forum.wikiwhiteerp.com.br
-- **Canal Telegram**: @WikiWhiteERP_usuarios
-- **YouTube**: Canal WikiWhite ERP
+- **Forum**: forum.Whiteerp.com.br
+- **Canal Telegram**: @WhiteERP_usuarios
+- **YouTube**: Canal White ERP
 
 ### 📚 **Recursos Adicionais**
 - **Perguntas Frequentes** - Dúvidas comuns
@@ -174,4 +174,4 @@ Esta documentação foi criada pensando em **você**, usuário final, que precis
 
 ---
 
-💡 **Dica**: Marque esta página nos favoritos e use-a como ponto de partida para navegar pela documentação completa do sistema WikiWhite ERP. 
+💡 **Dica**: Marque esta página nos favoritos e use-a como ponto de partida para navegar pela documentação completa do sistema White ERP. 

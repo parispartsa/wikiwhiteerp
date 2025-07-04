@@ -14,10 +14,10 @@
 ### 👥 **Personagens**
 - **Maria Silva**: Proprietária da loja, usuária do ERP
 - **João Santos**: Cliente que precisa de produtos para jardim
-- **Sistema ERP**: GerenciaTech configurado para comércio varejista
+- **Sistema ERP**: White configurado para comércio varejista
 
 ### 🎯 **Objetivo**
-Realizar uma venda completa no balcão, desde o atendimento inicial até a entrega dos produtos, utilizando o PDV do ERP GerenciaTech de forma eficiente.
+Realizar uma venda completa no balcão, desde o atendimento inicial até a entrega dos produtos, utilizando o PDV do ERP White de forma eficiente.
 
 ---
 

@@ -6,7 +6,7 @@
 
 ## 🎯 O que é Email Marketing Automatizado
 
-O **Email Marketing Automatizado** do CRM GerenciaTech é um sistema inteligente que envia emails personalizados baseados no **score de qualificação** dos leads. Com 4 templates específicos (nv1-nv4), cada lead recebe conteúdo estratégico adequado ao seu nível de maturidade digital e potencial de conversão.
+O **Email Marketing Automatizado** do CRM White é um sistema inteligente que envia emails personalizados baseados no **score de qualificação** dos leads. Com 4 templates específicos (nv1-nv4), cada lead recebe conteúdo estratégico adequado ao seu nível de maturidade digital e potencial de conversão.
 
 ### 🌟 Diferenciais do Email Marketing
 

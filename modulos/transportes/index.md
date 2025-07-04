@@ -147,7 +147,7 @@ O módulo **Transportes** é uma solução completa para gestão logística e co
 - **📚 FAQ**: Perguntas frequentes sobre documentos fiscais
 - **🎥 Vídeos**: Tutoriais passo a passo
 - **📞 Suporte**: Atendimento especializado em transporte
-- **📧 Email**: suporte@gerenciatech.com.br
+- **📧 Email**: suporte@White.com.br
 
 ### 🔧 **Recursos Técnicos**
 - **Manual SEFAZ**: Guias oficiais atualizados

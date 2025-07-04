@@ -241,7 +241,7 @@ Vale-Pedágio: Sem Parar - R$ 180,00
 - [Fluxo: Controle de Vencimentos](../../fluxos/fluxo-controle-vencimentos.md)
 
 ### 📞 **Suporte**
-- **Email**: suporte@gerenciatech.com.br
+- **Email**: suporte@White.com.br
 - **Telefone**: (11) 9999-9999
 - **Chat**: Disponível 24/7
 - **Treinamento**: Agendamento online

@@ -213,7 +213,7 @@ Após configurar a contabilidade:
 - **📚 FAQ**: Perguntas frequentes sobre contabilidade
 - **🎥 Vídeos**: Tutoriais de configuração e uso
 - **📞 Suporte**: Atendimento especializado em contabilidade
-- **📧 Email**: contabilidade@gerenciatech.com.br
+- **📧 Email**: contabilidade@White.com.br
 
 ### 🔧 **Recursos Técnicos**
 - **Manual do Contador**: Guia completo para profissionais contábeis

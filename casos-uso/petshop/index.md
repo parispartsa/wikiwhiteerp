@@ -8,7 +8,7 @@
 
 ## 🎯 Visão Geral
 
-Esta seção apresenta **casos de uso específicos** do WikiWhite ERP aplicados ao segmento **petshop**. São exemplos práticos que mostram como usar funcionalidades especializadas para gestão de animais, serviços veterinários e produtos específicos.
+Esta seção apresenta **casos de uso específicos** do White ERP aplicados ao segmento **petshop**. São exemplos práticos que mostram como usar funcionalidades especializadas para gestão de animais, serviços veterinários e produtos específicos.
 
 ### 🐕 **Características do Segmento Petshop**
 - **Cadastro de animais** - Controle individual por pet

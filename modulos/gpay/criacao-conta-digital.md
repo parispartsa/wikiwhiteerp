@@ -30,7 +30,7 @@ Antes de começar, certifique-se de ter:
 ### 🔧 **Passo a passo**
 
 #### **Passo 1: Acessar o GPay**
-1. Faça login no ERP GerenciaTech
+1. Faça login no ERP White
 2. No **Dashboard**, localize o box **"GerenciaPay"**
 3. Clique no banner **"Criar Conta Digital"**
 

@@ -1,6 +1,6 @@
-# WikiWhite ERP - Documentação do Usuário Final
+# White ERP - Documentação do Usuário Final
 
-Este repositório contém a documentação completa para usuários finais do sistema WikiWhite ERP, um sistema de gestão empresarial focado em comércio geral, petshops e prestação de serviços.
+Este repositório contém a documentação completa para usuários finais do sistema White ERP, um sistema de gestão empresarial focado em comércio geral, petshops e prestação de serviços.
 
 ## 📋 Estrutura da Documentação
 
@@ -35,7 +35,7 @@ Este repositório contém a documentação completa para usuários finais do sis
 ## 🎯 Público-Alvo
 
 Esta documentação é destinada a:
-- Usuários finais do sistema WikiWhite ERP
+- Usuários finais do sistema White ERP
 - Administradores de sistema
 - Gerentes e supervisores
 - Equipe de suporte técnico
@@ -63,7 +63,7 @@ Para contribuir com a documentação:
 
 ## 📞 Suporte
 
-Para dúvidas sobre o sistema WikiWhite ERP, consulte:
+Para dúvidas sobre o sistema White ERP, consulte:
 - Esta documentação
 - Suporte técnico da empresa
 - Treinamentos disponíveis

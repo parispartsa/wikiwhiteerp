@@ -207,4 +207,4 @@ Após emitir o CTe:
 
 ---
 
-> **📞 Precisa de ajuda?** Entre em contato com nosso suporte especializado em transportes: suporte@gerenciatech.com.br 
+> **📞 Precisa de ajuda?** Entre em contato com nosso suporte especializado em transportes: suporte@White.com.br 

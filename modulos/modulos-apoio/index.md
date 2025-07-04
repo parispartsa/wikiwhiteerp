@@ -6,7 +6,7 @@
 
 ## 🎯 Visão Geral
 
-Os **Módulos de Apoio** são componentes essenciais de infraestrutura que garantem o funcionamento robusto, seguro e eficiente do ERP GerenciaTech. Estes módulos trabalham nos bastidores para fornecer funcionalidades críticas como backup automático, comunicação em tempo real, envio de emails, processamento bancário e serviços de localização.
+Os **Módulos de Apoio** são componentes essenciais de infraestrutura que garantem o funcionamento robusto, seguro e eficiente do ERP White. Estes módulos trabalham nos bastidores para fornecer funcionalidades críticas como backup automático, comunicação em tempo real, envio de emails, processamento bancário e serviços de localização.
 
 ### 🚀 Principais Diferenciais
 
@@ -230,7 +230,7 @@ Após configurar os módulos de apoio:
 - **📚 FAQ**: Perguntas frequentes sobre infraestrutura
 - **🎥 Vídeos**: Tutoriais de configuração
 - **📞 Suporte**: Atendimento especializado 24/7
-- **📧 Email**: infraestrutura@gerenciatech.com.br
+- **📧 Email**: infraestrutura@White.com.br
 
 ### 🔧 **Recursos Técnicos**
 - **Manual do Administrador**: Guia completo de configuração

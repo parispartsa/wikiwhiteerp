@@ -6,7 +6,7 @@
 
 ## 🎯 Visão Geral
 
-O **Módulo CRM** do ERP GerenciaTech é uma solução completa de gestão de relacionamento com cliente que vai além do CRM tradicional. Com funcionalidades únicas como **enquetes inteligentes**, **scoring automático** e **email marketing segmentado**, permite qualificar leads de forma científica e automatizar todo o processo de nutrição até a conversão.
+O **Módulo CRM** do ERP White é uma solução completa de gestão de relacionamento com cliente que vai além do CRM tradicional. Com funcionalidades únicas como **enquetes inteligentes**, **scoring automático** e **email marketing segmentado**, permite qualificar leads de forma científica e automatizar todo o processo de nutrição até a conversão.
 
 ### 🌟 Diferenciais Únicos
 
@@ -118,6 +118,6 @@ O **Módulo CRM** do ERP GerenciaTech é uma solução completa de gestão de re
 
 ---
 
-> **💡 Dica Importante**: O CRM do GerenciaTech não é apenas um sistema de cadastro de leads. É uma plataforma completa de inteligência comercial que usa dados científicos para maximizar suas conversões e otimizar seus investimentos em marketing.
+> **💡 Dica Importante**: O CRM do White não é apenas um sistema de cadastro de leads. É uma plataforma completa de inteligência comercial que usa dados científicos para maximizar suas conversões e otimizar seus investimentos em marketing.
 
 **🎯 Próximo Passo**: Comece pela [Gestão de Leads](gestao-leads.md) para entender como cadastrar e segmentar seus prospects de forma eficiente. 

@@ -302,4 +302,4 @@ Após autorização do MDFe:
 
 ---
 
-> **📞 Precisa de ajuda?** Este fluxo pode ser adaptado conforme suas necessidades específicas. Entre em contato: suporte@gerenciatech.com.br 
+> **📞 Precisa de ajuda?** Este fluxo pode ser adaptado conforme suas necessidades específicas. Entre em contato: suporte@White.com.br 

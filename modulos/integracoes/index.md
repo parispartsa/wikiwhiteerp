@@ -8,7 +8,7 @@
 
 ## 🎯 Visão Geral do Módulo
 
-O **Módulo de Integrações** conecta seu WikiWhite ERP com o mundo externo. Aqui você integra sistemas fiscais, bancários, e-commerce, marketplaces e muito mais, criando um ecossistema digital completo para seu negócio.
+O **Módulo de Integrações** conecta seu White ERP com o mundo externo. Aqui você integra sistemas fiscais, bancários, e-commerce, marketplaces e muito mais, criando um ecossistema digital completo para seu negócio.
 
 ### 🚀 **Por que as Integrações são Essenciais?**
 - 🔄 **Automação total** - Reduza trabalho manual

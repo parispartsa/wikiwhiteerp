@@ -6,7 +6,7 @@
 
 ## 🎯 Visão Geral
 
-O módulo de **Configurações** é o centro de controle do ERP GerenciaTech, onde você define todos os parâmetros fundamentais para o funcionamento do sistema. É aqui que você configura dados da empresa, usuários, permissões, parâmetros fiscais e integrações. Uma configuração adequada é essencial para o sucesso da implementação.
+O módulo de **Configurações** é o centro de controle do ERP White, onde você define todos os parâmetros fundamentais para o funcionamento do sistema. É aqui que você configura dados da empresa, usuários, permissões, parâmetros fiscais e integrações. Uma configuração adequada é essencial para o sucesso da implementação.
 
 ## 🏗️ Estrutura do Módulo
 
@@ -258,7 +258,7 @@ O módulo de **Configurações** é o centro de controle do ERP GerenciaTech, on
 
 ---
 
-**🎯 Objetivo**: Configurar o ERP GerenciaTech de forma otimizada para seu negócio, garantindo máxima eficiência, segurança e compliance fiscal.
+**🎯 Objetivo**: Configurar o ERP White de forma otimizada para seu negócio, garantindo máxima eficiência, segurança e compliance fiscal.
 
 **💡 Dica**: Dedique tempo adequado à configuração inicial. Uma configuração bem feita economiza horas de trabalho futuro e evita problemas operacionais.
 

@@ -6,7 +6,7 @@
 
 ## 🎯 Visão Geral
 
-O **GPay** é a plataforma de pagamentos digitais integrada ao ERP GerenciaTech, que oferece uma **conta digital completa** para sua empresa. Através da integração com a **Asaas**, você pode realizar pagamentos, transferências, PIX e muito mais, tudo dentro do seu ERP.
+O **GPay** é a plataforma de pagamentos digitais integrada ao ERP White, que oferece uma **conta digital completa** para sua empresa. Através da integração com a **Asaas**, você pode realizar pagamentos, transferências, PIX e muito mais, tudo dentro do seu ERP.
 
 ### 🚀 **Principais Diferenciais**
 

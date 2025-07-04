@@ -6,7 +6,7 @@
 
 ## 🎯 O que é o Plano de Contas
 
-O **Plano de Contas** é a estrutura fundamental da contabilidade que organiza todas as contas contábeis da empresa de forma hierárquica e sistemática. No ERP GerenciaTech, ele é composto por **Categorias DRE**, **Contas Sintéticas** e **Contas Analíticas**, permitindo uma classificação precisa e automática dos lançamentos contábeis.
+O **Plano de Contas** é a estrutura fundamental da contabilidade que organiza todas as contas contábeis da empresa de forma hierárquica e sistemática. No ERP White, ele é composto por **Categorias DRE**, **Contas Sintéticas** e **Contas Analíticas**, permitindo uma classificação precisa e automática dos lançamentos contábeis.
 
 ### 🚀 Principais Benefícios
 - **Estrutura Hierárquica**: Organização clara e lógica das contas
@@ -248,4 +248,4 @@ Após configurar o plano de contas:
 
 ---
 
-> **📞 Precisa de ajuda?** A configuração do plano de contas é fundamental para o sucesso da contabilidade. Entre em contato: contabilidade@gerenciatech.com.br 
+> **📞 Precisa de ajuda?** A configuração do plano de contas é fundamental para o sucesso da contabilidade. Entre em contato: contabilidade@White.com.br 
