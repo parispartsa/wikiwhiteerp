@@ -63,7 +63,7 @@ O **White ERP** é uma solução completa de gestão empresarial desenvolvida es
 **[📋 Módulos do Sistema](modulos/)**
 
 #### 👥 Gestão de Cadastros
-**[👥 Módulo: Gestão de Cadastros](modulos/cadastros/)**
+**[👥 Módulo: Gestão de Cadastros](modulos/cadastros/index.md)**
 - **[👥 Cadastro de Clientes](modulos/cadastros/cadastro-de-clientes.md)** - Gerencie informações de clientes
 - **[🏭 Cadastro de Fornecedores](modulos/cadastros/cadastro-de-fornecedores.md)** - Controle fornecedores
 - **[📦 Cadastro de Produtos](modulos/cadastros/cadastro-de-produtos.md)** - Gerencie produtos e serviços
