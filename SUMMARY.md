@@ -11,8 +11,7 @@
 
 ## 📋 Módulos do Sistema
 * [📋 Módulos do Sistema White ERP](modulos/index.md)
-  * [👥 Módulo: Gestão de Cadastros](modulos/cadastros/index.md)
-    * [📋 Visão Geral do Módulo](modulos/cadastros/README.md)
+  * [👥 Módulo: Gestão de Cadastros](modulos/cadastros/README.md)
     * [👥 Cadastro de Clientes](modulos/cadastros/cadastro-de-clientes.md)
     * [🏪 Cadastro de Fornecedores](modulos/cadastros/cadastro-de-fornecedores.md)
     * [📦 Cadastro de Produtos e Serviços](modulos/cadastros/cadastro-de-produtos.md)
