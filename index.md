@@ -8,7 +8,7 @@
 
 ## 🎯 Bem-vindo ao White ERP
 
-O **White ERP** é uma solução completa de gestão empresarial desenvolvida especialmente para **comércios em geral** e **prestadores de serviços**. Este sistema integra todos os processos do seu negócio em uma única plataforma, proporcionando **automação**, **controle** e **crescimento sustentável**.
+O **White ERP** é uma solução completa de gestão empresarial desenvolvida especialmente para **comércios em geral**, **petshops** e **prestadores de serviços**. Este sistema integra todos os processos do seu negócio em uma única plataforma, proporcionando **automação**, **controle** e **crescimento sustentável**.
 
 > **💡 Dica**: Esta documentação foi criada pensando em você, usuário final, que precisa utilizar o sistema no dia a dia para otimizar seus processos de negócio.
 
@@ -108,6 +108,7 @@ O **White ERP** é uma solução completa de gestão empresarial desenvolvida es
 **[🎯 Casos de Uso](casos-uso/index.md)**
 
 - **[🛒 Comércio Geral](casos-uso/comercio-geral/index.md)** - Cenários específicos para comércio
+- **[🐕 Petshop](casos-uso/petshop/index.md)** - Funcionalidades específicas para petshops
 - **[🔧 Prestação de Serviços](casos-uso/prestacao-servicos/index.md)** - Gestão de serviços
 
 ---
@@ -121,6 +122,12 @@ O **White ERP** é uma solução completa de gestão empresarial desenvolvida es
 - **Emissão automática** de documentos fiscais
 - **Relatórios gerenciais** completos
 
+### 🐕 Petshop
+- **Cadastro de animais** com histórico veterinário
+- **Agendamento de serviços** especializados
+- **Controle de vacinas** e medicamentos
+- **Histórico detalhado** de atendimentos
+- **Lembretes automáticos** para clientes
 ### 🔧 Prestação de Serviços
 - **Ordens de serviço** com controle completo
 - **Agendamento de técnicos** e recursos
