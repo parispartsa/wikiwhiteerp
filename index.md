@@ -8,7 +8,7 @@
 
 ## 🎯 Bem-vindo ao White ERP
 
-O **White ERP** é uma solução completa de gestão empresarial desenvolvida especialmente para **comércios em geral**, **petshops** e **prestadores de serviços**. Este sistema integra todos os processos do seu negócio em uma única plataforma, proporcionando **automação**, **controle** e **crescimento sustentável**.
+O **White ERP** é uma solução completa de gestão empresarial desenvolvida especialmente para **comércios em geral** e **prestadores de serviços**. Este sistema integra todos os processos do seu negócio em uma única plataforma, proporcionando **automação**, **controle** e **crescimento sustentável**.
 
 > **💡 Dica**: Esta documentação foi criada pensando em você, usuário final, que precisa utilizar o sistema no dia a dia para otimizar seus processos de negócio.
 
