@@ -343,6 +343,8 @@ O certificado digital é obrigatório para emitir notas fiscais eletrônicas (NF
 2. **Visualize** os indicadores principais
 
 #### **Dashboard Disponíveis**
+
+
 - **Dashboard Principal**: Informações Financeiras diárias
   - Clientes / Contratos ativos
   - Contas a Receber no dia
@@ -352,6 +354,7 @@ O certificado digital é obrigatório para emitir notas fiscais eletrônicas (NF
   - Fluxo de Caixa
   - Comparativo Recebido x Pago
   - Certificado Digital
+
 
 - **Dashboard de Vendas**: Filtro opcional por período
   - Total em Vendas
@@ -368,10 +371,12 @@ O certificado digital é obrigatório para emitir notas fiscais eletrônicas (NF
   - Top Vendedores
   - Top Canais de Venda
 
+
 - **Dashboard Financeira**: Informações de Contas Bancárias
   - Saldo de Contas
   - Saldo Total Disponível
   - Top 10 Despesas por Conta Despesa
+
 
 - **Dashboard Contratos**: Dados de Contratos 
   - MRR (Receita Recorrente MENSAL)
@@ -384,15 +389,19 @@ O certificado digital é obrigatório para emitir notas fiscais eletrônicas (NF
   - Contratos por Vendedor
   - Contratos por Vendedor x Status
 
+
 - **Dashboard OS**: Informações de Ordem de Serviço
   - Ordens de Serviço por Status
   - Ordens de Serviço por Departamento
 
+
 - **Dashboard de Vendedores**: Dados de Vendedores
   - Top Vendedores (Meta x Realizado)
 
+
 - **Dashboard de Estoque**: Dados de produtos
   - Comparação Estoque Mínimo x Estoque Real
+
 
 ---
 
