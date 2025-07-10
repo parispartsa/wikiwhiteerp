@@ -276,7 +276,7 @@ Esta seção apresenta **casos de uso reais** do White ERP aplicados ao **comér
 ## 📚 Documentação Relacionada
 
 ### 🔗 **Outros Casos de Uso**
-- **[Petshop](../petshop/index.md)** - Casos específicos para petshops
+
 - **[Prestação de Serviços](../prestacao-servicos/)** - Prestação de serviços
 - **[Serviços](../servicos/)** - Casos de serviços
 

@@ -17,8 +17,6 @@ usuario-final/
 │   └── videos/               # Vídeos tutoriais
 ├── casos-uso/                # Casos práticos por segmento
 │   ├── comercio-geral/       # Comércio varejista
-│   ├── petshop/              # Petshops
-│   ├── prestacao-servicos/   # Prestadores de serviços
 │   └── contabilidade/        # Contabilidade
 ├── fluxos/                   # Processos completos
 ├── guias/                    # Guias iniciais

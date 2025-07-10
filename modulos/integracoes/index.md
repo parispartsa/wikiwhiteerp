@@ -107,7 +107,6 @@ O **Módulo de Integrações** conecta seu White ERP com o mundo externo. Aqui v
 
 ## 🔧 Integrações Especializadas
 
-### 🐕 **[Sistemas Veterinários](sistemas-veterinarios.md)** - Para Petshops
 **Integração com sistemas especializados** - Gestão completa
 
 **Funcionalidades específicas:**
@@ -122,8 +121,6 @@ O **Módulo de Integrações** conecta seu White ERP com o mundo externo. Aqui v
 - VetSmart
 - PetCode
 - Outros sistemas veterinários
-
-**Tags**: `#veterinario #petshop #animais #vacinas #medicamentos`
 
 ---
 
@@ -314,7 +311,6 @@ O **Módulo de Integrações** conecta seu White ERP com o mundo externo. Aqui v
 4. 📊 Marketplaces - Canais adicionais
 5. 📧 Email marketing - Relacionamento
 
-### 🐕 **Petshop**
 **Integrações específicas:**
 1. ✅ **NFCe/NFe** - Documentos fiscais
 2. ✅ **Sistema veterinário** - Gestão especializada

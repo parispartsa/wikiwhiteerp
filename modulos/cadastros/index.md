@@ -325,7 +325,7 @@ graph TD
 
 ### 💡 **Casos de Uso**
 - **[Setup Inicial](../../casos-uso/comercio-geral/setup-inicial.md)** - Primeiros cadastros
-- **[Cadastro Animal](../../casos-uso/petshop/cadastro-animal.md)** - Cadastro especializado
+
 - **[Cadastro Cliente Servico](../../casos-uso/servicos/cadastro-cliente-servico.md)** - B2B
 
 ---

@@ -92,14 +92,7 @@ O **Módulo de Estoque** é responsável pelo **controle inteligente** de todos 
 - 📊 Controle de validade
 - 🔄 Transferências automáticas
 
-### 🐕 **Petshop**
-**Foco**: Produtos com validade e medicamentos controlados
 
-**Funcionalidades específicas:**
-- ✅ **Controle rigoroso de validade** - Medicamentos e rações
-- ✅ **Lotes rastreáveis** - Medicamentos controlados
-- 📊 Histórico por animal
-- ⚠️ Alertas de vencimento
 
 ### 🔧 **Prestação de Serviços**
 **Foco**: Materiais para execução de serviços

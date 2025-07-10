@@ -107,7 +107,7 @@
     * [💰 Controle de Caixa](casos-uso/comercio-geral/controle-caixa.md)
     * [📦 Controle de Estoque](casos-uso/comercio-geral/controle-estoque.md)
     * [🔄 Troca e Devolução](casos-uso/comercio-geral/troca-devolucao.md)
-  * [🐕 Casos de Uso: Petshop](casos-uso/petshop/index.md)
+
   * [💼 Caso de Uso: Empresa de Serviços com Pagamentos Digitais](casos-uso/servicos/empresa-servicos-pagamentos-digitais.md)
   * [📊 Caso: Empresa Industrial com DRE Detalhado](casos-uso/contabilidade/empresa-industrial-dre.md)
   * [🚛 Caso: Transportadora Regional com Frota Própria](casos-uso/transportes/transportadora-regional.md)

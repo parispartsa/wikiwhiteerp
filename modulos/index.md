@@ -229,7 +229,6 @@ O **White ERP** está organizado em **13 módulos principais**, cada um respons�
 4. **Financeiro** (Recebimentos) - ⚡ Alto
 5. **Integrações** (Fiscal) - ⚡ Alto
 
-### 🐕 **Petshop - Prioridade**
 1. **Vendas** (PDV/Agendamentos) - 🔥 Crítico
 2. **Cadastros** (Clientes/Animais) - 🔥 Crítico
 3. **CRM** (Relacionamento) - ⚡ Alto

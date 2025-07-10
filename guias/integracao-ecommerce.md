@@ -466,21 +466,6 @@ Webhooks Configurados:
 - ✅ Redução de 30% no estoque parado
 - ✅ Melhoria na experiência do cliente
 
-### 🐕 Caso 2: Petshop com Delivery
-
-**Cenário**: Petshop com entrega rápida
-
-**Configuração**:
-- **Integração com WhatsApp**
-- **Catálogo mobile otimizado**
-- **Entrega própria** configurada
-- **Pagamento via PIX**
-
-**Resultados**:
-- ✅ 80% dos pedidos via WhatsApp
-- ✅ Entrega em 2 horas
-- ✅ Fidelização de clientes
-
 ---
 
 ## 🎯 Próximos Passos

@@ -242,7 +242,7 @@ O **Módulo de Relatórios** é o **centro de inteligência** do seu negócio. A
 
 ## 🎯 Relatórios Especializados
 
-### 🐕 **[Relatórios Petshop](relatorios-petshop.md)** - Específicos para Petshops
+
 **Relatórios especializados** - Animais, vacinas e serviços
 
 **Relatórios específicos:**
@@ -259,8 +259,6 @@ O **Módulo de Relatórios** é o **centro de inteligência** do seu negócio. A
 - 📅 Próximos agendamentos
 - 💰 Faturamento por serviço
 - 🎯 Clientes mais frequentes
-
-**Tags**: `#petshop #animais #vacinas #veterinario #agendamentos`
 
 ---
 
