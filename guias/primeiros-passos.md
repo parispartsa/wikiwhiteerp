@@ -19,19 +19,19 @@ Este guia foi criado especialmente para **novos usuários** que estão começand
 
 ---
 
-## 📋 Roteiro de Implementação (7 dias)
+## 📋 Roteiro de Implementação (7 Etapas)
 
-### 📅 **Dia 1: Primeiro Acesso e Configuração Básica**
-### 📅 **Dia 2: Dados da Empresa**
-### 📅 **Dia 3: Produtos e Serviços**
-### 📅 **Dia 4: Clientes e Fornecedores**
-### 📅 **Dia 5: Configuração Fiscal**
-### 📅 **Dia 6: Primeira Venda**
-### 📅 **Dia 7: Relatórios e Análises**
+### 📅 **Etapa 1: Primeiro Acesso e Configuração Básica**
+### 📅 **Etapa 2: Dados da Empresa**
+### 📅 **Etapa 3: Produtos e Serviços**
+### 📅 **Etapa 4: Clientes e Fornecedores**
+### 📅 **Etapa 5: Configuração Fiscal**
+### 📅 **Etapa 6: Primeira Venda**
+### 📅 **Etapa 7: Relatórios e Análises**
 
 ---
 
-## 📅 DIA 1: Primeiro Acesso e Configuração Básica
+## 📅 ETAPA 1: Primeiro Acesso e Configuração Básica
 
 ### 🔐 **1.1 Como Acessar o Sistema**
 
@@ -46,7 +46,7 @@ Você deve ter recebido da equipe técnica:
 2. **Digite** a URL do sistema
 3. **Insira** seu usuário e senha temporária
 4. **Clique** em "Entrar"
-5. **Altere** sua senha quando solicitado
+5. **Altere** sua senha acessando no canto esquerdo "seu usuario > Editar Perfil > alterar o campo senha > salvar. 
 
 > **💡 Dica**: Use uma senha forte com letras, números e símbolos.
 
@@ -56,15 +56,16 @@ Você deve ter recebido da equipe técnica:
 
 #### **Elementos Principais**
 - **Barra Superior**: Menu principal e notificações
-- **Menu Lateral**: Acesso aos módulos
-- **Área Central**: Conteúdo principal
+- **Menu Lateral Esquerdo**: Acesso aos módulos
+- **Menu Lateral Direito**: Acesso aos Relatórios e Parâmetros do sistema
+- **Área Central**: Conteúdo principal representado com Dashboard em gráficos
 - **Rodapé**: Informações do sistema
 
 #### **Navegação Básica**
 - **Clique** nos módulos do menu lateral
-- **Use** o breadcrumb para voltar
 - **Pressione** F5 para atualizar
 - **Use** Esc para cancelar ações
+- **Clique** no ícone "lápis" para atalho
 
 ---
 
@@ -72,7 +73,7 @@ Você deve ter recebido da equipe técnica:
 
 #### **Personalizar Perfil**
 1. **Clique** no seu nome (canto superior direito)
-2. **Selecione** "Meu Perfil"
+2. **Selecione** "Editar Perfil"
 3. **Atualize** suas informações:
    - Nome completo
    - Email de contato
@@ -80,20 +81,14 @@ Você deve ter recebido da equipe técnica:
    - Foto (opcional)
 4. **Salve** as alterações
 
-#### **Configurar Preferências**
-- **Tema**: Claro ou escuro
-- **Idioma**: Português (Brasil)
-- **Fuso horário**: Brasília (GMT-3)
-- **Formato de data**: DD/MM/AAAA
-
 ---
 
-## 📅 DIA 2: Dados da Empresa
+## 📅 ETAPA 2: Dados da Empresa
 
 ### 🏢 **2.1 Configurar Dados da Empresa**
 
 #### **Acesso**
-1. **Menu** → **Configurações** → **Empresa**
+1. **Menu Direito** → **Aba Ferramentas** → **Configurações** → **Configurações da Empresa**
 2. **Ou** acesse **[Dados da Empresa](../modulos/configuracoes/dados-da-empresa.md)**
 
 #### **Informações Obrigatórias**
@@ -109,34 +104,43 @@ Você deve ter recebido da equipe técnica:
 - **Site**: Website (se houver)
 - **Logo**: Logotipo da empresa (formato PNG/JPG)
 
-> **⚠️ Importante**: Estes dados aparecerão em todos os documentos fiscais!
+> **⚠️ Importante**: Estes dados aparecerão em todos os documentos fiscais e relatórios!
 
 ---
 
 ### 📊 **2.2 Configurar Regime Tributário**
 
 #### **Definir Regime**
-1. **Acesse** Configurações → Fiscal
-2. **Selecione** seu regime tributário:
+
+1. **Seleciona** Optanto Simples Nacional: SIM ou NÃO
+
+2. **Selecione** seu Regime Especial de Tributação:
+   - **Nenhum**
+   - **Micro Empresa**
+   - **Estimativa**
+   - **Sociedade**
+   - **Cooperativa**
+
+3. **Selecione** seu regime tributário:
    - **Simples Nacional**: Maioria das pequenas empresas
+   - **Simples Nacional**: Excesso Sublimite de Receita Bruta
    - **Lucro Presumido**: Empresas médias
    - **Lucro Real**: Empresas grandes
 
 #### **Configurar CNAE**
 - **CNAE Principal**: Atividade principal da empresa
-- **CNAEs Secundários**: Atividades secundárias
 
 > **💡 Dica**: Consulte seu contador se tiver dúvidas sobre o regime tributário.
 
 ---
 
-## 📅 DIA 3: Produtos e Serviços
+## 📅 ETAPA 3: Produtos e Serviços
 
 ### 📦 **3.1 Cadastrar Primeiro Produto**
 
 #### **Acesso**
 1. **Menu** → **Cadastros** → **Produtos/Serviços**
-2. **Clique** em "Novo Produto"
+2. **Clique** em "Adicionar" > **Produto ou Serviço**
 3. **Ou** acesse **[Cadastro de Produtos](../modulos/cadastros/cadastro-de-produtos.md)**
 
 #### **Informações Básicas**
@@ -150,13 +154,10 @@ Você deve ter recebido da equipe técnica:
 1. **Custo**: Preço de compra
 2. **Margem**: Percentual de lucro
 3. **Preço de Venda**: Calculado automaticamente
-4. **Preço Promocional**: Se houver promoção
 
 #### **Informações Fiscais**
 - **NCM**: Código fiscal do produto
-- **CFOP**: Código fiscal da operação
-- **CST**: Código de situação tributária
-- **Alíquota ICMS**: % do imposto
+- **Origem ICMS**: Local de fabricação ou produção do item
 
 > **📋 Exemplo Prático**: 
 > - Código: 001
@@ -172,8 +173,8 @@ Você deve ter recebido da equipe técnica:
 ### 🏷️ **3.2 Organizar por Categorias**
 
 #### **Criar Categorias**
-1. **Acesse** Cadastros → Categorias
-2. **Clique** em "Nova Categoria"
+1. **Acesse** o menu lateral direito → Aba Ferramentas → Preferências → Configurações de Produtos → Categoria de Produtos
+2. **Clique** em "Adicionar Categoria"
 3. **Exemplos de categorias**:
    - Serviços: Manutenção, Consultoria, Suporte, Materiais
    - Comércio: Eletrônicos, Roupas, Casa, Jardim
@@ -183,17 +184,17 @@ Você deve ter recebido da equipe técnica:
 - **Organização** do catálogo
 - **Relatórios** por categoria
 - **Busca** mais rápida
-- **Promoções** por grupo
+- **Comissões** por grupo
 
 ---
 
-## 📅 DIA 4: Clientes e Fornecedores
+## 📅 ETAPA 4: Clientes e Fornecedores
 
 ### 👥 **4.1 Cadastrar Primeiro Cliente**
 
 #### **Acesso**
 1. **Menu** → **Cadastros** → **Clientes**
-2. **Clique** em "Novo Cliente"
+2. **Clique** em "Adicionar Cliente"
 3. **Ou** acesse **[Cadastro de Clientes](../modulos/cadastros/cadastro-de-clientes.md)**
 
 #### **Pessoa Física**
@@ -214,10 +215,8 @@ Você deve ter recebido da equipe técnica:
 6. **Telefone/Email**: Dados de contato
 
 #### **Configurações Comerciais**
-- **Categoria**: Normal, VIP, Atacado
+- **Segmento**: Normal, VIP, Atacado, Varejo
 - **Limite de Crédito**: Valor máximo
-- **Desconto Padrão**: % automático
-- **Prazo de Pagamento**: Dias para pagar
 
 ---
 
@@ -225,7 +224,7 @@ Você deve ter recebido da equipe técnica:
 
 #### **Acesso**
 1. **Menu** → **Cadastros** → **Fornecedores**
-2. **Clique** em "Novo Fornecedor"
+2. **Clique** em "Adicionar Fornecedor"
 
 #### **Informações Essenciais**
 1. **Razão Social**: Nome oficial
@@ -234,15 +233,9 @@ Você deve ter recebido da equipe técnica:
 4. **Telefone/Email**: Dados comerciais
 5. **Endereço**: Para entregas
 
-#### **Condições Comerciais**
-- **Prazo de Entrega**: Dias para entregar
-- **Condições de Pagamento**: À vista, 30 dias, etc.
-- **Desconto**: Se houver desconto padrão
-- **Observações**: Informações importantes
-
 ---
 
-## 📅 DIA 5: Configuração Fiscal
+## 📅 ETAPA 5: Configuração Fiscal
 
 ### 📄 **5.1 Configurar Certificado Digital**
 
@@ -250,42 +243,61 @@ Você deve ter recebido da equipe técnica:
 O certificado digital é obrigatório para emitir notas fiscais eletrônicas (NFe/NFCe).
 
 #### **Instalação**
-1. **Acesse** Configurações → Fiscal → Certificado
-2. **Faça upload** do arquivo .pfx
-3. **Digite** a senha do certificado
-4. **Teste** a conexão com SEFAZ
+1. **Acesse** Configurações → Configurações da Empresa → Aba Certificado Digital
+2. **Defina** o tipo de Ambiente: Homologação ou Produção
+3. **Faça upload** do arquivo .pfx
+4. **Digite** a senha do certificado
 5. **Salve** as configurações
+6. **Atualize** e **Confira** na tela inicial se a Dashboard atualizou com a data de vencimento do arquivo.
 
 > **⚠️ Importante**: Sem certificado digital válido, não é possível emitir notas fiscais!
 
 ---
 
-### 🧾 **5.2 Configurar Numeração de Documentos**
+### 🧾 **5.2 Configurar Naturas de Operação**
+
+### 📊 **2.2 Configurar Regime Tributário**
+
+#### **Definir Regime**
+1. **Acesse** Menu lateral Direito → Aba Ferramentas → Preferências →  Configurações de NFe/NFCe → Naturezas de Operação
+
+2. **Clique** em "Adicionar Natureza"
+
+3. **Selecione** sua empresa
+
+3. **Selecione** seu Código de Regime Tributário (CST):
+   - **Simples Nacional**
+   - **Simples Nacional - excesso de sublimite da receita bruta**
+   - **Regime Normal**
+
+> **💡 Dica**: Consulte seu contador se tiver dúvidas sobre o regime tributário.
 
 #### **NFe (Nota Fiscal Eletrônica)**
 1. **Série**: Normalmente 1
-2. **Número Inicial**: Próximo número disponível
-3. **Ambiente**: Produção (após testes)
+2. **Número Inicial**: Próximo número fiscal disponível
 
 #### **NFCe (Nota Fiscal de Consumidor)**
 1. **Série**: Normalmente 1
 2. **Número Inicial**: Próximo número disponível
 3. **CSC**: Código de segurança (fornecido pela SEFAZ)
+   - **Acesse** o Cadastro da Empresa → Aba NFCe para configurar o Token e Código CSC.
 
 #### **Testar Emissão**
 1. **Faça** uma venda de teste
-2. **Emita** NFCe de teste
+2. **Emita** NFCe ou NFe de teste
 3. **Verifique** se foi autorizada
 4. **Cancele** a nota de teste
 
 ---
 
-## 📅 DIA 6: Primeira Venda
+## 📅 ETAPA 6: Primeira Venda
 
 ### 💻 **6.1 Venda no PDV**
 
 #### **Preparação**
-1. **Abra** o PDV: Menu → Vendas → PDV
+1. **Configure** o Caixa do PDV
+   - **Acesse** Menu lateral Direito → Aba Ferramentas → Preferências →  Configurações do PDV → Aba Caixas.
+1. **Abra** o PDV: Menu → Saídas → PDV
 2. **Abra** o caixa com valor inicial
 3. **Teste** a impressora fiscal
 
@@ -293,7 +305,7 @@ O certificado digital é obrigatório para emitir notas fiscais eletrônicas (NF
 1. **Identifique** o cliente (opcional para teste)
 2. **Adicione** um produto cadastrado
 3. **Confirme** quantidade e preço
-4. **Escolha** forma de pagamento (dinheiro)
+4. **Escolha** forma de pagamento (dinheiro/pix/crédito/débito...)
 5. **Finalize** a venda
 6. **Imprima** o cupom fiscal
 
@@ -316,13 +328,13 @@ O certificado digital é obrigatório para emitir notas fiscais eletrônicas (NF
 4. **Relatórios**: Venda aparece nos relatórios?
 
 #### **Possíveis Problemas**
-- **NFCe rejeitada**: Verificar certificado
-- **Estoque não baixou**: Verificar configuração
+- **NFCe rejeitada**: Verificar qual o erro
+- **Estoque não baixou**: Verificar configuração do item, natureza de operação ou parâmetros do estoque
 - **Erro de impressão**: Testar impressora
 
 ---
 
-## 📅 DIA 7: Relatórios e Análises
+## 📅 ETAPA 7: Relatórios e Análises
 
 ### 📈 **7.1 Dashboard Principal**
 
@@ -330,12 +342,57 @@ O certificado digital é obrigatório para emitir notas fiscais eletrônicas (NF
 1. **Menu** → **Dashboard** ou **Relatórios**
 2. **Visualize** os indicadores principais
 
-#### **Informações Disponíveis**
-- **Vendas do Dia**: Total vendido hoje
-- **Vendas do Mês**: Acumulado mensal
-- **Produtos em Falta**: Estoque baixo
-- **Contas a Receber**: Valores pendentes
-- **Clientes Ativos**: Clientes que compraram
+#### **Dashboard Disponíveis**
+- **Dashboard Principal**: Informações Financeiras diárias
+  - Clientes / Contratos ativos
+  - Contas a Receber no dia
+  - Contas a Pagar no dia
+  - Receitas com vencimento no mês atual
+  - Despesas com vencimento no mês atual
+  - Fluxo de Caixa
+  - Comparativo Recebido x Pago
+  - Certificado Digital
+
+- **Dashboard de Vendas**: Filtro opcional por período
+  - Total em Vendas
+  - Faturamento
+  - Ticket Médio
+  - Meta do Mês (Baseado no valor da maior venda)
+  - Maior venda
+  - Melhor Vendedor
+  - Faturamento por período
+  - Faturamento po Método de Pagamento
+  - Top Clientes
+  - Top Produtos Vendidos (Quantidade)
+  - Top Produtos Vendidos (R$)
+  - Top Vendedores
+  - Top Canais de Venda
+
+- **Dashboard Financeira**: Informações de Contas Bancárias
+  - Saldo de Contas
+  - Saldo Total Disponível
+  - Top 10 Despesas por Conta Despesa
+
+- **Dashboard Contratos**: Dados de Contratos 
+  - MRR (Receita Recorrente MENSAL)
+  - ARR (Receita Recorrente ANUAL)
+  - Contratos por Status
+  - Contratos Ativos por Status Financeiro
+  - Contratos Ativos por Tipo de Recorrência
+  - Evolução dos Contratos
+  - Evolução dos Contratos (R$)
+  - Contratos por Vendedor
+  - Contratos por Vendedor x Status
+
+- **Dashboard OS**: Informações de Ordem de Serviço
+  - Ordens de Serviço por Status
+  - Ordens de Serviço por Departamento
+
+- **Dashboard de Vendedores**: Dados de Vendedores
+  - Top Vendedores (Meta x Realizado)
+
+- **Dashboard de Estoque**: Dados de produtos
+  - Comparação Estoque Mínimo x Estoque Real
 
 ---
 
@@ -399,10 +456,9 @@ O certificado digital é obrigatório para emitir notas fiscais eletrônicas (NF
 ## 📞 Canais de Suporte
 
 ### 🆘 **Quando Precisar de Ajuda**
-- **Email**: suporte@White.com.br
-- **WhatsApp**: (49) 9 9959-9599
+- **Email**: financeiro@gerenciatech.com.br
+- **WhatsApp**: (49) 9 9930-6018
 - **Chat**: Dentro do sistema (ícone 💬)
-- **Telefone**: 0800-123-4567
 
 ### ⏰ **Horários de Atendimento**
 - **Segunda a Sexta**: 8h às 18h
@@ -410,10 +466,8 @@ O certificado digital é obrigatório para emitir notas fiscais eletrônicas (NF
 - **Domingo**: Apenas emergências
 
 ### 📚 **Recursos de Autoajuda**
-- **Central de Ajuda**: help.White.com.br
+- **Central de Ajuda**: https://app.nutror.com/curso/fb8e6d0ff31ad6f12f4f8886f2acb96826640630
 - **Vídeos Tutoriais**: [Canal White ERP](https://www.youtube.com/@whiteerp)
-- **FAQ**: Perguntas frequentes
-- **Comunidade**: forum.White.com.br
 
 ---
 
@@ -433,7 +487,7 @@ O certificado digital é obrigatório para emitir notas fiscais eletrônicas (NF
 
 ### ✅ **Configuração Fiscal**
 - [ ] Certificado digital instalado
-- [ ] Numeração de NFe/NFCe configurada
+- [ ] Natureza de Operação para NFe/NFCe configurada
 - [ ] Teste de emissão realizado
 - [ ] Impressora fiscal configurada
 
@@ -454,7 +508,7 @@ O certificado digital é obrigatório para emitir notas fiscais eletrônicas (NF
 
 ## 🎉 Parabéns!
 
-Se você chegou até aqui e completou todos os passos, **parabéns**! Você já tem o básico do ERP White configurado e funcionando.
+Se você chegou até aqui e completou todos os passos, **parabéns**! Você já tem o básico do ERP GerenciaTech configurado e funcionando.
 
 ### 🚀 **Próximas Etapas**
 1. **Praticar** as vendas diárias
@@ -464,10 +518,10 @@ Se você chegou até aqui e completou todos os passos, **parabéns**! Você já 
 5. **Analisar** relatórios regularmente
 
 ### 💡 **Dica Final**
-O ERP é uma ferramenta poderosa, mas lembre-se: **a prática leva à perfeição**. Use o sistema diariamente, explore suas funcionalidades e não hesite em buscar ajuda quando precisar.
+O GerenciaTech é uma ferramenta poderosa, mas lembre-se: **a prática leva à perfeição**. Use o sistema diariamente, explore suas funcionalidades e não hesite em buscar ajuda quando precisar.
 
-**Bem-vindo ao ERP White!** 🎉
+**Bem-vindo ao GERENCIATECH!** 🎉
 
 ---
 
-**Tags relacionadas**: #iniciante #primeiros-passos #configuracao #passo-a-passo #obrigatorio #treinamento 
+**Tags relacionadas**: #iniciante #primeiros-passos #configuracao #passo-a-passo #obrigatorio #treinamento

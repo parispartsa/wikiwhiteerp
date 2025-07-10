@@ -108,7 +108,6 @@ O **White ERP** é uma solução completa de gestão empresarial desenvolvida es
 **[🎯 Casos de Uso](casos-uso/index.md)**
 
 - **[🛒 Comércio Geral](casos-uso/comercio-geral/index.md)** - Cenários específicos para comércio
-- **[🔧 Prestação de Serviços](casos-uso/prestacao-servicos/index.md)** - Gestão de serviços
 
 ---
 
