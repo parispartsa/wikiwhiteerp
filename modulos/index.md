@@ -8,7 +8,7 @@
 
 ## 🎯 Visão Geral dos Módulos
 
-O **White ERP** está organizado em **13 módulos principais**, cada um responsável por uma área específica da gestão empresarial. Esta organização modular permite que você acesse rapidamente as funcionalidades que precisa no seu dia a dia.
+O **White ERP** está organizado em **8 módulos principais**, cada um responsável por uma área específica da gestão empresarial. Esta organização modular permite que você acesse rapidamente as funcionalidades que precisa no seu dia a dia.
 
 ---
 
@@ -21,8 +21,7 @@ O **White ERP** está organizado em **13 módulos principais**, cada um respons�
 - 👤 Cadastro de Clientes (Pessoa Física e Jurídica)
 - 🏭 Cadastro de Fornecedores
 - 📦 Cadastro de Produtos e Serviços
-- 🏷️ Categorias e Grupos
-- 🔗 Relacionamentos e Vínculos
+- 🏷️ Cadastro de Transportadoras
 
 **Tags**: `#cadastros #clientes #fornecedores #produtos #fundamental`
 
