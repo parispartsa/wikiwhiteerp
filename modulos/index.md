@@ -21,37 +21,11 @@ O **White ERP** está organizado em **8 módulos principais**, cada um responsá
 - 👤 Cadastro de Clientes (Pessoa Física e Jurídica)
 - 🏭 Cadastro de Fornecedores
 - 📦 Cadastro de Produtos e Serviços
-- 🏷️ Cadastro de Transportadoras
+- 🏷️ Cadastro de Vendedores
+- 🔗 Cadastro de Transportadoras
 
-**Tags**: `#cadastros #clientes #fornecedores #produtos #fundamental`
+**Tags**: `#cadastros #clientes #fornecedores #produtos #fundamental #vendedores #transportadoras`
 
----
-
-### 💰 **[Financeiro](financeiro/index.md)** - Gestão Financeira
-**Controle total das finanças** - Gerencie receitas, despesas e fluxo de caixa
-
-**Principais funcionalidades:**
-- 📈 Contas a Receber
-- 📉 Contas a Pagar
-- 💳 Fluxo de Caixa
-- 🏦 Integração Bancária
-- 📄 Boletos e PIX
-
-**Tags**: `#financeiro #receber #pagar #fluxo-caixa #boleto`
-
----
-
-### 🛒 **[Vendas](vendas/index.md)** - Gestão de Vendas
-**Motor de vendas do negócio** - PDV, orçamentos, pedidos e atendimento
-
-**Principais funcionalidades:**
-- 💻 PDV (Ponto de Venda)
-- 📋 Orçamentos e Propostas
-- 📦 Pedidos de Venda
-- 🔧 Ordens de Serviço
-- 📊 Análise de Vendas
-
-**Tags**: `#vendas #pdv #orcamento #pedidos #atendimento`
 
 ---
 
@@ -63,37 +37,45 @@ O **White ERP** está organizado em **8 módulos principais**, cada um responsá
 - 🛒 Gestão de Compras
 - 📍 Múltiplos Almoxarifados
 - 📋 Inventário Físico
-- ⚠️ Alertas de Estoque
 
-**Tags**: `#estoque #compras #movimentacao #inventario #alertas`
+**Tags**: `#estoque #compras #movimentacao #inventario`
 
 ---
 
-### 🔗 **[Integrações](integracoes/index.md)** - Integrações
-**Conecte seu negócio** - E-commerce, marketplaces e sistemas externos
+### 💰 **[Financeiro](financeiro/index.md)** - Gestão Financeira
+**Controle total das finanças** - Gerencie receitas, despesas e fluxo de caixa
 
 **Principais funcionalidades:**
-- 🌐 E-commerce (WooCommerce, Loja Integrada)
-- 🛍️ Marketplaces (Mercado Livre, iFood)
-- 📄 Emissão Fiscal (NFe, NFCe, NFSe)
+- 📈 Contas a Receber
+- 📉 Contas a Pagar
 - 🏦 Integração Bancária
-- 📊 APIs e Webhooks
+- 📄 Boletos e PIX
+- 📄 Transferências
+- 📄 Conciliação Bancária
 
-**Tags**: `#integracoes #ecommerce #marketplace #fiscal #api`
+**Tags**: `#financeiro #receber #pagar #fluxo-caixa #boleto #conciliação #transferencia`
 
 ---
 
-### 👥 **[CRM](crm/index.md)** - Gestão de Relacionamento
-**Marketing e relacionamento com clientes** - Leads, campanhas e automação
+### 👥 **[Orçamentos e Serviços](oçamentoseserviços/index.md)** - Gestão de Orçamentos e Ordem de Serviço
+**Gerencie** - seus orçamentos de clientes e ordens de serviços da equipe**
 
 **Principais funcionalidades:**
-- 📧 Email Marketing
-- 🎯 Gestão de Leads
-- 📊 Qualificação de Leads
-- 📋 Sistema de Enquetes
-- 🔄 Automação de Marketing
+- 📧 Orçamentos 
+- 🎯 Ordem de Serviço
+- 📊 Status
 
-**Tags**: `#crm #leads #email-marketing #campanhas #automacao`
+**Tags**: `#orçamentos #ordem de serviço #status`
+
+---
+
+### 🚛 **[Transportes](transportes/index.md)** - Logística e Transporte
+**Gestão de frota e documentos fiscais** - MDFe, CTe e compliance
+
+**Principais funcionalidades:**
+- 📋 MDFe - Manifesto Eletrônico
+
+**Tags**: `#transportes #mdfe`
 
 ---
 
@@ -103,81 +85,8 @@ O **White ERP** está organizado em **8 módulos principais**, cada um responsá
 **Principais funcionalidades:**
 - 👥 Cadastro de Colaboradores
 - 🏢 Gestão de Departamentos e Cargos
-- 📊 Controle de Custos de Pessoal
-- 📋 Documentação de RH
-- 🔄 Integração com Financeiro
 
-**Tags**: `#rh #colaboradores #departamentos #custos #gestao-pessoas`
-
----
-
-### 🏦 **[GPay](gpay/index.md)** - Conta Digital
-**Pagamentos digitais integrados** - PIX, boletos e transferências
-
-**Principais funcionalidades:**
-- 💳 Criação de Conta Digital
-- ⚡ PIX Instantâneo
-- 📄 Pagamento de Boletos
-- 🔄 Transferências Bancárias
-- 📊 Gestão de Saldo e Extrato
-
-**Tags**: `#gpay #pix #conta-digital #pagamentos #transferencias`
-
----
-
-### 📊 **[Contabilidade](contabilidade/index.md)** - Gestão Contábil
-**Controle contábil completo** - Plano de contas e DRE
-
-**Principais funcionalidades:**
-- 📋 Plano de Contas
-- 📊 DRE - Demonstração do Resultado
-- 🔄 Lançamentos Automáticos
-- 📈 Relatórios Contábeis
-- 🏢 Integração com Financeiro
-
-**Tags**: `#contabilidade #plano-contas #dre #lancamentos #relatorios`
-
----
-
-### 🚛 **[Transportes](transportes/index.md)** - Logística e Transporte
-**Gestão de frota e documentos fiscais** - MDFe, CTe e compliance
-
-**Principais funcionalidades:**
-- 📋 MDFe - Manifesto Eletrônico
-- 🚚 CTe - Conhecimento de Transporte
-- 🚛 Gestão de Frota
-- 🛡️ CIOT e Seguros
-- 📊 Controle de Pedágios
-
-**Tags**: `#transportes #mdfe #cte #frota #logistica`
-
----
-
-### 🔧 **[Módulos de Apoio](modulos-apoio/index.md)** - Infraestrutura
-**Serviços de apoio e infraestrutura** - Backup, comunicação e monitoramento
-
-**Principais funcionalidades:**
-- 💾 Sistema de Backup
-- 💬 Comunicação em Tempo Real
-- 📧 Sistema de Email
-- 🏦 Processamento Bancário
-- 🗺️ Serviços de Localização
-
-**Tags**: `#modulos-apoio #backup #comunicacao #email #infraestrutura`
-
----
-
-### 📊 **[Relatórios](relatorios/index.md)** - Relatórios e Dashboard
-**Inteligência de negócio** - Dashboards, relatórios e análises
-
-**Principais funcionalidades:**
-- 📈 Dashboard Executivo
-- 📊 Relatórios Gerenciais
-- 💰 Relatórios Financeiros
-- 📋 Relatórios Fiscais
-- 🎯 Indicadores de Performance
-
-**Tags**: `#relatorios #dashboard #analise #indicadores #performance`
+**Tags**: `#rh #colaboradores #departamentos #gestao-pessoas`
 
 ---
 
@@ -188,10 +97,37 @@ O **White ERP** está organizado em **8 módulos principais**, cada um responsá
 - 🏢 Dados da Empresa
 - 👥 Usuários e Permissões
 - 📊 Parâmetros Fiscais
-- 🔧 Configurações Gerais
-- 🔐 Segurança e Backup
+- 🔧 Configurações Financeiras
+- 📊 Configurações PDV 
+- 👥 Usuários e Permissões
 
-**Tags**: `#configuracoes #usuarios #empresa #fiscal #seguranca`
+**Tags**: `#configuracoes #usuarios #empresa #fiscal`
+
+---
+
+### 📊 **[Relatórios](relatorios/index.md)** - Relatórios e Dashboard
+**Inteligência de negócio** - Dashboards, relatórios e análises
+
+**Principais funcionalidades:**
+- 📈 Dashboard Gerais e Financeiras
+- 💰 Relatórios Financeiros
+- 📋 Relatórios Fiscais
+- 🎯 Relatórios de Vendas
+
+**Tags**: `#relatorios #dashboard #analise #vendas
+
+---
+
+### 📊 **[Contabilidade](contabilidade/index.md)** - Gestão Contábil
+**Controle contábil completo** - Plano de contas e DRE
+
+**Principais funcionalidades:**
+- 📋 Plano de Contas
+- 📊 DRE - Demonstração do Resultado
+- 📈 Relatórios Contábeis
+- 🏢 Envio automatico para Contabilidade
+
+**Tags**: `#contabilidade #plano-contas #dre #lancamentos #relatorios`
 
 ---
 
@@ -228,11 +164,10 @@ O **White ERP** está organizado em **8 módulos principais**, cada um responsá
 4. **Financeiro** (Recebimentos) - ⚡ Alto
 5. **Integrações** (Fiscal) - ⚡ Alto
 
-1. **Vendas** (PDV/Agendamentos) - 🔥 Crítico
-2. **Cadastros** (Clientes/Animais) - 🔥 Crítico
-3. **CRM** (Relacionamento) - ⚡ Alto
-4. **Financeiro** (Recebimentos) - ⚡ Alto
-5. **Estoque** (Produtos Veterinários) - 📊 Médio
+1. **Vendas** (PDV/Venda Avulsa) - 🔥 Crítico
+2. **Cadastros** (Clientes) - 🔥 Crítico
+3. **Financeiro** (Recebimentos) - ⚡ Alto
+4. **Estoque** (Produtos) - 📊 Médio
 
 ### 🔧 **Prestação de Serviços - Prioridade**
 1. **Vendas** (Ordens de Serviço) - 🔥 Crítico
