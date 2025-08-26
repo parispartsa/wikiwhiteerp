@@ -8,7 +8,7 @@
 
 ## 🎯 Visão Geral do Módulo
 
-O **Módulo de Cadastros** é a **base fundamental** do White ERP. Aqui você registra todas as informações essenciais que alimentam os demais módulos do sistema. É como a **fundação** de uma casa - tudo depende de cadastros bem feitos e organizados.
+O **Módulo de Cadastros** é a **base fundamental** do White ERP. Aqui você registra todas as informações essenciais que alimentam os demais módulos do sistema. 
 
 ### 🚀 **Por que os Cadastros são Importantes?**
 - **Base de dados confiável** para todas as operações
@@ -27,15 +27,13 @@ O **Módulo de Cadastros** é a **base fundamental** do White ERP. Aqui você re
 **Principais funcionalidades:**
 - 👥 Pessoa Física e Jurídica
 - 📱 Dados de contato completos
-- 💰 Limite de crédito e categoria
+- 💰 Limite de crédito e bloqueios
 - 📍 Múltiplos endereços
 - 📊 Histórico de compras
 - 🔗 Relacionamentos familiares
 
 **Casos de uso:**
 - Cliente eventual no PDV
-- Cliente VIP com desconto especial
-- Cliente corporativo B2B
 - Cliente inadimplente
 
 **Tags**: `#cadastros #clientes #pessoa-fisica #pessoa-juridica #credito`
@@ -46,20 +44,41 @@ O **Módulo de Cadastros** é a **base fundamental** do White ERP. Aqui você re
 **Essencial para compras** - Organize sua cadeia de suprimentos
 
 **Principais funcionalidades:**
-- 🏢 Dados comerciais e fiscais
-- 💰 Condições de pagamento
+- 🏢 Dados comerciais 
 - 📦 Catálogo de produtos
 - 📊 Histórico de compras
 - 🔄 Conversão fornecedor ↔ cliente
 - 📋 Códigos de referência
 
 **Casos de uso:**
-- Fornecedor principal de ração
+- Fornecedor principal
 - Fornecedor eventual de material
 - Representante comercial
 - Distribuidor exclusivo
 
 **Tags**: `#cadastros #fornecedores #compras #comercial #b2b`
+
+---
+
+### 👤 **[Cadastro De Vendedores](cadastro-de-vendedores.md)** - Gestão da Equipe de Vendas
+**Essencial para gestão comercial** - Gerencie sua equipe de vendas
+
+**Principais funcionalidades:**
+- 👥 Dados pessoais e contato
+- 💰 Configuração de comissões
+- 🎯 Metas de vendas individuais
+- 🗺️ Territórios e rotas
+- 📊 Performance e ranking
+- 🔐 Permissões e acessos
+- 📈 Hierarquia comercial
+
+**Casos de uso:**
+- Vendedor com comissão por categoria
+- Equipe externa com territórios
+- Supervisor com hierarquia
+- Vendedor técnico especializado
+
+**Tags**: `#cadastros #vendedores #equipe #comissao #metas #territorio`
 
 ---
 
@@ -73,7 +92,7 @@ O **Módulo de Cadastros** é a **base fundamental** do White ERP. Aqui você re
 - 📊 Controle de estoque
 - 🏷️ Categorias e grupos
 - 📸 Imagens e descrições
-- 📄 Informações fiscais (NCM, CFOP, CST)
+- 📄 Informações fiscais
 
 **Casos de uso:**
 - Produto simples com estoque
@@ -82,6 +101,28 @@ O **Módulo de Cadastros** é a **base fundamental** do White ERP. Aqui você re
 - Produto com variações
 
 **Tags**: `#cadastros #produtos #servicos #estoque #fiscal #preco`
+
+---
+
+### 🚛 **[Cadastro De Transportadoras](cadastro-de-transportadoras.md)** - Gestão de Logística
+**Essencial para entregas** - Gerencie empresas de transporte
+
+**Principais funcionalidades:**
+- 🏢 Dados comerciais e ANTT
+- 💰 Tabelas de frete por região
+- 📅 Prazos e horários de entrega
+- 🗺️ Cobertura geográfica
+- 📱 Integração e rastreamento
+- 📋 Emissão de CTe e MDFe
+- 🔐 Controle de documentação
+
+**Casos de uso:**
+- E-commerce com múltiplas transportadoras
+- Indústria com cargas especiais
+- Distribuidor com rotas definidas
+- Loja com entrega local
+
+**Tags**: `#cadastros #transportadoras #logistica #frete #entrega #cte #mdfe`
 
 ---
 
@@ -94,7 +135,6 @@ O **Módulo de Cadastros** é a **base fundamental** do White ERP. Aqui você re
 - 🎯 Segmentação por tipo
 - 📊 Relatórios por categoria
 - 🔍 Busca otimizada
-- 💰 Preços por categoria
 
 **Exemplos por segmento:**
 - **Comércio Especializado**: Equipamentos → Industriais → Manutenção → Premium
@@ -104,7 +144,7 @@ O **Módulo de Cadastros** é a **base fundamental** do White ERP. Aqui você re
 **Tags**: `#cadastros #categorias #organizacao #estrutura`
 
 ---
-
+ 
 ## 🎯 Cadastros Especializados
 
 ### 🔧 **[Cadastro De Ordens Servico](cadastro-de-ordens-servico.md)** - Para Prestadores de Serviços

@@ -8,7 +8,7 @@
 
 ## 🎯 Visão Geral dos Módulos
 
-O **White ERP** está organizado em **8 módulos principais**, cada um responsável por uma área específica da gestão empresarial. Esta organização modular permite que você acesse rapidamente as funcionalidades que precisa no seu dia a dia.
+O **White ERP** está organizado em **13 módulos principais**, cada um responsável por uma área específica da gestão empresarial. Esta organização modular permite que você acesse rapidamente as funcionalidades que precisa no seu dia a dia.
 
 ---
 
@@ -57,15 +57,16 @@ O **White ERP** está organizado em **8 módulos principais**, cada um responsá
 
 ---
 
-### 👥 **[Orçamentos e Serviços](oçamentoseserviços/index.md)** - Gestão de Orçamentos e Ordem de Serviço
-**Gerencie** - seus orçamentos de clientes e ordens de serviços da equipe**
+### 🛒 **[Vendas](vendas/index.md)** - Gestão de Vendas
+**Gerencie suas vendas** - PDV, orçamentos e pedidos
 
 **Principais funcionalidades:**
-- 📧 Orçamentos 
+- 💻 PDV - Ponto de Venda
+- 📝 Orçamentos 
+- 📋 Pedidos
 - 🎯 Ordem de Serviço
-- 📊 Status
 
-**Tags**: `#orçamentos #ordem de serviço #status`
+**Tags**: `#vendas #pdv #orcamentos #pedidos`
 
 ---
 
@@ -114,7 +115,7 @@ O **White ERP** está organizado em **8 módulos principais**, cada um responsá
 - 📋 Relatórios Fiscais
 - 🎯 Relatórios de Vendas
 
-**Tags**: `#relatorios #dashboard #analise #vendas
+**Tags**: `#relatorios #dashboard #analise #vendas`
 
 ---
 
@@ -128,6 +129,9 @@ O **White ERP** está organizado em **8 módulos principais**, cada um responsá
 - 🏢 Envio automatico para Contabilidade
 
 **Tags**: `#contabilidade #plano-contas #dre #lancamentos #relatorios`
+
+---
+
 
 ---
 
@@ -158,23 +162,18 @@ O **White ERP** está organizado em **8 módulos principais**, cada um responsá
 ## 🎯 Módulos por Tipo de Negócio
 
 ### 🛒 **Comércio Varejista - Prioridade**
-1. **Vendas** (PDV) - 🔥 Crítico
-2. **Estoque** (Controle) - 🔥 Crítico  
-3. **Cadastros** (Produtos/Clientes) - ⚡ Alto
-4. **Financeiro** (Recebimentos) - ⚡ Alto
-5. **Integrações** (Fiscal) - ⚡ Alto
-
-1. **Vendas** (PDV/Venda Avulsa) - 🔥 Crítico
-2. **Cadastros** (Clientes) - 🔥 Crítico
-3. **Financeiro** (Recebimentos) - ⚡ Alto
-4. **Estoque** (Produtos) - 📊 Médio
+1. **[Vendas](vendas/index.md)** (PDV) - 🔥 Crítico
+2. **[Estoque](estoque/index.md)** (Controle) - 🔥 Crítico  
+3. **[Cadastros](cadastros/index.md)** (Produtos/Clientes) - ⚡ Alto
+4. **[Financeiro](financeiro/index.md)** (Recebimentos) - ⚡ Alto
+5. **[Integrações](integracoes/index.md)** (Fiscal) - ⚡ Alto
 
 ### 🔧 **Prestação de Serviços - Prioridade**
-1. **Vendas** (Ordens de Serviço) - 🔥 Crítico
-2. **Financeiro** (Contratos) - 🔥 Crítico
-3. **Cadastros** (Clientes/Serviços) - ⚡ Alto
-4. **Relatórios** (Produtividade) - 📊 Médio
-5. **Configurações** (Permissões) - 📊 Médio
+1. **[Vendas](vendas/index.md)** (Ordens de Serviço) - 🔥 Crítico
+2. **[Financeiro](financeiro/index.md)** (Contratos) - 🔥 Crítico
+3. **[Cadastros](cadastros/index.md)** (Clientes/Serviços) - ⚡ Alto
+4. **[Relatórios](relatorios/index.md)** (Produtividade) - 📊 Médio
+5. **[Configurações](configuracoes/index.md)** (Permissões) - 📊 Médio
 
 ---
 
