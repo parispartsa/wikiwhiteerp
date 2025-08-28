@@ -18,7 +18,7 @@ O **Cadastro de Clientes** é onde você mantém todas as informações dos seus
 ### Passo 1: Acessar o Módulo
 1. No menu principal, clique em **"Cadastros"**
 2. Selecione **"Clientes"**
-3. Clique no botão **"Adicionar Cliente"** (ícone +)
+3. Clique no botão **+ Adicionar Cliente**
 
 ### Passo 2: Escolher o Tipo de Pessoa
 - **Pessoa Física**: Para clientes individuais (CPF)
