@@ -11,7 +11,6 @@ O **Cadastro de Clientes** é onde você mantém todas as informações dos seus
 - **Vendas no PDV** - Identificar cliente e aplicar condições especiais
 - **Emissão de Notas Fiscais** - Dados corretos para documentos fiscais
 - **Controle de Crédito** - Limites e histórico de pagamentos
-- **Marketing Direto** - Campanhas personalizadas
 - **Relatórios Gerenciais** - Análises de performance e relacionamento
 
 ## 🚀 Como Fazer
@@ -19,13 +18,11 @@ O **Cadastro de Clientes** é onde você mantém todas as informações dos seus
 ### Passo 1: Acessar o Módulo
 1. No menu principal, clique em **"Cadastros"**
 2. Selecione **"Clientes"**
-3. Clique no botão **"Novo Cliente"** (ícone +)
+3. Clique no botão **"Adicionar Cliente"** (ícone +)
 
 ### Passo 2: Escolher o Tipo de Pessoa
 - **Pessoa Física**: Para clientes individuais (CPF)
 - **Pessoa Jurídica**: Para empresas (CNPJ)
-
-> **💡 Dica**: O sistema adapta os campos automaticamente baseado no tipo selecionado.
 
 ### Passo 3: Preencher Dados Básicos
 
@@ -42,16 +39,12 @@ O **Cadastro de Clientes** é onde você mantém todas as informações dos seus
 - **Inscrição Estadual**: IE ou "ISENTO"
 - **Inscrição Municipal**: IM (se aplicável)
 
-### Passo 4: Informações de Contato
-- **Telefone Principal**: Celular ou fixo (obrigatório)
-- **Telefone Secundário**: Segundo contato (opcional)
-- **Email**: Para envio de documentos e comunicações
-- **WhatsApp**: Para comunicação direta
+> **Dica**: Campo "É Contribuinte ICMS": 
+> - Para clientes PJ: preencher como Contribuinte ICMS ou Isento.
+> - Para clientes PF: preencher como Não Contribuinte
 
-> **⚠️ Atenção**: Email é obrigatório para envio automático de boletos e notas fiscais.
-
-### Passo 5: Endereço Completo
-- **CEP**: Digite e pressione Tab para busca automática
+### Passo 4: Endereço Completo
+- **CEP**: Digite e clique em Pesquisar para busca automática
 - **Logradouro**: Rua, avenida, etc.
 - **Número**: Número da residência/empresa
 - **Complemento**: Apartamento, sala, etc. (opcional)
@@ -61,43 +54,34 @@ O **Cadastro de Clientes** é onde você mantém todas as informações dos seus
 
 > **💡 Dica**: Use a busca por CEP para agilizar o preenchimento.
 
-### Passo 6: Configurações Comerciais
-- **Limite de Crédito**: Valor máximo para vendas a prazo
-- **Desconto Padrão**: Desconto automático aplicado nas vendas
-- **Condição de Pagamento**: Forma de pagamento preferencial
-- **Vendedor Responsável**: Vendedor que atende este cliente
-- **Categoria**: Segmentação (VIP, Normal, Especial)
+### Passo 5: Informações de Contato
+- **Telefone Principal**: Celular ou fixo (obrigatório)
+- **Telefone Secundário**: Segundo contato (opcional)
+- **Email**: Para envio de documentos e comunicações
+- **WhatsApp**: Para comunicação direta
 
-### Passo 7: Informações Adicionais
-- **Observações**: Informações importantes sobre o cliente
-- **Tags**: Etiquetas para categorização (#vip, #especial, etc.)
-- **Status**: Ativo/Inativo
-- **Data de Cadastro**: Preenchida automaticamente
+> **⚠️ Atenção**: Email é obrigatório para envio automático de boletos e notas fiscais.
+
+### Passo 6: Outras Informações (opcionais)
+- **Dados Bancários**: Se optar por pedir os dados do banco do cliente.
+- **Dados Contabilidade**: Se o cliente for PJ, e optar por ter o contato da contabilidade.
 
 ### Passo 8: Salvar o Cadastro
 1. Revise todas as informações
 2. Clique em **"Salvar"**
-3. O sistema confirma o cadastro com um número único
+3. O sistema confirma o cadastro com um número único (ID)
+
 
 ## 🔧 Funcionalidades Avançadas
 
 ### 💳 **Controle de Crédito**
-- **Limite Disponível**: Acompanhe o saldo de crédito
-- **Histórico de Pagamentos**: Veja o comportamento do cliente
+- **Limite de Crédito**: Define um valor limite para financeiro a receber
 - **Bloqueio Automático**: Sistema bloqueia vendas quando limite é atingido
-- **Alertas**: Notificações quando cliente se aproxima do limite
+- **Histórico de Financeiro**: Veja o comportamento do cliente
+- **Alertas**: Alertar Pop-up, com a mensagem do campo Observações.
 
 ### 📊 **Histórico de Relacionamento**
 - **Vendas Realizadas**: Todas as compras do cliente
-- **Produtos Preferidos**: Itens mais comprados
-- **Frequência de Compras**: Periodicidade das visitas
-- **Valor Médio de Compra**: Ticket médio do cliente
-
-### 🎯 **Segmentação e Marketing**
-- **Categorias**: VIP, Normal, Especial, Atacado
-- **Tags Personalizadas**: Crie suas próprias etiquetas
-- **Campanhas Direcionadas**: Envie ofertas específicas
-- **Aniversários**: Lembretes automáticos de aniversário
 
 ## 💡 Casos de Uso
 
@@ -132,12 +116,12 @@ O **Cadastro de Clientes** é onde você mantém todas as informações dos seus
 **Situação**: Cliente novo no balcão, venda urgente.
 
 **Passo a passo**:
-1. No PDV, clique em "Novo Cliente"
+1. No PDV, clique em "Referenciar Cliente"
 2. Preencha apenas campos obrigatórios:
    - CPF/CNPJ
    - Nome
    - Telefone
-3. Clique em "Salvar Rápido"
+3. Clique em "Salvar"
 4. Complete os dados depois
 
 ## 🔍 Busca e Filtros
@@ -145,16 +129,8 @@ O **Cadastro de Clientes** é onde você mantém todas as informações dos seus
 ### 🔎 **Formas de Buscar Clientes**
 - **Por Nome**: Digite parte do nome
 - **Por CPF/CNPJ**: Digite o documento
-- **Por Telefone**: Digite o número
-- **Por Email**: Digite o email
-- **Por Tags**: Use #tag para filtrar
-
-### 🏷️ **Filtros Avançados**
+- **Por ID**: Código gerado no sistema
 - **Status**: Ativo/Inativo
-- **Categoria**: VIP, Normal, Especial
-- **Cidade**: Filtrar por localização
-- **Vendedor**: Clientes por vendedor
-- **Período de Cadastro**: Data de cadastro
 
 ## 📊 Relatórios Disponíveis
 
@@ -164,11 +140,6 @@ O **Cadastro de Clientes** é onde você mantém todas as informações dos seus
 - **Clientes por Cidade**: Distribuição geográfica
 - **Aniversariantes do Mês**: Para campanhas
 
-### 📊 **Relatórios Avançados**
-- **Clientes Inativos**: Não compram há X dias
-- **Análise de Crédito**: Limites e utilização
-- **Ranking de Clientes**: Maiores compradores
-- **Frequência de Compras**: Periodicidade
 
 ## 🚨 Alertas e Validações
 
@@ -177,12 +148,6 @@ O **Cadastro de Clientes** é onde você mantém todas as informações dos seus
 - **Email**: Formato válido de email
 - **Telefone**: Formato correto de telefone
 - **CEP**: Existência do CEP
-
-### 🔔 **Alertas Importantes**
-- **Limite de Crédito**: Cliente próximo do limite
-- **Aniversário**: Clientes aniversariantes
-- **Inatividade**: Clientes sem comprar há 60 dias
-- **Dados Incompletos**: Cadastros com informações faltando
 
 ## 🔐 Permissões e Segurança
 
@@ -205,7 +170,7 @@ O **Cadastro de Clientes** é onde você mantém todas as informações dos seus
 #### **Erro: CPF/CNPJ Inválido**
 - **Causa**: Dígitos verificadores incorretos
 - **Solução**: Verifique os números e digite novamente
-- **Prevenção**: Use copy/paste de documentos oficiais
+- **Prevenção**: Use os dados de documentos oficiais
 
 #### **Erro: Email Duplicado**
 - **Causa**: Email já cadastrado para outro cliente
@@ -230,23 +195,12 @@ O **Cadastro de Clientes** é onde você mantém todas as informações dos seus
 - **Unificação de Dados**: Mesmo cliente, múltiplos canais
 - **Histórico Integrado**: Compras online e física
 
-### 📱 **WhatsApp Business**
-- **Contatos Automáticos**: Adicionar clientes ao WhatsApp
-- **Campanhas**: Envio de ofertas e promoções
-- **Atendimento**: Histórico de conversas
-
-### 📧 **Email Marketing**
-- **Listas Segmentadas**: Por categoria, cidade, etc.
-- **Campanhas Automáticas**: Aniversário, promoções
-- **Relatórios**: Abertura e cliques
-
 ## 📋 Checklist de Boas Práticas
 
 ### ✅ **Antes de Cadastrar**
 - [ ] Busque se o cliente já existe
 - [ ] Tenha os documentos em mãos
 - [ ] Confirme dados de contato
-- [ ] Defina categoria apropriada
 
 ### ✅ **Durante o Cadastro**
 - [ ] Preencha todos os campos obrigatórios
