@@ -17,7 +17,7 @@ O **Cadastro de Fornecedores** é onde você registra todas as empresas que forn
 
 ### 📋 **Passo 1: Acessar o Módulo**
 1. No menu principal, clique em **Cadastros**
-2. Selecione **Fornecedores**
+2. Selecione **Fornecedores** 
 3. Clique no botão **+ Adicionar Fornecedor**
 
 ### **Passo 2: Dados Básicos**
