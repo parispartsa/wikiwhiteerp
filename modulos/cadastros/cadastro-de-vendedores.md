@@ -24,7 +24,7 @@ O **Cadastro de Vendedores** é onde você gerencia sua equipe de vendas, defini
 ### 📋 Passo 1: Acessar o Módulo
 1. No menu principal, clique em **"Cadastros"**
 2. Selecione **"Vendedores"**
-3. Clique no botão **+ Adicionar Vendedor"** 
+3. Clique no botão **"+ Adicionar Vendedor"** 
 
 ### 👤 Passo 2: Dados Pessoais
 
