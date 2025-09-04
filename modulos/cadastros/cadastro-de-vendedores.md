@@ -24,65 +24,34 @@ O **Cadastro de Vendedores** é onde você gerencia sua equipe de vendas, defini
 ### 📋 Passo 1: Acessar o Módulo
 1. No menu principal, clique em **"Cadastros"**
 2. Selecione **"Vendedores"**
-3. Clique no botão **"Novo Vendedor"** (ícone +)
+3. Clique no botão **+ Adicionar Vendedor"** 
 
 ### 👤 Passo 2: Dados Pessoais
 
 #### **Informações Básicas**
 - **Nome Completo**: Nome do vendedor
-- **CPF**: Documento de identificação
-- **Email**: Para login e comunicações
-- **Telefone/Celular**: Contato direto
-- **Data de Nascimento**: Para controle de cadastro
-- **Foto**: Imagem para identificação (opcional)
+- **Tipo da comissão**: Definir se é fixa ou variada por produto/categoria
+- **Statu**: Cadastro de vendedor ativo ou inativo
+- **Percentual máximo de desconto**: Definir em % o permitido para desconto em vendas
+- **Valor máximo de desconto** Caso queira definir o limite de desconto em valor "R$"
+- **R$ Meta**: Configurar um valor em meta de vendas, para analisar performance
 
-#### **Dados de Contato**
-- **Endereço Completo**: CEP, rua, número, bairro
-- **Cidade/Estado**: Localização
-- **WhatsApp**: Para comunicação rápida
-- **Email Alternativo**: Segundo email (opcional)
+---
 
 {% hint style="info" %}
 **💡 Dica**: Mantenha os dados de contato sempre atualizados para facilitar a comunicação com a equipe.
 {% endhint %}
 
+#### **Comissões**
+- **Fixa**: Definir se será em % ou R$ e qual o valor.
+- **Variadas**: Configurar o "Conjunto de Regras" nas prefêrencias do sistema. 
+Menu Configurações > Preferências > Preferências do Vendedor > + Adicionar Regras
+
 ---
-
-## 🔧 Configurações Comerciais
-
-### 💰 **Comissões**
-
-#### **Tipos de Comissão**
-- **Percentual sobre Vendas**: % sobre o valor total da venda
-- **Valor Fixo por Venda**: Valor fixo independente do total
-- **Escala Progressiva**: % crescente conforme volume
-- **Por Categoria**: Comissões diferentes por tipo de produto
-
-#### **Configuração de Comissões**
-1. **Comissão Padrão**: Percentual base aplicado a todas as vendas
-2. **Comissões por Produto**: Percentuais específicos por item
-3. **Comissões por Categoria**: Percentuais por grupo de produtos
-4. **Período de Apuração**: Mensal, quinzenal ou semanal
 
 {% hint style="warning" %}
 **⚠️ Atenção**: As comissões são calculadas automaticamente no fechamento das vendas. Verifique se as configurações estão corretas antes de finalizar.
 {% endhint %}
-
-### 🎯 **Metas de Vendas**
-
-#### **Tipos de Metas**
-- **Meta Mensal**: Valor ou quantidade por mês
-- **Meta Trimestral**: Objetivos de médio prazo
-- **Meta Anual**: Planejamento anual
-- **Meta por Produto**: Foco em produtos específicos
-
-#### **Configuração de Metas**
-1. **Valor da Meta**: R$ ou quantidade de vendas
-2. **Período**: Mensal, trimestral ou anual
-3. **Produtos Específicos**: Meta para categorias ou itens
-4. **Premiação**: Bonificação por atingir metas
-
----
 
 ## 🔐 Permissões e Acesso
 
@@ -108,10 +77,8 @@ O **Cadastro de Vendedores** é onde você gerencia sua equipe de vendas, defini
 ## 📊 Funcionalidades Avançadas
 
 ### 🎯 **Gestão de Territórios**
-- **Divisão por Região**: Atribuir vendedores a territórios específicos
 - **Clientes por Vendedor**: Vincular clientes a vendedores responsáveis
-- **Rotas de Visita**: Organizar agenda e roteiro de visitas
-- **Controle de Sobreposição**: Evitar conflitos de território
+
 
 ### 📈 **Acompanhamento de Performance**
 - **Dashboard Individual**: Métricas pessoais de cada vendedor
@@ -136,14 +103,7 @@ O **Cadastro de Vendedores** é onde você gerencia sua equipe de vendas, defini
 - **Vendedor C**: Vendedor geral (3% comissão)
 - **Meta**: R$ 10.000/mês cada vendedor
 
-### 🏢 **Cenário 2: Distribuidora**
-**Situação**: Equipe externa com territórios definidos
-- **4 Vendedores Externos**: Cada um com região específica
-- **Comissão**: 2% sobre vendas + bonificação por meta
-- **Meta**: R$ 50.000/mês por vendedor
-- **Território**: Divisão por cidade/região
-
-### 🔧 **Cenário 3: Prestação de Serviços**
+### 🔧 **Cenário 2: Prestação de Serviços**
 **Situação**: Vendedores técnicos especializados
 - **Vendedor Técnico**: Comissão de R$ 200 por serviço fechado
 - **Supervisor**: 1% sobre vendas da equipe
@@ -156,13 +116,10 @@ O **Cadastro de Vendedores** é onde você gerencia sua equipe de vendas, defini
 
 ### 🔎 **Localizar Vendedores**
 - **Por Nome**: Busca direta pelo nome
-- **Por Status**: Ativo, inativo, afastado
-- **Por Equipe**: Filtrar por supervisor/gerente
+- **Por Status**: Ativo, inativo
 - **Por Performance**: Vendedores acima/abaixo da meta
-- **Por Território**: Filtrar por região de atuação
 
 ### 📊 **Filtros Avançados**
-- **Período de Contratação**: Data de início na empresa
 - **Faixa de Comissão**: Vendedores por % comissão
 - **Nível de Acesso**: Por permissões no sistema
 - **Meta Atingida**: Quem está cumprindo objetivos
@@ -180,29 +137,19 @@ O **Cadastro de Vendedores** é onde você gerencia sua equipe de vendas, defini
 ### 💰 **Relatórios Financeiros**
 - **Resumo de Comissões**: Total a pagar por mês
 - **Histórico de Pagamentos**: Comissões já pagas
-- **Análise de Produtividade**: ROI por vendedor
-- **Projeção de Comissões**: Estimativa para próximos períodos
 
 ### 🎯 **Relatórios Gerenciais**
 - **Performance da Equipe**: Visão geral do time
-- **Análise de Territórios**: Performance por região
 - **Evolução de Vendas**: Crescimento por vendedor
 - **Dashboard Comercial**: Métricas consolidadas
 
 ---
 
-## 🚨 Alertas e Validações
+## 🚨 Validações
 
-### ⚠️ **Alertas Importantes**
-- **Meta em Risco**: Vendedor abaixo de 70% da meta
-- **Comissão Pendente**: Valores calculados mas não pagos
-- **Vendedor Inativo**: Sem vendas nos últimos 30 dias
-- **Conflito de Território**: Sobreposição de regiões
-- **Desconto Excessivo**: Acima do limite permitido
 
 ### ✅ **Validações do Sistema**
 - **CPF Único**: Não permite vendedores duplicados
-- **Email Válido**: Formato correto para login
 - **Comissão Válida**: Percentuais entre 0% e 20%
 - **Meta Realista**: Valores coerentes com histórico
 - **Hierarquia**: Evita loops na estrutura de equipe
@@ -219,10 +166,8 @@ O **Cadastro de Vendedores** é onde você gerencia sua equipe de vendas, defini
 - **Financeiro**: Comissões e relatórios financeiros
 
 ### 🔒 **Controles de Segurança**
-- **Log de Alterações**: Histórico de mudanças no cadastro
 - **Senha Individual**: Cada vendedor tem login próprio
 - **Bloqueio Automático**: Inativação por período sem uso
-- **Auditoria**: Rastreamento de todas as ações
 
 ---
 
@@ -231,7 +176,6 @@ O **Cadastro de Vendedores** é onde você gerencia sua equipe de vendas, defini
 ### ✅ **Para Configuração**
 - **Defina metas realistas** baseadas no histórico de vendas
 - **Configure comissões justas** para motivar a equipe
-- **Organize territórios** para evitar conflitos
 - **Mantenha dados atualizados** para comunicação eficaz
 
 ### 📊 **Para Gestão**
@@ -279,6 +223,6 @@ O **Cadastro de Vendedores** é onde você gerencia sua equipe de vendas, defini
 
 ---
 
-**Última atualização**: Janeiro 2025  
+**Última atualização**: Setembro 2025  
 **Versão do documento**: 1.0  
 **Responsável**: Equipe de Documentação White ERP
