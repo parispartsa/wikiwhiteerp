@@ -49,7 +49,7 @@ O **Cadastro de Produtos e Serviços** é o **coração do seu sistema ERP**. Aq
 - **Controla Estoque**: Sim/Não
 - **Imagem Principal**: Imagem do produto, usado em ecommerces e PDV
 
-### **Passo 3: **📋 Caracteristicas**
+**Passo 3: **📋 Caracteristicas**
 - **Marca**: Fabricante do produto
 - **Modelo**: Tipo do produto
 - **Campos de caracteristicas do produto**: Peso Liquido / Peso Bruto / Volume / Profundidade / Altura / Largura / Comprimento / Data de validade
