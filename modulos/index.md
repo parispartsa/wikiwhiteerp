@@ -8,7 +8,7 @@
 
 ## 🎯 Visão Geral dos Módulos
 
-O **White ERP** está organizado em **13 módulos principais**, cada um responsável por uma área específica da gestão empresarial. Esta organização modular permite que você acesse rapidamente as funcionalidades que precisa no seu dia a dia.
+O **White ERP** está organizado em **15 módulos principais**, cada um responsável por uma área específica da gestão empresarial. Esta organização modular permite que você acesse rapidamente as funcionalidades que precisa no seu dia a dia.
 
 ---
 
@@ -116,6 +116,36 @@ O **White ERP** está organizado em **13 módulos principais**, cada um respons�
 - 🎯 Relatórios de Vendas
 
 **Tags**: `#relatorios #dashboard #analise #vendas`
+
+---
+
+### 📋 **[Contratos](contratos/index.md)** - Gestão de Contratos
+**Gestão completa de contratos** - Criação, vencimentos e renovações
+
+**Principais funcionalidades:**
+- 📄 Criação de contratos personalizados
+- ⏰ Controle de vencimentos e alertas
+- 🔄 Gestão de renovações
+- 💰 Controle de valores e reajustes
+- 🔐 Assinaturas digitais
+- 📊 Relatórios contratuais
+
+**Tags**: `#contratos #vencimentos #renovacoes #juridico #assinaturas #gestao`
+
+---
+
+### 🛒 **[Compras](compras/index.md)** - Gestão de Compras
+**Controle total do processo de compras** - Cotações, pedidos e recebimento
+
+**Principais funcionalidades:**
+- 📝 Cotações de preços
+- 📋 Pedidos de compra
+- 📦 Recebimento de mercadorias
+- 💰 Controle de custos
+- 🔍 Sistema de aprovações
+- 📊 Relatórios de compras
+
+**Tags**: `#compras #cotacoes #pedidos #fornecedores #aprovacoes #custos`
 
 ---
 

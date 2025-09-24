@@ -62,6 +62,8 @@
     * [📋 Relatório de Inventário Físico](modulos/relatorios/inventario-fisico.md)
     * [📊 Relatório de Movimentação de Estoque](modulos/relatorios/movimentacao-estoque.md)
     * [📈 Relatório de Posição de Estoque](modulos/relatorios/posicao-estoque.md)
+  * [📋 Módulo: Gestão de Contratos](modulos/contratos/index.md)
+  * [🛒 Módulo: Gestão de Compras](modulos/compras/index.md)
   * [📊 Módulo: Contabilidade](modulos/contabilidade/index.md)
     * [📋 Plano de Contas - Estrutura Contábil](modulos/contabilidade/plano-de-contas.md)
     * [📈 DRE - Demonstração do Resultado do Exercício](modulos/contabilidade/dre-demonstracao-resultado.md)
