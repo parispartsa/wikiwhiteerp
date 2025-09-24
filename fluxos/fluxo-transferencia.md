@@ -492,6 +492,6 @@ graph LR
 
 ---
 
-**Última atualização**: Janeiro 2025  
+**Última atualização**: Setembro 2025  
 **Versão do documento**: 2.0  
 **Responsável**: Equipe de Documentação White ERP

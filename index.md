@@ -211,6 +211,6 @@ O **White ERP** é uma solução completa de gestão empresarial desenvolvida es
 
 ---
 
-**Última atualização**: Janeiro 2025  
+**Última atualização**: Setembro 2025  
 **Versão do documento**: 1.1  
 **Responsável**: Equipe de Documentação White ERP 

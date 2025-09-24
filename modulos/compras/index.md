@@ -8,7 +8,7 @@
 
 ## 📋 O que é
 
-O módulo de **Gestão de Compras** é responsável por centralizar e automatizar todo o processo de aquisição de produtos e serviços da empresa. Este módulo permite controlar desde a cotação de preços até o recebimento de mercadorias, garantindo maior eficiência, controle de custos e organização nas compras.
+O módulo de **Gestão de Compras** é responsável por centralizar e automatizar todo o processo de aquisição de produtos da empresa. Este módulo permite controlar desde a cotação de preços até o recebimento de mercadorias, garantindo maior eficiência, controle de custos e organização nas compras.
 
 {% hint style="info" %}
 **💡 Benefícios**: Controle total do processo de compras, redução de custos, melhor relacionamento com fornecedores e maior agilidade nas aquisições.
@@ -41,16 +41,6 @@ O módulo de **Gestão de Compras** é responsável por centralizar e automatiza
 <td></td>
 </tr>
 <tr>
-<td><strong>💰 Controle de Custos</strong></td>
-<td>Monitore custos e analise performance de fornecedores</td>
-<td></td>
-</tr>
-<tr>
-<td><strong>🔍 Aprovações</strong></td>
-<td>Sistema de aprovação para diferentes níveis de compra</td>
-<td></td>
-</tr>
-<tr>
 <td><strong>📊 Relatórios</strong></td>
 <td>Análises completas de compras e performance</td>
 <td></td>
@@ -68,42 +58,29 @@ O módulo de **Gestão de Compras** é responsável por centralizar e automatiza
 3. Escolha a funcionalidade desejada no submenu
 {% endstep %}
 
-{% step %}
-### Verificação de Permissões
-- Confirme se seu usuário tem permissão para acessar o módulo
-- Verifique as permissões específicas para cada funcionalidade
-{% endstep %}
-{% endstepper %}
+## Notas de Entrada 
+**+ Nova Compra**: Lançamento de forma manual, preenchendo os campos: 
+- Fornecedor: Empresa da qual receber a compra
+- Natureza de Operação: Define como "Entrada de Mercadoria"
+- Datas: De Emissão e Entrada.
+- **Frete**: Incluir a transportadora e tipo/ valor do frete. 
 
-## 🔄 Fluxo Básico de Compras
+**OBS**: Para adicionar os itens, clicar em Salvar. 
 
-```mermaid
-graph TD
-    A[Necessidade Identificada] --> B[Solicitação de Compra]
-    B --> C[Cotação de Preços]
-    C --> D[Análise e Aprovação]
-    D --> E[Pedido de Compra]
-    E --> F[Acompanhamento]
-    F --> G[Recebimento]
-    G --> H[Conferência]
-    H --> I[Entrada no Estoque]
-    I --> J[Aprovação Financeira]
-    J --> K[Processo Finalizado]
-```
+- **Produtos**: incluir todos os itens da compra para movimentar a entrada do estoque
+- **Impostos**: Preencher com as informações de impostos da nota do fornecedor
+- **Financeiro**: Gerar o Contas a Pagar, referente a nota de entrada
 
-## 📋 Funcionalidades Detalhadas
+## Notas de Entrada por Importaçao da Receita Federal
+- **Importação a partir de**:
+- **XML**: Fazer upload do arquivo xml da nota fiscal
+- **Receita (DF-e)**: Realizar uma consulta no servidor da sefaz, buscando notas emitidas contra seu CNPJ
+- **Chave da NF**: Consultar uma unica nota com sua chave de acesso (numero da 44 digitos da nota fiscal)
 
-### 📝 Cotações de Preços
-- **Criação de cotações** com múltiplos fornecedores
-- **Comparação automática** de preços e condições
-- **Histórico de cotações** para análise
-- **Alertas de validade** das cotações
 
 ### 📋 Pedidos de Compra
-- **Geração automática** a partir de cotações aprovadas
+- **Novo Pedido**: Fazer cotação com diferentes fornecedores, incluindo transportadoras, itens desejados, e forma de negociação do pagamento.
 - **Controle de status** (pendente, aprovado, enviado, recebido)
-- **Anexos e documentos** relacionados
-- **Rastreamento de entrega**
 
 ### 📦 Recebimento de Mercadorias
 - **Conferência de quantidade** e qualidade
@@ -111,11 +88,6 @@ graph TD
 - **Integração com estoque**
 - **Documentação fiscal**
 
-### 💰 Gestão de Custos
-- **Análise de preços** por produto/fornecedor
-- **Controle de orçamento** por centro de custo
-- **Relatórios de economia** gerada
-- **Indicadores de performance**
 
 ## 🔧 Configurações Necessárias
 
@@ -127,8 +99,6 @@ graph TD
 - ✅ **Cadastro de produtos** completo
 - ✅ **Parâmetros de compra** definidos
 - ✅ **Usuários e permissões** configurados
-- ✅ **Centros de custo** estabelecidos
-- ✅ **Workflow de aprovação** definido
 
 ## 💡 Casos de Uso Comuns
 
@@ -160,24 +130,13 @@ graph TD
 ## 🔐 Permissões e Segurança
 
 ### 👤 Níveis de Acesso
-- **Consulta**: Visualizar cotações e pedidos
-- **Operacional**: Criar e editar cotações/pedidos
+- **Consulta**: Visualizar  pedidos
+- **Operacional**: Criar e editar pedidos
 - **Aprovação**: Aprovar compras até determinado valor
 - **Gerencial**: Acesso total ao módulo
 
-### 🔒 Controles de Segurança
-- **Auditoria completa** de todas as operações
-- **Aprovação por alçada** de valores
-- **Rastro de alterações**
-- **Backup automático** dos dados
-
 ## 📊 Relatórios Disponíveis
 
-### 📈 Relatórios Gerenciais
-- **Performance de fornecedores**
-- **Análise de custos por período**
-- **Economia gerada em compras**
-- **Tempo médio de processo**
 
 ### 📋 Relatórios Operacionais
 - **Pedidos em aberto**
@@ -220,6 +179,6 @@ entrada-mercadorias.md
 
 ---
 
-**Última atualização**: Janeiro 2025  
+**Última atualização**: Setembro 2025  
 **Versão do documento**: 1.0  
 **Responsável**: Equipe de Documentação White ERP
